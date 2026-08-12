@@ -307,6 +307,94 @@ p { margin: 12px 0 0; color: var(--muted); }
   font-weight: 700;
 }
 
+.catalog-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0 28px;
+}
+
+.catalog-chip {
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--navy);
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.product-catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.catalog-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(16,42,67,.07);
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-card .product-media {
+  padding: 10px;
+}
+
+.catalog-card .product-main-image {
+  aspect-ratio: 4 / 3;
+}
+
+.catalog-card .product-thumbs {
+  gap: 7px;
+  margin-top: 8px;
+}
+
+.catalog-card .product-thumb {
+  border-width: 1px;
+}
+
+.catalog-body {
+  padding: 16px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.catalog-body h3 {
+  font-size: 18px;
+}
+
+.catalog-body p {
+  font-size: 14px;
+}
+
+.catalog-body .product-meta {
+  margin-top: 12px;
+}
+
+.catalog-body .btn {
+  margin-top: auto;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.home-product-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 18px;
+}
+
 .faq-button {
   width: 100%;
   border: 0;
@@ -392,7 +480,7 @@ p { margin: 12px 0 0; color: var(--muted); }
   .header-cta { display: none; }
   .hero-grid, .split, .grid-2 { grid-template-columns: 1fr; }
   .product-detail-card { grid-template-columns: 1fr; }
-  .grid-3, .grid-4, .gallery-grid { grid-template-columns: 1fr 1fr; }
+  .grid-3, .grid-4, .gallery-grid, .product-catalog, .home-product-links { grid-template-columns: 1fr 1fr; }
   .trust-row { grid-template-columns: 1fr 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
@@ -400,7 +488,7 @@ p { margin: 12px 0 0; color: var(--muted); }
 @media (max-width: 620px) {
   .section { padding: 56px 0; }
   .hero { padding: 58px 0 42px; }
-  .grid-3, .grid-4, .gallery-grid, .form-grid, .footer-grid { grid-template-columns: 1fr; }
+  .grid-3, .grid-4, .gallery-grid, .form-grid, .footer-grid, .product-catalog, .home-product-links { grid-template-columns: 1fr; }
   .trust-row { grid-template-columns: 1fr; }
   h1 { font-size: 38px; }
   .band { padding: 30px 22px; }
