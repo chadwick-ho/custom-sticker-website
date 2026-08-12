@@ -1,4 +1,4 @@
-const whatsappNumber = "YOURNUMBER";
+const whatsappUrl = "https://api.whatsapp.com/message/AWJL6N3AAGIZA1?autoload=1&app_absent=0";
 const whatsappMessages = {
   default: "Hello, I would like to get a quote for custom labels and stickers.",
   vial: "Hello, I would like to get a quote for custom peptide vial labels. My label size and quantity are...",
@@ -7,9 +7,7 @@ const whatsappMessages = {
 };
 const whatsappLinks = document.querySelectorAll("[data-whatsapp]");
 whatsappLinks.forEach((link) => {
-  const messageKey = link.dataset.whatsapp || "default";
-  const message = whatsappMessages[messageKey] || whatsappMessages.default;
-  link.setAttribute("href", `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`);
+  link.setAttribute("href", whatsappUrl);
   link.setAttribute("target", "_blank");
   link.setAttribute("rel", "noopener");
 });
@@ -37,6 +35,22 @@ document.querySelectorAll("form[data-inquiry-form]").forEach((form) => {
     const message = form.querySelector(".success-message");
     if (message) message.classList.add("show");
     form.reset();
+  });
+});
+
+document.querySelectorAll("[data-product-gallery]").forEach((gallery) => {
+  const main = gallery.querySelector("[data-product-main]");
+  const thumbs = gallery.querySelectorAll("[data-product-thumb]");
+  thumbs.forEach((thumb) => {
+    thumb.addEventListener("click", () => {
+      if (!main) return;
+      const image = thumb.querySelector("img");
+      if (!image) return;
+      main.src = image.src;
+      main.alt = image.alt;
+      thumbs.forEach((item) => item.classList.remove("is-active"));
+      thumb.classList.add("is-active");
+    });
   });
 });
 
