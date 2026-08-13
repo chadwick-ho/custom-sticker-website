@@ -40,6 +40,10 @@ button, input, select, textarea { font: inherit; }
   background: #10111a;
 }
 
+.home-page main {
+  background: #10111a;
+}
+
 .nav-wrap {
   max-width: 1180px;
   margin: 0 auto;
@@ -159,6 +163,10 @@ p { margin: 12px 0 0; color: var(--muted); }
   display: flex;
   align-items: center;
 }
+.home-page .hero-dynamic {
+  min-height: calc(100vh - 68px);
+  margin-top: 0;
+}
 .hero-bg-stack,
 .hero-shade {
   position: absolute;
@@ -175,6 +183,9 @@ p { margin: 12px 0 0; color: var(--muted); }
   transform: scale(1.06);
   animation: heroBgCycle 24s linear infinite;
 }
+.hero-bg-stack img:first-child {
+  opacity: 1;
+}
 .hero-bg-stack img:nth-child(2) { animation-delay: 6s; }
 .hero-bg-stack img:nth-child(3) { animation-delay: 12s; }
 .hero-bg-stack img:nth-child(4) { animation-delay: 18s; }
@@ -188,6 +199,11 @@ p { margin: 12px 0 0; color: var(--muted); }
   position: relative;
   z-index: 2;
   width: 100%;
+}
+.home-page .hero-stage {
+  min-height: 520px;
+  display: flex;
+  align-items: center;
 }
 .hero-dynamic .hero-copy {
   max-width: 640px;
@@ -299,6 +315,10 @@ p { margin: 12px 0 0; color: var(--muted); }
   grid-template-columns: repeat(4, 1fr);
   gap: 22px;
 }
+.home-page .market-product-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  align-items: stretch;
+}
 .market-product-card {
   background: #1b1c28;
   border: 1px solid rgba(255,255,255,.12);
@@ -316,7 +336,9 @@ p { margin: 12px 0 0; color: var(--muted); }
   overflow: hidden;
 }
 .market-image img {
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   padding: 0;
   background: #f4f7fa;
 }
@@ -381,6 +403,39 @@ p { margin: 12px 0 0; color: var(--muted); }
   font-weight: 900;
 }
 .market-cta:hover { background: rgba(216,173,53,.12); color: white; }
+.home-workflow-section {
+  background: #10111a;
+  color: white;
+}
+
+.home-strength-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.workflow-strip {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 28px;
+  border: 1px solid rgba(216, 173, 53, .28);
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(216, 173, 53, .28);
+}
+
+.workflow-strip span {
+  display: grid;
+  place-items: center;
+  min-height: 58px;
+  padding: 10px 12px;
+  background: #1b1c28;
+  color: white;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+}
 .dark-section-actions {
   display: flex;
   flex-wrap: wrap;
@@ -953,6 +1008,9 @@ p { margin: 12px 0 0; color: var(--muted); }
   .hero-grid, .split, .grid-2 { grid-template-columns: 1fr; }
   .product-detail-card { grid-template-columns: 1fr; }
   .grid-3, .grid-4, .gallery-grid, .product-catalog, .home-product-links, .market-product-grid { grid-template-columns: 1fr 1fr; }
+  .home-page .market-product-grid,
+  .home-strength-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .workflow-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .simple-product-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .custom-peptide-page .simple-product-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .trust-row { grid-template-columns: 1fr 1fr; }
@@ -969,11 +1027,15 @@ p { margin: 12px 0 0; color: var(--muted); }
     min-height: calc(100vh - 68px);
     padding: 72px 0 58px;
   }
+  .home-page .hero-stage { min-height: 520px; }
   .hero-dynamic h1 { font-size: 40px; }
   .hero-kicker { font-size: 11px; padding: 8px 12px; }
   .hero-chip-row span { flex: 1 1 140px; text-align: center; }
   .hero-dynamic .hero-actions .btn { width: 100%; justify-content: center; }
   .grid-3, .grid-4, .gallery-grid, .form-grid, .footer-grid, .product-catalog, .home-product-links, .market-product-grid { grid-template-columns: 1fr; }
+  .home-page .market-product-grid,
+  .home-strength-grid,
+  .workflow-strip { grid-template-columns: 1fr !important; }
   .simple-product-catalog { grid-template-columns: 1fr; }
   .custom-peptide-page .simple-product-catalog { grid-template-columns: 1fr; }
   .leadtime-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
