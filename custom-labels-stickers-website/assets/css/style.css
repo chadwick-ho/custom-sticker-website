@@ -778,28 +778,33 @@ p { margin: 12px 0 0; color: var(--muted); }
 }
 
 .peptide-catalog-section,
-.sticker-catalog-section {
+.sticker-catalog-section,
+.beverage-catalog-section {
   background: #10111a;
   color: white;
 }
 
 .peptide-catalog-section .section-head h2,
-.sticker-catalog-section .section-head h2 {
+.sticker-catalog-section .section-head h2,
+.beverage-catalog-section .section-head h2 {
   color: white;
 }
 
 .peptide-catalog-section .section-head p,
-.sticker-catalog-section .section-head p {
+.sticker-catalog-section .section-head p,
+.beverage-catalog-section .section-head p {
   color: rgba(255, 255, 255, .7);
 }
 
 .peptide-catalog-section .eyebrow,
-.sticker-catalog-section .eyebrow {
+.sticker-catalog-section .eyebrow,
+.beverage-catalog-section .eyebrow {
   color: #f2c94c;
 }
 
 .peptide-catalog-section .catalog-chip,
-.sticker-catalog-section .catalog-chip {
+.sticker-catalog-section .catalog-chip,
+.beverage-catalog-section .catalog-chip {
   background: rgba(255, 255, 255, .08);
   border-color: rgba(255, 255, 255, .16);
   color: white;
@@ -811,7 +816,8 @@ p { margin: 12px 0 0; color: var(--muted); }
 }
 
 .custom-peptide-page .simple-product-catalog,
-.custom-cartoon-page .simple-product-catalog {
+.custom-cartoon-page .simple-product-catalog,
+.custom-beverage-page .simple-product-catalog {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
@@ -1019,7 +1025,8 @@ p { margin: 12px 0 0; color: var(--muted); }
   .workflow-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .simple-product-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .custom-peptide-page .simple-product-catalog,
-  .custom-cartoon-page .simple-product-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .custom-cartoon-page .simple-product-catalog,
+  .custom-beverage-page .simple-product-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .trust-row { grid-template-columns: 1fr 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
@@ -1045,7 +1052,8 @@ p { margin: 12px 0 0; color: var(--muted); }
   .workflow-strip { grid-template-columns: 1fr !important; }
   .simple-product-catalog { grid-template-columns: 1fr; }
   .custom-peptide-page .simple-product-catalog,
-  .custom-cartoon-page .simple-product-catalog { grid-template-columns: 1fr; }
+  .custom-cartoon-page .simple-product-catalog,
+  .custom-beverage-page .simple-product-catalog { grid-template-columns: 1fr; }
   .leadtime-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .market-specs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .trust-row { grid-template-columns: 1fr; }
