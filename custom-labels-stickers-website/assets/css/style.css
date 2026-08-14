@@ -331,8 +331,8 @@ p { margin: 12px 0 0; color: var(--muted); }
 }
 .market-image {
   display: block;
-  aspect-ratio: 4 / 3;
-  background: #f4f7fa;
+  aspect-ratio: 1 / 1;
+  background: #fff;
   overflow: hidden;
 }
 .market-image img {
@@ -340,10 +340,11 @@ p { margin: 12px 0 0; color: var(--muted); }
   height: 100%;
   object-fit: cover;
   padding: 0;
-  background: #f4f7fa;
+  background: #fff;
+  transform: scale(1.08);
 }
 .market-image img { transition: transform .22s ease; }
-.market-product-card:hover .market-image img { transform: scale(1.025); }
+.market-product-card:hover .market-image img { transform: scale(1.08); }
 .market-body {
   padding: 18px;
   display: flex;
@@ -830,8 +831,8 @@ p { margin: 12px 0 0; color: var(--muted); }
 
 .simple-product-card .product-image-link {
   display: block;
-  aspect-ratio: 16 / 10;
-  background: #f8fafc;
+  aspect-ratio: 1 / 1;
+  background: #fff;
   overflow: hidden;
 }
 
@@ -839,11 +840,14 @@ p { margin: 12px 0 0; color: var(--muted); }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  padding: 0;
+  background: #fff;
+  transform: scale(1.08);
   transition: transform .25s ease;
 }
 
 .simple-product-card:hover .product-image-link img {
-  transform: scale(1.025);
+  transform: scale(1.08);
 }
 
 .leadtime-row {
