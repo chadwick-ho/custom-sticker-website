@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --navy: #102a43;
   --blue: #1769aa;
   --ink: #1f2937;
@@ -442,6 +442,66 @@ p { margin: 12px 0 0; color: var(--muted); }
   font-weight: 900;
 }
 .market-cta:hover { background: rgba(216,173,53,.12); color: white; }
+.certification-section {
+  position: relative;
+  overflow: hidden;
+  padding: 42px 0;
+  color: white;
+  background: #11131c;
+}
+.certification-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(12, 15, 24, .94) 0%, rgba(12, 15, 24, .82) 50%, rgba(12, 15, 24, .92) 100%),
+    url("../images/factory-label-production.webp") center / cover no-repeat;
+  filter: saturate(.78) contrast(1.08);
+}
+.certification-inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.2fr);
+  gap: 34px;
+  align-items: center;
+}
+.certification-copy h2 {
+  color: white;
+  font-size: clamp(28px, 3.2vw, 42px);
+}
+.certification-copy p {
+  color: rgba(255,255,255,.74);
+}
+.cert-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.cert-logo-card {
+  min-height: 112px;
+  display: grid;
+  align-content: center;
+  gap: 8px;
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,.16);
+  background: rgba(255,255,255,.08);
+  box-shadow: 0 18px 42px rgba(0,0,0,.22);
+}
+.cert-logo-card strong {
+  color: #f2c94c;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 950;
+  letter-spacing: 0;
+}
+.cert-logo-card span {
+  color: rgba(255,255,255,.76);
+  font-size: 12px;
+  line-height: 1.35;
+  font-weight: 700;
+}
 .home-workflow-section {
   background: #10111a;
   color: white;
@@ -1358,13 +1418,17 @@ p { margin: 12px 0 0; color: var(--muted); }
   .hero-grid, .split, .grid-2 { grid-template-columns: 1fr; }
   .product-detail-card { grid-template-columns: 1fr; }
   .grid-3, .grid-4, .gallery-grid, .product-catalog, .home-product-links, .market-product-grid { grid-template-columns: 1fr 1fr; }
+  .certification-inner,
   .home-page .market-product-grid,
   .home-strength-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .cert-logo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .workflow-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .simple-product-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .custom-peptide-page .simple-product-catalog,
   .custom-cartoon-page .simple-product-catalog,
-  .custom-beverage-page .simple-product-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .custom-beverage-page .simple-product-catalog,
+  .custom-supplement-page .simple-product-catalog,
+  .custom-holographic-page .simple-product-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .blog-card,
   .article-hero-grid,
   .article-layout,
@@ -1397,13 +1461,17 @@ p { margin: 12px 0 0; color: var(--muted); }
   .hero-chip-row span { flex: 1 1 140px; text-align: center; }
   .hero-dynamic .hero-actions .btn { width: 100%; justify-content: center; }
   .grid-3, .grid-4, .gallery-grid, .form-grid, .footer-grid, .product-catalog, .home-product-links, .market-product-grid { grid-template-columns: 1fr; }
+  .certification-inner,
+  .cert-logo-grid,
   .home-page .market-product-grid,
   .home-strength-grid,
   .workflow-strip { grid-template-columns: 1fr !important; }
   .simple-product-catalog { grid-template-columns: 1fr; }
   .custom-peptide-page .simple-product-catalog,
   .custom-cartoon-page .simple-product-catalog,
-  .custom-beverage-page .simple-product-catalog { grid-template-columns: 1fr; }
+  .custom-beverage-page .simple-product-catalog,
+  .custom-supplement-page .simple-product-catalog,
+  .custom-holographic-page .simple-product-catalog { grid-template-columns: 1fr; }
   .blog-card h2 { font-size: 26px; }
   .guide-link-card { grid-template-columns: 1fr; }
   .guide-link-card img { aspect-ratio: 16 / 9; min-height: 0; }
@@ -1430,5 +1498,3 @@ p { margin: 12px 0 0; color: var(--muted); }
   }
   .hero-bg-stack img:first-child { opacity: 1 !important; }
 }
-
-

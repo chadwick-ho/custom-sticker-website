@@ -1,4 +1,26 @@
 {
+  "redirects": [
+    {
+      "source": "/custom-cartoon-stickers",
+      "destination": "/custom-3d-holographic-labels",
+      "permanent": true
+    },
+    {
+      "source": "/custom-cartoon-stickers.html",
+      "destination": "/custom-3d-holographic-labels",
+      "permanent": true
+    },
+    {
+      "source": "/custom-beverage-labels",
+      "destination": "/custom-supplement-labels",
+      "permanent": true
+    },
+    {
+      "source": "/custom-beverage-labels.html",
+      "destination": "/custom-supplement-labels",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
