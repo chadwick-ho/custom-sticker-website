@@ -1332,6 +1332,32 @@ p { margin: 12px 0 0; color: var(--muted); }
   font-weight: 800;
 }
 
+.sitemap-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.sitemap-card {
+  display: grid;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  padding: 24px;
+  box-shadow: 0 12px 30px rgba(16, 42, 67, .08);
+}
+
+.sitemap-card h2 {
+  margin-bottom: 6px;
+  font-size: 25px;
+}
+
+.sitemap-card a {
+  color: var(--blue);
+  font-weight: 800;
+}
+
 .product-buying-info .section-head {
   max-width: 860px;
 }
@@ -1435,7 +1461,8 @@ p { margin: 12px 0 0; color: var(--muted); }
   .quote-spec-grid,
   .seo-faq-grid,
   .home-guide-grid,
-  .related-guide-grid { grid-template-columns: 1fr; }
+  .related-guide-grid,
+  .sitemap-grid { grid-template-columns: 1fr; }
   .guide-link-card { grid-template-columns: 160px 1fr; }
   .blog-card-body { padding: 24px; }
   .article-sidebar { position: static; }

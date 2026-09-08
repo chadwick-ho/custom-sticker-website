@@ -19,6 +19,26 @@
       "source": "/custom-beverage-labels.html",
       "destination": "/custom-supplement-labels",
       "permanent": true
+    },
+    {
+      "source": "/cartoon-sticker-sheets-guide",
+      "destination": "/custom-3d-holographic-labels",
+      "permanent": true
+    },
+    {
+      "source": "/cartoon-sticker-sheets-guide.html",
+      "destination": "/custom-3d-holographic-labels",
+      "permanent": true
+    },
+    {
+      "source": "/waterproof-beverage-labels-guide",
+      "destination": "/waterproof-peptide-vial-labels",
+      "permanent": true
+    },
+    {
+      "source": "/waterproof-beverage-labels-guide.html",
+      "destination": "/waterproof-peptide-vial-labels",
+      "permanent": true
     }
   ],
   "headers": [
