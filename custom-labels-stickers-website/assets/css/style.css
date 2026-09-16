@@ -348,6 +348,18 @@ p { margin: 12px 0 0; color: var(--muted); }
 .product-section-dark .eyebrow { color: #d8ad35; }
 .product-section-dark .section-head-invert h2 { color: white; }
 .product-section-dark .section-head-invert p { color: rgba(255,255,255,.72); }
+.home-category-section + .home-category-section {
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+.home-category-heading {
+  margin-bottom: 30px;
+}
+.home-category-heading h2 {
+  max-width: 900px;
+}
+.home-category-heading p {
+  max-width: 880px;
+}
 .market-product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
