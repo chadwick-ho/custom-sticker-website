@@ -1457,16 +1457,16 @@ p { margin: 12px 0 0; color: var(--muted); }
   .product-detail-card { grid-template-columns: 1fr; }
   .grid-3, .grid-4, .gallery-grid, .product-catalog, .home-product-links, .market-product-grid { grid-template-columns: 1fr 1fr; }
   .certification-inner,
-  .home-page .market-product-grid,
   .home-strength-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .home-page .market-product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
   .cert-logo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .workflow-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .simple-product-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .simple-product-catalog { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .custom-peptide-page .simple-product-catalog,
   .custom-cartoon-page .simple-product-catalog,
   .custom-beverage-page .simple-product-catalog,
   .custom-supplement-page .simple-product-catalog,
-  .custom-holographic-page .simple-product-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .custom-holographic-page .simple-product-catalog { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .blog-card,
   .article-hero-grid,
   .article-layout,
@@ -1499,18 +1499,67 @@ p { margin: 12px 0 0; color: var(--muted); }
   .hero-metric strong { font-size: 21px; }
   .hero-chip-row span { flex: 1 1 140px; text-align: center; }
   .hero-dynamic .hero-actions .btn { width: 100%; justify-content: center; }
-  .grid-3, .grid-4, .gallery-grid, .form-grid, .footer-grid, .product-catalog, .home-product-links, .market-product-grid { grid-template-columns: 1fr; }
+  .grid-3, .grid-4, .gallery-grid, .form-grid, .footer-grid, .home-product-links { grid-template-columns: 1fr; }
   .certification-inner,
   .cert-logo-grid,
-  .home-page .market-product-grid,
   .home-strength-grid,
   .workflow-strip { grid-template-columns: 1fr !important; }
-  .simple-product-catalog { grid-template-columns: 1fr; }
+  .home-page .market-product-grid,
+  .simple-product-catalog { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 8px; }
+  .catalog-toolbar {
+    flex-wrap: nowrap;
+    gap: 6px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scrollbar-width: none;
+  }
+  .catalog-toolbar::-webkit-scrollbar { display: none; }
+  .catalog-chip {
+    flex: 0 0 auto;
+    padding: 7px 10px;
+    font-size: 10px;
+  }
   .custom-peptide-page .simple-product-catalog,
   .custom-cartoon-page .simple-product-catalog,
   .custom-beverage-page .simple-product-catalog,
   .custom-supplement-page .simple-product-catalog,
-  .custom-holographic-page .simple-product-catalog { grid-template-columns: 1fr; }
+  .custom-holographic-page .simple-product-catalog { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 8px; }
+  .home-page .market-product-card,
+  .simple-product-card { border-radius: 5px; }
+  .home-page .market-body,
+  .simple-product-card .catalog-body { min-width: 0; padding: 9px 8px 10px; }
+  .home-page .market-badge,
+  .home-page .market-body p,
+  .home-page .market-body .product-meta,
+  .home-page .market-specs,
+  .simple-product-card .catalog-body p,
+  .simple-product-card .product-meta,
+  .simple-product-card .leadtime-row { display: none; }
+  .home-page .market-body h3,
+  .simple-product-card .catalog-body h3 {
+    display: -webkit-box;
+    min-height: 45px;
+    margin: 0;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1.25;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .home-page .market-cta,
+  .simple-product-card .catalog-body .btn {
+    width: 100%;
+    min-height: 30px;
+    margin-top: 8px;
+    padding: 6px 4px;
+    font-size: 0;
+    line-height: 1;
+  }
+  .home-page .market-cta::after,
+  .simple-product-card .catalog-body .btn::after {
+    content: "Quote";
+    font-size: 11px;
+  }
   .blog-card h2 { font-size: 26px; }
   .guide-link-card { grid-template-columns: 1fr; }
   .guide-link-card img { aspect-ratio: 16 / 9; min-height: 0; }
