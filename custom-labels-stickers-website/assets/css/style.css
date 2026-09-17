@@ -1586,3 +1586,18 @@ p { margin: 12px 0 0; color: var(--muted); }
   }
   .hero-bg-stack img:first-child { opacity: 1 !important; }
 }
+
+.article-byline {
+  margin: -4px 0 18px;
+  color: #475569;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.article-byline a {
+  color: #0b5faa;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.article-byline a:hover { text-decoration: underline; }
