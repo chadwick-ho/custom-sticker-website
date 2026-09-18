@@ -1064,15 +1064,18 @@ p { margin: 12px 0 0; color: var(--muted); }
 
 .guide-link-card {
   display: grid;
-  grid-template-columns: 128px 1fr;
-  min-height: 190px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  min-height: 0;
 }
 
 .guide-link-card img {
   width: 100%;
-  height: 100%;
-  min-height: 190px;
+  height: auto;
+  aspect-ratio: 16 / 10;
   object-fit: cover;
+  object-position: center;
+  background: #f4f7f8;
 }
 
 .guide-link-card div {
@@ -1475,7 +1478,8 @@ p { margin: 12px 0 0; color: var(--muted); }
   .home-guide-grid,
   .related-guide-grid,
   .sitemap-grid { grid-template-columns: 1fr; }
-  .guide-link-card { grid-template-columns: 160px 1fr; }
+  .guide-link-card { grid-template-columns: 220px 1fr; grid-template-rows: 1fr; }
+  .guide-link-card img { height: 100%; min-height: 210px; aspect-ratio: auto; }
   .blog-card-body { padding: 24px; }
   .article-sidebar { position: static; }
   .trust-row { grid-template-columns: 1fr 1fr; }
@@ -1561,7 +1565,7 @@ p { margin: 12px 0 0; color: var(--muted); }
     font-size: 11px;
   }
   .blog-card h2 { font-size: 26px; }
-  .guide-link-card { grid-template-columns: 1fr; }
+  .guide-link-card { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
   .guide-link-card img { aspect-ratio: 16 / 9; min-height: 0; }
   .article-hero { padding: 52px 0; }
   .article-content { font-size: 16px; }
