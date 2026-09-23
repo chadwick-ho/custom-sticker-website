@@ -322,6 +322,11 @@ p { margin: 12px 0 0; color: var(--muted); }
   background: white;
   aspect-ratio: 4 / 3;
 }
+.custom-peptide-page .page-hero .hero-image,
+.custom-supplement-page .page-hero .hero-image,
+.custom-holographic-page .page-hero .hero-image {
+  aspect-ratio: 1 / 1;
+}
 .trust-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
