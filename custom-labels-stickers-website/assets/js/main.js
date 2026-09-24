@@ -1,15 +1,31 @@
-const whatsappUrl = "https://api.whatsapp.com/message/AWJL6N3AAGIZA1?autoload=1&app_absent=0";
+const whatsappNumber = "8613285455519";
 const whatsappMessages = {
-  default: "Hello, I would like to get a quote for custom labels and stickers.",
-  vial: "Hello, I would like to get a quote for custom peptide vial labels. My label size and quantity are...",
-  stickers: "Hello, I would like to customize cartoon stickers. I can send my design and quantity.",
-  beverage: "Hello, I would like to get a quote for custom beverage labels. My bottle type and quantity are..."
+  default: "Hello, I would like to request a quote for custom labels. My product, label size and quantity are...",
+  vial: "Hello, I would like to request a quote for custom peptide vial labels. My vial size, label size and quantity are...",
+  supplement: "Hello, I would like to request a quote for custom supplement labels. My bottle size, label size and quantity are...",
+  hologram: "Hello, I would like to request a quote for custom 3D holographic labels. My label size, security effect and quantity are...",
+  stickers: "Hello, I would like to request a quote for custom stickers. I can send my artwork, size and quantity.",
+  beverage: "Hello, I would like to request a quote for custom beverage labels. My bottle type, label size and quantity are..."
+};
+const getWhatsappInquiryType = (link) => {
+  const explicitType = link.dataset.whatsapp;
+  if (explicitType && whatsappMessages[explicitType]) return explicitType;
+
+  const sectionLabel = link.closest("section")?.getAttribute("aria-labelledby") || "";
+  const context = `${window.location.pathname.toLowerCase()} ${sectionLabel.toLowerCase()}`;
+  if (context.includes("hologram")) return "hologram";
+  if (context.includes("supplement")) return "supplement";
+  if (context.includes("peptide") || context.includes("vial")) return "vial";
+  return "default";
 };
 const whatsappLinks = document.querySelectorAll("[data-whatsapp]");
 whatsappLinks.forEach((link) => {
-  link.setAttribute("href", whatsappUrl);
+  const inquiryType = getWhatsappInquiryType(link);
+  const message = whatsappMessages[inquiryType] || whatsappMessages.default;
+  link.setAttribute("href", `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`);
   link.setAttribute("target", "_blank");
   link.setAttribute("rel", "noopener");
+  link.setAttribute("aria-label", `${link.textContent.trim()} - opens WhatsApp in a new tab`);
 });
 
 const toggle = document.querySelector(".mobile-toggle");
