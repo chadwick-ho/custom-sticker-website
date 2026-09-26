@@ -1610,3 +1610,15 @@ p { margin: 12px 0 0; color: var(--muted); }
 }
 
 .article-byline a:hover { text-decoration: underline; }
+
+.buyer-tool-band { background: #eef7f2; color: #173b2b; padding: 24px 0; }
+.buyer-tool-band > .container { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.buyer-tool-band h2 { font-size: 22px; line-height: 1.3; margin: 0 0 6px; letter-spacing: 0; }
+.buyer-tool-band p { margin: 0; max-width: 720px; font-size: 15px; }
+.buyer-tool-band .btn { flex-shrink: 0; }
+.buyer-tool-link { margin-bottom: 24px; }
+.buyer-tool-link a { color: #096c40; text-decoration: underline; font-weight: 700; }
+@media (max-width: 760px) {
+  .buyer-tool-band > .container { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .buyer-tool-band h2 { font-size: 20px; }
+}

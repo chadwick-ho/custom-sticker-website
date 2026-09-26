@@ -16,6 +16,7 @@ Core buyer terms:
 - Worldwide shipping support
 
 Important pages:
+- Label size calculator and quote planner: https://rplabels.com/label-quote-planner
 - Home: https://rplabels.com/
 - Peptide vial labels: https://rplabels.com/custom-peptide-vial-labels
 - Supplement labels: https://rplabels.com/custom-supplement-labels
@@ -69,6 +70,9 @@ Guides:
 - Waterproof peptide vial labels: https://rplabels.com/waterproof-peptide-vial-labels
 - Peptide vial label requirements and artwork checklist: https://rplabels.com/peptide-vial-label-requirements-artwork-guide
 - How to choose custom peptide vial labels: https://rplabels.com/peptide-vial-labels-buying-guide
+
+The quote planner calculates geometric wrap-label dimensions from a round bottle's outside diameter, straight-wall height and seam. It includes a category specification comparison and a downloadable inquiry brief. It does not provide instant prices or approve production fit.
+The contact form prepares a brief for the buyer to send by email or WhatsApp. Completing the form alone does not send an inquiry.
 
 Contact:
 - Email: ruishengmao05@gmail.com

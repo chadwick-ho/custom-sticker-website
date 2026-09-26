@@ -24,15 +24,6 @@ document.querySelectorAll(".faq-button").forEach((button) => {
   });
 });
 
-document.querySelectorAll("form[data-inquiry-form]").forEach((form) => {
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const message = form.querySelector(".success-message");
-    if (message) message.classList.add("show");
-    form.reset();
-  });
-});
-
 document.querySelectorAll("[data-product-gallery]").forEach((gallery) => {
   const main = gallery.querySelector("[data-product-main]");
   const thumbs = gallery.querySelectorAll("[data-product-thumb]");
