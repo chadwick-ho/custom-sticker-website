@@ -1,0 +1,224 @@
+[
+  {
+    "slug": "peptide-vial-label-roll-storage-shelf-life",
+    "title": "Peptide Vial Label Roll Storage: Shelf Life Before Application",
+    "seoTitle": "Peptide Label Roll Storage & Shelf Life | RP",
+    "description": "Store unused peptide vial label rolls correctly, track material age and artwork revisions, and decide what to inspect before using older stock.",
+    "category": "Peptide Vial Labels",
+    "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-label-roll-storage-shelf-life",
+    "source": "exec-4d61d30d-7b49-4727-ab10-b5e28b95104f.png",
+    "alt": "AI-generated scene of printed RP peptide label rolls in protective packaging beside a stock card and humidity meter",
+    "caption": "AI-generated packaging illustration: printed label rolls, protective bags and a receiving record. Readings and artwork are illustrative, not a storage specification or an actual factory record.",
+    "intro": "The discount on a bigger print run is easy to see. The cost of the last three cartons sitting on a warm shelf is harder to put on the quote.",
+    "tags": [
+      "Unused Rolls",
+      "Shelf Life",
+      "Stock Rotation"
+    ],
+    "related": [
+      [
+        "peptide-vial-label-roll-splices-count-rewind-inspection",
+        "Receiving inspection for label rolls"
+      ],
+      [
+        "cold-storage-peptide-vial-labels",
+        "Labels on cold-stored vials"
+      ],
+      [
+        "label-quote-planner",
+        "Label size and quote planner"
+      ]
+    ],
+    "sources": [
+      [
+        "Avery Dennison: storage of materials and finished labels",
+        "https://label.averydennison.com/content/dam/averydennison/lpm-responsive/na/doc/technical-bulletins/technical%20marketing%20bulletins/storage-conditions-technical-bulletin.pdf"
+      ]
+    ]
+  },
+  {
+    "slug": "peptide-vial-label-die-cut-liner-strike",
+    "title": "Peptide Vial Label Die-Cutting: Liner Strikes and Release Problems",
+    "seoTitle": "Peptide Label Die-Cuts & Liner Strikes | RP",
+    "description": "Distinguish label die-cut defects from adhesive and dispensing problems. Specify liner integrity, clean release and a useful converter investigation.",
+    "category": "Peptide Vial Labels",
+    "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-label-die-cut-liner-inspection",
+    "source": "exec-cfdce45f-6903-4256-8466-cc413d2012a5.png",
+    "alt": "AI-generated close-up of fully printed research vial labels with clean release and damaged backing under a loupe",
+    "caption": "AI-generated inspection illustration: intact label release compared with damaged backing. The visible tear is illustrative and does not establish the cause of a production defect.",
+    "intro": "A sharp-looking label can still stop an applicator. Before blaming the adhesive, turn the strip over and look at the backing.",
+    "tags": [
+      "Die-Cutting",
+      "Liner Integrity",
+      "Release Check"
+    ],
+    "related": [
+      [
+        "paper-vs-pet-label-liner-automatic-application",
+        "Paper versus PET release liners"
+      ],
+      [
+        "peptide-vial-label-roll-splices-count-rewind-inspection",
+        "Roll receiving inspection"
+      ],
+      [
+        "hand-vs-semi-automatic-peptide-vial-label-application",
+        "Hand and semi-automatic application"
+      ]
+    ],
+    "sources": [
+      [
+        "Wink: die-cutting guidance and thin-PET-liner white paper",
+        "https://www.wink.de/service/die-cutting-tips"
+      ],
+      [
+        "Kocher+Beck: flexible dies and adhesive build-up",
+        "https://www.kocher-beck.com/flexible-dies/"
+      ],
+      [
+        "ETI: die-cutting stations and liner marking",
+        "https://www.eticonverting.com/die-cutting-stations"
+      ]
+    ]
+  },
+  {
+    "slug": "supplement-label-barcode-verification",
+    "title": "Supplement Label Barcode Verification: A Scan Is Not a Quality Report",
+    "seoTitle": "Supplement Label Barcode Verification | RP",
+    "description": "Learn what a barcode verification report should cover, why a phone scan is not enough, and how to approve the printed code on your supplement package.",
+    "category": "Supplement Labels",
+    "categoryUrl": "custom-supplement-labels",
+    "image": "supplement-barcode-verification-bench",
+    "source": "exec-0181789c-15af-46c7-b9b4-3262b74e56cc.png",
+    "alt": "AI-generated barcode inspection bench with a printed RP supplement label, optical measuring head and matching bottle",
+    "caption": "AI-generated inspection scene, not a photograph of RP equipment or a verification certificate. The sample barcode and label copy are illustrative and must not be reused as production data.",
+    "intro": "The phone reads it. Everyone relaxes. That is a useful check, but it is not the document a buyer should rely on to release a retail print run.",
+    "tags": [
+      "Barcode Verification",
+      "Print Quality",
+      "Retail Packaging"
+    ],
+    "related": [
+      [
+        "supplement-label-barcode-qr-guide",
+        "Barcode and QR placement"
+      ],
+      [
+        "matte-vs-gloss-supplement-labels",
+        "Matte versus gloss finishes"
+      ],
+      [
+        "supplement-label-batch-expiry-date-printing",
+        "Batch and expiry printing"
+      ]
+    ],
+    "sources": [
+      [
+        "GS1: barcode verification guidelines",
+        "https://ref.gs1.org/guidelines/barcode-verification/"
+      ],
+      [
+        "GS1 Singapore: verification reports and complete-pack samples",
+        "https://gs1.org.sg/barcode-verification/"
+      ],
+      [
+        "GS1: common barcode quality checks",
+        "https://support.gs1.org/support/solutions/articles/43000734141-what-should-i-check-to-ensure-good-quality-barcodes-"
+      ],
+      [
+        "GS1: retail 2D barcode implementation",
+        "https://ref.gs1.org/guidelines/2d-in-retail/"
+      ],
+      [
+        "Verified by GS1: identifier lookup",
+        "https://www.gs1.org/services/verified-by-gs1"
+      ]
+    ]
+  },
+  {
+    "slug": "tapered-supplement-bottle-labels",
+    "title": "Tapered Supplement Bottle Labels: Fix the Shape Before the Glue",
+    "seoTitle": "Tapered Supplement Bottle Labels & Dielines | RP",
+    "description": "Plan curved dielines for tapered supplement bottles. Measure both label boundaries, compare wrap and front-label options, and test fit before printing.",
+    "category": "Supplement Labels",
+    "categoryUrl": "custom-supplement-labels",
+    "image": "tapered-supplement-bottle-curved-label",
+    "source": "exec-a4c832d2-39e7-4972-b402-2298a7ed8d9d.png",
+    "alt": "AI-generated tapered supplement jars comparing a wrinkled trial label with a smooth fit beside a curved printed label",
+    "caption": "AI-generated fit-trial illustration: a wrinkled wrap, a smoother fit and curved printed artwork. This is not a scale dieline; sample supplement copy is not an approved formulation or regulatory label.",
+    "intro": "One end lines up. The other climbs toward the shoulder. More pressure may hide the wrinkle for the photograph, but it does not change the shape of the bottle.",
+    "tags": [
+      "Tapered Bottles",
+      "Curved Dielines",
+      "Fit Trials"
+    ],
+    "related": [
+      [
+        "supplement-bottle-label-size-guide",
+        "Supplement bottle measurements"
+      ],
+      [
+        "supplement-bottle-label-application-problems",
+        "Application troubleshooting"
+      ],
+      [
+        "shrink-sleeve-vs-pressure-sensitive-supplement-labels",
+        "Sleeves versus pressure-sensitive labels"
+      ]
+    ],
+    "sources": [
+      [
+        "OnlineLabels: tapered-label geometry and measurement inputs",
+        "https://www.onlinelabels.com/tools/tapered-label-generator"
+      ],
+      [
+        "OnlineLabels: fitting labels to tapered containers",
+        "https://www.onlinelabels.com/articles/tapered-labels-secrets"
+      ]
+    ]
+  },
+  {
+    "slug": "serialized-hologram-label-reconciliation",
+    "title": "Serialized Hologram Labels: Reconcile Every Number Before Shipment",
+    "seoTitle": "Serialized Hologram Label Reconciliation | RP",
+    "description": "Specify serial-number control for custom hologram labels, including rejects, retained samples, reprints, roll manifests and shipment reconciliation.",
+    "category": "3D Holographic Labels",
+    "categoryUrl": "custom-3d-holographic-labels",
+    "image": "hologram-label-serial-reconciliation",
+    "source": "exec-8cc225ab-e28b-4299-86a6-be874ea692c0.png",
+    "alt": "AI-generated serialized RP hologram labels with separate rejected and retained samples and a demo manifest",
+    "caption": "AI-generated workflow illustration with demonstration serials and a demo manifest. It is not a production reconciliation record, a working authentication system or evidence of a security certification.",
+    "intro": "A carton can contain the right number of labels and still contain the wrong serials. For a security job, the packing list is only half the handover.",
+    "tags": [
+      "Serial Control",
+      "Rejects & Reprints",
+      "Roll Manifest"
+    ],
+    "related": [
+      [
+        "static-vs-unique-qr-hologram-labels",
+        "Static versus unique QR labels"
+      ],
+      [
+        "hologram-label-microtext-guilloche-security",
+        "Visible and fine-detail security features"
+      ],
+      [
+        "custom-hologram-label-cost-moq-guide",
+        "Hologram cost and MOQ planning"
+      ]
+    ],
+    "sources": [
+      [
+        "OpSec: product identities, activation and event history",
+        "https://oldsite.opsecsecurity.com/platforms/product-traceability-and-compliance/"
+      ],
+      [
+        "KURZ: optical and digital label security features",
+        "https://www.kurz-world.com/en/solutions/labels/"
+      ]
+    ]
+  }
+]

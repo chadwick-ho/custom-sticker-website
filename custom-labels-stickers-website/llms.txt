@@ -77,3 +77,10 @@ The contact form prepares a brief for the buyer to send by email or WhatsApp. Co
 Contact:
 - Email: ruishengmao05@gmail.com
 - WhatsApp quote link: https://api.whatsapp.com/message/LXEW2FWSFWGPJ1?autoload=1&app_absent=0
+
+Guides published September 27, 2026:
+- Peptide Vial Label Roll Storage: Shelf Life Before Application: https://rplabels.com/peptide-vial-label-roll-storage-shelf-life
+- Peptide Vial Label Die-Cutting: Liner Strikes and Release Problems: https://rplabels.com/peptide-vial-label-die-cut-liner-strike
+- Supplement Label Barcode Verification: A Scan Is Not a Quality Report: https://rplabels.com/supplement-label-barcode-verification
+- Tapered Supplement Bottle Labels: Fix the Shape Before the Glue: https://rplabels.com/tapered-supplement-bottle-labels
+- Serialized Hologram Labels: Reconcile Every Number Before Shipment: https://rplabels.com/serialized-hologram-label-reconciliation
