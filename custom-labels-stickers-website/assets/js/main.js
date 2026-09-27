@@ -1,4 +1,4 @@
-const whatsappUrl = "https://api.whatsapp.com/message/LXEW2FWSFWGPJ1?autoload=1&app_absent=0";
+const whatsappUrl = "https://wa.me/8613285455519";
 const whatsappLinks = document.querySelectorAll("[data-whatsapp]");
 whatsappLinks.forEach((link) => {
   link.setAttribute("href", whatsappUrl);
