@@ -84,3 +84,10 @@ Guides published September 27, 2026:
 - Supplement Label Barcode Verification: A Scan Is Not a Quality Report: https://rplabels.com/supplement-label-barcode-verification
 - Tapered Supplement Bottle Labels: Fix the Shape Before the Glue: https://rplabels.com/tapered-supplement-bottle-labels
 - Serialized Hologram Labels: Reconcile Every Number Before Shipment: https://rplabels.com/serialized-hologram-label-reconciliation
+
+Guides published September 28, 2026:
+- Peptide Label Roll Core and Outer Diameter: Will the Roll Fit Your Applicator?: https://rplabels.com/peptide-label-roll-core-outer-diameter-machine-fit
+- Variable Data on Peptide Vial Labels: Check the Lot Before Releasing the Roll: https://rplabels.com/variable-data-peptide-vial-label-release-checklist
+- Opaque Supplement Overlabels: Covering Old Artwork Without Creating a New Problem: https://rplabels.com/opaque-overlabels-supplement-bottles
+- Supplement Labels Scuffed in Shipping: Test the Pack, Not Just the Ink: https://rplabels.com/supplement-label-shipping-scuff-test
+- Holographic QR Labels: Make the Security Design Shine Without Losing the Scan: https://rplabels.com/holographic-qr-label-scan-contrast-testing
