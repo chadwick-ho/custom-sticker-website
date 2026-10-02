@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "peptide-vial-linear-barcode-curved-surface",
+    "title": "Peptide Vial Barcodes on Curved Glass: Choose Orientation by Scan Test",
+    "seoTitle": "Peptide Vial Barcode Orientation on Curved Glass | RP",
+    "description": "Plan barcode orientation on a small peptide vial from the actual scanner, glass diameter and applied-label proof, not a flat artwork preview alone.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-vial-linear-barcode-curved-surface",
+    "alt": "AI-generated branded research vials comparing vertical and horizontal example barcodes on curved glass beside a scanner",
+    "caption": "AI-generated orientation comparison, not a verified RP scan test. Barcode patterns, brand variant and lot marks are illustrative DEMO artwork.",
+    "intro": "A barcode can look flawless in a PDF and still disappear around the side of a small vial when a scanner approaches it.",
+    "tags": ["Curved Glass", "1D Barcode", "Applied Scan Test"],
+    "related": [["peptide-vial-label-size-chart", "Measure the vial label area"], ["peptide-vial-label-cap-shoulder-clearance", "Keep the shoulder clear"], ["supplement-label-barcode-verification", "Understand barcode verification"]],
+    "sources": [["GS1 General Specifications: curved-surface symbol placement", "https://ref.gs1.org/standards/genspecs/"], ["GS1 barcode placement change notification: tight curvature and truncation", "https://www.gs1.org/docs/barcodes/GSCN-23-169-BarcodePlacement.pdf"], ["HERMA: vial labeling and applied positioning", "https://www.herma.com/machines/applications/vial-labeling/"]]
+  },
+  {
+    "slug": "peptide-vial-datamatrix-vs-qr-scan-workflow",
+    "title": "Peptide Vial DataMatrix or QR Code? Start With the Scanner",
+    "seoTitle": "Peptide Vial DataMatrix vs QR Code | Scan Workflow Guide",
+    "description": "Compare DataMatrix and QR artwork for small research vial labels by scanner, encoded data, destination and applied-label testing before ordering.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-vial-datamatrix-vs-qr-scan-workflow",
+    "alt": "AI-generated RP Research vial proofs showing illustrative DataMatrix-style and QR-style code panels beside a scanner and phone",
+    "caption": "AI-generated code-layout demonstration. The pictured code shapes are not validated, assigned GS1 identifiers or working authentication links.",
+    "intro": "The smaller-looking square is not automatically the right code. The first question is who must scan the vial and what their device should do.",
+    "tags": ["DataMatrix", "QR Code", "Scanner Workflow"],
+    "related": [["peptide-vial-qr-batch-label-guide", "Plan QR and batch fields"], ["holographic-qr-label-scan-contrast-testing", "Check code contrast"], ["hologram-qr-label-link-ownership-destination", "Own the scan destination"]],
+    "sources": [["GS1: differences among GS1 DataMatrix and GS1 Digital Link QR", "https://support.gs1.org/support/solutions/articles/43000756000-what-is-the-difference-between-the-2d-barcode-options-gs1-datamatrix-data-matrix-with-gs1-digital-l"], ["GS1: 2D barcodes and data carriers", "https://www.gs1.org/standards/barcodes/2d"], ["GS1: healthcare 2D barcode use cases", "https://www.gs1.org/industries/healthcare/2d-barcode-healthcare"]]
+  },
+  {
+    "slug": "supplement-ingredients-allergen-panel-proof",
+    "title": "Supplement Label Ingredients and Allergen Copy: Reserve the Right Panel Space",
+    "seoTitle": "Supplement Label Ingredients and Allergen Panel | RP",
+    "description": "Reserve space for the ingredient statement and brand-reviewed allergen copy on a custom supplement bottle label before approving the dieline.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "supplement-ingredients-allergen-panel-proof",
+    "alt": "AI-generated branded supplement bottle and full-color proof with Supplement Facts and Other Ingredients area marked for allergen-copy review",
+    "caption": "AI-generated prepress layout, not an approved supplement formula or compliant finished label. Ingredient and allergen text requires review by the brand's qualified team.",
+    "intro": "The side panel is often treated as leftover space. For a supplement label, it is the space you need to protect first.",
+    "tags": ["Other Ingredients", "Allergen Review", "Information Panel"],
+    "related": [["supplement-facts-panel-dieline-width", "Reserve Supplement Facts width"], ["supplement-facts-small-bottle-label-guide", "Readability on small bottles"], ["private-label-supplement-packaging-checklist", "Review the packaging brief"]],
+    "sources": [["FDA Dietary Supplement Labeling Guide, Chapter I: required statements and panel placement", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"], ["FDA Dietary Supplement Labeling Guide, Chapter V: ingredient statement", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-v-ingredient-labeling"], ["FDA food allergen labeling Q&A, including dietary supplements", "https://www.fda.gov/media/117410/download"]]
+  },
+  {
+    "slug": "supplement-label-business-address-information-panel",
+    "title": "Supplement Bottle Labels: Who Goes on the Business Name and Address Line?",
+    "seoTitle": "Supplement Label Business Name and Address Layout | RP",
+    "description": "Set the manufacturer, packer or distributor business line on a supplement bottle label after the brand confirms its legal copy and information panel.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "supplement-label-business-address-information-panel",
+    "alt": "AI-generated RP Wellness bottle and branded label proof with the business-information line flagged for approval",
+    "caption": "AI-generated artwork review scene. Business names and layout are fictional examples; the responsible brand must supply and approve its actual business information.",
+    "intro": "A printer can place a supplied business line accurately. It should not guess which company is legally responsible for the bottle.",
+    "tags": ["Business Line", "Distributor Copy", "Artwork Approval"],
+    "related": [["supplement-label-front-panel-identity-net-quantity", "Protect the front panel"], ["supplement-facts-panel-dieline-width", "Size the information panel"], ["multilingual-supplement-labels-artwork-version-control", "Control copy versions"]],
+    "sources": [["FDA Dietary Supplement Labeling Guide, Chapter I: name and place of business", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"], ["FDA Dietary Supplement Labeling Guide, Chapter V: information-panel ingredients", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-v-ingredient-labeling"]]
+  },
+  {
+    "slug": "hologram-carton-seal-perforation-tear-path",
+    "title": "Hologram Seals for Folding Cartons: Design the Perforation Around the Opening",
+    "seoTitle": "Hologram Carton Seal Perforation and Tear Path | RP",
+    "description": "Specify the fold, perforation and opening path of a custom holographic carton seal with a physical sample before approving the roll artwork.",
+    "category": "3D Holographic Labels", "categoryUrl": "custom-3d-holographic-labels",
+    "image": "hologram-carton-seal-perforation-tear-path",
+    "alt": "AI-generated RP Secure hologram seals on two folding cartons, one intact and one opening through a center tear path",
+    "caption": "AI-generated carton-opening concept, not a tamper-evidence test or claim that this construction meets any security standard. Verify on the real carton.",
+    "intro": "The most persuasive hologram on a flat sample can fail the basic job if the carton opens somewhere other than the intended tear line.",
+    "tags": ["Carton Seal", "Security Perforation", "Opening Test"],
+    "related": [["hologram-seal-corrugated-carton-fiber-tear", "Compare carton fiber tear"], ["hologram-seal-placement-guide", "Plan seal placement"], ["void-vs-destructible-hologram-labels", "Compare evidence constructions"]],
+    "sources": [["HERMA: tamper-evident seal labeling and security perforation", "https://www.herma.com/machines/applications/tamper-evident-labeling/"], ["HERMA: sealing labels, tearing lines and surface requirements", "https://www.herma.com/label/products/sealing-labels/"], ["HERMA: tamper-evident label with center perforation", "https://shop.labels.herma.com/product-details/58360/"]]
+  }
+]

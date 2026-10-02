@@ -112,3 +112,10 @@ Guides published October 1, 2026:
 - Supplement Bottle Front Panels: Reserve Identity and Net Quantity First: https://rplabels.com/supplement-label-front-panel-identity-net-quantity
 - Supplement Label Barcodes: Do Flavor and Count Variants Need Separate GTINs?: https://rplabels.com/supplement-sku-gtin-flavor-count-labels
 - Hologram Seals on Curved Bottle Caps: Test the Fold Before Ordering: https://rplabels.com/hologram-seal-curved-bottle-cap-adhesion
+
+Guides published October 2, 2026:
+- Peptide Vial Barcodes on Curved Glass: Choose Orientation by Scan Test: https://rplabels.com/peptide-vial-linear-barcode-curved-surface
+- Peptide Vial DataMatrix or QR Code? Start With the Scanner: https://rplabels.com/peptide-vial-datamatrix-vs-qr-scan-workflow
+- Supplement Label Ingredients and Allergen Copy: Reserve the Right Panel Space: https://rplabels.com/supplement-ingredients-allergen-panel-proof
+- Supplement Bottle Labels: Who Goes on the Business Name and Address Line?: https://rplabels.com/supplement-label-business-address-information-panel
+- Hologram Seals for Folding Cartons: Design the Perforation Around the Opening: https://rplabels.com/hologram-carton-seal-perforation-tear-path
