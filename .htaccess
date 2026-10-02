@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# The Git checkout lives in public_html; only the site subdirectory is public.
+RewriteRule ^(?:content|scripts|\.git)(?:/|$) - [F,L,NC]
+RewriteRule ^(?:README\.md|preview-server\.log|\.gitignore)$ - [F,L,NC]
+
+# Keep the existing subdirectory reachable while mapping canonical root URLs.
+RewriteRule ^custom-labels-stickers-website/ - [L]
+RewriteRule ^$ custom-labels-stickers-website/index.html [L]
+RewriteCond %{DOCUMENT_ROOT}/custom-labels-stickers-website/$1 -f
+RewriteRule ^(.+)$ custom-labels-stickers-website/$1 [L]
+RewriteCond %{DOCUMENT_ROOT}/custom-labels-stickers-website/$1.html -f
+RewriteRule ^(.+?)/?$ custom-labels-stickers-website/$1.html [L]
