@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "peptide-vial-label-rounded-corners-small-diameter",
+    "title": "Peptide Vial Label Corners: When a Rounded Die Cut Helps a Tight Wrap",
+    "seoTitle": "Peptide Vial Label Rounded Corners on Small Glass | RP",
+    "description": "Compare rounded and square die-cut corners on small peptide vial labels with a real applied sample, not a flat artwork proof alone.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-vial-label-rounded-corners-small-diameter",
+    "alt": "AI-generated RP Research vials comparing a lifted square label corner with a rounded corner on curved glass",
+    "caption": "AI-generated applied-label comparison. The lifted corner and printed code are illustrative, not a verified RP material or adhesion test.",
+    "intro": "On a small glass vial, a millimeter of lifted label edge is more useful feedback than a perfect flat PDF.",
+    "tags": ["Rounded Corners", "Small Diameter", "Applied Proof"],
+    "related": [["peptide-vial-label-size-chart", "Measure the printable wall"], ["peptide-vial-label-adhesive-guide", "Choose an adhesive"], ["peptide-vial-label-cap-shoulder-clearance", "Clear the cap and shoulder"]],
+    "sources": [["HERMA: labeling small-diameter curved surfaces", "https://www.herma.com/label/products/wrap-around-labelling/"], ["Avery Dennison: choosing a film facestock for container shape", "https://label.averydennison.com/content/dam/averydennison/lpm/ap/en_cn/doc/resourcecenter/HowtoChoosetheRightFilmFacestock.pdf"]]
+  },
+  {
+    "slug": "amber-peptide-vial-label-opacity-contrast-proof",
+    "title": "Amber Peptide Vial Labels: Judge Ink and Code Contrast on the Filled Bottle",
+    "seoTitle": "Amber Peptide Vial Label Opacity and Contrast | RP",
+    "description": "Plan white backing, colored artwork and a readable code panel for amber peptide vials using applied proofs under actual lighting.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "amber-peptide-vial-label-opacity-contrast-proof",
+    "alt": "AI-generated amber RP Research sample vials comparing opaque high-contrast and translucent low-contrast custom labels",
+    "caption": "AI-generated amber-glass contrast example. The fictional artwork and DEMO code are not a scan verification or approved product label.",
+    "intro": "Amber glass changes a label twice: it colors anything transparent and makes the same print look different as the bottle turns.",
+    "tags": ["Amber Glass", "Opaque Backing", "Code Contrast"],
+    "related": [["clear-vial-label-white-ink-guide", "Understand white backing"], ["peptide-vial-linear-barcode-curved-surface", "Check barcodes on curved glass"], ["glass-vs-plastic-peptide-vial-labels", "Compare glass and plastic containers"]],
+    "sources": [["HERMA: film label materials and clear-on-clear constructions", "https://www.herma.com/material/products/film-based-label-materials/"], ["GS1: barcode color and light background selection", "https://www.gs1.org/standards/barcodes/10-steps-to-barcode-your-product/english"], ["GS1: 2D barcode color, reflectance and quiet zones", "https://ref.gs1.org/docs/2025/GS1-2D-colour-guide-i10-f-25-02-10"]]
+  },
+  {
+    "slug": "square-supplement-bottle-label-corner-panel-layout",
+    "title": "Square Supplement Bottle Labels: Keep Facts and Barcodes Off the Corners",
+    "seoTitle": "Square Supplement Bottle Label Panel and Corner Layout | RP",
+    "description": "Build a custom supplement label around the actual flat faces and corners of a square bottle while protecting the required information panel.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "square-supplement-bottle-label-corner-panel-layout",
+    "alt": "AI-generated square RP Wellness supplement bottle and folded proof showing front artwork and a separate information panel",
+    "caption": "AI-generated packaging layout. Supplement Facts values are illustrative placeholder copy and must not be printed without brand regulatory review.",
+    "intro": "A square bottle gives you four useful faces, but its corners are not extra flat real estate.",
+    "tags": ["Square Bottle", "Panel Layout", "Corner Clearance"],
+    "related": [["supplement-label-front-panel-identity-net-quantity", "Protect the display panel"], ["supplement-facts-panel-dieline-width", "Size the Facts panel"], ["supplement-label-barcode-verification", "Verify the retail code"]],
+    "sources": [["FDA Dietary Supplement Labeling Guide, Chapter I: principal and information panels", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"], ["FDA Dietary Supplement Labeling Guide, Chapter III: rectangular panel area", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iii-net-quantity-contents"], ["GS1: 2D retail implementation guidance on folds and print surfaces", "https://ref.gs1.org/guidelines/2d-in-retail/"]]
+  },
+  {
+    "slug": "metallic-supplement-label-facts-barcode-neutral-zone",
+    "title": "Metallic Supplement Labels: Give Facts and Barcodes a Neutral Print Zone",
+    "seoTitle": "Metallic Supplement Labels with Readable Facts and Codes | RP",
+    "description": "Use foil or metallic effects around, not through, critical Supplement Facts and barcode areas on a custom supplement bottle label.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "metallic-supplement-label-facts-barcode-neutral-zone",
+    "alt": "AI-generated RP Wellness metallic-accent supplement bottles with a neutral matte information and barcode panel",
+    "caption": "AI-generated metallic-finish concept. Formula figures and barcode digits are fictional layout art, not an approved formula or validated retail symbol.",
+    "intro": "A metallic finish can make the bottle look premium. The readable parts still need somewhere quiet to live.",
+    "tags": ["Metallic Finish", "Supplement Facts", "Barcode Zone"],
+    "related": [["hot-foil-vs-cold-foil-metallic-ink-supplement-labels", "Compare metallic processes"], ["supplement-facts-panel-dieline-width", "Reserve the Facts width"], ["supplement-label-barcode-verification", "Verify the applied barcode"]],
+    "sources": [["FDA Dietary Supplement Labeling Guide, Chapter IV: Facts-panel presentation", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iv-nutrition-labeling"], ["GS1: 2D barcode color and reflective-material guidance", "https://ref.gs1.org/docs/2025/GS1-2D-colour-guide-i10-f-25-02-10"], ["GS1: barcode color selection", "https://www.gs1.org/standards/barcodes/10-steps-to-barcode-your-product/english"]]
+  },
+  {
+    "slug": "hologram-seals-flexible-pouch-zipper-opening-test",
+    "title": "Hologram Seals on Flexible Pouches: Test the Zipper and Opening Motion",
+    "seoTitle": "Hologram Seals for Flexible Pouches and Zippers | RP",
+    "description": "Specify a custom hologram pouch seal by film surface, closure path and repeated flexing before ordering a printed security-label roll.",
+    "category": "3D Holographic Labels", "categoryUrl": "custom-3d-holographic-labels",
+    "image": "hologram-seals-flexible-pouch-zipper-opening-test",
+    "alt": "AI-generated RP Secure hologram seals on flexible stand-up pouches, one intact and one opening at the zipper",
+    "caption": "AI-generated pouch-opening concept. The pictured tear is not a tested tamper-evidence claim; performance depends on the actual pouch, adhesive and opening path.",
+    "intro": "A seal that looks strong on a flat pouch photo may behave very differently when someone pinches the gusset and opens the zipper.",
+    "tags": ["Flexible Pouch", "Hologram Seal", "Opening Test"],
+    "related": [["hologram-seal-placement-guide", "Choose a seal position"], ["hologram-carton-seal-perforation-tear-path", "Compare carton tear paths"], ["void-vs-destructible-hologram-labels", "Compare evidence materials"]],
+    "sources": [["HERMA: closure labels for uneven food packaging", "https://www.herma.com/label/solutions/foods-and-beverages/closure-labels-flour-packs/"], ["HERMA: product and closure labels for flexible tubular bags", "https://www.herma.com/label/solutions/foods-and-beverages/product-and-closure-labels-tubular-bags/"], ["HERMA: security-label materials and adhesion", "https://www.herma.com/material/products/film-based-label-materials/"]]
+  }
+]
