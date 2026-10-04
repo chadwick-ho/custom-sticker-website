@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "screw-cap-vs-crimp-vial-label-layout",
+    "title": "Screw-Cap vs Crimp Vials: Do Not Reuse the Same Peptide Label Dieline",
+    "seoTitle": "Screw-Cap vs Crimp Vial Label Layout | RP Labels",
+    "description": "Compare actual straight-wall area, cap clearance and applied proof needs before using one custom peptide vial label across screw-cap and crimp formats.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "screw-cap-vs-crimp-vial-label-layout",
+    "alt": "AI-generated RP Research screw-cap and aluminum-crimp sample vials with distinct branded wrap-label layouts on a factory proof table",
+    "caption": "AI-generated container comparison. The RP Research designs, lot fields and DEMO codes are illustrative, not approved packaging or scan-tested symbols.",
+    "intro": "The same nominal vial volume does not guarantee the same printable wall when one bottle has a threaded neck and the other a crimp finish.",
+    "tags": ["Screw Cap", "Crimp Vial", "Dieline Proof"],
+    "related": [["peptide-vial-label-cap-shoulder-clearance", "Measure cap and shoulder clearance"], ["peptide-vial-label-size-chart", "Build a vial size chart"], ["peptide-vial-label-rounded-corners-small-diameter", "Check small-diameter corners"]],
+    "sources": [["DWK Life Sciences: screw-neck vial sizes and finishes", "https://www.dwk.com/screw-neck-vial"], ["DWK Life Sciences: screw and crimp finishes in one vial family", "https://www.dwk.com/na/wheaton-nextgen-v-vial-03ml-crimp-top-no-closure-neck-size-11mm-w986212ng"], ["HERMA: vial labeling geometry and application", "https://www.herma.com/machines/applications/vial-labeling/"]]
+  },
+  {
+    "slug": "peptide-vial-label-thermal-transfer-overlaminate-proof",
+    "title": "Preprinted Peptide Vial Labels: Test the Thermal-Transfer Lot Window",
+    "seoTitle": "Thermal-Transfer Lot Windows on Peptide Vial Labels | RP",
+    "description": "Specify a writable matte finish and run a real ribbon-printer proof before ordering preprinted peptide vial labels for later lot or date coding.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-vial-label-thermal-transfer-overlaminate-proof",
+    "alt": "AI-generated RP Research branded vial labels with a matte lot-code window passing through a thermal-transfer printer",
+    "caption": "AI-generated variable-printing scene. LOT R-042 and EXP DEMO are fictional sample fields; the image does not prove ribbon or overlaminate compatibility.",
+    "intro": "A beautiful preprinted roll becomes a problem if the buyer's printer cannot put a durable lot code on the finished surface.",
+    "tags": ["Thermal Transfer", "Matte Overlaminate", "Lot Coding"],
+    "related": [["thermal-transfer-printable-peptide-vial-labels", "Choose printable label stock"], ["variable-data-peptide-vial-label-release-checklist", "Review variable-data release"], ["peptide-vial-label-artwork-version-changeover", "Control artwork versions"]],
+    "sources": [["HERMA: printable varnish and laminate choices for preprinted roll labels", "https://www.herma.com/label/label-configurator/configure-and-order-printed-roll-labels-online/"], ["Avery Dennison: thermal-transfer-printable overlaminates and ribbon testing", "https://label.averydennison.com/content/dam/averydennison/lpm-responsive/na/doc/product-overviews/product/overlaminates/br-overlaminates.pdf"], ["HERMA: thermal-transfer ribbon, stock and printer interaction", "https://www.herma.com/label/products/thermal-transfer-printer-labels-on-rolls/"]]
+  },
+  {
+    "slug": "powder-supplement-tub-label-panel-layout",
+    "title": "Powder Supplement Tub Labels: Size the Front and Facts Panels on the Real Tub",
+    "seoTitle": "Powder Supplement Tub Label Panel Layout | RP Labels",
+    "description": "Plan the principal display, net quantity, Supplement Facts and wrap seam on a custom powder tub label before approving print dimensions.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "powder-supplement-tub-label-panel-layout",
+    "alt": "AI-generated RP Wellness powder supplement tub with branded front and separate Supplement Facts-style side panel beside a wrap proof",
+    "caption": "AI-generated powder-tub concept. Formula, nutrition figures and front copy are fictional layout examples and require brand regulatory review before printing.",
+    "intro": "A wide powder tub looks roomy until the lid shadow, wrap seam and the required information panel all claim the same label area.",
+    "tags": ["Powder Tub", "Net Quantity", "Wrap Panel"],
+    "related": [["supplement-label-front-panel-identity-net-quantity", "Plan identity and net quantity"], ["supplement-facts-panel-dieline-width", "Reserve Facts width"], ["supplement-bottle-label-size-guide", "Measure cylindrical containers"]],
+    "sources": [["FDA Dietary Supplement Labeling Guide, Chapter I: display and information panels", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"], ["FDA Dietary Supplement Labeling Guide, Chapter III: net quantity and cylindrical panel area", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iii-net-quantity-contents"], ["FDA Dietary Supplement Labeling Guide, Chapter IV: Facts presentation", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iv-nutrition-labeling"]]
+  },
+  {
+    "slug": "supplement-pouch-label-zipper-facts-clearance",
+    "title": "Supplement Pouch Labels: Keep Required Copy Clear of the Zipper and Seals",
+    "seoTitle": "Supplement Pouch Label Zipper and Facts Clearance | RP",
+    "description": "Place a custom pressure-sensitive supplement label on a stand-up pouch without losing readable Facts copy to zipper, tear-notch or bottom-gusset zones.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "supplement-pouch-label-zipper-facts-clearance",
+    "alt": "AI-generated RP Wellness resealable supplement pouches showing branded front and illustrative Facts panel below the zipper",
+    "caption": "AI-generated pouch layout. The pictured ingredients, quantities and claims are fictional artwork, not a compliant formula or approved label.",
+    "intro": "A pouch offers a large apparent panel, but the zipper, tear notch and folds remove more usable copy space than a flat PDF suggests.",
+    "tags": ["Stand-Up Pouch", "Zipper Clearance", "Facts Panel"],
+    "related": [["supplement-facts-panel-dieline-width", "Size the Facts area"], ["supplement-label-front-panel-identity-net-quantity", "Protect the front display"], ["hologram-seals-flexible-pouch-zipper-opening-test", "Test closure movement"]],
+    "sources": [["FDA Dietary Supplement Labeling Guide, Chapter I: required statements and panel position", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"], ["FDA Dietary Supplement Labeling Guide, Chapter IV: Facts formatting and exceptions", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iv-nutrition-labeling"], ["HERMA: labels for flexible tubular bags and closure areas", "https://www.herma.com/label/solutions/foods-and-beverages/product-and-closure-labels-tubular-bags/"]]
+  },
+  {
+    "slug": "holographic-qr-label-automatic-applicator-roll-sensor",
+    "title": "Holographic QR Labels on Automatic Lines: Specify the Roll and Sensor Test",
+    "seoTitle": "Holographic QR Label Roll and Applicator Sensor Guide | RP",
+    "description": "Brief a custom holographic QR label for automatic application with the actual liner, unwind, label sensor and applied-code scan test.",
+    "category": "3D Holographic Labels", "categoryUrl": "custom-3d-holographic-labels",
+    "image": "holographic-qr-label-automatic-applicator-roll-sensor",
+    "alt": "AI-generated RP Secure holographic QR-style label roll passing a machine sensor and applying to dark cartons",
+    "caption": "AI-generated applicator concept. QR artwork is DEMO-only, not a working authentication destination or validated scan result; machine suitability requires a physical trial.",
+    "intro": "The hologram and QR code can both look right on a sample sheet while the production line still struggles to detect and place each label.",
+    "tags": ["Hologram Roll", "Label Sensor", "QR Proof"],
+    "related": [["holographic-qr-label-scan-contrast-testing", "Check QR contrast"], ["static-vs-unique-qr-hologram-labels", "Choose static or unique data"], ["hologram-qr-label-link-ownership-destination", "Own the verification destination"]],
+    "sources": [["HERMA: applicator components and label sensors", "https://www.herma.com/machines/products/label-applicators/"], ["HERMA eco: roll, core and sensor specifications", "https://www.herma.com/machines/products/label-applicators/herma-eco/"], ["Avery Dennison: printable holographic film and liner construction", "https://label.averydennison.com/content/dam/averydennison/lpm-responsive/asia-pacific/en-sa/documents/product-data-sheets/asean/BWS484-pds-en.pdf"], ["GS1: 2D barcode print surface, fold and sheen guidance", "https://ref.gs1.org/guidelines/2d-in-retail/"]]
+  }
+]
