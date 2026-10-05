@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "peptide-vial-label-tray-friction-scuff-proof",
+    "title": "Peptide Vial Labels in Trays: Test Scuffing Before You Order the Roll",
+    "seoTitle": "Peptide Vial Label Tray Scuff Test | RP Labels",
+    "description": "A custom vial label can look perfect on the bench and rub in a transport tray. Plan an applied-vial scuff and edge-lift proof before bulk printing.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-vial-label-tray-friction-scuff-proof",
+    "alt": "AI-generated RP Research branded peptide sample vials in a molded tray with a printed label proof and inspection magnifier",
+    "caption": "AI-generated packaging scenario. RP Research artwork, DEMO 042 lot and codes are fictional; tray abrasion performance was not tested by this image.",
+    "intro": "A vial label that survives hand application may still scuff where its face or edge touches the transport tray.",
+    "tags": ["Vial Tray", "Scuff Proof", "Applied Sample"],
+    "related": [["peptide-vial-label-roll-storage-shelf-life", "Store finished label rolls"], ["peptide-vial-label-rounded-corners-small-diameter", "Check edge lift on small vials"], ["peptide-vial-condensation-label-application", "Control application conditions"]],
+    "sources": [["Avery Dennison: overlaminates and abrasion protection", "https://label.averydennison.com/content/dam/averydennison/lpm-responsive/na/doc/product-overviews/product/overlaminates/br-overlaminates.pdf"], ["HERMA: vial labeling applications", "https://www.herma.us/machines/applications/vial-labeling/"]]
+  },
+  {
+    "slug": "peptide-vial-label-camera-inspection-orientation-proof",
+    "title": "Peptide Vial Labels for Camera Inspection: Approve the Applied View",
+    "seoTitle": "Peptide Vial Label Camera Inspection Proof | RP",
+    "description": "Plan a custom peptide vial label for the real camera angle, label seam and variable-code field, then prove it on the actual inspection station.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-vial-label-camera-inspection-orientation-proof",
+    "alt": "AI-generated RP Research peptide sample vial with branded wrap label under a camera inspection head on a labeling line",
+    "caption": "AI-generated machine-vision scene. The pictured RP Research code is illustrative and has not been verified by a production camera.",
+    "intro": "An artwork proof can pass while the installed camera only sees a seam, a glare band or half of the variable code.",
+    "tags": ["Camera Inspection", "Vial Orientation", "Variable Code"],
+    "related": [["peptide-vial-linear-barcode-curved-surface", "Test codes on curved glass"], ["peptide-vial-label-roll-direction-guide", "Confirm unwind direction"], ["variable-data-peptide-vial-label-release-checklist", "Release variable data"]],
+    "sources": [["HERMA: 211 HC wrap-around labeler camera and print verification", "https://www.herma.com/machines/products/semi-automatic-labeling-machines/wrap-around-labeler-211-hc/"], ["HERMA: vial labeling and monitoring", "https://www.herma.us/machines/applications/vial-labeling/"]]
+  },
+  {
+    "slug": "supplement-stick-pack-carton-label-hierarchy",
+    "title": "Supplement Stick Packs and Cartons: Decide Which Copy Lives Where",
+    "seoTitle": "Supplement Stick Pack and Carton Label Guide | RP",
+    "description": "Before printing single-serve supplement sticks and an outer carton, map the sale unit, principal display panel and Supplement Facts responsibilities.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "supplement-stick-pack-carton-label-hierarchy",
+    "alt": "AI-generated RP Wellness branded single-serve stick packs and matching outer carton showing distinct front and information panels",
+    "caption": "AI-generated concept. The pictured ingredients, Facts numbers, serving claims and DEMO artwork are fictional and not an approved or verified formula.",
+    "intro": "A box of single-serve sticks is really two artwork jobs, and the answer changes when a stick may be sold on its own.",
+    "tags": ["Stick Pack", "Outer Carton", "Supplement Facts"],
+    "related": [["supplement-facts-panel-dieline-width", "Size the Facts panel"], ["supplement-pouch-label-zipper-facts-clearance", "Protect pouch copy"], ["private-label-supplement-packaging-checklist", "Build the packaging brief"]],
+    "sources": [["FDA: general dietary supplement labeling", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"], ["FDA: dietary supplement small and multiunit package provisions", "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-statement-identity-nutrition-labeling-and-ingredient-labeling-dietary"], ["FDA: Supplement Facts requirements", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iv-nutrition-labeling"]]
+  },
+  {
+    "slug": "supplement-label-net-contents-front-panel-proof",
+    "title": "Supplement Labels: Leave a Real Place for Net Contents on the Front",
+    "seoTitle": "Supplement Label Net Contents Front Panel Proof | RP",
+    "description": "Reserve the net quantity statement on the real principal display panel before decoration, trim and a bottle curve consume the usable area.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "supplement-label-net-contents-front-panel-proof",
+    "alt": "AI-generated RP Wellness supplement bottles with branded front labels and separate printed Supplement Facts artwork proof",
+    "caption": "AI-generated layout example only. Formula, Facts figures, net quantities and claims in the illustration are fictional and require product-specific regulatory review.",
+    "intro": "The lower part of a supplement front label is often treated as decoration space until the net-quantity line arrives.",
+    "tags": ["Net Contents", "Front Panel", "Applied Proof"],
+    "related": [["supplement-label-front-panel-identity-net-quantity", "Review identity and quantity"], ["powder-supplement-tub-label-panel-layout", "Plan a powder tub wrap"], ["square-supplement-bottle-label-corner-panel-layout", "Proof square bottles"]],
+    "sources": [["FDA: net quantity of contents on dietary supplements", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iii-net-quantity-contents"], ["FDA: general dietary supplement labeling and display panels", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"]]
+  },
+  {
+    "slug": "hologram-label-visual-authentication-vs-qr-check",
+    "title": "Hologram Plus QR Labels: Give Visual and Digital Checks Separate Jobs",
+    "seoTitle": "Hologram Visual Check vs QR Verification | RP",
+    "description": "Specify what a buyer should inspect on a custom hologram and what a QR destination should verify, without assuming either feature alone stops copying.",
+    "category": "3D Holographic Labels", "categoryUrl": "custom-3d-holographic-labels",
+    "image": "hologram-label-visual-authentication-vs-qr-check",
+    "alt": "AI-generated RP Secure holographic visual cue and separate QR demonstration patch on two branded cartons beside a phone",
+    "caption": "AI-generated security-label concept. The illustrated QR is not a working verification service; the RP Secure mark and carton brand are fictional.",
+    "intro": "A reflective mark catches the eye, while a QR code starts a digital check. They should not be sold as the same security feature.",
+    "tags": ["Visual Check", "QR Verification", "Hologram Proof"],
+    "related": [["hologram-qr-label-link-ownership-destination", "Own the QR destination"], ["static-vs-unique-qr-hologram-labels", "Choose static or unique codes"], ["holographic-qr-label-scan-contrast-testing", "Test scan contrast"]],
+    "sources": [["GS1: digital signatures and physical security markings", "https://ref.gs1.org/guidelines/digital-signatures/"], ["GS1: 2D barcode quiet zones and print conditions", "https://ref.gs1.org/guidelines/2d-in-retail/"]]
+  }
+]
