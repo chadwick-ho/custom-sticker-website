@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "peptide-vial-detachable-record-tab-label-proof",
+    "title": "Peptide Vial Labels with Detachable Record Tabs: Proof Both Identities",
+    "seoTitle": "Detachable Record Tabs for Peptide Vial Labels | RP",
+    "description": "Specify a custom vial wrap label and detachable record tab as one connected job: matched identifiers, peel force, die cut and applied proof.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-vial-detachable-record-tab-label-proof",
+    "alt": "AI-generated RP Research branded research vials with a detachable label tab and a sample tracking card on a proof table",
+    "caption": "AI-generated demonstration, not an approved traceability system. RP Research and DEMO 106 are fictional; matching tab behavior and print data require physical proof.",
+    "intro": "A tear-off tab only saves time if the identity left on the vial and the identity moved to the record stay unambiguous.",
+    "tags": ["Detachable Tab", "Vial Record", "Matched Data"],
+    "related": [["variable-data-peptide-vial-label-release-checklist", "Release variable identifiers"], ["peptide-vial-label-die-cut-liner-strike", "Check die-cut quality"], ["peptide-vial-label-camera-inspection-orientation-proof", "Proof camera inspection"]],
+    "sources": [["HERMA: documentation and patient labels", "https://www.herma.com/label/products/documentation-labels-and-patient-labels/"], ["HERMA: vial labeling and detachable documentation labels", "https://www.herma.com/machines/applications/vial-labeling/"]]
+  },
+  {
+    "slug": "peptide-vial-label-clear-viewing-window-layout",
+    "title": "Peptide Vial Labels with a Clear Viewing Window: Keep the Vial Inspectable",
+    "seoTitle": "Clear Viewing Windows on Peptide Vial Labels | RP",
+    "description": "Plan a custom research vial label around a visible glass window without sacrificing product identity, lot data or reliable wrap application.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-vial-label-clear-viewing-window-layout",
+    "alt": "AI-generated RP Research peptide sample vials with complete navy labels and a deliberate clear vertical viewing window",
+    "caption": "AI-generated vial-window concept. Powder, lot DEMO 107 and QR-like art are fictional; no content, stability or scan performance was tested.",
+    "intro": "An opaque wrap can make a small vial easy to brand and hard to inspect at the same time.",
+    "tags": ["Viewing Window", "Clear Film", "Vial Layout"],
+    "related": [["clear-vial-label-white-ink-guide", "Choose clear film and white ink"], ["peptide-vial-label-gap-vs-overlap", "Plan wrap gap or overlap"], ["peptide-vial-label-size-chart", "Measure usable glass"]],
+    "sources": [["HERMA: vial labeling and fill-level markings", "https://www.herma.com/machines/applications/vial-labeling/"], ["HERMA: label cut-outs that leave container contents visible", "https://www.herma.com/label/solutions/retail-and-consumer-goods/lam-labels-on-ink-bottles/"], ["Avery Dennison: clear-film solutions for vial visibility", "https://label.averydennison.com/eu/en/home/press-releases/avery-dennison-launches-new-labeling-solutions-advancing-recycling-connectivity-and-safety-at-labelexpo-europe-2025.html"]]
+  },
+  {
+    "slug": "supplement-label-claims-copy-prepress-review",
+    "title": "Supplement Label Claims: Freeze Reviewed Copy Before You Print",
+    "seoTitle": "Supplement Label Claims Prepress Review | RP Labels",
+    "description": "Keep custom supplement label artwork out of reprint trouble by separating brand language, regulated claims, approved copy and final press files.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "supplement-label-claims-copy-prepress-review",
+    "alt": "AI-generated RP Wellness supplement bottle and complete label proof beside an unchecked draft artwork review sheet",
+    "caption": "AI-generated draft review scene. RP Wellness, the formula, label copy and any Facts-style text are fictional and have not received regulatory or print approval.",
+    "intro": "A late claim edit can change the front panel, disclaimer space and approval trail after the label size has already been quoted.",
+    "tags": ["Claims Review", "Prepress", "Artwork Version"],
+    "related": [["supplement-label-front-panel-identity-net-quantity", "Protect required front copy"], ["supplement-ingredients-allergen-panel-proof", "Proof ingredient information"], ["private-label-supplement-packaging-checklist", "Build the packaging brief"]],
+    "sources": [["FDA: structure/function and related claim notifications", "https://www.fda.gov/food/information-industry-dietary-supplements/notifications-structurefunction-and-related-claims-dietary-supplement-labeling"], ["FDA: general dietary supplement labeling", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"]]
+  },
+  {
+    "slug": "supplement-facts-dark-bottle-opaque-panel-proof",
+    "title": "Supplement Facts on Dark Bottles: Proof the Opaque Information Panel",
+    "seoTitle": "Supplement Facts on Dark Bottles | Label Proof Guide",
+    "description": "A clear label over amber glass can weaken small-copy contrast. Compare an opaque neutral Facts panel on the actual bottle before ordering the run.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "supplement-facts-dark-bottle-opaque-panel-proof",
+    "alt": "AI-generated RP Wellness amber supplement bottles comparing a transparent label concept with an opaque light information panel",
+    "caption": "AI-generated contrast comparison only. The visible ingredients, claims, quantities and Facts figures are fictional and are not compliant artwork.",
+    "intro": "A premium clear-on-amber look can make the front attractive while the required small print becomes difficult to read.",
+    "tags": ["Amber Bottle", "Opaque Panel", "Facts Legibility"],
+    "related": [["clear-vs-white-peptide-vial-labels", "Compare clear and white constructions"], ["supplement-facts-panel-dieline-width", "Reserve Facts width"], ["metallic-supplement-label-facts-barcode-neutral-zone", "Keep a neutral information zone"]],
+    "sources": [["FDA: Supplement Facts presentation and contrast", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iv-nutrition-labeling"], ["FDA: general label legibility and contrast", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"], ["Avery Dennison: clear film labels for rigid containers", "https://label.averydennison.com/ap/en_sa/home/products/film/rigid-film.html"]]
+  },
+  {
+    "slug": "hologram-scratch-off-code-data-handoff",
+    "title": "Hologram Labels with Scratch-Off Codes: Specify the Data Handoff",
+    "seoTitle": "Hologram Scratch-Off Code Label Buying Guide | RP",
+    "description": "Before ordering custom holographic labels with hidden codes, agree who generates identifiers, how codes are concealed and how a sample is verified.",
+    "category": "3D Holographic Labels", "categoryUrl": "custom-3d-holographic-labels",
+    "image": "hologram-scratch-off-code-data-handoff",
+    "alt": "AI-generated RP Secure hologram stickers with a partially revealed demo scratch-off code and matching sample data handoff sheet",
+    "caption": "AI-generated DRAFT security-label concept. RP-DEMO-108 and hidden code 7B4K9 are fictional examples; no live authentication database or scratch durability test exists.",
+    "intro": "A hidden code is not a verification program until the printed mark, code file and response system can be reconciled.",
+    "tags": ["Scratch-Off Code", "Data Handoff", "Hologram Proof"],
+    "related": [["serialized-hologram-label-reconciliation", "Reconcile serialized labels"], ["hologram-qr-label-link-ownership-destination", "Own the verification destination"], ["hologram-label-visual-authentication-vs-qr-check", "Separate visual and digital checks"]],
+    "sources": [["GS1: digital signatures and authentication codes in physical markings", "https://ref.gs1.org/guidelines/digital-signatures/"], ["GS1: digital signatures current standard", "https://www.gs1.org/standards/gs1-digital-signatures/current-standard"]]
+  }
+]
