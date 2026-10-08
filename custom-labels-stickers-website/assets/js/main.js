@@ -1,4 +1,4 @@
-const whatsappUrl = "https://api.whatsapp.com/message/VLGQGDJCIUFAF1?autoload=1&app_absent=0";
+const whatsappUrl = "https://wa.me/8613285455519?text=Hi%20RP%20Labels%2C%20I%20saw%20your%20custom%20labels%20on%20rplabels.com.%20I%27d%20like%20a%20quote%20and%20free%20design%20help%20for%20my%20project.%20Can%20we%20chat%3F";
 const whatsappLinks = document.querySelectorAll("[data-whatsapp]");
 whatsappLinks.forEach((link) => {
   link.setAttribute("href", whatsappUrl);

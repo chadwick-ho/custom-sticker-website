@@ -78,8 +78,8 @@ for item in items:
 {sources}
 {related}
 </div></div></section></article></main>
-<section class="section section-dark final-cta"><div class="container"><h2>Plan Your Custom Label Order</h2><p>Send your container reference, finished size, quantity per artwork and application method. Ask for a quote and a production-representative sample plan.</p><a class="btn btn-primary" data-whatsapp href="https://api.whatsapp.com/message/VLGQGDJCIUFAF1?autoload=1&amp;app_absent=0">Discuss My Label Project</a></div></section>
-{footer}<script src="/assets/js/main.js?v=20260929-whatsapp"></script></body></html>
+<section class="section section-dark final-cta"><div class="container"><h2>Plan Your Custom Label Order</h2><p>Send your container reference, finished size, quantity per artwork and application method. Ask for a quote and a production-representative sample plan.</p><a class="btn btn-primary" data-whatsapp href="https://wa.me/8613285455519?text=Hi%20RP%20Labels%2C%20I%20saw%20your%20custom%20labels%20on%20rplabels.com.%20I%27d%20like%20a%20quote%20and%20free%20design%20help%20for%20my%20project.%20Can%20we%20chat%3F">Discuss My Label Project</a></div></section>
+{footer}<script src="/assets/js/main.js?v=20261008-chat"></script></body></html>
 '''
     (SITE / (item['slug'] + '.html')).write_text(page, encoding='utf-8')
 
