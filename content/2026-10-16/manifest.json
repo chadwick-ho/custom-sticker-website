@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "refrigerated-vs-frozen-peptide-vial-labels",
+    "title": "Refrigerated vs Frozen Peptide Vial Labels: Specify When You Apply Them",
+    "seoTitle": "Refrigerated vs Frozen Peptide Vial Labels",
+    "description": "A vial label that survives cold storage may not adhere when applied to an already frozen vial. Compare the application sequence, thaw cycle and barcode proof before ordering.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "refrigerated-vs-frozen-peptide-vial-labels",
+    "alt": "AI-generated RP Research vials with complete printed teal and purple labels beside refrigerated and frosted sample racks",
+    "caption": "AI-generated comparison, not an RP cold-chain test. Fictional RP Research names, lot numbers and expiry dates are illustrative; the pictured labels have no verified storage rating.",
+    "intro": "The purchasing question is not simply how cold the vial gets. Ask whether the label is applied before cooling or onto an already cold surface.",
+    "tags": ["Cold Storage", "Application Temperature", "Vial Labels"],
+    "related": [["cold-storage-peptide-vial-labels", "Check cold-storage material basics"], ["peptide-vial-condensation-label-application", "Separate moisture from cold"], ["peptide-vial-label-size-chart", "Measure the usable vial wall"]],
+    "sources": [["Brady: durable laboratory label guide", "https://www.bradyid.com/resources/what-to-label-in-a-lab/durable-lab-label-guide"], ["Brady: freezer-compatible label construction", "https://www.bradyid.com/resources/product-spotlights/b-492-freezerbondz-label"]]
+  },
+  {
+    "slug": "mixed-flavor-supplement-sample-kit-labels",
+    "title": "Mixed-Flavor Supplement Sample Kits: Keep Carton and Sachet Identities Aligned",
+    "seoTitle": "Mixed-Flavor Supplement Sample Kit Label Guide",
+    "description": "Plan a variety-kit carton and three inner sachet designs as one controlled artwork family. Check flavor count, lot mapping, retail unit and copy approval before printing.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "mixed-flavor-supplement-sample-kit-labels",
+    "alt": "AI-generated RP Wellness variety carton with citrus, berry and mint sachets, each with a distinct printed flavor icon and lot block",
+    "caption": "AI-generated packaging concept, not approved supplement artwork. RP Wellness, flavor icons, barcode and lot codes are fictional; the regulatory copy is deliberately incomplete.",
+    "intro": "A mixed-flavor kit is not one enlarged sachet design. The carton and each inner unit need a matching identity and a clear sale-unit decision.",
+    "tags": ["Sample Kit", "Flavor Matrix", "Carton Labels"],
+    "related": [["supplement-stick-pack-carton-label-hierarchy", "Decide which copy lives on sticks and cartons"], ["supplement-sku-gtin-flavor-count-labels", "Control flavors and trade-item IDs"], ["private-label-supplement-packaging-checklist", "Prepare the packaging brief"]],
+    "sources": [["FDA: Dietary Supplement Labeling Guide, Chapter I", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"], ["FDA: small and multiunit package provisions", "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-statement-identity-nutrition-labeling-and-ingredient-labeling-dietary"]]
+  },
+  {
+    "slug": "amber-dropper-bottle-label-oil-residue-proof",
+    "title": "Amber Dropper Bottle Labels: Proof Oil Residue and Shoulder Clearance",
+    "seoTitle": "Amber Dropper Bottle Label Adhesion Guide",
+    "description": "Custom amber dropper labels need more than a good-looking wrap. Check straight-wall height, glass cleanliness, accidental oil contact and real handling before final approval.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "amber-dropper-bottle-label-oil-residue-proof",
+    "alt": "AI-generated RP Botanicals amber dropper bottle with finished emerald label beside an unlabelled test bottle and printed label roll",
+    "caption": "AI-generated RP Botanicals packaging concept. The bottle, 30 mL marking and batch are fictional; no adhesive, oil-resistance or regulatory performance is demonstrated.",
+    "intro": "Dropper bottles look simple until the label meets a curved shoulder, a wet pipette or an oily hand.",
+    "tags": ["Dropper Bottle", "Amber Glass", "Oil Contact"],
+    "related": [["oil-resistant-supplement-labels-softgel-bottles", "Plan an oil-contact test"], ["supplement-bottle-label-size-guide", "Measure the bottle panel"], ["tapered-supplement-bottle-labels", "Check shoulder and taper"]],
+    "sources": [["Avery Dennison: neck-label adhesion and bottle surface guide", "https://label.averydennison.com/content/dam/averydennison/lpm-responsive/europe/english/documents/customer-tools/ad-lpm-eu-technical-guide-necklabel-2023-web.pdf"], ["FDA: Dietary Supplement Labeling Guide, Chapter I", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"]]
+  },
+  {
+    "slug": "holographic-label-sheets-vs-rolls",
+    "title": "Holographic Security Labels on Sheets vs Rolls: Buy for the Application Method",
+    "seoTitle": "Holographic Security Label Sheets vs Rolls",
+    "description": "Compare hand-applied holographic sheets with machine-ready rolls. Specify peel direction, liner, gap, unwind and carton-opening placement before ordering.",
+    "category": "3D Holographic Labels", "categoryUrl": "custom-3d-holographic-labels",
+    "image": "holographic-label-sheets-vs-rolls",
+    "alt": "AI-generated RP Secure holographic seals supplied on a roll and a sheet, with one seal bridging a folding carton flap",
+    "caption": "AI-generated RP Secure packaging concept. The shiny design does not verify tamper performance; production die-cuts and liner specifications require real samples.",
+    "intro": "A beautiful hologram can still be the wrong purchase if the packing team cannot dispense it at the planned speed.",
+    "tags": ["Sheet Labels", "Roll Labels", "Applicator Fit"],
+    "related": [["holographic-qr-label-automatic-applicator-roll-sensor", "Check applicator sensing"], ["hologram-seal-placement-guide", "Choose the opening seam"], ["holographic-security-label-shape-round-rectangle-bridge", "Choose the seal shape"]],
+    "sources": [["HERMA: labels on rolls and machine dispensing", "https://www.herma.com/label/products/labels-on-rolls/"], ["HERMA: tamper-evident label constructions", "https://www.herma.com/label/products/tamper-evident-labels/"]]
+  },
+  {
+    "slug": "hologram-carton-seal-return-inspection-guide",
+    "title": "Hologram Carton Seals for Returns: What the Receiving Team Can Actually Check",
+    "seoTitle": "Hologram Carton Seal Return Inspection Guide",
+    "description": "A return inspection needs a clear pass/fail process, not a shiny sticker alone. Define seam placement, tear evidence, lot records and escalation before specifying hologram seals.",
+    "category": "3D Holographic Labels", "categoryUrl": "custom-3d-holographic-labels",
+    "image": "hologram-carton-seal-return-inspection-guide",
+    "alt": "AI-generated RP Secure cartons side by side, one with intact hologram bridge and one opened with a torn seal during receiving inspection",
+    "caption": "AI-generated return-inspection scenario, not an actual RP security test. A broken seal is an inspection signal, not proof by itself of product authenticity or prior handling.",
+    "intro": "If a returned carton arrives with a shiny seal, the first question is whether the receiving team knows what an opened one looks like.",
+    "tags": ["Return Inspection", "Tamper Evidence", "Carton Seal"],
+    "related": [["hologram-carton-seal-perforation-tear-path", "Proof the tear path"], ["hologram-label-visual-authentication-vs-qr-check", "Separate visual and digital checks"], ["hologram-seal-placement-guide", "Plan seal placement"]],
+    "sources": [["HERMA: tamper-evident first-opening labels", "https://www.herma.com/label/solutions/pharmaceuticals-and-cosmetics/proof-of-unauthorised-opening-with-tamper-evident-labels/"], ["GS1: inspection business step and packaging integrity", "https://ref.gs1.org/cbv/BizStep-assembling"]]
+  }
+]
