@@ -12,7 +12,7 @@ Updated: 2026-10-17. This file records working context, not confidential access 
 
 ## Working positioning hypothesis
 
-Serve small B2B brands and packaging buyers who need custom labels for a real container, artwork and quantity decision. Help them specify the pack, material, application method and proof before requesting a quote. Supplement labels are the broadest commercial entry point; research-vial and hologram/QR projects need more explicit qualification. Validate this against actual inquiry quality and product/SKU details, not impressions alone.
+Primary test: small supplement brands preparing their first bottle/jar label run or adding several formulas, flavors or counts. The buyer may be an owner, brand manager or packaging coordinator; the observable fit is a real pack, per-design quantity and a route to approving product copy. Research-vial and hologram/QR projects remain specialist paths. This is a positioning hypothesis, not a proven conversion result; see [primary-buyer-positioning-2026-10-17.md](content/strategy/primary-buyer-positioning-2026-10-17.md).
 
 ## Content architecture decisions
 
@@ -29,13 +29,15 @@ Use one primary URL per buying intent. Add a new guide only for a distinct decis
 | Date | Decision | Status | Evidence / review condition |
 | --- | --- | --- | --- |
 | 2026-10-17 | Prioritize small-brand packaging decisions over broad label traffic. | Hypothesis | GSC export and buyer-question examples in the buyer brief; review against qualified inquiries. |
-| 2026-10-17 | Consolidate repeated category guide bands into a single navigable guide hub per product category. | Implemented locally | Each category page had 15 identical guide headings. All 27, 30 and 18 existing guide links were preserved; local desktop and 390px mobile checks found no horizontal overflow. |
+| 2026-10-17 | Consolidate repeated category guide bands into a single navigable guide hub per product category. | Deployed in commit `385461b` | Each category page had 15 identical guide headings. All 27, 30 and 18 existing guide links were preserved; local desktop and 390px mobile checks found no horizontal overflow. |
+| 2026-10-17 | Test a smaller, task-defined supplement buyer segment on the homepage and category route. | Implemented locally; deployment pending | GSC export shows commercial supplement queries and a supplement category page with impressions but no clicks in the dated export. Review qualified inquiries and progress to proof/quote before keeping or reversing this emphasis. |
 
 ## Work log
 
 | Date | Work | Verification | Remaining |
 | --- | --- | --- | --- |
 | 2026-10-17 | Built three category guide hubs, cleaned duplicate CSS loads, and added `scripts/organize-category-guides.py` for future article batches. | Static SEO audit: 158 sitemap URLs, 0 errors and 0 warnings. Append-and-rerun test passed. | Confirm production deployment and monitor inquiries. |
+| 2026-10-17 | Aligned homepage, products, supplement category and contact brief to the primary supplement-buyer test while keeping vial and hologram routes. Added the first-run decision path and text/code approval stage. | Static SEO audit: 158 URLs, 0 errors/warnings; quote-tool tests: 5 passed. Local desktop/mobile preview: no horizontal overflow; quote preselection and brief generation worked. | Deploy and compare qualified inquiries, not clicks alone. |
 
 ## Next review
 

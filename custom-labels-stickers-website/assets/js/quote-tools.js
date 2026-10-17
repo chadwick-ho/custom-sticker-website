@@ -17,7 +17,7 @@ function calculateLabelFit(values) {
 }
 
 function formatInquiryBrief(values) {
-  const fields = [['product','Product'],['size','Label size'],['quantity','Quantity per design'],['skuCount','Number of designs / SKUs'],['orderStage','Project stage'],['material','Material'],['finish','Finish'],['application','Package / application'],['artwork','Artwork status'],['whatsapp','WhatsApp'],['email','Reply email'],['country','Shipping country'],['message','Project details']];
+  const fields = [['product','Product'],['size','Label size'],['quantity','Quantity per design'],['skuCount','Number of designs / SKUs'],['orderStage','Project stage'],['material','Material'],['finish','Finish'],['application','Package / application'],['artwork','Artwork status'],['copyStatus','Text / code approval'],['whatsapp','WhatsApp'],['email','Reply email'],['country','Shipping country'],['message','Project details']];
   return 'RP CUSTOM LABEL INQUIRY\n\n' + fields.map(([name, label]) => `${label}: ${String(values[name] || '').trim() || 'To confirm'}`).join('\n');
 }
 
@@ -116,6 +116,10 @@ if (typeof document !== 'undefined') {
   const inquiry = document.querySelector('[data-inquiry-form]');
   if (inquiry) {
     inquiry.querySelector('[type="submit"]').disabled = false;
+    const requestedProduct = new URLSearchParams(window.location.search).get('product');
+    if (requestedProduct && [...inquiry.elements.product.options].some(option => option.value === requestedProduct)) {
+      inquiry.elements.product.value = requestedProduct;
+    }
     const result = document.getElementById('inquiry-result');
     const brief = document.getElementById('inquiry-brief');
     const status = document.getElementById('inquiry-status');

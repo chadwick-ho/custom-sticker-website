@@ -28,10 +28,11 @@ test('invalid measurements do not produce a usable label', () => {
   }
 });
 
-test('quote brief includes per-design quantity and the buyer project stage', () => {
-  const brief = formatInquiryBrief({ product: 'Supplement Labels', quantity: '500 pcs', skuCount: '3 flavors', orderStage: 'First launch / trial order', email: 'buyer@example.com' });
+test('quote brief includes per-design quantity, project stage and copy approval', () => {
+  const brief = formatInquiryBrief({ product: 'Supplement Labels', quantity: '500 pcs', skuCount: '3 flavors', orderStage: 'First launch / trial order', copyStatus: 'Draft awaiting buyer approval', email: 'buyer@example.com' });
   assert.match(brief, /Quantity per design: 500 pcs/);
   assert.match(brief, /Number of designs \/ SKUs: 3 flavors/);
   assert.match(brief, /Project stage: First launch \/ trial order/);
+  assert.match(brief, /Text \/ code approval: Draft awaiting buyer approval/);
   assert.match(brief, /Reply email: buyer@example.com/);
 });
