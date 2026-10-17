@@ -16,7 +16,12 @@ function calculateLabelFit(values) {
   return { circumference, width, height };
 }
 
-if (typeof module !== 'undefined' && module.exports) module.exports = { calculateLabelFit };
+function formatInquiryBrief(values) {
+  const fields = [['product','Product'],['size','Label size'],['quantity','Quantity per design'],['skuCount','Number of designs / SKUs'],['orderStage','Project stage'],['material','Material'],['finish','Finish'],['application','Package / application'],['artwork','Artwork status'],['whatsapp','WhatsApp'],['email','Reply email'],['country','Shipping country'],['message','Project details']];
+  return 'RP CUSTOM LABEL INQUIRY\n\n' + fields.map(([name, label]) => `${label}: ${String(values[name] || '').trim() || 'To confirm'}`).join('\n');
+}
+
+if (typeof module !== 'undefined' && module.exports) module.exports = { calculateLabelFit, formatInquiryBrief };
 
 if (typeof document !== 'undefined') {
   const draftKey = 'rp-label-planner-v1';
@@ -130,8 +135,7 @@ if (typeof document !== 'undefined') {
     inquiry.addEventListener('submit', event => {
       event.preventDefault();
       const values = Object.fromEntries(new FormData(inquiry));
-      const fields = [['product','Product'],['size','Label size'],['quantity','Quantity'],['material','Material'],['finish','Finish'],['application','Package / application'],['artwork','Artwork status'],['whatsapp','WhatsApp'],['email','Reply email'],['country','Shipping country'],['message','Project details']];
-      brief.value = 'RP CUSTOM LABEL INQUIRY\n\n' + fields.map(([name, label]) => `${label}: ${String(values[name] || '').trim() || 'To confirm'}`).join('\n');
+      brief.value = formatInquiryBrief(values);
       const mail = document.getElementById('inquiry-email');
       const mailto = `mailto:${email}?subject=${encodeURIComponent('Custom label quote: ' + values.product)}&body=${encodeURIComponent(brief.value)}`;
       mail.href = mailto;

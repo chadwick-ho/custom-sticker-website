@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { calculateLabelFit } = require('../custom-labels-stickers-website/assets/js/quote-tools.js');
+const { calculateLabelFit, formatInquiryBrief } = require('../custom-labels-stickers-website/assets/js/quote-tools.js');
 const sample = { unit: 'mm', diameter: 20, wall: 30, clearance: 1, seam: 2, mode: 'gap' };
 
 test('round bottle uses circumference minus gap and two clearances', () => {
@@ -26,4 +26,12 @@ test('invalid measurements do not produce a usable label', () => {
   for (const change of [{diameter: 0}, {diameter: -1}, {wall: 2}, {seam: 70}, {clearance: -1}, {seam: NaN}]) {
     assert.throws(() => calculateLabelFit({ ...sample, ...change }));
   }
+});
+
+test('quote brief includes per-design quantity and the buyer project stage', () => {
+  const brief = formatInquiryBrief({ product: 'Supplement Labels', quantity: '500 pcs', skuCount: '3 flavors', orderStage: 'First launch / trial order', email: 'buyer@example.com' });
+  assert.match(brief, /Quantity per design: 500 pcs/);
+  assert.match(brief, /Number of designs \/ SKUs: 3 flavors/);
+  assert.match(brief, /Project stage: First launch \/ trial order/);
+  assert.match(brief, /Reply email: buyer@example.com/);
 });
