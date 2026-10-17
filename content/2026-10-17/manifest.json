@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "peptide-vial-tray-scan-code-orientation",
+    "title": "Peptide Vial Tray Scanning: Set Code Orientation Before Roll Approval",
+    "seoTitle": "Peptide Vial Tray Scanning and Barcode Orientation",
+    "description": "Plan barcode or QR placement on small research vials around the tray, scanner and application direction. Proof readability on a wrapped vial before approving the label roll.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "peptide-vial-tray-scan-code-orientation",
+    "alt": "AI-generated RP Research printed vial labels in a blue tray with a handheld scanner approaching a code",
+    "caption": "AI-generated tray-scanning concept with fictional RP Research labels. The printed codes are illustrative and are not verified as scannable identifiers.",
+    "intro": "A code can look perfect in the PDF and still face the tray wall after a vial is loaded. Decide the scan position before releasing the roll.",
+    "tags": ["Tray Scanning", "Code Orientation", "Vial Labels"],
+    "related": [["peptide-vial-qr-batch-label-guide", "Plan QR and batch fields"], ["peptide-vial-label-roll-direction-guide", "Specify unwind direction"], ["peptide-vial-label-size-chart", "Measure the usable glass wall"]],
+    "sources": [["GS1: barcode verification and print quality", "https://ref.gs1.org/guidelines/barcode-verification/1D/"], ["GS1: 2D barcodes at retail", "https://ref.gs1.org/guidelines/2d-in-retail/"]]
+  },
+  {
+    "slug": "mixed-vial-research-kit-lot-matching",
+    "title": "Mixed-Vial Research Kits: Match Each Vial Lot to the Outer Kit Record",
+    "seoTitle": "Mixed-Vial Research Kit Label and Lot Matching",
+    "description": "A mixed-vial research kit needs more than a shared box design. Map each inner vial identity and lot to the outer kit record before approving variable-data labels.",
+    "category": "Peptide Vial Labels", "categoryUrl": "custom-peptide-vial-labels",
+    "image": "mixed-vial-research-kit-lot-matching",
+    "alt": "AI-generated three distinct RP Research labelled glass vials beside a printed outer kit carton and a lot checklist",
+    "caption": "AI-generated packaging concept. RP Research names and DEMO lot codes are fictional and do not document an actual filled kit or traceability system.",
+    "intro": "The box may be one SKU, but the three vials inside are not one interchangeable identity. Start with the packing record.",
+    "tags": ["Mixed Kit", "Lot Mapping", "Variable Data"],
+    "related": [["peptide-vial-qr-batch-label-guide", "Lay out batch and code fields"], ["peptide-vial-carton-label-design-system", "Match box and vial artwork"], ["peptide-vial-label-color-coding-guide", "Use color without losing identity"]],
+    "sources": [["GS1: Global Traceability Standard", "https://www.gs1.org/standards/gs1-global-traceability-standard/current-standard"], ["GS1: Global Data Model attribute guide", "https://www.gs1.org/standards/gs1-global-data-model-attribute-implementation-guide/18"]]
+  },
+  {
+    "slug": "supplement-blister-carton-vs-bottle-labels",
+    "title": "Supplement Blister Cartons vs Bottles: Do Not Reuse the Same Label Artwork",
+    "seoTitle": "Supplement Blister Carton vs Bottle Label Artwork",
+    "description": "A blister carton and a bottle have different print surfaces and information hierarchies. Compare panel measurements, count statements, lot placement and approval ownership.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "supplement-blister-carton-vs-bottle-labels",
+    "alt": "AI-generated RP Wellness printed supplement blister carton beside an amber 30-tablet bottle with a complete teal label",
+    "caption": "AI-generated blister-and-bottle packaging comparison. The RP Wellness designs are fictional; regulatory text and package counts require brand review before commercial use.",
+    "intro": "The brand can stay consistent while the artwork files change. The outer carton and a curved bottle do different jobs.",
+    "tags": ["Blister Carton", "Bottle Label", "Artwork Hierarchy"],
+    "related": [["supplement-bottle-label-size-guide", "Measure bottle panels"], ["private-label-supplement-packaging-checklist", "Prepare an approval brief"], ["supplement-stick-pack-carton-label-hierarchy", "Separate inner and outer information"]],
+    "sources": [["FDA: Dietary Supplement Labeling Guide, Chapter I", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"], ["FDA: small and multiunit package labeling guidance", "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-statement-identity-nutrition-labeling-and-ingredient-labeling-dietary"]]
+  },
+  {
+    "slug": "supplement-30-vs-60-capsule-count-labels",
+    "title": "30 vs 60 Capsule Supplement Labels: Release Two Count Versions Without Mixing Them",
+    "seoTitle": "30 vs 60 Capsule Supplement Label Version Control",
+    "description": "When a supplement moves from 30 to 60 capsules, the count and often the serving math or panel geometry change. Control proofs, roll IDs and packing line checks.",
+    "category": "Supplement Labels", "categoryUrl": "custom-supplement-labels",
+    "image": "supplement-30-vs-60-capsule-count-labels",
+    "alt": "AI-generated 30-capsule and 60-capsule RP Wellness amber bottles beside separately marked label proof sheets",
+    "caption": "AI-generated version-control illustration. Counts and proof versions are fictional; the image does not represent approved supplement labeling.",
+    "intro": "The label that says 60 should not be a quick text edit on a 30-count roll. Treat each count as a controlled artwork version.",
+    "tags": ["Count Change", "Artwork Versions", "Packing Check"],
+    "related": [["supplement-sku-gtin-flavor-count-labels", "Control trade-item identities"], ["supplement-bottle-label-size-guide", "Check bottle panel sizes"], ["private-label-supplement-packaging-checklist", "Prepare the packaging brief"]],
+    "sources": [["FDA: Dietary Supplement Labeling Guide, net quantity", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iii-net-quantity-contents"], ["FDA: Dietary Supplement Labeling Guide, Chapter I", "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"]]
+  },
+  {
+    "slug": "hologram-seal-kraft-vs-coated-carton",
+    "title": "Hologram Seals on Kraft vs Coated Cartons: Test Adhesion Before Visual Approval",
+    "seoTitle": "Hologram Seal Adhesion on Kraft vs Coated Cartons",
+    "description": "A hologram bridge seal may behave differently on rough kraft and coated folding board. Test the actual carton finish, seam, dwell and opening evidence before ordering.",
+    "category": "3D Holographic Labels", "categoryUrl": "custom-3d-holographic-labels",
+    "image": "hologram-seal-kraft-vs-coated-carton",
+    "alt": "AI-generated rough kraft and coated white RP Secure cartons with holographic bridge seals over opening seams",
+    "caption": "AI-generated comparison, not an RP adhesion or tamper test. A lifted corner on the kraft concept highlights a question to validate with production cartons.",
+    "intro": "The same shimmering film can sit differently on a fibrous kraft box and a smooth coated carton. The finish matters as much as the artwork.",
+    "tags": ["Kraft Carton", "Coated Board", "Hologram Seal"],
+    "related": [["hologram-carton-seal-return-inspection-guide", "Plan opening inspection"], ["hologram-seal-placement-guide", "Place the seal across the seam"], ["holographic-label-sheets-vs-rolls", "Choose supply format"]],
+    "sources": [["HERMA: label adhesion on rough cartons", "https://www.herma.com/label/solutions/automotive-and-electronics-industries/labels-for-grey-cartons/"], ["HERMA: tamper-evident label constructions", "https://www.herma.com/label/products/tamper-evident-labels/"]]
+  }
+]

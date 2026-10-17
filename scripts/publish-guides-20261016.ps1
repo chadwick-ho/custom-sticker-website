@@ -1,12 +1,12 @@
-param([switch]$CheckOnly)
+param([switch]$CheckOnly, [string]$Date = '2026-10-16')
 
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 $site = Join-Path $root 'custom-labels-stickers-website'
-$source = Join-Path $root 'content/2026-10-16'
+$source = Join-Path $root ("content/$Date")
 $items = Get-Content (Join-Path $source 'manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
-$date = '2026-10-16'
-$displayDate = 'October 16, 2026'
+$date = [datetime]::ParseExact($Date, 'yyyy-MM-dd', [Globalization.CultureInfo]::InvariantCulture).ToString('yyyy-MM-dd')
+$displayDate = ([datetime]::ParseExact($date, 'yyyy-MM-dd', [Globalization.CultureInfo]::InvariantCulture)).ToString('MMMM d, yyyy', [Globalization.CultureInfo]::InvariantCulture)
 $base = 'https://rplabels.com'
 $utf8 = New-Object System.Text.UTF8Encoding($false)
 
@@ -71,7 +71,7 @@ foreach ($item in $items) {
     $toc = ($headings | ForEach-Object { '<a href="#' + $_.id + '">' + $_.title + '</a>' }) -join ''
     $tags = (@($item.tags) | ForEach-Object { '<span>' + (Html $_) + '</span>' }) -join ''
     $sources = (@($item.sources) | ForEach-Object { '<li><a href="' + (Html $_[1]) + '">' + (Html $_[0]) + '</a></li>' }) -join ''
-    $sources = '<section class="editorial-sources"><h2>Sources and scope</h2><p>Reviewed October 16, 2026. The primary references below support the cited technical or regulatory points. The illustrated buying scenarios are editorial guidance, not RP production records, certifications, legal approvals or universal acceptance standards.</p><ul>' + $sources + '</ul></section>'
+    $sources = '<section class="editorial-sources"><h2>Sources and scope</h2><p>Reviewed ' + $displayDate + '. The primary references below support the cited technical or regulatory points. The illustrated buying scenarios are editorial guidance, not RP production records, certifications, legal approvals or universal acceptance standards.</p><ul>' + $sources + '</ul></section>'
     $related = (Link $item.categoryUrl $item.category) + ((@($item.related) | ForEach-Object { Link $_[0] $_[1] }) -join '') + (Link 'contact' 'Prepare a custom label inquiry')
     $related = '<div class="article-related"><h2>Related guides and custom options</h2>' + $related + '</div>'
     $safeTitle = Html $item.title
@@ -106,18 +106,18 @@ $footer<script src="/assets/js/main.js?v=20261008-chat"></script></body></html>
 $blogPath = Join-Path $site 'blog.html'
 $blog = Read-Text $blogPath
 $blog = Insert-Once $blog '</head>' ($css + "`n")
-$batchMarker = '<!-- Guides published 2026-10-16 -->'
+$batchMarker = '<!-- Guides published ' + $date + ' -->'
 if (-not $blog.Contains($batchMarker)) {
     $cards = @()
     for ($i=0; $i -lt $items.Count; $i++) {
         $a = $items[$i]
         $load = if ($i -eq 0) { 'loading="eager" fetchpriority="high"' } else { 'loading="lazy"' }
-        $cards += '<article class="blog-card blog-photo-card"><a class="blog-card-image" href="/' + $a.slug + '"><img src="assets/images/' + $a.image + '-thumb.webp" alt="' + (Html $a.alt) + '" width="768" height="512" decoding="async" ' + $load + '></a><div class="blog-card-body"><span class="eyebrow">' + (Html $a.category) + '</span><h2>' + (Link $a.slug $a.title) + '</h2><p class="blog-date">Published October 16, 2026</p><p>' + (Html $a.description) + '</p><a class="btn btn-primary" href="/' + $a.slug + '">Read Guide</a></div></article>'
+        $cards += '<article class="blog-card blog-photo-card"><a class="blog-card-image" href="/' + $a.slug + '"><img src="assets/images/' + $a.image + '-thumb.webp" alt="' + (Html $a.alt) + '" width="768" height="512" decoding="async" ' + $load + '></a><div class="blog-card-body"><span class="eyebrow">' + (Html $a.category) + '</span><h2>' + (Link $a.slug $a.title) + '</h2><p class="blog-date">Published ' + $displayDate + '</p><p>' + (Html $a.description) + '</p><a class="btn btn-primary" href="/' + $a.slug + '">Read Guide</a></div></article>'
     }
     $anchor = '<div class="container blog-list">'
     if (-not $blog.Contains($anchor)) { throw 'Blog list anchor missing' }
     $blog = $blog.Replace($anchor, $anchor + "`n" + $batchMarker + "`n" + ($cards -join "`n"))
-    $list = [ordered]@{'@context'='https://schema.org';'@type'='ItemList';name='RP label guides published October 16, 2026';itemListElement=@()}
+    $list = [ordered]@{'@context'='https://schema.org';'@type'='ItemList';name=('RP label guides published ' + $displayDate);itemListElement=@()}
     for ($i=0; $i -lt $items.Count; $i++) { $list.itemListElement += [ordered]@{'@type'='ListItem';position=($i+1);name=$items[$i].title;url="$base/$($items[$i].slug)"} }
     $blog = Insert-Once $blog '</head>' ((Json-Ld $list) + "`n")
 }
@@ -137,7 +137,7 @@ foreach ($cat in $categories) {
 $path = Join-Path $site 'site-map.html'
 $text = Read-Text $path
 $links = ($items | ForEach-Object { Link $_.slug $_.title }) -join ''
-$addition = '<article class="sitemap-card"><h2>New Guides: October 16, 2026</h2>' + $links + '</article>'
+$addition = '<article class="sitemap-card"><h2>New Guides: ' + $displayDate + '</h2>' + $links + '</article>'
 if (-not $text.Contains($addition)) {
     $anchor = '<div class="container sitemap-grid">'
     if (-not $text.Contains($anchor)) { throw 'HTML sitemap anchor missing' }
@@ -147,7 +147,7 @@ Write-Text $path $text
 
 $path = Join-Path $site 'llms.txt'
 $text = Read-Text $path
-$addition = "`nGuides published October 16, 2026:`n" + (($items | ForEach-Object { '- ' + $_.title + ': ' + "$base/$($_.slug)" }) -join "`n") + "`n"
+$addition = "`nGuides published ${displayDate}:`n" + (($items | ForEach-Object { '- ' + $_.title + ': ' + "$base/$($_.slug)" }) -join "`n") + "`n"
 if (-not $text.Contains($addition)) { $text += $addition }
 Write-Text $path $text
 

@@ -1,7 +1,8 @@
+param([string]$Date = '2026-10-16')
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 $site = Join-Path $root 'custom-labels-stickers-website'
-$items = Get-Content (Join-Path $root 'content/2026-10-16/manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$items = Get-Content (Join-Path $root "content/$Date/manifest.json") -Raw -Encoding UTF8 | ConvertFrom-Json
 [xml]$sitemap = Get-Content (Join-Path $site 'sitemap.xml') -Raw -Encoding UTF8
 $urls = @($sitemap.DocumentElement.ChildNodes | ForEach-Object { $_.loc })
 if ($urls.Count -ne (@($urls | Select-Object -Unique)).Count) { throw 'Duplicate sitemap URLs' }
@@ -16,7 +17,7 @@ foreach ($item in $items) {
     if (-not $text.Contains('name="description"')) { throw "Meta description: $path" }
     if ($urls -notcontains $url) { throw "Sitemap: $url" }
     $schemas = @([regex]::Matches($text, '(?s)<script type="application/ld\+json">(.*?)</script>') | ForEach-Object { $_.Groups[1].Value | ConvertFrom-Json })
-    if (@($schemas | Where-Object { $_.'@type' -eq 'Article' -and $_.datePublished -eq '2026-10-16' }).Count -ne 1) { throw "Article schema: $path" }
+    if (@($schemas | Where-Object { $_.'@type' -eq 'Article' -and $_.datePublished -eq $Date }).Count -ne 1) { throw "Article schema: $path" }
     if (@($schemas | Where-Object { $_.'@type' -eq 'BreadcrumbList' }).Count -ne 1) { throw "Breadcrumb schema: $path" }
     $ids = @([regex]::Matches($text, 'id="([^"]+)"') | ForEach-Object { $_.Groups[1].Value })
     if ($ids.Count -ne @($ids | Select-Object -Unique).Count) { throw "Duplicate IDs: $path" }
