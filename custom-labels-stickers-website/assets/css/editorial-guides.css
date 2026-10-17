@@ -24,13 +24,22 @@
 .recent-guide-links { background: #f1f7f4; padding: 30px 0; }
 .recent-guide-links h2 { font-size: 24px; letter-spacing: 0; }
 .recent-guide-links a { display: block; color: #126745; text-decoration: underline; margin-top: 10px; }
+.recent-guide-links p { max-width: 760px; margin: 10px 0 22px; }
+.guide-priority-grid, .guide-archive-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 24px; }
+.guide-priority-grid a { margin: 0; padding: 14px 0; border-top: 2px solid #93cdb1; font-weight: 700; line-height: 1.45; }
+.guide-archive { margin-top: 22px; border-top: 1px solid #c9dfd2; padding-top: 16px; }
+.guide-archive summary { width: fit-content; color: #126745; cursor: pointer; font-weight: 700; }
+.guide-archive-grid { padding: 14px 0 4px; }
+.guide-archive-grid a { margin: 0; padding: 8px 0; line-height: 1.45; }
 @media (max-width: 900px) {
   .editorial-guide .article-layout { grid-template-columns: 1fr; }
   .editorial-guide .article-sidebar { position: static; }
+  .guide-priority-grid, .guide-archive-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 600px) {
   .editorial-guide .article-hero h1 { font-size: 30px; }
   .editorial-guide .article-hero { padding: 32px 0 24px; }
   .editorial-guide .article-content h2 { font-size: 25px; }
   .editorial-guide .section { padding: 30px 0; }
+  .guide-priority-grid, .guide-archive-grid { grid-template-columns: 1fr; gap: 8px; }
 }

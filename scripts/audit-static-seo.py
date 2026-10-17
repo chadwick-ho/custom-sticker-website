@@ -20,6 +20,7 @@ class PageParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.title = []
         self.h1_count = 0
+        self.guide_sections = 0
         self.description = None
         self.canonical = None
         self.robots = None
@@ -39,6 +40,8 @@ class PageParser(HTMLParser):
             self._capture = "title"
         elif tag == "h1":
             self.h1_count += 1
+        elif tag == "section" and "recent-guide-links" in attrs.get("class", "").split():
+            self.guide_sections += 1
         elif tag == "script" and attrs.get("type") == "application/ld+json":
             self._capture = "script"
             self._script = []
@@ -117,6 +120,12 @@ def main():
             errors.append(f"Noindex page in sitemap: {url}")
         if page.h1_count != 1:
             warnings.append(f"Expected one H1, found {page.h1_count}: {url}")
+        if urlparse(url).path in {
+            "/custom-peptide-vial-labels",
+            "/custom-supplement-labels",
+            "/custom-3d-holographic-labels",
+        } and page.guide_sections != 1:
+            errors.append(f"Expected one category guide hub, found {page.guide_sections}: {url}")
         visible = normalize(" ".join(page.visible_text))
         for block in page.json_ld:
             try:
