@@ -1,6 +1,12 @@
 # RP Labels site project
 
-Updated: 2026-10-17. This file records working context, not confidential access details.
+Updated: 2026-10-20. This file records working context, not confidential access details.
+
+## Daily publishing authorization and current batch
+
+On 2026-10-20 the user explicitly changed the recurring task to a target of 50 distinct English B2B SEO articles with matched images per daily execution, authorizing publication through this repository and the existing deployment route. This supersedes the earlier draft-only daily-article restriction. Keep the existing 23:30 Asia/Shanghai trigger. Only count distinct live URLs after checking the deployed article and assets; report new pages and substantive existing-page updates separately. Do not create synonymous pages, recycle the same advice under different keywords, or lower image/readability checks to reach the number. The original 30-item plan is a candidate pool, not 50 completed articles. No paid-service purchases or unrelated site changes are authorized by this instruction.
+
+The first 2026-10-20 publication candidate updates the existing low-MOQ supplement guide with a buyer quantity-versus-quoted-quantity decision, an explicit 500-to-650 hypothetical scenario, differing buyer conditions, a matched RP illustration and usable quote-sheet downloads. It preserves the original URL and original publication date. Local checks include the sitemap SEO audit with omitted unchanged image paths verified in the sparse Git tree, physical new-image decoding, and desktop/mobile previews. Confirm production deployment before recording it as live.
 
 ## Confirmed project facts
 
