@@ -1,0 +1,2 @@
+﻿sku_revision,finished_bottles,labels_per_bottle,setup_allowance,handling_reserve,required_usable_delivery,nominal_quote_qty,underrun_fraction_example,illustrative_low_delivery,gap_to_required,accepted_minimum,accepted_maximum,billing_basis,maximum_charge,supplier_ack_reference,receiving_record,open_points
+EXAMPLE C,2000,1,80,40,2120,2120,0.1,1908,212,,,,,,,Planning example only. Packer allowances and supplier minimum/maximum/billing not agreed.

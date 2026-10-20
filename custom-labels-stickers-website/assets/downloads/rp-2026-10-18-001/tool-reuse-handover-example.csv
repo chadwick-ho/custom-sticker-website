@@ -1,0 +1,4 @@
+﻿design_revision,item_type,example_item_id,first_charge,unchanged_repeat_charge,change_trigger,ownership_confirmation,retention_period_and_start,release_conditions,receiving_compatibility,accepted_file_deliverables,supplier_ack_reference,open_points
+EXAMPLE A-v1,Print preparation,EXAMPLE PLATE A,,,Artwork revision or changed production route: supplier review required,,,,Unconfirmed,,,"Example record, not an actual tool, quoted fee or agreed ownership."
+EXAMPLE A-v1,Cutting die,EXAMPLE DIE A,,,Size/construction/equipment change: supplier review required,,,,Unconfirmed,,,Confirm tool specification with receiving converter before planning shipment.
+EXAMPLE A-v1,Artwork files,EXAMPLE ARTWORK A,,,Copy/design revision,,,,,"To agree: approval PDF, editable file and production data are distinct",,Check permissions and delivery formats; do not infer them from a setup invoice.
