@@ -1,0 +1,17 @@
+{
+  "scope": "Hypothetical eight-ID demonstration; no physical shipment or authentication evidence",
+  "valid": {
+    "allocated": "DEMO-0001\nDEMO-0002\nDEMO-0003\nDEMO-0004\nDEMO-0005\nDEMO-0006\nDEMO-0007\nDEMO-0008",
+    "shipped": "DEMO-0001\nDEMO-0002\nDEMO-0003\nDEMO-0004\nDEMO-0005",
+    "rejected": "DEMO-0006",
+    "retained": "DEMO-0007",
+    "unprinted": "DEMO-0008"
+  },
+  "equalCountDuplicate": {
+    "allocated": "DEMO-0001\nDEMO-0002\nDEMO-0003\nDEMO-0004\nDEMO-0005\nDEMO-0006\nDEMO-0007\nDEMO-0008",
+    "shipped": "DEMO-0001\nDEMO-0001\nDEMO-0003\nDEMO-0004\nDEMO-0005",
+    "rejected": "DEMO-0006",
+    "retained": "DEMO-0007",
+    "unprinted": "DEMO-0008"
+  }
+}
