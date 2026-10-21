@@ -1,0 +1,3 @@
+﻿case_id,roll_lot_artwork,location_in_roll,observed_symptom,continuous_strip_reference,front_back_image_reference,equipment_setup_reference,recent_change,hypothesis_not_diagnosis,supplier_review,buyer_disposition
+EXAMPLE-TEAR,Buyer identify actual roll/lot/revision,Approximate position; record,Backing tears near repeated outline,Retain intact connected strip,,,,Cut/liner investigation requested,,PENDING
+EXAMPLE-RELEASE,Identify another actual affected roll,Record affected interval,Label remains on liner during dispensing,Keep face and backing together,,,,Release/construction/setup investigation requested,,PENDING

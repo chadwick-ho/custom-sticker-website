@@ -1,0 +1,3 @@
+﻿specimen_id,applied_pack_finish,device_light_view,decode_observation,decoded_payload,approved_payload_reference,payload_comparison,destination_check,formal_grade_required,owner_decision
+EXAMPLE-FLAT,Actual final carton/finish to identify,Buyer intended device/light/view,,,Independent approved data,,,Buyer to define application,PENDING
+EXAMPLE-CURVED,Actual relevant curve/seam/finish,Relevant alternate device/light/view,,,Same approved data unless item-specific,,,Obtain compliant verifier if required,PENDING

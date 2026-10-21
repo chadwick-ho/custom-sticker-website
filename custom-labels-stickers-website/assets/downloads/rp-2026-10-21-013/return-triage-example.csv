@@ -1,0 +1,4 @@
+﻿case_id,carton_sku_reference,seal_reference_version,observed_state,preopening_photo,data_check_reference,receiving_action,review_owner,stock_release_decision,open_points
+EXAMPLE-INTACT,Actual returned SKU,Identify released reference,Appears continuous in expected position,,Separate if required,Follow buyer screening route,Named returns/quality owner,PENDING,Intact does not authorize resale
+EXAMPLE-DAMAGED,Actual returned SKU,Identify released reference,Visible tear or displacement,,Separate if required,Proposed segregate and escalate per policy,Named review owner,PENDING,No cause or counterfeit diagnosis
+EXAMPLE-UNCERTAIN,Actual returned SKU,Reference unavailable or ambiguous,Cannot compare reliably,,Separate if required,Hold for reference clarification per policy,Reference/release owners,PENDING,Do not guess from foil appearance

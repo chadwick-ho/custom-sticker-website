@@ -1,0 +1,3 @@
+﻿route_id,identity_required_until,removal_authority,earliest_latest_removal,vial_surface_reference,construction_candidate,post_removal_condition,identity_handoff,actual_hold_observation,actual_removal_observation,owner_decision
+EXAMPLE-TEMP,Buyer-defined controlled internal step,Buyer owner to define,Buyer actual window to supply,Actual vial,Identified removable candidate,Agree residue/tearing criteria,Identify replacement record before removal,,,PENDING
+EXAMPLE-RETAIN,Buyer-defined storage/shipping life,No routine removal proposed,Not applicable unless buyer authorizes,Actual vial,Identified retaining candidate,Retain readable identity,Original pack identity remains required,,,PENDING

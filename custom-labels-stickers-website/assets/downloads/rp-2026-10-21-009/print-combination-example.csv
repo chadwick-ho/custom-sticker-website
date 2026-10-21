@@ -1,0 +1,3 @@
+﻿combination_id,printer_reference,ribbon_reference,label_finish_zone,template_revision,representative_data,settings_reference,applied_vial_reference,output_evidence,exposure_evidence,release_owner,decision
+EXAMPLE-BASE,Buyer exact printer,Exact ribbon formulation,Supplier identified printable finish/zone,DEMO template v1,Longest approved demonstration format,Record actual supported settings,Actual vial,,,Buyer print owner,PENDING
+EXAMPLE-CHANGE,Same printer unless changed,Candidate ribbon to identify,Same identified zone; disclose differences,Same template unless changed,Same representative format,Record candidate settings and changed factors,Same vial,,,Buyer print owner,PENDING

@@ -1,0 +1,3 @@
+﻿offer_id,brand_element,print_or_optical_scope,pattern_or_master_reference,sample_relevance,origination_charge,repeat_charge_scope,control_retention_terms,open_questions,buyer_decision
+EXAMPLE-STOCK,RP demonstration mark,Proposed overprint on existing pattern,Supplier identify pattern,Identify sample and differences,Supplier to quote,Supplier to quote,Supplier to state,Underlying pattern availability/exclusivity unknown,PENDING
+EXAMPLE-CUSTOM,Same demonstration mark,Proposed originated optical feature; confirm,Supplier identify proposed master,Moving/physical sample scope to agree,Supplier to quote,Supplier to quote,Supplier to state,No security or optical result represented,PENDING

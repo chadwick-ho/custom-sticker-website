@@ -1,0 +1,3 @@
+﻿specimen_id,construction_and_vial,later_marking,liquid_reference,application_dwell_storage_sequence,wipe_method_reference,fixed_print_observation,variable_data_observation,edge_observation,owner,decision
+EXAMPLE-FIXED,Identify actual sample and full construction,No later field in proposed scope,Buyer actual wipe product/concentration,Buyer to define real sequence,Agree relevant method,,,,Buyer application owner,PENDING
+EXAMPLE-VARIABLE,Same actual specimen scope; differences explicit,Exact marker or printer/ribbon to identify,Same relevant wipe,Include later marking and real wait before handling,Same comparable method,,,,Buyer data/application owners,PENDING

@@ -1,0 +1,4 @@
+﻿element_id,artwork_revision,intended_behavior,white_separation_reference,optical_zone_reference,prepress_question,physical_observation,approval_owner,decision
+EXAMPLE-NAME,DEMO-v1,Controlled opaque name field,Designer to identify mask,Keep desired surrounding effect exposed,Supplier to confirm separation and relevant allowances,,Brand/prepress owners,PENDING
+EXAMPLE-EFFECT,DEMO-v1,Exposed optical accent,Identify intentional white omission,Supplier to identify proposed feature,Check mask does not cover intended feature,,Brand/prepress owners,PENDING
+EXAMPLE-CODE,DEMO-v1,Controlled readable code area including margin,Identify continuous proposed backing,Avoid disruptive optical area,Separate applied scan evidence required,,Data/prepress owners,PENDING

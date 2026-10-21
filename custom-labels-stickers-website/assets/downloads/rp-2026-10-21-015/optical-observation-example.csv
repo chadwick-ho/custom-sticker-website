@@ -1,0 +1,3 @@
+﻿concept_id,intended_viewer,actual_size_pack,proposed_observation,viewing_conditions,sample_master_reference,sample_differences,printed_overlay_map,actual_observation,owner_decision
+EXAMPLE-DEPTH,Buyer designated viewer,Actual size/pack to identify,Proposed relative visual planes; supplier to demonstrate,Relevant light/view to agree,Supplier identify proposal,Record generic versus buyer-specific sample,Identify print/white areas,,PENDING
+EXAMPLE-MOTION,Same relevant viewer,Same actual intended size,Proposed sweep or angle change; demonstrate,Comparable relevant view,Supplier identify proposal,Record differences,Keep proposed effect visible,,PENDING
