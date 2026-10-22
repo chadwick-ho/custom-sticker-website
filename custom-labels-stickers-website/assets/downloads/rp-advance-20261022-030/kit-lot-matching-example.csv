@@ -1,0 +1,3 @@
+﻿demo_kit_reference,component_identifier,component_lot,component_label_revision,quantity_per_kit,packing_record_reference,actual_match,owner
+KIT-DEMO-01,SAMPLE A,LOT-DEMO-A,R1,1 in example,Controlled record to define,,Packing owner
+KIT-DEMO-01,SAMPLE B,LOT-DEMO-B,R2,1 in example,Same kit record,,Packing owner

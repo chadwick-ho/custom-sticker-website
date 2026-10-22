@@ -1,0 +1,3 @@
+﻿demo_identifier,retained_vial_fields,detachable_fields,destination_record,after_peel_identity,match_observation,owner,decision
+DEMO-021,Buyer-defined fields,Mapped repeated reference,Actual record type required,To inspect,,Process owner,PENDING
+DEMO-022,Buyer-defined fields,Different mapped reference,Same intended record type,To inspect,,Process owner,PENDING

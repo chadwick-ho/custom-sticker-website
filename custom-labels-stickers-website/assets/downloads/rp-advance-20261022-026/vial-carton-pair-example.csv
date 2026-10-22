@@ -1,0 +1,3 @@
+﻿sku_reference,viewing_state,identity_required_by_buyer,approved_field_source,layout_reference,observed_conflict,owner,decision
+DEMO-B,Closed carton,Buyer-defined identity,Actual approved source,Carton R1,,Product owner,PENDING
+DEMO-B,Standalone vial,Buyer-defined durable identity,Same controlled identity map,Vial R2,,Product owner,PENDING

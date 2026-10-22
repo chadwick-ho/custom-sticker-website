@@ -1,0 +1,3 @@
+﻿sample_reference,task,prompt_given,observed_action,help_needed,construction_issue,review_owner,next_action
+DEMO-BOOKLET,Find and open information,Neutral task only,,,,Usability owner,PENDING
+DEMO-BOOKLET,Read then reclose if required,Actual intended use,,,,Packaging owner,PENDING

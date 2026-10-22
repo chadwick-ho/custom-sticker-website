@@ -1,0 +1,3 @@
+﻿function,pouch_reference,trigger_motion,required_after_action,candidate_construction,actual_observation,owner,decision
+First-opening evidence,Actual filled pack,Define notch zipper or fold motion,Defined visible disturbance,Supplier proposal required,,Packaging owner,PENDING
+Repeated closure,Actual filled pack,Define opening and closing motion,Buyer-defined reclosure function,Separate proposal if required,,Packaging owner,PENDING

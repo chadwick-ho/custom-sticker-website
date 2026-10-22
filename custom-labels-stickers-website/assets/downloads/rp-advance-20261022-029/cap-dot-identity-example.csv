@@ -1,0 +1,3 @@
+﻿demo_row,body_identifier,top_identifier,color_reference,pair_result_expected,actual_observation,pairing_owner,next_action
+Correct example,A,A,Controlled reference,MATCH,,Assembly owner,Review sample
+Deliberate challenge only,B,A,Do not rely on color,MISMATCH,,Assembly owner,Demonstration; never production release

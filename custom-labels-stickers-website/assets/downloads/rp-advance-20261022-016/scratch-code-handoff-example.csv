@@ -1,0 +1,4 @@
+﻿demo_visible_id,authorized_concealed_value,observed_demo_value,relationship_expected,physical_reveal_observation,system_owner_review
+DEMO-101,CODE-DEMO-A,CODE-DEMO-A,MATCH in example,No physical test performed,Demonstration only
+DEMO-102,CODE-DEMO-B,CODE-DEMO-C,MISMATCH in deliberate challenge,No physical test performed,Investigate original pairing
+DEMO-103,CODE-DEMO-C,CODE-DEMO-C,MATCH in example,No physical test performed,Demonstration only

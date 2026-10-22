@@ -1,0 +1,3 @@
+﻿rework_reference,affected_stock,new_artwork_revision,coverage_sample,units_in,units_corrected,units_held_rejected,units_released,owner
+DEMO-REWORK,Actual SKU and lots required,Approved correction file required,Darkest old print on actual surface,,,,,Rework owner
+DEMO-RECONCILE,Same controlled stock,Same approved revision,Record exceptions separately,,,,,Release owner

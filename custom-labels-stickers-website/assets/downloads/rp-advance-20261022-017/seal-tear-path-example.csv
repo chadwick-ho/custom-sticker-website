@@ -1,0 +1,3 @@
+﻿specimen,route,carton_and_coating,seal_and_placement,handling_or_opening_method,observed_change,inspection_owner,decision
+DEMO-U,Unopened handling,Actual production reference,Candidate and placement reference,Buyer relevant handling to define,,Packaging owner,PENDING
+DEMO-O,Deliberate opening,Same comparable carton,Same candidate and placement,Actual flap pull to record,,Packaging owner,PENDING

@@ -1,0 +1,3 @@
+﻿bottle_sample,set_revision,front_reference,left_gap_observation,right_gap_observation,skew_observation,code_position,review_owner
+DEMO-1,PAIR-R1,Marked physical reference,Record actual,Record actual,Record actual,Inspect applied code,Line owner
+DEMO-2,PAIR-R1,Same reference,Record actual,Record actual,Record actual,Inspect applied code,Line owner
