@@ -2,6 +2,7 @@
 
 import json
 import posixpath
+import runpy
 import sys
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
@@ -172,6 +173,11 @@ def main():
     for url in urls:
         if url != ORIGIN + "/" and not inlinks[url]:
             warnings.append(f"No sitemap-page inlinks: {url}")
+
+    archive = runpy.run_path(str(Path(__file__).with_name('sync-blog-index.py')))
+    _, archive_report = archive['synchronize']((SITE / 'blog.html').read_text(encoding='utf-8'), SITE)
+    if archive_report['changed']:
+        errors.append('Blog archive is stale or duplicated; run python scripts/sync-blog-index.py')
 
     print(f"Audited {len(urls)} sitemap URLs: {len(errors)} errors, {len(warnings)} warnings")
     for issue in errors:
