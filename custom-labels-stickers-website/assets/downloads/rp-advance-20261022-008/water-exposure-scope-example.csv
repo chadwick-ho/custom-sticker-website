@@ -1,0 +1,3 @@
+﻿candidate_reference,water_contact,when_contact_occurs,application_surface,finished_construction,edge_result,print_result,next_decision
+DEMO-A,Droplets; actual duration to define,After application and agreed dwell,Dry in this example,Supplier to identify all layers,,,PENDING
+DEMO-B,Damp surface at labeling,During application,Actual moisture state to record,Separate suitable candidate required,,,PENDING

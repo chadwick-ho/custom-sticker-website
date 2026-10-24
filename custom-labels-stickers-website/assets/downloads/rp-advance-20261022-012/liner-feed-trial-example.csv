@@ -1,0 +1,3 @@
+﻿change_reference,check,accepted_baseline,proposed_liner,evidence_needed,trial_result,owner,decision
+DEMO-CHANGE,Sensor behavior,Current roll reference required,Exact PET candidate required,Production-width sensing trial,,Packer,PENDING
+DEMO-CHANGE,Labels per roll,Current actual roll build,Proposed full construction,Core OD weight and calculated count,,Converter and packer,PENDING

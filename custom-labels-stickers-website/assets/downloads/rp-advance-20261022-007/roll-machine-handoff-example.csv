@@ -1,0 +1,3 @@
+﻿roll_spec_revision,equipment_reference,leading_edge_reference,face_in_or_out,machine_constraints,trial_observation,packer_confirmation
+DEMO-R1,Actual machine required,Attach annotated web-path image,Confirm with diagram,Core OD width weight: actual values,,PENDING
+DEMO-R2 candidate,Same machine or stated change,Converter returned orientation drawing,Confirm physical trial roll,List differences from approved baseline,,PENDING

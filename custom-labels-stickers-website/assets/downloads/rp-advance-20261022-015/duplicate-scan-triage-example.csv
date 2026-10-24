@@ -1,0 +1,3 @@
+﻿test_case,dummy_identifier,event_context,customer_message_scope,review_route,response_owner,observed_result
+Legitimate repeat,DEMO-014,Same owner revisits,State prior activity without fraud verdict,Help route if needed,Service owner,
+Unexplained repeat pattern,DEMO-015,Context not established,State need for review,Brand-defined investigation route,Security and service owners,

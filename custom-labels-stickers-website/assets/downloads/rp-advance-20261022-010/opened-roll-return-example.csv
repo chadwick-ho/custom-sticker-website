@@ -1,0 +1,3 @@
+﻿roll_id,artwork_revision,construction_reference,return_reason,quantity_basis,storage_exception,review_owner,release_state
+DEMO-ROLL-A,Current revision to confirm,Known reference required,Routine changeover,Estimate or verified count: state,None reported; confirm,Stock owner,PENDING
+DEMO-ROLL-B,Revision to confirm,Missing,Unexplained feed issue,Unverified,History incomplete,Technical reviewer,HOLD

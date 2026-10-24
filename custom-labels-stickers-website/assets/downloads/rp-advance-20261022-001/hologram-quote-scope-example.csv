@@ -1,0 +1,3 @@
+﻿scope_revision,cost_component,first_order_treatment,repeat_order_treatment,condition_to_confirm,supplier_reply,decision_owner
+DEMO-R1,Optical mastering,Separate or included: confirm,Reuse charge: confirm,Same master; ownership and retention terms,,Purchasing
+DEMO-R1,Variable identifier handling,Scope not yet quoted,Per release or retained setup: confirm,Same schema and new authorized data file,,Data owner and purchasing

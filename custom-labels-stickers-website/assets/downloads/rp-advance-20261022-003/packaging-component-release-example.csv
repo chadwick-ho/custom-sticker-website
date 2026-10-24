@@ -1,0 +1,4 @@
+﻿set_reference,component,artwork_revision,units_per_pack,required_packs,approved_combination,owner,release_state
+DEMO-SET-A,Bottle label,R2,1,Buyer to supply,Review against BOX R1,Copy owner,HOLD
+DEMO-SET-A,Carton,R1,1,Buyer to supply,Confirm R2 change does not affect box,Packaging owner,HOLD
+DEMO-SET-A,Seal,R1,2 in example only,Buyer to supply,Confirm actual pack construction,Packer,PENDING

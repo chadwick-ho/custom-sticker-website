@@ -1,0 +1,3 @@
+﻿proof_revision,element,risk_location,supplier_instruction_reference,stress_case,proposed_action,owner,release_state
+DEMO-R1,Thin border,Near finished cut,Actual tolerance guidance required,Review appearance across allowed movement,Move inward or remove if needed,Designer,PENDING
+DEMO-R1,Longest identifier,Near seam,Actual safe area required,Use maximum permitted data string,Reposition without reducing critical readability,Data and artwork owners,PENDING

@@ -1,0 +1,3 @@
+﻿bottle_reference,measurement_zone,measured_wrap_mm,proposed_gap_mm,trial_width_mm,trial_height_mm,applied_mockup_reference,release_owner
+DEMO bottle only,Straight-wall example,150,3,147,Determine from actual bottle,Example arithmetic; not approved,Packaging owner
+Actual production bottle,Mark measurement height,,,,,Attach front/back/seam views,Packaging owner

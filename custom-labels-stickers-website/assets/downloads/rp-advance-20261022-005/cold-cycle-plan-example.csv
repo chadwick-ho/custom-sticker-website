@@ -1,0 +1,4 @@
+﻿specimen_reference,stage,surface_condition,temperature_and_duration,next_action,edge_observation,data_observation,decision_owner
+DEMO-A,Apply,Actual dry/damp state to record,Actual process values required,Wait then store,,,Process owner
+DEMO-A,Store,Actual environment to record,Actual range and duration required,Return to work area,,,Process owner
+DEMO-A,Return,Record condensation if present,Actual time and conditions required,Handle or restorage,,,Technical reviewer

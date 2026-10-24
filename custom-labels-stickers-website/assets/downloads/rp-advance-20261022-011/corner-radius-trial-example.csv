@@ -1,0 +1,3 @@
+﻿candidate,corner_profile,shared_construction,shared_dimensions,handling_stage,tip_observation,edge_observation,artwork_clearance,decision
+DEMO-S,Square,Same identified construction,Same proposed width and height,Actual method required,,,Review longest content,PENDING
+DEMO-R,Rounded; radius to specify,Same identified construction,Same proposed width and height,Same comparable method,,,Review removed corner area,PENDING
