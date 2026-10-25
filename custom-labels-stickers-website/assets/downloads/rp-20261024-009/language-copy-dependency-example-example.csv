@@ -1,0 +1,4 @@
+﻿artwork,source_dependency,example_change_state,required_review,release_instruction
+EN R04,English source R04,Changed source block recorded,Content and layout approvals,Release only after named approval
+EN/ES R03,English source R03 plus approved Spanish blocks,R04 impact not yet resolved,Translation owner assesses affected blocks,Hold pending dependency review
+Unaffected version,Documented unchanged source blocks,Reviewer records why change does not apply,Named content owner confirms scope,Keep existing revision if permitted; do not auto-renumber

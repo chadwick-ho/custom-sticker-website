@@ -1,0 +1,5 @@
+﻿count_category,sheet_trial_instruction,roll_trial_instruction,reconciliation_rule,owner
+Supplied,Record actual usable sheet positions received,Record actual roll count received,Keep supplier count evidence,Receiving
+Accepted,Count correctly applied accepted packs,Count correctly applied accepted packs,Use same application acceptance,Packing
+Rejected,Retain damaged picks and misapplied seals,Retain dispensing and application rejects,Do not silently include as accepted,Packing and quality
+Held or remaining,Separate inspection samples and unused sheets,Separate held samples and unused roll stock,All supplied labels have an accounted disposition,Batch owner

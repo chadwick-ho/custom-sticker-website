@@ -1,0 +1,5 @@
+﻿stage,what_to_record,hand_route_example_instruction,machine_route_example_instruction,decision_use
+Preparation,Operator minutes and other staff time,Include cradle setup and label sorting,Include roll loading and adjustment,Do not omit setup
+Changeover,Time and first-piece disposition,Change to the next approved design,Reload or adjust for the same design change,Compare the real SKU mix
+Application,Attempts and accepted vials,Use the written hand method,Use the intended operator and controls,Same acceptance criteria
+Restart and inspection,Held pieces and review time,Record any alignment correction,Record stop/restart checks,Use accepted output as denominator

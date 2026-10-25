@@ -1,0 +1,5 @@
+﻿linked_record,example_entry,owner,what_a_change_reopens,release_status
+Container,Sample T-A; supplier item reference to attach,Purchasing,Profile and boundary measurements,Identify actual production sample
+Application zone,Marked upper/lower boundaries and position photo,Packaging owner,Fit even if nominal capacity stays the same,Review at actual position
+Outline,Trial cut revision D02,Converter,Cut geometry and safe areas,Paper and material trials required
+Artwork,Design A on accepted D02,Designer and approver,Panel layout and final-size reading,Do not adapt family before acceptance

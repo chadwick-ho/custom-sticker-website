@@ -1,0 +1,4 @@
+﻿task,demonstration_target,review_condition,record_in_actual_trial,next_action_if_unresolved
+Identify variant,Distinguish DEMO A from DEMO B,Applied actual-size sample; ordinary workflow view,Exact answer and field consulted,Change hierarchy or separation; repeat review
+Locate batch,Find the LOT DEMO field,Same light and permitted rotation,Where the reader looked and what was read,Reposition or improve the field
+Check retained copy,Locate buyer-defined necessary text,Complete approved copy; no silent omissions,Missing or unreadable block,Return to copy owner and designer

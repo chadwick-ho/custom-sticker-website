@@ -1,0 +1,5 @@
+﻿component,example_question,evidence_to_prepare,owner,release_limit
+Warranty card,Does the presented mark match the controlled card reference?,Identified physical card and reference feature,Warranty or issuing owner,Visual match alone does not prove genuine issuance
+Carton seal,What visible change should the agreed opening produce?,Applied closed sample and actual opening record,Packaging or quality owner,Opening evidence does not authenticate a loose card
+Optional paired IDs,Are the two identifiers meant to be linked?,Pairing and rejected-counterpart procedure,Data and packing owner,No assumed link from similar graphics
+Exceptions,Where does an uncertain observation go?,Named review route and retained specimen,Relevant function owner,Do not infer a verdict from appearance alone

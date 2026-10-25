@@ -1,0 +1,5 @@
+﻿comparison_cell,container_reference,label_construction,purpose,current_status
+Control,Existing glass reference G,Previously approved construction A,Retain a baseline under the planned comparison conditions,Example plan; no new result
+Transfer check,Proposed plastic reference P; resin to confirm,Construction A,Check whether the existing specification transfers,Hold for actual trial
+Construction comparison,Existing glass reference G,Proposed construction B,Separate construction effect from container effect,Optional diagnostic cell
+Proposed combination,Proposed plastic reference P,Proposed construction B,Review the actual proposed purchasing combination,Hold for actual trial

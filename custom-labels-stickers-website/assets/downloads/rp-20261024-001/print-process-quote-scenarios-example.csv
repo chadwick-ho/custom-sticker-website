@@ -1,0 +1,4 @@
+﻿scenario,example_artwork_scope,quote_request,decision_condition,owner
+First run,A R01 / B R01 / C R01,Separate total and included setup,All designs approved; repeat forecast not assumed,Buyer and printer
+Unchanged repeat,Same artwork and quantity mix,Identify recurring charges and reused tooling,Quote valid only for unchanged scope,Printer
+One-artwork change,A R02; B and C unchanged,List new preparation and any finishing impact,Do not transfer unchanged-repeat price automatically,Buyer and printer
