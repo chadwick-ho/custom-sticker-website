@@ -1,0 +1,4 @@
+﻿example_reference,package_reference,construction_reference,specimen_reference,task,proposed_check,expected_response_owner,actual_observation,evidence_reference,release_decision
+DEMO-SEAL,Actual package and closure required,Supplier to identify,DEMO-REFERENCE,Reference,Identify unexposed reference and package finish,Buyer technical owner,PENDING - no test conducted,PENDING,NOT APPROVED
+DEMO-SEAL,Same actual package required,Same proposed construction required,DEMO-HANDLING,Normal handling,Observe retention after agreed real handling conditions,Buyer technical owner and supplier,PENDING - no test conducted,PENDING,NOT APPROVED
+DEMO-SEAL,Same actual opening path required,Same proposed construction required,DEMO-OPENING,Deliberate opening,"Observe the buyer-agreed visible response, separate from retention",Buyer technical owner and supplier,PENDING - no test conducted,PENDING,NOT APPROVED
