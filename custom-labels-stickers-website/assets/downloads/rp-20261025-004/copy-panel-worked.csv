@@ -1,0 +1,3 @@
+﻿change_id,source_revision,proof_revision,affected_block,change,dependencies,review_owner,next_action,release_reference,state
+DEMO-1,COPY-R2,PROOF-R3,Front sentence,Proposed shortening; exact text must come from real project,Relevant linked text and context to be identified,Responsible copy reviewer,Accept wording or restore reviewed source,Not supplied,PENDING
+DEMO-2,COPY-R2,PROOF-R3,Back panel block,Placement changed during layout,Whole-panel fit and linked markers,Artwork owner and relevant reviewer,Compare clean and marked complete proof,Not supplied,PENDING
