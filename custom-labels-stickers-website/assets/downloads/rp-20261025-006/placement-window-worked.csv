@@ -1,0 +1,3 @@
+﻿candidate,data_type,datum,usable_lower_mm,usable_upper_mm,proposed_height_mm,geometric_bottom_min_mm,geometric_bottom_max_mm,proposed_process_min_mm,proposed_process_max_mm,arithmetic_scope,actual_observed_positions,owner,state
+DEMO-16,"Fictional arithmetic, not measured",Agreed base reference,5,26,16,5,10,6,9,Fits proposed range before project allowances; not approved,,Buyer and application owner,PENDING
+DEMO-20,"Fictional arithmetic, not measured",Same agreed base reference,5,26,20,5,6,6,9,Does not fit throughout proposed range; review height or process,,Buyer and application owner,PENDING

@@ -1,0 +1,3 @@
+﻿roll,artwork_revision,accepted_spec_reference,received_splice_information,line_instruction,count_basis,next_action,owner,state
+DEMO-A,R1,Required,Joint note supplied,Unresolved,Supplier and packer to agree,Resolve applicable handling route before release,Converter and line owner,PENDING
+DEMO-B,R1,Required,Not supplied,Not yet reviewed,Not supplied,Obtain agreed record; blank does not mean zero splices,Receiving and converter,PENDING
