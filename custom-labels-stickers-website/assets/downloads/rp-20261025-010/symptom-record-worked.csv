@@ -1,0 +1,3 @@
+﻿sample,bottle_reference,label_reference,symptom,observed_at,process_reference,next_action,state
+DEMO-A,Hypothetical Lot A,Same proposed construction,Upper edge appears raised in conditional example,Unknown,Not supplied,"Identify actual bottle, process and construction with owners",PENDING
+DEMO-B,Hypothetical Lot B,Same proposed construction,No visible change in conditional example,Comparison time not established,Not supplied,Establish comparable conditions; not a validated control,PENDING

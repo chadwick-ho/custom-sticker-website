@@ -1,0 +1,6 @@
+﻿purpose,planned_pieces,format,owner,actual_used,scope,state
+Appearance activity,24,Owner to specify,Brand/artwork reviewer,,Fictional allocation only,PENDING
+Application activity,36,Packer to specify; roll requirement may change quantity,Application owner,,Not a recommended sampling plan,PENDING
+Handling activity,24,Owner to specify,Packaging owner,,No test result claimed,PENDING
+Retained references,12,Identified samples; keep separate,Buyer,,Not allocated twice,PENDING
+Unassigned reserve,24,To confirm,Buyer,,Not approved saleable inventory,PENDING

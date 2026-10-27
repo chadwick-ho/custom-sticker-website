@@ -1,0 +1,4 @@
+﻿state_reference,components,stage,operation_owner,observation,evidence_reference,decision
+DEMO-PRE-BAND,Actual bottle/cap/label references required,Body-label or reserved-position review,Packer,,,PENDING
+DEMO-ASSEMBLED,Same references plus band,Completed band and body label together,Packer with component suppliers,,,PENDING
+DEMO-OPENING,Same assembled combination,Intended opening under agreed method,Package owner,,,PENDING

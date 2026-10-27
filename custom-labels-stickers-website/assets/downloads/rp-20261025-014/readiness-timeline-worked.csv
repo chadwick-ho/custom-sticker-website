@@ -1,0 +1,4 @@
+﻿event,required_reference,responsible_owner,evidence,schedule_status,confirmed_date,next_action,state
+DEMO-INPUT,COPY-R2 / PROOF-R3; fictional,Buyer content reviewer,Not supplied,Prerequisite still open,,Complete responsible review; do not call in production,PENDING
+DEMO-RELEASE,Exact accepted order and file revision,Supplier production contact,Acknowledgement not supplied,"Proposed, not confirmed",,Confirm start event and applicable schedule,PENDING
+DEMO-RECEIPT,Accepted destination and shipment,Buyer logistics and packer,Tracking and receipt not supplied,Not an arrival commitment,,Keep dispatch and receipt separate,PENDING

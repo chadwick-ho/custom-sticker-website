@@ -1,0 +1,3 @@
+﻿destination,artwork_revision,requested_usable_labels,roll_format,labels_per_roll,dispatch_route,shipment_reference,receiving_disposition,next_action,state
+DEMO-A,ART-R1; fictional shared design,1200,Packer A specification required,Supplier to confirm,Direct or hub not agreed,,,Obtain packer brief and supplier acceptance,PENDING
+DEMO-B,ART-R1; same fictional design,800,Packer B specification required; not assumed same,Supplier to confirm,Direct or hub not agreed,,,Confirm allocation and suitable finishing,PENDING

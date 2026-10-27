@@ -1,0 +1,3 @@
+﻿entry,cue,meaning,text_identifier,conflict,owner,effective_artwork,next_action,state
+DEMO-GROUP-A,Teal,Private Group A,DEMO-A1 / DEMO-A2,No actual review performed,Brand product owner,To confirm,Approve cue meaning and actual artwork,PENDING
+DEMO-PROPOSED-B,Teal,Different proposed group,DEMO-B1,Same cue; different proposed meaning,Brand product owner,Not released,"Choose shared grouping, changed cue or explicit text distinction",PENDING
