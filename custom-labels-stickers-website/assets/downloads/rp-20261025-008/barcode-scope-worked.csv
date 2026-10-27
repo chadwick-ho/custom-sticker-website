@@ -1,0 +1,3 @@
+﻿sample,product,artwork,authorized_identifier,sample_scope,verification_report,acceptance_criterion,operational_check,next_action,state
+DEMO-PROOF,Product reference required,Approved revision required,Brand owner to supply,Digital proof only,Not supplied,Trading partner to specify,Packer to determine,Specify physical sample and report owner,PENDING
+DEMO-PRINT,Product reference required,Not linked to report,Brand owner to confirm,Physical sample identity unresolved,Reference exists; exact sample link missing,Trading partner to specify,Not recorded,Connect report to approved sample revision,PENDING

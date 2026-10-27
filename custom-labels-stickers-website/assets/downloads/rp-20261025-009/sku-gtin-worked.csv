@@ -1,0 +1,3 @@
+﻿item,flavor,count,pack_level,assigned_identifier,source_revision,artwork_revision,product_data_review,print_release,next_action,owner
+DEMO-CITRUS,Citrus,Hypothetical fixed count,Individual bottle,Brand owner to provide,Not supplied,CITRUS-R1,PENDING,PENDING,Attach approved source and verify exact proof,Brand data owner and artwork reviewer
+DEMO-BERRY,Berry,Same hypothetical count,Individual bottle,Brand owner to provide,Not supplied,Duplicated CITRUS-R1; review required,PENDING,PENDING,Confirm separate trade-item decision and correct file,Brand data owner and artwork reviewer
