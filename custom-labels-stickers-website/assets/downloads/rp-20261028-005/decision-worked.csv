@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+comparison_A,Proposed first orientation; no result,DEMO planning reference only,HOLD THE BASIS,,PENDING
+comparison_B,Proposed second orientation; same authorized data required,DEMO planning reference only,PAIR A / B,,PENDING
+controlled_basis,"Reader, bottle and symbol requirements to be confirmed",DEMO planning reference only,OBSERVE THE SAME TASK,,PENDING
+other_changes,List any size/material/setup difference before concluding,DEMO planning reference only,CHOOSE OR RELOCATE,,PENDING

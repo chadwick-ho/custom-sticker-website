@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+detection,Configured sensor and observed signal required,DEMO planning reference only,DETECT,,PENDING
+dispense,One-label release observation required,DEMO planning reference only,DISPENSE,,PENDING
+placement,Actual pack position and damage observation required,DEMO planning reference only,PLACE,,PENDING
+reading,Decoded output and destination result required,DEMO planning reference only,READ,,PENDING

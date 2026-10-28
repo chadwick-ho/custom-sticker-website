@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+start_datum,DEMO front-face reference; actual bottle drawing needed,DEMO planning reference only,START FROM ONE DATUM,,PENDING
+face_widths,Actual measured usable faces not supplied,DEMO planning reference only,MARK ACTUAL TRANSITIONS,,PENDING
+corner_transitions,Actual start/end positions not supplied,DEMO planning reference only,ASSIGN CONTENT,,PENDING
+content_mapping,Reviewed blocks to be assigned and checked after wrapping,DEMO planning reference only,WRAP AND COMPARE,,PENDING

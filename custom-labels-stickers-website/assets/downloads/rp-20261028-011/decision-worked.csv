@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+blank_reference,DEMO unprinted offcut; does not represent finished flap,DEMO planning reference only,ACTUAL CONTACT FOOTPRINT,,PENDING
+contact_zone_A,Actual printed/coated contact finish required,DEMO planning reference only,MATCHED FINISH SAMPLE,,PENDING
+contact_zone_B,Actual opposing contact finish and step required,DEMO planning reference only,ASSEMBLED FLAP,,PENDING
+observations,Normal holding and intentional opening both pending,DEMO planning reference only,SEPARATE OBSERVATIONS,,PENDING

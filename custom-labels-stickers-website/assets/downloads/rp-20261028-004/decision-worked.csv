@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+window_task,DEMO viewing zone; actual user observation required,DEMO planning reference only,PACKAGE OWNER,,PENDING
+dieline_reference,Window relative to bottle/seam datum pending,DEMO planning reference only,DIELINE OWNER,,PENDING
+white_and_color_layers,Artwork owner to confirm each protected layer,DEMO planning reference only,ARTWORK / INK OWNER,,PENDING
+applied_views,Identity side and viewing side observations pending,DEMO planning reference only,APPLIED-PACK REVIEWER,,PENDING

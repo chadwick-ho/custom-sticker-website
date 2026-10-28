@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+payload,"DEMO-A17 — plain illustrative text, not GS1 data",DEMO planning reference only,DEFINED PAYLOAD,,PENDING
+syntax_and_reader,Actual syntax and device to be supplied by system owner,DEMO planning reference only,READER OUTPUT,,PENDING
+raw_output,Not observed; do not fill from planned payload,DEMO planning reference only,APPLICATION PARSING,,PENDING
+destination_field,Intended item field; actual parser result pending,DEMO planning reference only,BUSINESS RESULT,,PENDING

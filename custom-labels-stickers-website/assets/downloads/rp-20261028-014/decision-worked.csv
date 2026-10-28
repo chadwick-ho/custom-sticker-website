@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+symbol_modules,29 — fictional QR body width,DEMO planning reference only,SYMBOL BODY,,PENDING
+quiet_zone_each_side,4 modules — QR footprint rule; actual design review required,DEMO planning reference only,QUIET AREA,,PENDING
+example_module_mm,"0.4 — invented arithmetic input, not specification",DEMO planning reference only,OPAQUE INSET,,PENDING
+computed_footprint_mm,14.8; extra production allowance unknown,DEMO planning reference only,FINAL LAYERS,,PENDING

@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+body_file,DEMO-A-body-R2,DEMO planning reference only,BODY ID: DEMO-A / R2,,PENDING
+lid_file,DEMO-shared-lid-R1; proposed pair only,DEMO planning reference only,LID ID: SHARED / R1?,,PENDING
+shared_scope,Brand-only lid proposed; owner must verify no variant statement,DEMO planning reference only,PAIRING OWNER,,PENDING
+dependency,Body change requires lid meaning check; approval pending,DEMO planning reference only,ASSEMBLED JAR,,PENDING

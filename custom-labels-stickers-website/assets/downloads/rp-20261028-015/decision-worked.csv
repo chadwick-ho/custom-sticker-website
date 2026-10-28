@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+both_expected,Follow actual program policy; no automatic authenticity verdict,DEMO planning reference only,BOTH LOOK EXPECTED,,PENDING
+visual_question,Preserve visual discrepancy and exact digital response,DEMO planning reference only,VISUAL QUESTION / DIGITAL RESPONSE,,PENDING
+digital_question,Keep response/error and object reference; cause unknown,DEMO planning reference only,VISUAL EXPECTED / DIGITAL QUESTION,,PENDING
+unavailable_check,Named fallback and decision owner must be supplied,DEMO planning reference only,CHECK UNAVAILABLE,,PENDING

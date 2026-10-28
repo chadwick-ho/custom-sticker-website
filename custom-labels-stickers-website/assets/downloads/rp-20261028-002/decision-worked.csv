@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+circumference_range_mm,49.8 to 50.2 — fictional input,DEMO planning reference only,MEASURE INPUT RANGES,,PENDING
+finished_width_range_mm,47.8 to 48.2 — fictional input,DEMO planning reference only,CALCULATE S = C - W,,PENDING
+signed_seam_range_mm,"1.6 to 2.4 gap — calculated, not tested",DEMO planning reference only,READ THE SIGN,,PENDING
+buyer_acceptance_interval,UNRESOLVED; actual specification required,DEMO planning reference only,ASK FOR ACCEPTANCE,,PENDING

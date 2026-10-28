@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+invoice_record,Administrative source only; no label text inferred,DEMO planning reference only,INVOICE / DELIVERY RECORD,,PENDING
+packer_record,Operational role only; no legal relationship inferred,DEMO planning reference only,BRAND / PACKER CONTACT,,PENDING
+label_source,Exact qualified approved wording not supplied,DEMO planning reference only,APPROVED LABEL COPY,,PENDING
+proof_comparison,Source revision and released PDF to be reconciled,DEMO planning reference only,PROOF CHECK,,PENDING

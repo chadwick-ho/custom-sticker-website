@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+source_change,DEMO formula-source revision R2; no formula provided,DEMO planning reference only,REVISED SOURCE,,PENDING
+ingredient_block,Potential dependency requires qualified review,DEMO planning reference only,QUALIFIED COPY REVIEW,,PENDING
+other_blocks,Facts and allergen applicability unresolved,DEMO planning reference only,ARTWORK AND FIT,,PENDING
+fit_check,Pending after exact approved text is supplied,DEMO planning reference only,RELEASED PROOF,,PENDING

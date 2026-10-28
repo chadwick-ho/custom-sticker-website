@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+outer_film_event,DEMO receiving operator removes film; proposed workflow,DEMO planning reference only,OUTER WRAPPER,,PENDING
+discarded_element,Film-mounted mark may leave with wrapper,DEMO planning reference only,RETAIL CARTON,,PENDING
+carton_checkpoint,Surviving reference and intended flap opening to be defined,DEMO planning reference only,INNER PRODUCT,,PENDING
+ambiguous_route,Package owner reviews bypass or cut-around possibilities,DEMO planning reference only,CHOOSE THE CARRIER,,PENDING

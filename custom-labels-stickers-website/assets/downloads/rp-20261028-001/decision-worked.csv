@@ -1,0 +1,5 @@
+﻿field,worked_example,evidence_reference,responsible_owner,observed_result,approval_state
+machine_view,DEMO dispenser view V1; observer side must be marked,DEMO planning reference only,MACHINE OWNER'S VIEW,,PENDING
+first_edge,UNRESOLVED: packer has not acknowledged the first printed edge,DEMO planning reference only,LEADING EDGE + FACE,,PENDING
+exposed_face,Print face reference to be supplied,DEMO planning reference only,APPLIED ORIENTATION,,PENDING
+applied_identity,DEMO-A intended upright; physical observation pending,DEMO planning reference only,RECONCILE THE THREE,,PENDING
