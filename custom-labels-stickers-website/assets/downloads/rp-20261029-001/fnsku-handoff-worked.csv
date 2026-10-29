@@ -1,0 +1,5 @@
+﻿stage,owner,fictional_reference,evidence,observed_result,status
+Seller Central eligibility,Seller/account owner,DEMO-US-OFFER-A,Current barcode instruction to be supplied,,PENDING
+Authorized barcode asset,Seller/code owner,DEMO-ASSET-R1 — no encoded value,Controlled file reference to be supplied,,PENDING
+Artwork and product copy,Brand and qualified product reviewer,DEMO-ART-R2,Barcode position and copy remain unapproved,,PENDING
+Final packaged unit,Packer / responsible reviewer,DEMO-BOTTLE-IN-CARTON,Actual package and scanning method not supplied,,PENDING
