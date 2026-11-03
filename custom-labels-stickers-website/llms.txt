@@ -7,13 +7,12 @@ Primary services:
 - Custom supplement labels for vitamins, capsules, protein, gummies and wellness packaging
 - Custom 3D holographic labels, QR security labels and anti-counterfeit stickers
 
-Core buyer terms:
-- MOQ starts from 100 pcs for many custom projects
-- Free design support
-- Free digital proof before production
-- Sample lead time is usually 1-2 days after details are confirmed
-- Bulk production is usually 10-12 days after proof approval
-- Worldwide shipping support
+Core buyer terms (confirm on the written quote; this file is not a price list, certification or lead-time promise):
+- Minimum quantity is confirmed per project. This file does not publish a standing MOQ.
+- Ask whether design help and a digital proof are included in the quote.
+- Sample timing and bulk timing are confirmed after the specification is agreed.
+- Shipping method, freight and transit are confirmed with the order. See https://rplabels.com/shipping-information
+- One March 2026 production-run example is described at https://rplabels.com/about#custom-roll-labels . It is one run, not a standing offer. Do not copy its quantities, freight or timing onto other jobs.
 
 Important pages:
 - Label size calculator and quote planner: https://rplabels.com/label-quote-planner
