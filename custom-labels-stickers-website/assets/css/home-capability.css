@@ -1,0 +1,135 @@
+.home-page .home-capability {
+  color: #f8fbf8;
+  background: #102523;
+}
+
+.home-capability-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, .92fr);
+  gap: clamp(1.75rem, 5vw, 4.5rem);
+  align-items: center;
+}
+
+.home-capability h2 {
+  max-width: 17ch;
+  margin: 0 0 .9rem;
+  color: inherit;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.08;
+  letter-spacing: -.035em;
+}
+
+.home-capability h3 {
+  color: inherit;
+  margin: 0 0 .55rem;
+  line-height: 1.25;
+}
+
+.home-capability p {
+  margin: 0;
+  color: #cfddd6;
+}
+
+.home-capability p.home-capability-identity {
+  margin: 1.35rem 0;
+  font-size: .95rem;
+}
+
+.home-capability a:not(.btn) {
+  color: #a7e6c1;
+  text-decoration: underline;
+  text-underline-offset: .17em;
+}
+
+.home-capability-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .75rem 1.25rem;
+}
+
+.home-capability-actions .btn-primary {
+  background: #b9ebc9;
+  color: #102523;
+  border-color: #b9ebc9;
+}
+
+.home-capability-actions .btn-primary:hover {
+  background: #daf4e2;
+}
+
+.home-capability a:focus-visible {
+  outline: 2px solid #f5d79b;
+  outline-offset: 4px;
+}
+
+.home-capability-example {
+  padding: clamp(1.25rem, 3vw, 2.25rem);
+  background: #edf3ec;
+  color: #17342d;
+  border: 1px solid #d3e2d6;
+  border-radius: 14px;
+}
+
+.home-capability-example h3 {
+  font-size: clamp(1.4rem, 2.6vw, 2rem);
+}
+
+.home-capability-example p {
+  color: #345048;
+}
+
+.home-capability-example p.home-capability-case-date {
+  margin: 0 0 .8rem;
+  color: #365d50;
+  font-size: .85rem;
+  font-weight: 700;
+}
+
+.home-capability-specs {
+  margin: 1rem 0 0;
+}
+
+.home-capability-specs > div {
+  padding: .68rem 0;
+  border-top: 1px solid #c1d3c7;
+}
+
+.home-capability-specs dt {
+  font-size: .85rem;
+  color: #345048;
+}
+
+.home-capability-specs dd {
+  margin: .13rem 0 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.home-capability-support {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem 2rem;
+  margin-top: clamp(1.5rem, 3.5vw, 2.75rem);
+}
+
+.home-capability-support > div {
+  padding-top: .9rem;
+  border-top: 1px solid #51736a;
+}
+
+.home-capability-support h3 {
+  font-size: 1.1rem;
+}
+
+.home-capability-support p {
+  font-size: .95rem;
+}
+
+@media (max-width: 760px) {
+  .home-capability-layout,
+  .home-capability-support {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
