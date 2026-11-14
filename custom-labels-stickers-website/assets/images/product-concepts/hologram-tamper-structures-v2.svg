@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="holo2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f093fb"/>
+      <stop offset="0.35" stop-color="#8fd3f4"/>
+      <stop offset="0.65" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#fda4af"/>
+    </linearGradient>
+    <marker id="arr6" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#2f6fb2"/>
+    </marker>
+  </defs>
+  <rect width="760" height="440" fill="#f7f9fc"/>
+  <text x="380" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#22364f">Tamper-evident structures: how the label fails</text>
+
+  <!-- ================= VOID ================= -->
+  <text x="185" y="74" text-anchor="middle" font-size="15" font-weight="bold" fill="#22364f">VOID construction</text>
+  <text x="185" y="92" text-anchor="middle" font-size="11" fill="#5a6b7d">peel leaves a residue message</text>
+
+  <!-- intact -->
+  <rect x="70" y="116" width="130" height="130" rx="6" fill="#e9eef4" stroke="#9fb3c8"/>
+  <rect x="70" y="116" width="130" height="130" rx="6" fill="none" stroke="#22364f" stroke-width="1.2"/>
+  <circle cx="135" cy="181" r="42" fill="url(#holo2)" stroke="#22364f" stroke-width="1.8"/>
+  <circle cx="135" cy="181" r="28" fill="none" stroke="#22364f" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="135" y="178" text-anchor="middle" font-size="9" fill="#22364f">LOGO</text>
+  <text x="135" y="190" text-anchor="middle" font-size="8" fill="#22364f">SEAL</text>
+  <text x="135" y="266" text-anchor="middle" font-size="11" fill="#5a6b7d">intact</text>
+
+  <!-- arrow -->
+  <line x1="210" y1="181" x2="254" y2="181" stroke="#2f6fb2" stroke-width="1.8" marker-end="url(#arr6)"/>
+  <text x="232" y="172" text-anchor="middle" font-size="10" fill="#2f6fb2">peel</text>
+
+  <!-- after: residue left on surface -->
+  <rect x="262" y="116" width="130" height="130" rx="6" fill="#e9eef4" stroke="#22364f" stroke-width="1.2"/>
+  <text x="327" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#c0492f" letter-spacing="2">VOID</text>
+  <text x="327" y="185" text-anchor="middle" font-size="13" font-weight="bold" fill="#c0492f" letter-spacing="2">VOID</text>
+  <text x="327" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#c0492f" letter-spacing="2">VOID</text>
+  <text x="327" y="266" text-anchor="middle" font-size="11" fill="#5a6b7d">residue stays on surface</text>
+
+  <!-- lifted label -->
+  <path d="M300 292 q30 -10 56 4 l-8 18 q-26 -12 -52 -4 z" fill="url(#holo2)" stroke="#22364f" stroke-width="1.4" opacity="0.85"/>
+  <text x="327" y="334" text-anchor="middle" font-size="10" fill="#5a6b7d">lifted film shows the void layer</text>
+
+  <text x="185" y="392" text-anchor="middle" font-size="11" fill="#5a6b7d">use: reusable containers &#xB7; residue evidence</text>
+  <text x="185" y="408" text-anchor="middle" font-size="11" fill="#5a6b7d">residue pattern depends on surface</text>
+
+  <!-- divider -->
+  <line x1="430" y1="70" x2="430" y2="410" stroke="#d5dee8" stroke-width="1.4"/>
+
+  <!-- ================= Destructible ================= -->
+  <text x="604" y="74" text-anchor="middle" font-size="15" font-weight="bold" fill="#22364f">Destructible construction</text>
+  <text x="604" y="92" text-anchor="middle" font-size="11" fill="#5a6b7d">film fragments &#x2014; cannot be lifted whole</text>
+
+  <!-- intact -->
+  <rect x="460" y="116" width="130" height="130" rx="6" fill="#e9eef4" stroke="#9fb3c8"/>
+  <rect x="460" y="116" width="130" height="130" rx="6" fill="none" stroke="#22364f" stroke-width="1.2"/>
+  <circle cx="525" cy="181" r="42" fill="url(#holo2)" stroke="#22364f" stroke-width="1.8"/>
+  <circle cx="525" cy="181" r="28" fill="none" stroke="#22364f" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="525" y="178" text-anchor="middle" font-size="9" fill="#22364f">LOGO</text>
+  <text x="525" y="190" text-anchor="middle" font-size="8" fill="#22364f">SEAL</text>
+  <text x="525" y="266" text-anchor="middle" font-size="11" fill="#5a6b7d">intact</text>
+
+  <!-- arrow -->
+  <line x1="600" y1="181" x2="626" y2="181" stroke="#2f6fb2" stroke-width="1.8" marker-end="url(#arr6)"/>
+  <text x="613" y="172" text-anchor="middle" font-size="10" fill="#2f6fb2">peel</text>
+
+  <!-- after: fragments -->
+  <rect x="630" y="116" width="126" height="130" rx="6" fill="#e9eef4" stroke="#22364f" stroke-width="1.2"/>
+  <g fill="url(#holo2)" stroke="#22364f" stroke-width="1.2" transform="translate(-16 0)">
+    <path d="M672 132 l26 -6 4 18 -24 8 z"/>
+    <path d="M712 130 l20 10 -8 16 -22 -4 z"/>
+    <path d="M668 168 l18 -4 6 14 -20 8 z"/>
+    <path d="M700 170 l26 -6 8 16 -24 10 z"/>
+    <path d="M740 160 l16 12 -6 16 -18 -8 z"/>
+    <path d="M676 202 l24 -8 10 14 -26 10 z"/>
+    <path d="M716 206 l22 -4 6 14 -24 8 z"/>
+    <path d="M662 224 l16 -4 4 12 -18 6 z"/>
+  </g>
+  <text x="688" y="266" text-anchor="middle" font-size="10" fill="#5a6b7d">fragments &#x2014; no clean removal</text>
+
+  <text x="688" y="334" text-anchor="middle" font-size="10" fill="#5a6b7d">cannot be reapplied intact</text>
+
+  <text x="604" y="392" text-anchor="middle" font-size="11" fill="#5a6b7d">use: one-time evidence &#xB7; fragments remain</text>
+  <text x="604" y="408" text-anchor="middle" font-size="11" fill="#5a6b7d">confirm on samples with your surface</text>
+
+  <text x="380" y="430" text-anchor="middle" font-size="11" fill="#8494a5">Behavior varies with surface, curvature and dwell time &#x2014; test on real packaging before the run.</text>
+</svg>

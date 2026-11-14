@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arr2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#2f6fb2"/>
+    </marker>
+  </defs>
+  <rect width="760" height="400" fill="#f7f9fc"/>
+
+  <!-- ============ Panel 1: roll ============ -->
+  <rect x="30" y="46" width="218" height="280" rx="10" fill="#ffffff" stroke="#d5dee8"/>
+  <text x="139" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#22364f">Rolls</text>
+  <text x="139" y="96" text-anchor="middle" font-size="11" fill="#5a6b7d">machine / repeat runs</text>
+
+  <!-- roll: core + winding -->
+  <circle cx="139" cy="168" r="52" fill="#e9eef4" stroke="#22364f" stroke-width="1.8"/>
+  <circle cx="139" cy="168" r="52" fill="none" stroke="#9fb3c8" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="139" cy="168" r="34" fill="none" stroke="#b9c7d6" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="139" cy="168" r="14" fill="#f7f9fc" stroke="#22364f" stroke-width="1.8"/>
+  <text x="139" y="172" text-anchor="middle" font-size="9" fill="#5a6b7d">core</text>
+  <!-- strip unrolling with labels -->
+  <path d="M191 168 h44" stroke="#22364f" stroke-width="1.5" fill="none"/>
+  <g>
+    <rect x="191" y="158" width="26" height="20" fill="#fbf6ea" stroke="#22364f" stroke-width="1.4"/>
+    <rect x="221" y="158" width="26" height="20" fill="#fbf6ea" stroke="#22364f" stroke-width="1.4"/>
+    <rect x="195" y="163" width="14" height="3" fill="#9fb3c8"/>
+    <rect x="225" y="163" width="14" height="3" fill="#9fb3c8"/>
+  </g>
+  <!-- unwind arrow -->
+  <path d="M180 128 a52 52 0 0 1 -66 34" fill="none" stroke="#2f6fb2" stroke-width="1.6" marker-end="url(#arr2)"/>
+  <text x="139" y="252" text-anchor="middle" font-size="11" fill="#2f6fb2">unwind direction →</text>
+
+  <text x="139" y="292" text-anchor="middle" font-size="11" fill="#5a6b7d">confirm: unwind · core size ·</text>
+  <text x="139" y="308" text-anchor="middle" font-size="11" fill="#5a6b7d">roll diameter vs applicator</text>
+
+  <!-- ============ Panel 2: sheet ============ -->
+  <rect x="271" y="46" width="218" height="280" rx="10" fill="#ffffff" stroke="#d5dee8"/>
+  <text x="380" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#22364f">Sheets</text>
+  <text x="380" y="96" text-anchor="middle" font-size="11" fill="#5a6b7d">hand apply · short runs</text>
+
+  <rect x="306" y="116" width="148" height="120" fill="#ffffff" stroke="#22364f" stroke-width="1.8"/>
+  <g stroke="#9fb3c8" stroke-width="1" stroke-dasharray="4 3">
+    <line x1="343" y1="116" x2="343" y2="236"/>
+    <line x1="417" y1="116" x2="417" y2="236"/>
+    <line x1="306" y1="156" x2="454" y2="156"/>
+    <line x1="306" y1="196" x2="454" y2="196"/>
+  </g>
+  <g fill="#fbf6ea" stroke="#22364f" stroke-width="1.2">
+    <rect x="312" y="124" width="26" height="24"/>
+    <rect x="349" y="124" width="60" height="24"/>
+    <rect x="423" y="124" width="26" height="24"/>
+    <rect x="312" y="164" width="26" height="24"/>
+    <rect x="349" y="164" width="60" height="24"/>
+    <rect x="423" y="164" width="26" height="24"/>
+    <rect x="312" y="204" width="26" height="24"/>
+    <rect x="349" y="204" width="60" height="24"/>
+    <rect x="423" y="204" width="26" height="24"/>
+  </g>
+  <rect x="356" y="132" width="46" height="6" fill="#2f6fb2"/>
+  <rect x="356" y="172" width="46" height="6" fill="#c97a3f"/>
+  <rect x="356" y="212" width="46" height="6" fill="#4f8a5b"/>
+  <text x="380" y="258" text-anchor="middle" font-size="11" fill="#5a6b7d">mix designs on one run</text>
+
+  <text x="380" y="292" text-anchor="middle" font-size="11" fill="#5a6b7d">good for: samples · multi-design</text>
+  <text x="380" y="308" text-anchor="middle" font-size="11" fill="#5a6b7d">batches · hand application</text>
+
+  <!-- ============ Panel 3: per design ============ -->
+  <rect x="512" y="46" width="218" height="280" rx="10" fill="#ffffff" stroke="#d5dee8"/>
+  <text x="621" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#22364f">Sets &amp; per design</text>
+  <text x="621" y="96" text-anchor="middle" font-size="11" fill="#5a6b7d">quote quantity per artwork</text>
+
+  <!-- mini vial + carton -->
+  <rect x="544" y="120" width="52" height="86" rx="8" fill="#e5b26e" stroke="#b9833f" stroke-width="1.5"/>
+  <rect x="548" y="112" width="44" height="12" rx="3" fill="#4a5d73"/>
+  <rect x="544" y="140" width="52" height="34" fill="#fbf6ea" stroke="#22364f" stroke-width="1.4"/>
+  <rect x="550" y="148" width="34" height="4" fill="#9fb3c8"/>
+  <rect x="550" y="158" width="40" height="4" fill="#c3d0de"/>
+
+  <rect x="614" y="116" width="92" height="64" fill="#fbf6ea" stroke="#22364f" stroke-width="1.6"/>
+  <path d="M614 116 l18 -14 h92 l-18 14 z" fill="#efe7d3" stroke="#22364f" stroke-width="1.4"/>
+  <path d="M706 116 l18 -14 v64 l-18 14 z" fill="#e7dcc2" stroke="#22364f" stroke-width="1.4"/>
+  <rect x="626" y="132" width="60" height="30" fill="#ffffff" stroke="#22364f" stroke-width="1.2"/>
+  <rect x="632" y="139" width="40" height="5" fill="#2f6fb2"/>
+  <rect x="632" y="149" width="48" height="4" fill="#9fb3c8"/>
+
+  <path d="M596 150 h14" stroke="#2f6fb2" stroke-width="1.6" marker-end="url(#arr2)"/>
+  <text x="621" y="230" text-anchor="middle" font-size="11" fill="#5a6b7d">matching vial + carton label sets</text>
+
+  <text x="621" y="292" text-anchor="middle" font-size="11" fill="#5a6b7d">list each design + pieces</text>
+  <text x="621" y="308" text-anchor="middle" font-size="11" fill="#5a6b7d">per design on the quote</text>
+
+  <text x="380" y="368" text-anchor="middle" font-size="12" fill="#5a6b7d" font-style="italic">Supply format is a quoting input: rolls for applicators, sheets for hand work — confirmed per project.</text>
+  <text x="380" y="390" text-anchor="middle" font-size="12" fill="#8494a5">RP Labels — label supply formats</text>
+</svg>
