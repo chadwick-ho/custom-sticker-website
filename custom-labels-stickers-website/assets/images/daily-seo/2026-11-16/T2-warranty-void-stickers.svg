@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="580" viewBox="0 0 920 580" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Concept drawing of a service-cover seal and a carton seal, with wording review before printing and separate case review after observation.">
+  <rect width="920" height="580" fill="#FEFEFC"/>
+
+  <!-- Wording path -->
+  <rect x="70" y="90" width="330" height="132" rx="10" fill="#FFFDF7" stroke="#9A6B1F" stroke-width="2" stroke-dasharray="7 6"/>
+  <rect x="100" y="76" width="220" height="30" rx="6" fill="#FBF4E4" stroke="#9A6B1F" stroke-width="2"/>
+  <text x="210" y="97" text-anchor="middle" font-size="15" font-weight="bold" fill="#7A5410">Draft - review required</text>
+  <text x="235" y="150" text-anchor="middle" font-size="20" font-style="italic" fill="#16324F">&#8220;Warranty void if removed&#8221;</text>
+  <text x="235" y="184" text-anchor="middle" font-size="14" fill="#5B7186">proposed wording - not released</text>
+  <line x1="235" y1="222" x2="235" y2="262" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2)"/>
+  <rect x="70" y="262" width="330" height="76" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="235" y="292" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Wording review</text>
+  <text x="235" y="318" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">before print release</text>
+  <line x1="235" y1="338" x2="235" y2="380" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2)"/>
+  <rect x="70" y="380" width="330" height="58" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="235" y="416" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Print release</text>
+
+  <!-- dotted link: draft wording sits on the seal placement drawing -->
+  <line x1="400" y1="150" x2="458" y2="150" stroke="#8299B0" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <!-- Placement drawings -->
+  <text x="542" y="88" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Service access</text>
+  <rect x="455" y="100" width="174" height="96" rx="10" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+  <circle cx="482" cy="128" r="9" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <circle cx="602" cy="128" r="9" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <circle cx="482" cy="170" r="9" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <circle cx="602" cy="170" r="9" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <rect x="576" y="154" width="80" height="28" rx="5" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="616" y="173" text-anchor="middle" font-size="12" fill="#16324F">seal</text>
+
+  <text x="760" y="88" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Carton opening</text>
+  <rect x="680" y="100" width="160" height="96" rx="6" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+  <line x1="680" y1="100" x2="760" y2="122" stroke="#4A7196" stroke-width="1.5"/>
+  <line x1="840" y1="100" x2="760" y2="122" stroke="#4A7196" stroke-width="1.5"/>
+  <rect x="752" y="96" width="16" height="58" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+
+  <line x1="647" y1="200" x2="647" y2="262" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2)"/>
+  <rect x="455" y="262" width="385" height="76" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="647" y="292" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Observe condition</text>
+  <text x="647" y="318" text-anchor="middle" font-size="14" fill="#5B7186">intact / damaged / missing / uncertain</text>
+  <line x1="647" y1="338" x2="647" y2="380" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2)"/>
+  <rect x="455" y="380" width="385" height="58" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="647" y="416" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Review the case</text>
+  <text x="647" y="478" text-anchor="middle" font-size="14" fill="#5B7186">A seal observation is not a coverage decision.</text>
+
+  <defs>
+    <marker id="arrT2" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+  </defs>
+</svg>

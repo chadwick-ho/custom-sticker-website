@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Concept paths comparing linered media with a peel point and spent liner against linerless media using a compatible non-stick path and output step.">
+  <rect width="1200" height="660" fill="#FEFEFC"/>
+
+  <!-- Lane A: linered -->
+  <text x="60" y="62" font-size="20" font-weight="bold" fill="#16324F">Linered media</text>
+  <circle cx="95" cy="165" r="38" fill="#F4F7FA" stroke="#4A7196" stroke-width="2.5"/>
+  <circle cx="95" cy="165" r="12" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <line x1="133" y1="165" x2="178" y2="165" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3)"/>
+  <rect x="178" y="138" width="182" height="34" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+  <rect x="178" y="172" width="182" height="30" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+  <text x="269" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Label + liner</text>
+  <text x="269" y="160" text-anchor="middle" font-size="14" fill="#5B7186">face + adhesive</text>
+  <text x="269" y="193" text-anchor="middle" font-size="14" fill="#5B7186">liner</text>
+  <line x1="360" y1="170" x2="400" y2="170" stroke="#4A7196" stroke-width="2.5"/>
+  <circle cx="402" cy="170" r="6" fill="#2E5F8A"/>
+  <text x="460" y="112" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Peel point</text>
+  <line x1="402" y1="170" x2="540" y2="128" stroke="#4A7196" stroke-width="2.5"/>
+  <line x1="402" y1="170" x2="540" y2="216" stroke="#8299B0" stroke-width="2.5" marker-end="url(#arrT3g)"/>
+  <rect x="540" y="216" width="150" height="48" rx="8" fill="#F4F7FA" stroke="#8299B0" stroke-width="2"/>
+  <text x="615" y="246" text-anchor="middle" font-size="17" font-weight="bold" fill="#5B7186">Spent liner</text>
+  <line x1="540" y1="128" x2="918" y2="262" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3)"/>
+  <text x="720" y="168" text-anchor="middle" font-size="14" fill="#5B7186">label continues to application</text>
+
+  <line x1="40" y1="322" x2="880" y2="322" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Lane B: linerless -->
+  <text x="60" y="372" font-size="20" font-weight="bold" fill="#16324F">Linerless media</text>
+  <circle cx="95" cy="470" r="38" fill="#F4F7FA" stroke="#4A7196" stroke-width="2.5"/>
+  <circle cx="95" cy="470" r="12" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <line x1="133" y1="470" x2="178" y2="470" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3)"/>
+  <rect x="178" y="438" width="200" height="34" fill="#DCE8F2" stroke="#4A7196" stroke-width="2"/>
+  <rect x="178" y="472" width="200" height="32" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+  <text x="278" y="460" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Release-coated face</text>
+  <text x="278" y="493" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Adhesive side</text>
+  <line x1="378" y1="470" x2="420" y2="470" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3)"/>
+  <rect x="420" y="418" width="250" height="104" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <rect x="440" y="462" width="210" height="20" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="545" y="446" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Compatible</text>
+  <text x="545" y="506" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">non-stick path</text>
+  <line x1="670" y1="470" x2="712" y2="470" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3)"/>
+  <rect x="712" y="418" width="150" height="104" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <circle cx="768" cy="452" r="8" fill="none" stroke="#4A7196" stroke-width="2"/>
+  <circle cx="806" cy="452" r="8" fill="none" stroke="#4A7196" stroke-width="2"/>
+  <line x1="772" y1="458" x2="802" y2="488" stroke="#4A7196" stroke-width="2"/>
+  <line x1="802" y1="458" x2="772" y2="488" stroke="#4A7196" stroke-width="2"/>
+  <text x="787" y="512" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Cut / output</text>
+  <line x1="862" y1="470" x2="940" y2="410" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3)"/>
+
+  <!-- Bottle -->
+  <rect x="952" y="270" width="62" height="30" rx="6" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+  <rect x="960" y="300" width="46" height="14" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+  <rect x="928" y="314" width="110" height="104" rx="10" fill="#F4F7FA" stroke="#4A7196" stroke-width="2.5"/>
+  <rect x="928" y="346" width="110" height="40" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="983" y="371" text-anchor="middle" font-size="14" fill="#16324F">label</text>
+  <line x1="983" y1="418" x2="983" y2="456" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3)"/>
+  <rect x="880" y="456" width="260" height="74" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="1010" y="486" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Check applied output</text>
+  <text x="1010" y="512" text-anchor="middle" font-size="14" fill="#5B7186">agreed criteria - not a result</text>
+
+  <text x="600" y="624" text-anchor="middle" font-size="16" fill="#5B7186">Conceptual paths - not machine drawings</text>
+
+  <defs>
+    <marker id="arrT3" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+    <marker id="arrT3g" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#8299B0"/>
+    </marker>
+  </defs>
+</svg>

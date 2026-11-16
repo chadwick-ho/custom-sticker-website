@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Schematic comparison of an optical vial scan and an RFID tray read zone, with an invented expected-versus-observed identifier example.">
+  <rect width="1200" height="700" fill="#FEFEFC"/>
+
+  <!-- Optical panel -->
+  <rect x="40" y="60" width="540" height="360" rx="12" fill="#FBFCFD" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="310" y="98" text-anchor="middle" font-size="21" font-weight="bold" fill="#16324F">Optical scan</text>
+  <rect x="96" y="150" width="76" height="58" rx="10" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+  <circle cx="134" cy="179" r="15" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="134" y="236" text-anchor="middle" font-size="13" fill="#5B7186">reader</text>
+  <line x1="172" y1="179" x2="286" y2="262" stroke="#2E5F8A" stroke-width="3"/>
+  <text x="246" y="196" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Present the</text>
+  <text x="246" y="218" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">visible code</text>
+  <rect x="288" y="228" width="44" height="20" rx="4" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+  <rect x="280" y="248" width="60" height="96" rx="8" fill="#F4F7FA" stroke="#4A7196" stroke-width="2.5"/>
+  <rect x="280" y="276" width="60" height="42" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="1.5"/>
+  <line x1="288" y1="284" x2="288" y2="310" stroke="#16324F" stroke-width="3"/>
+  <line x1="296" y1="284" x2="296" y2="310" stroke="#16324F" stroke-width="2"/>
+  <line x1="304" y1="284" x2="304" y2="310" stroke="#16324F" stroke-width="4"/>
+  <line x1="314" y1="284" x2="314" y2="310" stroke="#16324F" stroke-width="2"/>
+  <line x1="322" y1="284" x2="322" y2="310" stroke="#16324F" stroke-width="3"/>
+  <text x="310" y="366" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">DEMO-V01</text>
+  <text x="400" y="290" font-size="13" fill="#5B7186">line of sight</text>
+  <text x="400" y="308" font-size="13" fill="#5B7186">one vial at a time</text>
+
+  <!-- RFID panel -->
+  <rect x="620" y="60" width="540" height="360" rx="12" fill="#FBFCFD" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="890" y="98" text-anchor="middle" font-size="21" font-weight="bold" fill="#16324F">RAIN RFID pilot</text>
+  <rect x="646" y="170" width="64" height="52" rx="9" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+  <circle cx="678" cy="196" r="12" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="678" y="252" text-anchor="middle" font-size="13" fill="#5B7186">reader</text>
+  <path d="M 710 178 Q 740 178 750 196" fill="none" stroke="#8299B0" stroke-width="2.5" stroke-dasharray="5 5"/>
+  <path d="M 710 196 Q 744 196 758 210" fill="none" stroke="#8299B0" stroke-width="2.5" stroke-dasharray="5 5"/>
+  <path d="M 710 214 Q 748 214 762 224" fill="none" stroke="#8299B0" stroke-width="2.5" stroke-dasharray="5 5"/>
+  <rect x="766" y="130" width="316" height="266" rx="14" fill="none" stroke="#4A7196" stroke-width="2.5" stroke-dasharray="9 7"/>
+  <text x="924" y="160" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Intended read zone</text>
+  <text x="924" y="182" text-anchor="middle" font-size="14" fill="#5B7186">- schematic -</text>
+  <rect x="792" y="300" width="264" height="70" rx="8" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+  <rect x="806" y="240" width="34" height="16" rx="3" fill="#E8EEF4" stroke="#4A7196" stroke-width="1.5"/>
+  <rect x="800" y="256" width="46" height="60" rx="6" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+  <rect x="806" y="276" width="34" height="26" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="823" y="340" text-anchor="middle" font-size="11" font-weight="bold" fill="#16324F">DEMO-V01</text>
+  <rect x="908" y="240" width="34" height="16" rx="3" fill="#E8EEF4" stroke="#4A7196" stroke-width="1.5"/>
+  <rect x="902" y="256" width="46" height="60" rx="6" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+  <rect x="908" y="276" width="34" height="26" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="925" y="340" text-anchor="middle" font-size="11" font-weight="bold" fill="#16324F">DEMO-V02</text>
+  <rect x="1010" y="240" width="34" height="16" rx="3" fill="#E8EEF4" stroke="#4A7196" stroke-width="1.5"/>
+  <rect x="1004" y="256" width="46" height="60" rx="6" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+  <rect x="1010" y="276" width="34" height="26" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="1027" y="340" text-anchor="middle" font-size="11" font-weight="bold" fill="#16324F">DEMO-V03</text>
+  <rect x="1110" y="240" width="34" height="16" rx="3" fill="#E8EEF4" stroke="#4A7196" stroke-width="1.5"/>
+  <rect x="1104" y="256" width="46" height="60" rx="6" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+  <rect x="1110" y="276" width="34" height="26" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="1127" y="340" text-anchor="middle" font-size="12" font-weight="bold" fill="#16324F">DEMO-X9</text>
+
+  <!-- Invented set example -->
+  <rect x="80" y="452" width="1040" height="208" rx="12" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="600" y="490" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">Invented set example</text>
+  <text x="330" y="536" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Expected: V01, V02, V03</text>
+  <text x="330" y="584" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Assumed observed: V01, V03, X9</text>
+  <text x="830" y="536" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Missing: V02</text>
+  <text x="830" y="584" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Extra: X9</text>
+  <text x="600" y="634" text-anchor="middle" font-size="14" fill="#5B7186">All identifiers are invented DEMO values; the observation is assumed.</text>
+</svg>

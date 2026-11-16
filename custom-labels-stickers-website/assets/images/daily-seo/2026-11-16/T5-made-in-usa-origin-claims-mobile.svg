@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="860" viewBox="0 0 420 860" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Decision map connecting ingredient and processing evidence to product-origin review while keeping a business address and printer location separate.">
+  <rect width="420" height="860" fill="#FEFEFC"/>
+  <text x="210" y="42" text-anchor="middle" font-size="21" font-weight="bold" fill="#16324F">Illustrative decision map</text>
+
+  <rect x="70" y="66" width="280" height="46" rx="9" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="210" y="95" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Ingredients</text>
+  <rect x="70" y="126" width="280" height="46" rx="9" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="210" y="155" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Processing</text>
+  <rect x="70" y="186" width="280" height="46" rx="9" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="210" y="215" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Bottling</text>
+
+  <line x1="210" y1="232" x2="210" y2="264" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT5m)"/>
+  <rect x="45" y="264" width="330" height="92" rx="10" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="2.5"/>
+  <text x="210" y="296" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Product-origin review</text>
+  <text x="210" y="322" text-anchor="middle" font-size="14" fill="#5B7186">Review the full impression</text>
+  <text x="210" y="342" text-anchor="middle" font-size="12" fill="#5B7186">wording + graphics together</text>
+  <line x1="210" y1="356" x2="210" y2="388" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT5m)"/>
+  <rect x="45" y="388" width="330" height="86" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="210" y="418" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Approved wording + graphics</text>
+  <text x="210" y="448" text-anchor="middle" font-size="12" fill="#5B7186">required output - pending decision</text>
+
+  <line x1="30" y1="516" x2="390" y2="516" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <rect x="70" y="540" width="280" height="46" rx="9" fill="#F4F7FA" stroke="#8299B0" stroke-width="2"/>
+  <text x="210" y="569" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Business address</text>
+  <line x1="210" y1="586" x2="210" y2="616" stroke="#8299B0" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrT5mg)"/>
+  <rect x="45" y="616" width="330" height="50" rx="9" fill="#F4F7FA" stroke="#8299B0" stroke-width="2"/>
+  <text x="210" y="647" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">Separate records - address file</text>
+
+  <rect x="70" y="694" width="280" height="46" rx="9" fill="#F4F7FA" stroke="#8299B0" stroke-width="2"/>
+  <text x="210" y="723" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Printer location</text>
+  <line x1="210" y1="740" x2="210" y2="770" stroke="#8299B0" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrT5mg)"/>
+  <rect x="45" y="770" width="330" height="50" rx="9" fill="#F4F7FA" stroke="#8299B0" stroke-width="2"/>
+  <text x="210" y="801" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">Separate records - print job file</text>
+
+  <text x="210" y="848" text-anchor="middle" font-size="13" font-weight="bold" fill="#5B7186">Address is not origin evidence</text>
+
+  <defs>
+    <marker id="arrT5m" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+    <marker id="arrT5mg" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#8299B0"/>
+    </marker>
+  </defs>
+</svg>

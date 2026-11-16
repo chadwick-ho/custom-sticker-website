@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Concept diagram separating a supplement opening-seal observation from child-resistant bottle-and-closure evidence.">
+  <rect width="1200" height="660" fill="#FEFEFC"/>
+  <text x="600" y="48" text-anchor="middle" font-size="27" font-weight="bold" fill="#16324F">Different questions</text>
+  <line x1="600" y1="78" x2="600" y2="560" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Lane A -->
+  <g>
+    <!-- bottle neck + cap + seal schematic -->
+    <g transform="translate(235,92)">
+      <rect x="40" y="0" width="80" height="46" rx="8" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+      <line x1="40" y1="14" x2="120" y2="14" stroke="#4A7196" stroke-width="1.5"/>
+      <line x1="40" y1="26" x2="120" y2="26" stroke="#4A7196" stroke-width="1.5"/>
+      <path d="M 52 46 L 52 78 L 108 78 L 108 46" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+      <path d="M 40 78 L 30 112 L 130 112 L 120 78" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+      <rect x="24" y="52" width="112" height="18" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+      <text x="80" y="66" text-anchor="middle" font-size="13" fill="#16324F">seal</text>
+    </g>
+    <line x1="315" y1="210" x2="315" y2="252" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT1)"/>
+    <rect x="135" y="252" width="360" height="76" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+    <text x="315" y="298" text-anchor="middle" font-size="21" font-weight="bold" fill="#16324F">Opening-seal observation</text>
+    <line x1="315" y1="328" x2="315" y2="370" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT1)"/>
+    <rect x="135" y="370" width="360" height="70" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+    <text x="315" y="400" text-anchor="middle" font-size="18" fill="#16324F">Seal opening-cue decision</text>
+    <text x="315" y="424" text-anchor="middle" font-size="15" fill="#5B7186">visible opening record only</text>
+  </g>
+
+  <!-- Lane B -->
+  <g>
+    <g transform="translate(830,92)">
+      <rect x="50" y="0" width="72" height="42" rx="8" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+      <line x1="50" y1="13" x2="122" y2="13" stroke="#4A7196" stroke-width="1.5"/>
+      <line x1="50" y1="26" x2="122" y2="26" stroke="#4A7196" stroke-width="1.5"/>
+      <path d="M 55 42 L 55 70 L 117 70 L 117 42" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+      <rect x="42" y="70" width="88" height="52" rx="6" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+      <rect x="146" y="18" width="30" height="42" rx="4" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+      <text x="161" y="44" text-anchor="middle" font-size="11" fill="#5B7186">liner</text>
+      <rect x="150" y="72" width="30" height="46" rx="4" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+      <text x="165" y="99" text-anchor="middle" font-size="11" fill="#5B7186">seal</text>
+    </g>
+    <rect x="660" y="222" width="480" height="44" rx="8" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+    <text x="900" y="250" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Bottle + closure + relevant components</text>
+    <line x1="900" y1="266" x2="900" y2="298" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT1)"/>
+    <rect x="660" y="298" width="480" height="64" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+    <text x="900" y="324" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">Child-resistant package evidence</text>
+    <text x="900" y="348" text-anchor="middle" font-size="15" fill="#5B7186">protocol documents for the identified package</text>
+    <line x1="900" y1="362" x2="900" y2="370" stroke="#4A7196" stroke-width="2.5"/>
+    <line x1="900" y1="362" x2="900" y2="370" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT1)"/>
+    <rect x="660" y="370" width="480" height="70" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+    <text x="900" y="400" text-anchor="middle" font-size="18" fill="#16324F">Child-resistant package decision</text>
+    <text x="900" y="424" text-anchor="middle" font-size="15" fill="#5B7186">responsible product and packaging team</text>
+  </g>
+
+  <!-- Separate decisions banner -->
+  <rect x="360" y="480" width="480" height="52" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2.5"/>
+  <text x="600" y="513" text-anchor="middle" font-size="22" font-weight="bold" fill="#16324F">Separate decisions</text>
+  <line x1="315" y1="440" x2="315" y2="462" stroke="#4A7196" stroke-width="2"/>
+  <line x1="900" y1="440" x2="900" y2="462" stroke="#4A7196" stroke-width="2"/>
+  <line x1="315" y1="462" x2="900" y2="462" stroke="#4A7196" stroke-width="2"/>
+  <line x1="600" y1="462" x2="600" y2="480" stroke="#4A7196" stroke-width="2"/>
+
+  <text x="600" y="620" text-anchor="middle" font-size="16" fill="#5B7186">Concept only - no test result</text>
+  <defs>
+    <marker id="arrT1" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Decision map connecting ingredient and processing evidence to product-origin review while keeping a business address and printer location separate.">
+  <rect width="1200" height="640" fill="#FEFEFC"/>
+  <text x="600" y="46" text-anchor="middle" font-size="26" font-weight="bold" fill="#16324F">Illustrative decision map</text>
+
+  <!-- Evidence inputs -->
+  <rect x="80" y="100" width="250" height="52" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="205" y="133" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Ingredients</text>
+  <rect x="80" y="182" width="250" height="52" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="205" y="215" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Processing</text>
+  <rect x="80" y="264" width="250" height="52" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="205" y="297" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Bottling</text>
+  <line x1="330" y1="126" x2="458" y2="190" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT5)"/>
+  <line x1="330" y1="208" x2="458" y2="208" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT5)"/>
+  <line x1="330" y1="290" x2="458" y2="228" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT5)"/>
+
+  <!-- Review gate -->
+  <rect x="458" y="152" width="330" height="112" rx="10" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="2.5"/>
+  <text x="623" y="194" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">Product-origin review</text>
+  <text x="623" y="224" text-anchor="middle" font-size="16" fill="#5B7186">Review the full impression</text>
+  <text x="623" y="248" text-anchor="middle" font-size="14" fill="#5B7186">wording + graphics together</text>
+  <line x1="788" y1="208" x2="856" y2="208" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT5)"/>
+  <rect x="856" y="152" width="300" height="112" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="1006" y="196" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Approved wording +</text>
+  <text x="1006" y="222" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">graphics</text>
+  <text x="1006" y="248" text-anchor="middle" font-size="14" fill="#5B7186">required output - pending decision</text>
+
+  <!-- Side branches -->
+  <rect x="80" y="420" width="250" height="52" rx="10" fill="#F4F7FA" stroke="#8299B0" stroke-width="2"/>
+  <text x="205" y="453" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Business address</text>
+  <line x1="330" y1="446" x2="458" y2="446" stroke="#8299B0" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrT5g)"/>
+  <rect x="458" y="420" width="330" height="52" rx="10" fill="#F4F7FA" stroke="#8299B0" stroke-width="2"/>
+  <text x="623" y="453" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Separate records - address file</text>
+
+  <rect x="80" y="522" width="250" height="52" rx="10" fill="#F4F7FA" stroke="#8299B0" stroke-width="2"/>
+  <text x="205" y="555" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Printer location</text>
+  <line x1="330" y1="548" x2="458" y2="548" stroke="#8299B0" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrT5g)"/>
+  <rect x="458" y="522" width="330" height="52" rx="10" fill="#F4F7FA" stroke="#8299B0" stroke-width="2"/>
+  <text x="623" y="555" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Separate records - print job file</text>
+
+  <text x="623" y="614" text-anchor="middle" font-size="15" font-weight="bold" fill="#5B7186">Address is not origin evidence</text>
+
+  <defs>
+    <marker id="arrT5" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+    <marker id="arrT5g" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#8299B0"/>
+    </marker>
+  </defs>
+</svg>
