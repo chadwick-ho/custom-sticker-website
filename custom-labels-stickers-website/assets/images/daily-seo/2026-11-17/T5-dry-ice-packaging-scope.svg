@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Packaging scope map distinguishing vial and product-carton identity from outer-shipper transport artwork and separate purchase-order lines.">
+  <rect width="1200" height="700" fill="#FEFEFC"/>
+  <text x="600" y="46" text-anchor="middle" font-size="26" font-weight="bold" fill="#16324F">Which package does each print request identify?</text>
+
+  <!-- Vial -->
+  <g>
+    <rect x="170" y="110" width="70" height="34" rx="7" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+    <line x1="170" y1="122" x2="240" y2="122" stroke="#4A7196" stroke-width="1.5"/>
+    <line x1="170" y1="133" x2="240" y2="133" stroke="#4A7196" stroke-width="1.5"/>
+    <path d="M 178 144 L 178 164 L 232 164 L 232 144" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+    <rect x="158" y="164" width="94" height="170" rx="14" fill="#FFFFFF" stroke="#4A7196" stroke-width="2.5"/>
+    <rect x="172" y="200" width="66" height="86" rx="6" fill="#FEFEFC" stroke="#B9C6D4" stroke-width="1.5"/>
+    <line x1="180" y1="222" x2="230" y2="222" stroke="#B9C6D4" stroke-width="4"/>
+    <line x1="180" y1="240" x2="230" y2="240" stroke="#B9C6D4" stroke-width="4"/>
+    <line x1="180" y1="258" x2="215" y2="258" stroke="#B9C6D4" stroke-width="4"/>
+    <text x="205" y="366" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Vial</text>
+    <rect x="118" y="386" width="174" height="40" rx="8" fill="#E8EEF4" stroke="#4A7196" stroke-width="1.5"/>
+    <text x="205" y="411" text-anchor="middle" font-size="14" fill="#16324F">Product identity</text>
+  </g>
+
+  <!-- Product carton -->
+  <g>
+    <rect x="455" y="140" width="200" height="180" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2.5"/>
+    <line x1="455" y1="182" x2="655" y2="182" stroke="#4A7196" stroke-width="2"/>
+    <rect x="478" y="205" width="154" height="88" rx="6" fill="#FEFEFC" stroke="#B9C6D4" stroke-width="1.5"/>
+    <line x1="492" y1="232" x2="618" y2="232" stroke="#B9C6D4" stroke-width="5"/>
+    <line x1="492" y1="254" x2="618" y2="254" stroke="#B9C6D4" stroke-width="5"/>
+    <line x1="492" y1="276" x2="580" y2="276" stroke="#B9C6D4" stroke-width="5"/>
+    <text x="555" y="366" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Product carton</text>
+    <rect x="463" y="386" width="184" height="40" rx="8" fill="#E8EEF4" stroke="#4A7196" stroke-width="1.5"/>
+    <text x="555" y="404" text-anchor="middle" font-size="13" fill="#16324F">Identity layer —</text>
+    <text x="555" y="421" text-anchor="middle" font-size="13" fill="#16324F">not the transport outer</text>
+  </g>
+
+  <!-- Outer shipper -->
+  <g>
+    <rect x="850" y="130" width="300" height="190" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2.5"/>
+    <line x1="850" y1="168" x2="1150" y2="168" stroke="#4A7196" stroke-width="2"/>
+    <rect x="880" y="190" width="240" height="104" rx="8" fill="#F4F7FA" stroke="#4A7196" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="1000" y="226" text-anchor="middle" font-size="14" fill="#16324F">Transport marks/labels —</text>
+    <text x="1000" y="246" text-anchor="middle" font-size="14" fill="#16324F">shipping-owner instructions</text>
+    <text x="1000" y="270" text-anchor="middle" font-size="12" fill="#5B7186">blank placeholder, no</text>
+    <text x="1000" y="285" text-anchor="middle" font-size="12" fill="#5B7186">dangerous-goods artwork</text>
+    <text x="1000" y="366" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Outer shipper</text>
+    <rect x="908" y="386" width="184" height="40" rx="8" fill="#E8EEF4" stroke="#4A7196" stroke-width="1.5"/>
+    <text x="1000" y="411" text-anchor="middle" font-size="14" fill="#16324F">Transport package</text>
+  </g>
+
+  <!-- Arrows to PO lines -->
+  <line x1="205" y1="426" x2="205" y2="500" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT5)"/>
+  <line x1="555" y1="426" x2="555" y2="500" stroke="#4A7196" stroke-width="2" stroke-dasharray="7 6" marker-end="url(#arrT5)"/>
+  <line x1="1000" y1="426" x2="1000" y2="500" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT5)"/>
+
+  <!-- PO lines -->
+  <rect x="60" y="500" width="350" height="110" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2.5"/>
+  <text x="235" y="536" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">PO A: vial identification print</text>
+  <text x="235" y="562" text-anchor="middle" font-size="13" fill="#5B7186">approved artwork revision, actual vial,</text>
+  <text x="235" y="580" text-anchor="middle" font-size="13" fill="#5B7186">quantity per design, handling</text>
+
+  <rect x="450" y="500" width="210" height="110" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="555" y="534" text-anchor="middle" font-size="14" fill="#16324F">Carton labels named</text>
+  <text x="555" y="552" text-anchor="middle" font-size="14" fill="#16324F">separately in the order</text>
+  <text x="555" y="576" text-anchor="middle" font-size="12" fill="#5B7186">product identity, not</text>
+  <text x="555" y="592" text-anchor="middle" font-size="12" fill="#5B7186">transport marking</text>
+
+  <rect x="790" y="500" width="350" height="110" rx="10" fill="#F4F7FA" stroke="#4A7196" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="965" y="536" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">PO B: outer-shipper print scope</text>
+  <text x="965" y="562" text-anchor="middle" font-size="13" fill="#5B7186">shipping artwork + variable-entry plan required</text>
+  <text x="965" y="582" text-anchor="middle" font-size="13" fill="#5B7186">unreleased until shipping owner confirms</text>
+
+  <text x="600" y="662" text-anchor="middle" font-size="15" fill="#5B7186">Scope diagram only — not shipping instructions or approved dangerous-goods artwork</text>
+  <defs>
+    <marker id="arrT5" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+  </defs>
+</svg>

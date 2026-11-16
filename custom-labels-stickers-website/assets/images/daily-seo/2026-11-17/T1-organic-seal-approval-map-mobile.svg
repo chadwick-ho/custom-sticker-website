@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="1180" viewBox="0 0 420 1180" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Decision map separating ingredient evidence, certifier label review and reproduction of approved organic artwork for two example SKUs.">
+  <rect width="420" height="1180" fill="#FEFEFC"/>
+  <text x="210" y="36" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Ingredient evidence is not</text>
+  <text x="210" y="60" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">finished-product approval</text>
+
+  <!-- Evidence stages -->
+  <rect x="20" y="84" width="380" height="64" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="210" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Ingredient evidence</text>
+  <text x="210" y="132" text-anchor="middle" font-size="13" fill="#5B7186">a certificate names an ingredient</text>
+  <line x1="210" y1="148" x2="210" y2="176" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT1m)"/>
+
+  <rect x="20" y="176" width="380" height="88" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="210" y="200" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Finished-product + certifier</text>
+  <text x="210" y="220" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">label review</text>
+  <text x="210" y="242" text-anchor="middle" font-size="12" fill="#5B7186">certifier decides category and label</text>
+  <text x="210" y="258" text-anchor="middle" font-size="11" fill="#5B7186">ingredient evidence alone does not authorize the seal</text>
+  <line x1="210" y1="264" x2="210" y2="292" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT1m)"/>
+
+  <rect x="20" y="292" width="380" height="64" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="210" y="318" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Approved artwork reproduction</text>
+  <text x="210" y="340" text-anchor="middle" font-size="12" fill="#5B7186">prepress matches the approved presentation</text>
+
+  <!-- Official file input -->
+  <line x1="320" y1="414" x2="320" y2="359" stroke="#4A7196" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrT1m)"/>
+  <rect x="20" y="414" width="380" height="58" rx="10" fill="#F4F7FA" stroke="#4A7196" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="210" y="440" text-anchor="middle" font-size="15" fill="#16324F">Official seal file —</text>
+  <text x="210" y="459" text-anchor="middle" font-size="15" fill="#16324F">supplied after approval</text>
+  <text x="210" y="492" text-anchor="middle" font-size="11" fill="#5B7186">blank placeholder — no seal artwork is reproduced here</text>
+
+  <!-- Per-SKU panel -->
+  <line x1="210" y1="504" x2="210" y2="528" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT1m)"/>
+  <rect x="20" y="528" width="380" height="560" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="210" y="556" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Two same-size SKUs —</text>
+  <text x="210" y="577" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">per-SKU scope</text>
+
+  <!-- DEMO-O1 card: icon row, then full-width text -->
+  <rect x="40" y="596" width="340" height="228" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <rect x="150" y="612" width="120" height="80" rx="6" fill="#FEFEFC" stroke="#B9C6D4" stroke-width="1.5"/>
+  <line x1="162" y1="636" x2="258" y2="636" stroke="#B9C6D4" stroke-width="5"/>
+  <line x1="162" y1="656" x2="258" y2="656" stroke="#B9C6D4" stroke-width="5"/>
+  <line x1="162" y1="676" x2="240" y2="676" stroke="#B9C6D4" stroke-width="5"/>
+  <text x="210" y="724" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">DEMO-O1</text>
+  <text x="210" y="750" text-anchor="middle" font-size="14" fill="#16324F">approval assumed supplied</text>
+  <text x="210" y="774" text-anchor="middle" font-size="12" fill="#5B7186">editorial premise — proceed to proof match</text>
+  <text x="210" y="802" text-anchor="middle" font-size="12" fill="#5B7186">same bottle and label size as O2</text>
+
+  <!-- DEMO-O2 card -->
+  <rect x="40" y="840" width="340" height="228" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <rect x="150" y="856" width="120" height="80" rx="6" fill="#FEFEFC" stroke="#B9C6D4" stroke-width="1.5"/>
+  <line x1="162" y1="880" x2="258" y2="880" stroke="#B9C6D4" stroke-width="5"/>
+  <line x1="162" y1="900" x2="258" y2="900" stroke="#B9C6D4" stroke-width="5"/>
+  <line x1="162" y1="920" x2="240" y2="920" stroke="#B9C6D4" stroke-width="5"/>
+  <text x="210" y="968" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">DEMO-O2</text>
+  <text x="210" y="994" text-anchor="middle" font-size="14" fill="#16324F">category + label decision unresolved</text>
+  <text x="210" y="1018" text-anchor="middle" font-size="12" fill="#5B7186">no seal permission — return to product team</text>
+  <text x="210" y="1046" text-anchor="middle" font-size="12" fill="#5B7186">seal decision goes back for review</text>
+
+  <text x="210" y="1112" text-anchor="middle" font-size="17" font-weight="bold" fill="#2E5F8A">Shared size does not share permission</text>
+  <text x="210" y="1156" text-anchor="middle" font-size="12" fill="#5B7186">Editorial decision map — no seal or completed approval shown</text>
+  <defs>
+    <marker id="arrT1m" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+  </defs>
+</svg>

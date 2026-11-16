@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="1030" viewBox="0 0 420 1030" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Proposed comparison objects including a label roll, inner packing, an unlabeled bottle and a labeled bottle, with separate sensory and package-safety review questions.">
+  <rect width="420" height="1030" fill="#FEFEFC"/>
+  <text x="210" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Identified comparison objects,</text>
+  <text x="210" y="58" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">two separate questions</text>
+
+  <!-- Comparison inputs: four independent cards in one group -->
+  <rect x="30" y="84" width="360" height="322" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="210" y="110" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Comparison inputs — identified objects</text>
+
+  <rect x="50" y="126" width="320" height="58" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="210" y="150" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Label roll</text>
+  <text x="210" y="172" text-anchor="middle" font-size="13" fill="#5B7186">identified construction</text>
+
+  <rect x="50" y="194" width="320" height="58" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="210" y="218" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Inner packing</text>
+  <text x="210" y="240" text-anchor="middle" font-size="13" fill="#5B7186">identified batch</text>
+
+  <rect x="50" y="262" width="320" height="58" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="210" y="286" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Unlabeled bottle</text>
+  <text x="210" y="308" text-anchor="middle" font-size="13" fill="#5B7186">reference — same bottle + closure</text>
+
+  <rect x="50" y="330" width="320" height="58" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="210" y="354" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Labeled bottle</text>
+  <text x="210" y="376" text-anchor="middle" font-size="13" fill="#5B7186">candidate — comparable assembly</text>
+
+  <text x="210" y="430" text-anchor="middle" font-size="12" fill="#5B7186">Unprinted stock — include if available;</text>
+  <text x="210" y="447" text-anchor="middle" font-size="12" fill="#5B7186">record gaps instead of filling rows</text>
+  <text x="210" y="472" text-anchor="middle" font-size="12" font-style="italic" fill="#5B7186">all four inputs feed the scope in parallel</text>
+
+  <!-- Central scope box -->
+  <line x1="210" y1="484" x2="210" y2="508" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3m)"/>
+  <rect x="30" y="508" width="360" height="86" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2.5"/>
+  <text x="210" y="540" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Agree comparison scope</text>
+  <text x="210" y="564" text-anchor="middle" font-size="13" fill="#5B7186">what changes across each pair, with the assessor</text>
+  <text x="210" y="581" text-anchor="middle" font-size="13" fill="#5B7186">and quality team</text>
+
+  <!-- Two independent questions -->
+  <line x1="120" y1="594" x2="120" y2="626" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3m)"/>
+  <line x1="300" y1="594" x2="300" y2="626" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3m)"/>
+
+  <rect x="30" y="626" width="180" height="130" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="120" y="664" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Sensory</text>
+  <text x="120" y="684" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">acceptance?</text>
+  <text x="120" y="710" text-anchor="middle" font-size="12" fill="#5B7186">agreed method +</text>
+  <text x="120" y="727" text-anchor="middle" font-size="12" fill="#5B7186">criterion for the item</text>
+
+  <rect x="210" y="626" width="180" height="130" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="300" y="664" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Package-safety</text>
+  <text x="300" y="684" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">assessment?</text>
+  <text x="300" y="710" text-anchor="middle" font-size="12" fill="#5B7186">responsible quality</text>
+  <text x="300" y="727" text-anchor="middle" font-size="12" fill="#5B7186">owner decides</text>
+
+  <text x="210" y="792" text-anchor="middle" font-size="15" font-weight="bold" fill="#2E5F8A">independent questions — separate evidence</text>
+
+  <rect x="60" y="830" width="300" height="50" rx="10" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="210" y="861" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Proposed comparisons; no results</text>
+
+  <text x="210" y="934" text-anchor="middle" font-size="13" fill="#5B7186">No diagnosed source, migration path,</text>
+  <text x="210" y="954" text-anchor="middle" font-size="13" fill="#5B7186">instrument reading or verdict is shown</text>
+  <defs>
+    <marker id="arrT3m" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+  </defs>
+</svg>

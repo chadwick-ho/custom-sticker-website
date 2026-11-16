@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Workflow from approved identification words through specialist transcription and a tactile bottle specimen to a reader identification task.">
+  <rect width="1200" height="660" fill="#FEFEFC"/>
+  <text x="600" y="46" text-anchor="middle" font-size="26" font-weight="bold" fill="#16324F">From approved words to a tactile check</text>
+
+  <!-- Four-stage flow -->
+  <g>
+    <rect x="40" y="110" width="240" height="96" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+    <text x="160" y="146" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Approved identification</text>
+    <text x="160" y="168" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">words</text>
+    <text x="160" y="192" text-anchor="middle" font-size="13" fill="#5B7186">exact print source per SKU</text>
+    <line x1="280" y1="158" x2="336" y2="158" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2)"/>
+
+    <rect x="340" y="110" width="240" height="96" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+    <text x="460" y="146" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Specialist</text>
+    <text x="460" y="168" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">transcription</text>
+    <text x="460" y="192" text-anchor="middle" font-size="13" fill="#5B7186">reviewed reference + parameters</text>
+    <line x1="580" y1="158" x2="636" y2="158" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2)"/>
+
+    <rect x="640" y="110" width="240" height="96" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+    <text x="760" y="146" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Tactile specimen on</text>
+    <text x="760" y="168" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">actual bottle</text>
+    <text x="760" y="192" text-anchor="middle" font-size="13" fill="#5B7186">specialist reviews physical output</text>
+    <line x1="880" y1="158" x2="936" y2="158" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2)"/>
+
+    <rect x="940" y="110" width="240" height="96" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+    <text x="1060" y="146" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Reader locates</text>
+    <text x="1060" y="168" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">+ identifies</text>
+    <text x="1060" y="192" text-anchor="middle" font-size="13" fill="#5B7186">task on the actual bottle</text>
+  </g>
+
+  <!-- Bottle with candidate tactile zone -->
+  <g>
+    <rect x="300" y="250" width="90" height="40" rx="8" fill="#E8EEF4" stroke="#4A7196" stroke-width="2"/>
+    <line x1="300" y1="264" x2="390" y2="264" stroke="#4A7196" stroke-width="1.5"/>
+    <line x1="300" y1="276" x2="390" y2="276" stroke="#4A7196" stroke-width="1.5"/>
+    <path d="M 310 290 L 310 316 L 380 316 L 380 290" fill="#F4F7FA" stroke="#4A7196" stroke-width="2"/>
+    <rect x="270" y="316" width="150" height="210" rx="16" fill="#FFFFFF" stroke="#4A7196" stroke-width="2.5"/>
+    <rect x="288" y="356" width="114" height="76" rx="8" fill="#F4F7FA" stroke="#4A7196" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="345" y="384" text-anchor="middle" font-size="12" fill="#16324F">Tactile zone —</text>
+    <text x="345" y="402" text-anchor="middle" font-size="12" fill="#16324F">layout placeholder</text>
+    <text x="345" y="560" text-anchor="middle" font-size="14" fill="#16324F">Candidate location;</text>
+    <text x="345" y="580" text-anchor="middle" font-size="14" fill="#16324F">not an approved sample</text>
+  </g>
+
+  <!-- Note panel -->
+  <rect x="560" y="290" width="600" height="130" rx="10" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="860" y="330" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">A screen image cannot supply tactile evidence</text>
+  <text x="860" y="360" text-anchor="middle" font-size="15" fill="#5B7186">The candidate area is a layout proposal. Usability is checked</text>
+  <text x="860" y="382" text-anchor="middle" font-size="15" fill="#5B7186">by a specialist and readers on physical specimens,</text>
+  <text x="860" y="404" text-anchor="middle" font-size="15" fill="#5B7186">not by looking at dots.</text>
+
+  <rect x="560" y="450" width="600" height="90" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="860" y="486" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Keep decorative relief separate</text>
+  <text x="860" y="512" text-anchor="middle" font-size="14" fill="#5B7186">A raised logo is a different deliverable from a readable message.</text>
+
+  <text x="600" y="620" text-anchor="middle" font-size="16" fill="#5B7186">Concept only — no validated braille transcription, dot pattern or tactile sample is shown</text>
+  <defs>
+    <marker id="arrT2" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+  </defs>
+</svg>
