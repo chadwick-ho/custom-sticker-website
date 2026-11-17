@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Concept review map connecting label composition, complete package and actual inspection point to the packer inspection owner and documented decision.">
+  <rect width="360" height="800" fill="#FEFEFC"/>
+  <text x="180" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">Review the actual finished pack</text>
+
+  <!-- Three independent inputs in one group -->
+  <rect x="10" y="55" width="340" height="345" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="180" y="82" text-anchor="middle" font-size="15" font-weight="bold" fill="#5B7186">three independent inputs</text>
+
+  <rect x="24" y="96" width="312" height="92" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="127" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Label construction</text>
+  <text x="180" y="152" text-anchor="middle" font-size="14" fill="#5B7186">metal-containing</text>
+  <text x="180" y="172" text-anchor="middle" font-size="14" fill="#5B7186">layers + coverage</text>
+
+  <rect x="24" y="198" width="312" height="92" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="229" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Complete pack</text>
+  <text x="180" y="254" text-anchor="middle" font-size="14" fill="#5B7186">contents + bottle +</text>
+  <text x="180" y="274" text-anchor="middle" font-size="14" fill="#5B7186">closure + seal</text>
+
+  <rect x="24" y="300" width="312" height="92" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="331" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Actual inspection point</text>
+  <text x="180" y="355" text-anchor="middle" font-size="14" fill="#5B7186">before or after labeling?</text>
+  <text x="180" y="375" text-anchor="middle" font-size="14" fill="#5B7186">detector + program ref</text>
+
+  <line x1="180" y1="400" x2="180" y2="432" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT4m)"/>
+
+  <rect x="30" y="438" width="300" height="64" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2.5"/>
+  <text x="180" y="476" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Inspection owner review</text>
+
+  <line x1="180" y1="502" x2="180" y2="534" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT4m)"/>
+
+  <rect x="30" y="540" width="300" height="80" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="573" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Representative</text>
+  <text x="180" y="595" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">finished-pack assessment</text>
+
+  <line x1="180" y1="620" x2="180" y2="652" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT4m)"/>
+
+  <rect x="60" y="658" width="240" height="64" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="696" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Documented decision</text>
+
+  <text x="180" y="768" text-anchor="middle" font-size="13" font-style="italic" fill="#5B7186">No compatibility result shown</text>
+
+  <defs>
+    <marker id="arrT4m" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+  </defs>
+</svg>

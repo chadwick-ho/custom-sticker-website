@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1100" viewBox="0 0 360 1100" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Concept comparison of direct bottle ink and a separate adhesive label, showing which undecorated and decorated stocks carry an artwork version.">
+  <rect width="360" height="1100" fill="#FEFEFC"/>
+  <text x="180" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">Same bottle reference</text>
+  <text x="180" y="56" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">+ artwork revision</text>
+
+  <!-- Direct screen print construction -->
+  <rect x="15" y="78" width="330" height="250" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Direct screen print</text>
+  <rect x="35" y="135" width="290" height="80" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="180" y="181" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Bottle wall</text>
+  <rect x="35" y="215" width="290" height="60" fill="#2E5F8A" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="180" y="251" text-anchor="middle" font-size="15" fill="#FFFFFF">Direct ink</text>
+
+  <!-- Separate adhesive label construction -->
+  <rect x="15" y="345" width="330" height="305" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="375" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Separate adhesive label</text>
+  <rect x="35" y="395" width="290" height="62" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="180" y="432" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Bottle wall</text>
+  <rect x="35" y="457" width="290" height="38" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <text x="180" y="482" text-anchor="middle" font-size="15" fill="#6B5A2E">Adhesive</text>
+  <rect x="35" y="495" width="290" height="38" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="520" text-anchor="middle" font-size="15" fill="#16324F">Face material</text>
+  <rect x="35" y="533" width="290" height="38" fill="#9FB3C8" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="558" text-anchor="middle" font-size="15" fill="#16324F">Printed layer</text>
+  <rect x="35" y="571" width="290" height="38" fill="#FFFFFF" stroke="#7A94A8" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="180" y="596" text-anchor="middle" font-size="15" font-style="italic" fill="#5B7186">Optional protection</text>
+
+  <text x="180" y="680" text-anchor="middle" font-size="14" font-style="italic" fill="#5B7186">Simplified layers; confirm actual construction</text>
+
+  <!-- Independent stock states -->
+  <text x="180" y="720" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Stock at the next revision</text>
+
+  <rect x="15" y="738" width="330" height="72" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="768" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Plain bottles</text>
+  <text x="180" y="791" text-anchor="middle" font-size="14" fill="#5B7186">no old printed identity</text>
+
+  <rect x="15" y="820" width="330" height="72" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="850" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Decorated bottles</text>
+  <text x="180" y="873" text-anchor="middle" font-size="14" fill="#5B7186">old copy present</text>
+
+  <rect x="15" y="902" width="330" height="72" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="932" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Unapplied labels</text>
+  <text x="180" y="955" text-anchor="middle" font-size="14" fill="#5B7186">old copy present</text>
+
+  <text x="180" y="1008" text-anchor="middle" font-size="13" font-style="italic" fill="#5B7186">independent stock states — not a sequence</text>
+  <text x="180" y="1038" text-anchor="middle" font-size="15" font-weight="bold" fill="#2E5F8A">Rework requires its own acceptance</text>
+
+  <text x="180" y="1078" text-anchor="middle" font-size="13" fill="#5B7186">Concept comparison; neither route</text>
+  <text x="180" y="1094" text-anchor="middle" font-size="13" fill="#5B7186">shown as superior</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="880" viewBox="0 0 360 880" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Concept distinction between toner printing and inline laser marking, with equipment, finished construction, marked sample and release records.">
+  <rect width="360" height="880" fill="#FEFEFC"/>
+  <text x="180" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">Which laser process?</text>
+
+  <!-- Two independent processes, no connecting arrow -->
+  <rect x="15" y="60" width="330" height="95" rx="10" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="95" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Toner printing</text>
+  <text x="180" y="120" text-anchor="middle" font-size="14" fill="#5B7186">toner applied to</text>
+  <text x="180" y="140" text-anchor="middle" font-size="14" fill="#5B7186">compatible media</text>
+
+  <rect x="15" y="170" width="330" height="95" rx="10" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="205" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Inline laser marking</text>
+  <text x="180" y="230" text-anchor="middle" font-size="14" fill="#5B7186">laser interacts with</text>
+  <text x="180" y="250" text-anchor="middle" font-size="14" fill="#5B7186">specified material</text>
+
+  <text x="180" y="296" text-anchor="middle" font-size="13" font-style="italic" fill="#5B7186">independent processes — not interchangeable</text>
+
+  <text x="180" y="340" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Qualification records</text>
+
+  <!-- Parallel inputs group -->
+  <rect x="12" y="355" width="336" height="235" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="180" y="380" text-anchor="middle" font-size="15" font-weight="bold" fill="#5B7186">parallel inputs</text>
+
+  <rect x="28" y="395" width="304" height="80" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="428" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Equipment reference</text>
+  <text x="180" y="452" text-anchor="middle" font-size="14" fill="#5B7186">model + laser type</text>
+
+  <rect x="28" y="490" width="304" height="80" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="522" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Finished construction</text>
+  <text x="180" y="546" text-anchor="middle" font-size="14" fill="#5B7186">face + preprint + protection</text>
+
+  <line x1="180" y1="590" x2="180" y2="622" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3m)"/>
+
+  <rect x="30" y="628" width="300" height="85" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2.5"/>
+  <text x="180" y="662" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Identified marked</text>
+  <text x="180" y="682" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">sample</text>
+  <text x="180" y="703" text-anchor="middle" font-size="14" fill="#5B7186">trial + observations</text>
+
+  <line x1="180" y1="713" x2="180" y2="745" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT3m)"/>
+
+  <rect x="55" y="750" width="250" height="80" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="782" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Owner decision</text>
+  <text x="180" y="806" text-anchor="middle" font-size="14" fill="#5B7186">accepted scope or hold</text>
+
+  <text x="180" y="862" text-anchor="middle" font-size="13" font-style="italic" fill="#5B7186">No settings or results shown</text>
+
+  <defs>
+    <marker id="arrT3m" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+  </defs>
+</svg>

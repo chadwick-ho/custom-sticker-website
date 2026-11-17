@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1230" viewBox="0 0 360 1230" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Concept handoff linking brand artwork, converter label specification and molder acceptance, with existing finished tubs routed to a separate decoration review.">
+  <rect width="360" height="1230" fill="#FEFEFC"/>
+  <text x="180" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">IML: agree the handoff</text>
+  <text x="180" y="54" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">before ordering</text>
+
+  <!-- Three independent parties in one group -->
+  <rect x="12" y="75" width="336" height="260" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="180" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#5B7186">three independent approvals</text>
+
+  <rect x="28" y="112" width="304" height="65" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Brand</text>
+  <text x="180" y="162" text-anchor="middle" font-size="14" fill="#5B7186">release artwork</text>
+
+  <rect x="28" y="185" width="304" height="65" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="213" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Converter</text>
+  <text x="180" y="235" text-anchor="middle" font-size="14" fill="#5B7186">confirm label + packing</text>
+
+  <rect x="28" y="258" width="304" height="65" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="286" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Molder</text>
+  <text x="180" y="308" text-anchor="middle" font-size="14" fill="#5B7186">accept tool + label spec</text>
+
+  <line x1="180" y1="335" x2="180" y2="372" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2m)"/>
+
+  <rect x="40" y="378" width="280" height="70" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2.5"/>
+  <text x="180" y="408" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">One controlled</text>
+  <text x="180" y="430" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">specification</text>
+
+  <line x1="180" y1="448" x2="180" y2="478" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2m)"/>
+
+  <!-- In-mold sequence -->
+  <rect x="12" y="482" width="336" height="415" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="508" text-anchor="middle" font-size="15" font-weight="bold" fill="#5B7186">In-mold sequence</text>
+
+  <rect x="40" y="520" width="280" height="62" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="557" text-anchor="middle" font-size="16" fill="#16324F">Label inside mold</text>
+  <line x1="180" y1="582" x2="180" y2="612" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2m)"/>
+
+  <rect x="40" y="615" width="280" height="62" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="652" text-anchor="middle" font-size="16" fill="#16324F">Container molding</text>
+  <line x1="180" y1="677" x2="180" y2="707" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2m)"/>
+
+  <rect x="40" y="710" width="280" height="62" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="738" text-anchor="middle" font-size="16" fill="#16324F">Identified molded</text>
+  <text x="180" y="758" text-anchor="middle" font-size="16" fill="#16324F">sample</text>
+  <line x1="180" y1="772" x2="180" y2="802" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arrT2m)"/>
+
+  <rect x="40" y="805" width="280" height="62" rx="10" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="842" text-anchor="middle" font-size="16" fill="#16324F">Release decision</text>
+
+  <!-- Detached existing-stock route -->
+  <rect x="12" y="930" width="336" height="235" rx="12" fill="#FBF6EA" stroke="#C9B37E" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="180" y="958" text-anchor="middle" font-size="15" font-weight="bold" fill="#6B5A2E">Separate existing-stock route</text>
+  <text x="180" y="978" text-anchor="middle" font-size="13" fill="#6B5A2E">not part of IML</text>
+
+  <rect x="40" y="992" width="280" height="58" rx="10" fill="#FFFFFF" stroke="#8A7A4A" stroke-width="2"/>
+  <text x="180" y="1027" text-anchor="middle" font-size="16" fill="#16324F">Finished empty tubs</text>
+  <line x1="180" y1="1050" x2="180" y2="1078" stroke="#8A7A4A" stroke-width="2.5" marker-end="url(#arrT2mb)"/>
+  <rect x="40" y="1082" width="280" height="68" rx="10" fill="#FFFFFF" stroke="#8A7A4A" stroke-width="2"/>
+  <text x="180" y="1110" text-anchor="middle" font-size="16" fill="#16324F">Post-mold decoration</text>
+  <text x="180" y="1130" text-anchor="middle" font-size="16" fill="#16324F">review</text>
+
+  <text x="180" y="1200" text-anchor="middle" font-size="13" font-style="italic" fill="#5B7186">Process concept; no approved sample shown</text>
+
+  <defs>
+    <marker id="arrT2m" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#4A7196"/>
+    </marker>
+    <marker id="arrT2mb" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#8A7A4A"/>
+    </marker>
+  </defs>
+</svg>
