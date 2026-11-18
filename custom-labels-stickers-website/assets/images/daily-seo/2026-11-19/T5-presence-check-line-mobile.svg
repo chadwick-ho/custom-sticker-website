@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1280" viewBox="0 0 360 1280" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="A line diagram locates the presence check after application. Matched filled bottles show the proposed label feature and the same area on a bare control.">
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L9,3.5 L0,7 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="360" height="1280" fill="#FEFEFC"/>
+  <text x="180" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Locate the check,</text>
+  <text x="180" y="54" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">then challenge it</text>
+
+  <!-- Station 1: web-gap sensor -->
+  <rect x="16" y="70" width="328" height="80" rx="10" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="1.5"/>
+  <circle cx="64" cy="110" r="26" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <circle cx="64" cy="110" r="9" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="1.5"/>
+  <line x1="90" y1="115" x2="160" y2="128" stroke="#9FB3C8" stroke-width="3"/>
+  <rect x="116" y="96" width="20" height="14" rx="2" fill="#F0E7C8" stroke="#C9B37E" stroke-width="1.5"/>
+  <text x="205" y="116" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Web-gap sensor</text>
+  <line x1="180" y1="150" x2="180" y2="162" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- Station 2: label applied -->
+  <rect x="16" y="166" width="328" height="80" rx="10" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="1.5"/>
+  <rect x="55" y="178" width="18" height="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="44" y="188" width="40" height="42" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="44" y="200" width="40" height="18" fill="#F0E7C8" stroke="#C9B37E" stroke-width="1.5"/>
+  <text x="215" y="212" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Label applied</text>
+  <line x1="180" y1="246" x2="180" y2="258" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- Station 3: downstream presence check -->
+  <rect x="16" y="262" width="328" height="80" rx="10" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="1.5"/>
+  <rect x="40" y="288" width="50" height="24" rx="4" fill="#FFFFFF" stroke="#4A7196" stroke-width="1.5"/>
+  <circle cx="65" cy="314" r="5" fill="#FFFFFF" stroke="#4A7196" stroke-width="1.5"/>
+  <text x="212" y="296" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Downstream</text>
+  <text x="212" y="316" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">presence check</text>
+  <line x1="180" y1="342" x2="180" y2="354" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- Station 4: reject point -->
+  <rect x="16" y="358" width="328" height="80" rx="10" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="1.5"/>
+  <rect x="48" y="384" width="12" height="36" fill="#9FB3C8" stroke="#4A7196" stroke-width="1.5"/>
+  <line x1="60" y1="398" x2="92" y2="398" stroke="#4A7196" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="95" y="408" width="44" height="16" rx="3" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="1.5"/>
+  <text x="225" y="404" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Reject point</text>
+
+  <!-- Matched examples -->
+  <text x="180" y="476" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Matched examples</text>
+  <text x="180" y="497" text-anchor="middle" font-size="12" font-style="italic" fill="#5B7186">Same bottle, fill and background</text>
+
+  <!-- Labeled card -->
+  <rect x="16" y="510" width="328" height="340" rx="12" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="540" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Label present</text>
+  <rect x="105" y="556" width="150" height="160" fill="#F4F7FA"/>
+  <rect x="158" y="566" width="44" height="16" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="135" y="582" width="90" height="118" rx="9" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="135" y="606" width="90" height="56" fill="#FFFFFF" fill-opacity="0.35" stroke="#2E5F8A" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="152" y="620" width="56" height="28" fill="#F0E7C8" stroke="#C9B37E" stroke-width="1.5"/>
+  <text x="180" y="736" text-anchor="middle" font-size="12" font-style="italic" fill="#5B7186">candidate feature on clear film</text>
+  <text x="36" y="772" font-size="14" font-weight="bold" fill="#16324F">Station decision</text>
+  <line x1="170" y1="778" x2="324" y2="778" stroke="#B9C6D4" stroke-width="1.5"/>
+  <text x="36" y="812" font-size="14" font-weight="bold" fill="#16324F">Observed bottle path</text>
+  <line x1="210" y1="818" x2="324" y2="818" stroke="#B9C6D4" stroke-width="1.5"/>
+
+  <!-- Bare card -->
+  <rect x="16" y="870" width="328" height="340" rx="12" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="900" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Bare bottle</text>
+  <rect x="105" y="916" width="150" height="160" fill="#F4F7FA"/>
+  <rect x="158" y="926" width="44" height="16" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="135" y="942" width="90" height="118" rx="9" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="135" y="966" width="90" height="56" fill="none" stroke="#7A94A8" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="180" y="1096" text-anchor="middle" font-size="12" font-style="italic" fill="#5B7186">same area, no label</text>
+  <text x="36" y="1132" font-size="14" font-weight="bold" fill="#16324F">Station decision</text>
+  <line x1="170" y1="1138" x2="324" y2="1138" stroke="#B9C6D4" stroke-width="1.5"/>
+  <text x="36" y="1172" font-size="14" font-weight="bold" fill="#16324F">Observed bottle path</text>
+  <line x1="210" y1="1178" x2="324" y2="1178" stroke="#B9C6D4" stroke-width="1.5"/>
+
+  <text x="180" y="1250" text-anchor="middle" font-size="12" font-style="italic" fill="#5B7186">Concept — the packer records each path</text>
+</svg>

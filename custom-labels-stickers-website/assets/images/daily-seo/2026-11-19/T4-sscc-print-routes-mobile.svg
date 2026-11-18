@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1180" viewBox="0 0 360 1180" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Preprinted stock and printing at pallet build both lead to a scan of the applied SSCC and a comparison with the contents and dispatch record.">
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L9,3.5 L0,7 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="360" height="1180" fill="#FEFEFC"/>
+  <text x="180" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">Two print routes,</text>
+  <text x="180" y="54" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">one pallet and its record</text>
+
+  <!-- Route A card -->
+  <rect x="16" y="70" width="328" height="270" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="100" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Preprinted stock</text>
+  <circle cx="90" cy="140" r="22" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <circle cx="90" cy="140" r="7" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="135" y="128" width="80" height="24" rx="3" fill="#F0E7C8" stroke="#C9B37E" stroke-width="1.5"/>
+  <line x1="143" y1="140" x2="207" y2="140" stroke="#6B5A2E" stroke-width="1.5"/>
+  <rect x="60" y="170" width="240" height="42" rx="8" fill="#FFFFFF" stroke="#4A7196" stroke-width="1.5"/>
+  <text x="180" y="197" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Apply allocated ID</text>
+  <line x1="180" y1="212" x2="180" y2="228" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+  <rect x="60" y="232" width="240" height="42" rx="8" fill="#FFFFFF" stroke="#4A7196" stroke-width="1.5"/>
+  <text x="180" y="259" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Scan on pallet</text>
+  <rect x="150" y="288" width="60" height="30" rx="3" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="146" y="318" width="68" height="8" fill="#9FB3C8" stroke="#4A7196" stroke-width="1"/>
+  <rect x="222" y="294" width="42" height="18" rx="3" fill="#FFFFFF" stroke="#4A7196" stroke-width="1"/>
+  <line x1="227" y1="303" x2="259" y2="303" stroke="#4A7196" stroke-width="1" stroke-dasharray="3 2"/>
+
+  <!-- Route B card -->
+  <rect x="16" y="370" width="328" height="310" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="400" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Print at build</text>
+  <rect x="60" y="414" width="240" height="42" rx="8" fill="#FFFFFF" stroke="#4A7196" stroke-width="1.5"/>
+  <text x="180" y="441" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Contents confirmed</text>
+  <line x1="180" y1="456" x2="180" y2="472" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+  <rect x="60" y="476" width="240" height="42" rx="8" fill="#FFFFFF" stroke="#4A7196" stroke-width="1.5"/>
+  <text x="180" y="503" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Print and apply ID</text>
+  <line x1="180" y1="518" x2="180" y2="534" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+  <rect x="60" y="538" width="240" height="42" rx="8" fill="#FFFFFF" stroke="#4A7196" stroke-width="1.5"/>
+  <text x="180" y="565" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Scan on pallet</text>
+  <rect x="150" y="594" width="60" height="30" rx="3" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="146" y="624" width="68" height="8" fill="#9FB3C8" stroke="#4A7196" stroke-width="1"/>
+  <rect x="222" y="600" width="42" height="18" rx="3" fill="#FFFFFF" stroke="#4A7196" stroke-width="1"/>
+  <line x1="227" y1="609" x2="259" y2="609" stroke="#4A7196" stroke-width="1" stroke-dasharray="3 2"/>
+
+  <!-- Merge: A bypasses B down the right margin -->
+  <line x1="344" y1="205" x2="352" y2="205" stroke="#4A7196" stroke-width="2.5"/>
+  <polyline points="352,205 352,700 190,700" fill="none" stroke="#4A7196" stroke-width="2.5"/>
+  <line x1="180" y1="680" x2="180" y2="700" stroke="#4A7196" stroke-width="2.5"/>
+  <line x1="180" y1="700" x2="180" y2="712" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="290" y="360" font-size="11" font-style="italic" fill="#5B7186">either route</text>
+
+  <!-- Shared card -->
+  <rect x="16" y="716" width="328" height="420" rx="12" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="180" y="748" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">One pallet</text>
+  <rect x="80" y="772" width="48" height="44" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="132" y="780" width="48" height="36" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="184" y="788" width="34" height="28" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="72" y="816" width="156" height="18" fill="#9FB3C8" stroke="#4A7196" stroke-width="1.5"/>
+  <rect x="84" y="834" width="22" height="9" fill="#9FB3C8" stroke="#4A7196" stroke-width="1"/>
+  <rect x="196" y="834" width="22" height="9" fill="#9FB3C8" stroke="#4A7196" stroke-width="1"/>
+  <rect x="90" y="850" width="80" height="30" rx="4" fill="#F0E7C8" stroke="#C9B37E" stroke-width="1.5"/>
+  <text x="130" y="870" text-anchor="middle" font-size="14" font-weight="bold" fill="#6B5A2E">SSCC A</text>
+
+  <text x="180" y="912" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">Match contents and shipment</text>
+  <line x1="180" y1="880" x2="180" y2="900" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="36" y="920" width="288" height="130" rx="10" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="1.5"/>
+  <text x="180" y="948" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Dispatch record</text>
+  <rect x="56" y="962" width="80" height="26" rx="3" fill="#F0E7C8" stroke="#C9B37E" stroke-width="1.5"/>
+  <text x="96" y="980" text-anchor="middle" font-size="12" font-weight="bold" fill="#6B5A2E">SSCC A</text>
+  <line x1="150" y1="975" x2="304" y2="975" stroke="#4A7196" stroke-width="1.5"/>
+  <line x1="56" y1="1004" x2="304" y2="1004" stroke="#4A7196" stroke-width="1.5"/>
+  <line x1="56" y1="1024" x2="280" y2="1024" stroke="#4A7196" stroke-width="1.5"/>
+
+  <rect x="100" y="1064" width="160" height="50" rx="8" fill="#FFFFFF" stroke="#7A94A8" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="180" y="1084" text-anchor="middle" font-size="12" font-weight="bold" fill="#16324F">Receiver&#8217;s</text>
+  <text x="180" y="1100" text-anchor="middle" font-size="12" font-weight="bold" fill="#16324F">shipping data</text>
+  <line x1="180" y1="1050" x2="180" y2="1062" stroke="#4A7196" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <text x="180" y="1160" text-anchor="middle" font-size="12" font-style="italic" fill="#5B7186">Concept — one ID links unit and record</text>
+</svg>

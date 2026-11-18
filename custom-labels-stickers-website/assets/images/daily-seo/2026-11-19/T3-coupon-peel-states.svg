@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="830" viewBox="0 0 1200 830" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="An intact on-pack coupon separates into two views: the detached offer for checkout and the bottle retaining its product identity and retail code.">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="1200" height="830" fill="#FEFEFC"/>
+  <text x="600" y="50" text-anchor="middle" font-size="30" font-weight="bold" fill="#16324F">One pack: what peels away and what stays</text>
+
+  <!-- Left card: intact pack -->
+  <rect x="40" y="90" width="380" height="560" rx="14" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="230" y="134" text-anchor="middle" font-size="24" font-weight="bold" fill="#16324F">Intact pack</text>
+  <rect x="205" y="158" width="50" height="26" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <rect x="170" y="184" width="120" height="270" rx="14" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <!-- coupon layer -->
+  <rect x="182" y="212" width="96" height="86" rx="6" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2" stroke-dasharray="7 5"/>
+  <rect x="272" y="200" width="20" height="16" rx="3" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <line x1="192" y1="240" x2="268" y2="240" stroke="#6B5A2E" stroke-width="2.5"/>
+  <line x1="192" y1="256" x2="258" y2="256" stroke="#6B5A2E" stroke-width="2.5"/>
+  <line x1="192" y1="272" x2="250" y2="272" stroke="#6B5A2E" stroke-width="2.5"/>
+  <text x="72" y="196" font-size="18" font-weight="bold" fill="#16324F">Peel tab</text>
+  <line x1="150" y1="200" x2="272" y2="206" stroke="#4A7196" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- base / product identity -->
+  <rect x="182" y="330" width="96" height="106" rx="6" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <line x1="192" y1="352" x2="268" y2="352" stroke="#16324F" stroke-width="3"/>
+  <line x1="192" y1="368" x2="260" y2="368" stroke="#16324F" stroke-width="3"/>
+  <rect x="192" y="390" width="76" height="28" fill="none" stroke="#4A7196" stroke-width="1.5"/>
+  <line x1="198" y1="404" x2="262" y2="404" stroke="#4A7196" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="230" y="505" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Product identity</text>
+  <text x="230" y="528" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">and retail code</text>
+  <line x1="230" y1="488" x2="230" y2="440" stroke="#4A7196" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="230" y="605" text-anchor="middle" font-size="15" font-style="italic" fill="#5B7186">one bottle, three states to check</text>
+
+  <!-- Fork to result cards -->
+  <line x1="420" y1="370" x2="452" y2="370" stroke="#4A7196" stroke-width="3"/>
+  <line x1="452" y1="370" x2="452" y2="240" stroke="#4A7196" stroke-width="3"/>
+  <line x1="452" y1="240" x2="476" y2="240" stroke="#4A7196" stroke-width="3" marker-end="url(#arr)"/>
+  <line x1="452" y1="370" x2="452" y2="580" stroke="#4A7196" stroke-width="3"/>
+  <line x1="452" y1="580" x2="476" y2="580" stroke="#4A7196" stroke-width="3" marker-end="url(#arr)"/>
+
+  <!-- Right top card: detached coupon -->
+  <rect x="480" y="90" width="680" height="300" rx="14" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="820" y="134" text-anchor="middle" font-size="24" font-weight="bold" fill="#16324F">Detached coupon</text>
+  <rect x="540" y="170" width="300" height="150" rx="8" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2" stroke-dasharray="9 6"/>
+  <line x1="565" y1="205" x2="800" y2="205" stroke="#6B5A2E" stroke-width="3"/>
+  <line x1="565" y1="228" x2="770" y2="228" stroke="#6B5A2E" stroke-width="3"/>
+  <line x1="565" y1="251" x2="790" y2="251" stroke="#6B5A2E" stroke-width="3"/>
+  <rect x="565" y="272" width="110" height="30" fill="#FFFFFF" stroke="#C9B37E" stroke-width="1.5"/>
+  <line x1="575" y1="287" x2="665" y2="287" stroke="#6B5A2E" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="890" y="185" font-size="18" font-weight="bold" fill="#16324F">Offer terms</text>
+  <text x="890" y="206" font-size="18" font-weight="bold" fill="#16324F">and offer ID</text>
+  <line x1="885" y1="196" x2="845" y2="215" stroke="#4A7196" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- cashier hand receiving the piece -->
+  <path d="M940,340 L940,300 Q940,282 958,282 L986,282 Q1004,282 1004,296 L1004,310 L1040,310 Q1054,310 1054,322 Q1054,334 1040,334 L1004,334 L1004,340 Z" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="2"/>
+  <line x1="880" y1="330" x2="935" y2="322" stroke="#4A7196" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="995" y="372" text-anchor="middle" font-size="15" font-style="italic" fill="#5B7186">to checkout</text>
+
+  <!-- Right bottom card: bottle after removal -->
+  <rect x="480" y="440" width="680" height="280" rx="14" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <text x="820" y="484" text-anchor="middle" font-size="24" font-weight="bold" fill="#16324F">Bottle after removal</text>
+  <rect x="582" y="512" width="46" height="20" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <rect x="560" y="532" width="90" height="160" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <rect x="572" y="548" width="66" height="38" fill="none" stroke="#B9C6D4" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="572" y="606" width="66" height="70" rx="5" fill="#FFFFFF" stroke="#4A7196" stroke-width="2"/>
+  <line x1="580" y1="622" x2="630" y2="622" stroke="#16324F" stroke-width="2.5"/>
+  <line x1="580" y1="635" x2="626" y2="635" stroke="#16324F" stroke-width="2.5"/>
+  <rect x="580" y="648" width="50" height="18" fill="none" stroke="#4A7196" stroke-width="1"/>
+  <line x1="585" y1="657" x2="625" y2="657" stroke="#4A7196" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="700" y="570" font-size="18" font-weight="bold" fill="#16324F">Remaining base</text>
+  <line x1="695" y1="575" x2="645" y2="640" stroke="#4A7196" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="700" y="630" font-size="18" font-weight="bold" fill="#16324F">Product identity</text>
+  <text x="700" y="651" font-size="18" font-weight="bold" fill="#16324F">and retail code</text>
+  <line x1="695" y1="640" x2="648" y2="645" stroke="#4A7196" stroke-width="2" marker-end="url(#arr)"/>
+
+  <text x="600" y="788" text-anchor="middle" font-size="19" font-style="italic" fill="#5B7186">Concept — the offer piece and the remaining pack are checked separately</text>
+</svg>
