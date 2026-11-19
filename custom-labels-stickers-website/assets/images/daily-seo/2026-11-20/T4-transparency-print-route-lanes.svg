@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Two eligible code-source paths feed a selected print route. The packer accounts for each unit, the brand records release, and Amazon reviews operations.">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="1200" height="900" fill="#FEFEFC"/>
+  <text x="600" y="50" text-anchor="middle" font-size="30" font-weight="bold" fill="#16324F">Who controls the code, the package and the review</text>
+
+  <!-- Lane tints -->
+  <rect x="40" y="80" width="400" height="740" rx="14" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <rect x="460" y="80" width="380" height="740" rx="14" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <rect x="860" y="80" width="300" height="740" rx="14" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="240" y="122" text-anchor="middle" font-size="21" font-weight="bold" fill="#16324F">Brand</text>
+  <text x="650" y="122" text-anchor="middle" font-size="21" font-weight="bold" fill="#16324F">Printer or packer</text>
+  <text x="1010" y="122" text-anchor="middle" font-size="21" font-weight="bold" fill="#16324F">Amazon</text>
+
+  <!-- Brand lane -->
+  <rect x="80" y="150" width="320" height="70" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="240" y="180" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Confirm enrollment</text>
+  <text x="240" y="204" text-anchor="middle" font-size="12" fill="#5B7186">Brand Registry &#183; trademark &#183; GTIN</text>
+
+  <line x1="240" y1="222" x2="240" y2="248" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <text x="240" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">Eligible code source — brand confirms with Amazon</text>
+  <rect x="80" y="288" width="150" height="110" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="155" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Amazon-</text>
+  <text x="155" y="350" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">issued codes</text>
+  <rect x="250" y="288" width="150" height="110" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="325" y="322" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Existing serials</text>
+  <text x="325" y="342" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">connected</text>
+  <text x="325" y="362" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">to Amazon</text>
+  <circle cx="240" cy="343" r="16" fill="#FEFEFC" stroke="#7A94A8" stroke-width="2"/>
+  <text x="240" y="349" text-anchor="middle" font-size="13" font-weight="bold" fill="#5B7186">or</text>
+
+  <line x1="155" y1="400" x2="155" y2="440" stroke="#4A7196" stroke-width="2.5"/>
+  <line x1="325" y1="400" x2="325" y2="440" stroke="#4A7196" stroke-width="2.5"/>
+  <line x1="155" y1="440" x2="325" y2="440" stroke="#4A7196" stroke-width="2.5"/>
+  <line x1="240" y1="440" x2="240" y2="468" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="80" y="470" width="320" height="60" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="240" y="506" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Choose print route</text>
+
+  <line x1="402" y1="500" x2="494" y2="500" stroke="#4A7196" stroke-width="3" marker-end="url(#arr)"/>
+
+  <!-- Printer or packer lane -->
+  <rect x="496" y="470" width="308" height="96" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="650" y="502" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Self-print / Partner labels</text>
+  <text x="650" y="524" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">/ Packaging print</text>
+  <text x="650" y="550" text-anchor="middle" font-size="12" fill="#5B7186">application owner named in quote</text>
+
+  <line x1="650" y1="568" x2="650" y2="596" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="496" y="598" width="308" height="56" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="650" y="633" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">One code per unit</text>
+
+  <line x1="650" y1="656" x2="650" y2="676" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- dummy units check -->
+  <rect x="545" y="686" width="70" height="110" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <rect x="545" y="716" width="70" height="34" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="580" y="738" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">Demo A</text>
+  <rect x="685" y="686" width="70" height="110" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <rect x="685" y="716" width="70" height="34" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="720" y="738" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">Demo B</text>
+  <text x="650" y="816" text-anchor="middle" font-size="12" fill="#5B7186">packer accounts for each unit</text>
+
+  <!-- arrow from units back to brand release record -->
+  <path d="M540,772 L400,772 L400,732" fill="none" stroke="#4A7196" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arr)"/>
+
+  <rect x="80" y="640" width="320" height="90" rx="10" fill="#FFFFFF" stroke="#7A94A8" stroke-width="2" stroke-dasharray="9 6"/>
+  <text x="240" y="672" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Brand release record</text>
+  <text x="240" y="696" text-anchor="middle" font-size="12" fill="#5B7186">printed &#183; used &#183; spoiled &#183; on hand</text>
+  <text x="240" y="716" text-anchor="middle" font-size="12" fill="#5B7186">brand authorizes release</text>
+
+  <!-- Amazon lane -->
+  <rect x="890" y="290" width="240" height="90" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="1010" y="326" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Operational</text>
+  <text x="1010" y="348" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">performance review</text>
+
+  <path d="M760,662 L1010,662 L1010,388" fill="none" stroke="#4A7196" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arr)"/>
+  <text x="840" y="652" font-size="12" fill="#5B7186">labeling and shipping begin</text>
+
+  <line x1="1010" y1="382" x2="1010" y2="414" stroke="#4A7196" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="890" y="416" width="240" height="80" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="1010" y="450" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Protection after</text>
+  <text x="1010" y="472" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">passing review</text>
+
+  <rect x="890" y="690" width="240" height="80" rx="10" fill="#FEFEFC" stroke="#7A94A8" stroke-width="2" stroke-dasharray="9 6"/>
+  <text x="1010" y="722" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">Keep records separate</text>
+  <text x="1010" y="744" text-anchor="middle" font-size="12" fill="#5B7186">print approval alone</text>
+  <text x="1010" y="762" text-anchor="middle" font-size="12" fill="#5B7186">does not activate protection</text>
+
+  <text x="600" y="862" text-anchor="middle" font-size="13" fill="#5B7186">Demo A / Demo B are placeholders only — no live codes, scannable marks or platform seals shown</text>
+</svg>

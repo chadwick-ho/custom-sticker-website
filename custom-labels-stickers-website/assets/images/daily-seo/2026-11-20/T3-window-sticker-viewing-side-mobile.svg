@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1240" viewBox="0 0 360 1240" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Both street views read OPEN with a right arrow. The inside-mounted sticker faces through the glass. The outside-mounted sticker faces the reader directly.">
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L9,3.5 L0,7 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="360" height="1240" fill="#FEFEFC"/>
+  <text x="180" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">One street reader,</text>
+  <text x="180" y="60" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">two mounting sides</text>
+
+  <!-- ===== Inside mount ===== -->
+  <rect x="16" y="80" width="328" height="520" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="110" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Inside mount</text>
+  <text x="34" y="140" font-size="13" font-weight="bold" fill="#16324F">STREET</text>
+  <text x="326" y="140" text-anchor="end" font-size="13" font-weight="bold" fill="#16324F">STORE</text>
+
+  <rect x="170" y="150" width="14" height="180" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="158" y="240" text-anchor="middle" font-size="11" fill="#5B7186" transform="rotate(-90 158 240)">Glass</text>
+
+  <ellipse cx="70" cy="240" rx="18" ry="11" fill="none" stroke="#16324F" stroke-width="2"/>
+  <circle cx="70" cy="240" r="5" fill="#16324F"/>
+  <text x="70" y="272" text-anchor="middle" font-size="11" fill="#5B7186">Reader</text>
+
+  <line x1="92" y1="240" x2="178" y2="240" stroke="#4A7196" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+
+  <rect x="184" y="185" width="46" height="130" rx="4" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <rect x="184" y="185" width="6" height="130" fill="#C9B37E"/>
+  <rect x="182" y="183" width="10" height="134" fill="none" stroke="#16324F" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="207" y="335" text-anchor="middle" font-size="11" fill="#5B7186">Sticker</text>
+
+  <text x="245" y="170" font-size="12" font-weight="bold" fill="#16324F">Adhesive on</text>
+  <text x="245" y="186" font-size="12" font-weight="bold" fill="#16324F">design face</text>
+  <line x1="242" y1="180" x2="193" y2="190" stroke="#7A94A8" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <circle cx="290" cy="280" r="14" fill="none" stroke="#16324F" stroke-width="2"/>
+  <rect x="242" y="274" width="34" height="12" rx="6" fill="none" stroke="#16324F" stroke-width="2"/>
+  <text x="290" y="318" text-anchor="middle" font-size="11" fill="#5B7186">Installer</text>
+
+  <text x="40" y="406" font-size="13" font-weight="bold" fill="#16324F">Street view</text>
+  <rect x="40" y="420" width="280" height="140" rx="8" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="105" y="502" text-anchor="middle" font-size="24" font-weight="bold" fill="#16324F">OPEN</text>
+  <line x1="140" y1="494" x2="215" y2="494" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+  <rect x="240" y="448" width="52" height="90" rx="3" fill="none" stroke="#16324F" stroke-width="2"/>
+  <circle cx="248" cy="494" r="3" fill="#16324F"/>
+  <text x="266" y="552" text-anchor="middle" font-size="10" fill="#5B7186">actual door</text>
+  <text x="180" y="584" text-anchor="middle" font-size="11" fill="#5B7186">Design read through the glass</text>
+
+  <!-- ===== Outside mount ===== -->
+  <rect x="16" y="620" width="328" height="520" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="650" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">Outside mount</text>
+  <text x="34" y="678" font-size="13" font-weight="bold" fill="#16324F">STREET</text>
+  <text x="326" y="678" text-anchor="end" font-size="13" font-weight="bold" fill="#16324F">STORE</text>
+
+  <rect x="170" y="690" width="14" height="180" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="200" y="780" text-anchor="middle" font-size="11" fill="#5B7186" transform="rotate(-90 200 780)">Glass</text>
+
+  <ellipse cx="60" cy="780" rx="18" ry="11" fill="none" stroke="#16324F" stroke-width="2"/>
+  <circle cx="60" cy="780" r="5" fill="#16324F"/>
+  <text x="60" y="812" text-anchor="middle" font-size="11" fill="#5B7186">Reader</text>
+
+  <line x1="80" y1="780" x2="112" y2="780" stroke="#4A7196" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+
+  <rect x="118" y="725" width="66" height="130" rx="4" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <rect x="178" y="725" width="6" height="130" fill="#C9B37E"/>
+  <rect x="176" y="723" width="10" height="134" fill="none" stroke="#16324F" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="140" y="880" text-anchor="middle" font-size="11" fill="#5B7186">Sticker</text>
+
+  <circle cx="95" cy="870" r="12" fill="none" stroke="#16324F" stroke-width="2"/>
+  <rect x="106" y="862" width="26" height="10" rx="5" fill="none" stroke="#16324F" stroke-width="2"/>
+  <text x="80" y="898" text-anchor="middle" font-size="11" fill="#5B7186">Installer</text>
+
+  <text x="200" y="912" font-size="12" font-weight="bold" fill="#16324F">Adhesive on back</text>
+  <line x1="198" y1="904" x2="184" y2="862" stroke="#7A94A8" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <text x="40" y="950" font-size="13" font-weight="bold" fill="#16324F">Street view</text>
+  <rect x="40" y="964" width="280" height="140" rx="8" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="105" y="1046" text-anchor="middle" font-size="24" font-weight="bold" fill="#16324F">OPEN</text>
+  <line x1="140" y1="1038" x2="215" y2="1038" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+  <rect x="240" y="992" width="52" height="90" rx="3" fill="none" stroke="#16324F" stroke-width="2"/>
+  <circle cx="248" cy="1038" r="3" fill="#16324F"/>
+  <text x="266" y="1096" text-anchor="middle" font-size="10" fill="#5B7186">actual door</text>
+  <text x="180" y="1120" text-anchor="middle" font-size="11" fill="#5B7186">Design read directly, before the glass</text>
+
+  <text x="180" y="1150" text-anchor="middle" font-size="12" fill="#5B7186">Same shopper, same message —</text>
+  <text x="180" y="1168" text-anchor="middle" font-size="12" fill="#5B7186">the mounting side decides which</text>
+  <text x="180" y="1186" text-anchor="middle" font-size="12" fill="#5B7186">face carries the adhesive</text>
+  <text x="180" y="1214" text-anchor="middle" font-size="11" fill="#5B7186">Concept section, not a measured drawing</text>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1360" viewBox="0 0 360 1360" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="A die-cut tag passes over a finished cap, rests above the bottle's flavor name and sits beside a case divider where the flap can catch.">
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L9,3.5 L0,7 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="360" height="1360" fill="#FEFEFC"/>
+  <text x="180" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">Try the same die-cut tag</text>
+  <text x="180" y="60" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">in three positions</text>
+
+  <!-- View 1: over the cap -->
+  <rect x="16" y="84" width="328" height="400" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="116" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">1 &#183; Over the cap</text>
+
+  <rect x="105" y="140" width="150" height="105" rx="10" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <circle cx="180" cy="182" r="26" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="272" y="176" font-size="12" font-weight="bold" fill="#16324F">Die</text>
+  <text x="272" y="192" font-size="12" font-weight="bold" fill="#16324F">opening</text>
+  <line x1="268" y1="182" x2="210" y2="182" stroke="#7A94A8" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <line x1="180" y1="252" x2="180" y2="312" stroke="#4A7196" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arr)"/>
+
+  <rect x="152" y="320" width="56" height="30" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <rect x="168" y="350" width="24" height="18" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="140" y="368" width="80" height="72" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+
+  <text x="222" y="330" font-size="12" font-weight="bold" fill="#16324F">Widest closure</text>
+  <text x="222" y="346" font-size="12" font-weight="bold" fill="#16324F">point</text>
+  <line x1="220" y1="338" x2="210" y2="338" stroke="#7A94A8" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <text x="180" y="468" text-anchor="middle" font-size="11" fill="#5B7186">Capped sales bottle, tag lowered as packed</text>
+
+  <!-- View 2: at rest -->
+  <rect x="16" y="496" width="328" height="420" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="528" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">2 &#183; At rest</text>
+
+  <rect x="152" y="546" width="56" height="28" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <rect x="168" y="574" width="24" height="16" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="140" y="590" width="80" height="182" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+
+  <rect x="100" y="580" width="160" height="200" rx="10" fill="#F0E7C8" fill-opacity="0.9" stroke="#C9B37E" stroke-width="2"/>
+  <circle cx="180" cy="602" r="20" fill="none" stroke="#2E5F8A" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <line x1="110" y1="652" x2="250" y2="652" stroke="#C9B37E" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="180" y="722" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Campaign</text>
+  <text x="180" y="742" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">face</text>
+
+  <rect x="130" y="790" width="100" height="26" fill="#FFFFFF" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="180" y="807" text-anchor="middle" font-size="10" fill="#16324F">Flavor name</text>
+
+  <text x="272" y="592" font-size="12" font-weight="bold" fill="#16324F">Opening</text>
+  <text x="272" y="608" font-size="12" font-weight="bold" fill="#16324F">on neck</text>
+  <line x1="268" y1="600" x2="204" y2="600" stroke="#7A94A8" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <text x="272" y="650" font-size="12" font-weight="bold" fill="#16324F">Score</text>
+  <line x1="268" y1="652" x2="254" y2="652" stroke="#7A94A8" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <text x="272" y="794" font-size="12" font-weight="bold" fill="#16324F">Flavor</text>
+  <text x="272" y="810" font-size="12" font-weight="bold" fill="#16324F">name</text>
+  <line x1="268" y1="802" x2="234" y2="802" stroke="#7A94A8" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <text x="180" y="870" text-anchor="middle" font-size="11" fill="#5B7186">Check the headline does not</text>
+  <text x="180" y="888" text-anchor="middle" font-size="11" fill="#5B7186">cover the flavor name</text>
+
+  <!-- View 3: inside the case -->
+  <rect x="16" y="928" width="328" height="380" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="960" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">3 &#183; Inside the case</text>
+
+  <!-- bottle A -->
+  <rect x="64" y="986" width="44" height="26" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="78" y="1012" width="16" height="12" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1"/>
+  <rect x="56" y="1024" width="75" height="150" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="40" y="1018" width="130" height="140" rx="8" fill="#F0E7C8" fill-opacity="0.88" stroke="#C9B37E" stroke-width="1.5"/>
+  <circle cx="86" cy="1040" r="17" fill="none" stroke="#2E5F8A" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- bottle B -->
+  <rect x="184" y="986" width="44" height="26" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="198" y="1012" width="16" height="12" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1"/>
+  <rect x="176" y="1024" width="75" height="150" rx="10" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="162" y="1018" width="120" height="140" rx="8" fill="#F0E7C8" fill-opacity="0.88" stroke="#C9B37E" stroke-width="1.5"/>
+  <circle cx="206" cy="1040" r="17" fill="none" stroke="#2E5F8A" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- divider and clearance -->
+  <text x="180" y="978" text-anchor="middle" font-size="12" font-weight="bold" fill="#16324F">Check flap clearance &#8594;</text>
+  <line x1="280" y1="984" x2="288" y2="1034" stroke="#7A94A8" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="296" y="990" width="10" height="184" fill="#B9C6D4" stroke="#7A94A8" stroke-width="1.5"/>
+  <circle cx="289" cy="1052" r="14" fill="none" stroke="#C9B37E" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="283" y1="1052" x2="295" y2="1052" stroke="#4A7196" stroke-width="2"/>
+  <text x="301" y="1192" text-anchor="middle" font-size="10" fill="#5B7186">Case</text>
+  <text x="301" y="1204" text-anchor="middle" font-size="10" fill="#5B7186">divider</text>
+
+  <text x="180" y="1250" text-anchor="middle" font-size="11" fill="#5B7186">Remove and return the bottle</text>
+  <text x="180" y="1268" text-anchor="middle" font-size="11" fill="#5B7186">without moving the fixture</text>
+
+  <text x="180" y="1336" text-anchor="middle" font-size="11" fill="#5B7186">Concept outlines only — mark interference on the physical dummy</text>
+</svg>

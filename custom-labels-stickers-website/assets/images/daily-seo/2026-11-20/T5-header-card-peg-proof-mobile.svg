@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1620" viewBox="0 0 360 1620" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="A folded header holds a loaded sticker bag on a peg. A template and two details show how the hook opening, fold and attachment affect the visible pack name.">
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L9,3.5 L0,7 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="360" height="1620" fill="#FEFEFC"/>
+  <text x="180" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">From a flat header to a</text>
+  <text x="180" y="60" text-anchor="middle" font-size="20" font-weight="bold" fill="#16324F">loaded pack on the peg</text>
+
+  <!-- Template -->
+  <rect x="16" y="80" width="328" height="380" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Printer&#8217;s template (flat)</text>
+
+  <rect x="60" y="140" width="240" height="110" rx="8" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <rect x="60" y="140" width="240" height="24" fill="#C9B37E" fill-opacity="0.45" stroke="#C9B37E" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="180" y="200" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Back</text>
+  <text x="180" y="222" text-anchor="middle" font-size="11" fill="#5B7186">read in the hand</text>
+
+  <line x1="60" y1="250" x2="300" y2="250" stroke="#2E5F8A" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <text x="306" y="254" font-size="12" font-weight="bold" fill="#16324F">Fold</text>
+  <rect x="60" y="250" width="240" height="110" rx="8" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <text x="180" y="306" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Front</text>
+  <text x="180" y="326" text-anchor="middle" font-size="11" fill="#5B7186">seen on the peg</text>
+  <rect x="60" y="336" width="240" height="24" fill="#C9B37E" fill-opacity="0.45" stroke="#C9B37E" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="180" y="353" text-anchor="middle" font-size="11" fill="#16324F">Attachment area</text>
+
+  <circle cx="180" cy="250" r="12" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="30" y="282" font-size="11" font-weight="bold" fill="#16324F">Hook</text>
+  <text x="30" y="296" font-size="11" font-weight="bold" fill="#16324F">opening</text>
+  <line x1="66" y1="284" x2="166" y2="258" stroke="#7A94A8" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <text x="180" y="412" text-anchor="middle" font-size="11" fill="#5B7186">Attachment bands at the outer</text>
+  <text x="180" y="430" text-anchor="middle" font-size="11" fill="#5B7186">edge of each panel</text>
+
+  <!-- Folded on bag -->
+  <rect x="16" y="476" width="328" height="440" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="508" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">Folded header on the loaded bag</text>
+
+  <line x1="150" y1="545" x2="330" y2="545" stroke="#16324F" stroke-width="6"/>
+  <line x1="150" y1="545" x2="140" y2="536" stroke="#16324F" stroke-width="6"/>
+  <text x="330" y="530" text-anchor="end" font-size="12" font-weight="bold" fill="#16324F">Retail hook</text>
+
+  <rect x="95" y="566" width="160" height="90" rx="7" fill="#C9B37E" fill-opacity="0.55" stroke="#C9B37E" stroke-width="2"/>
+  <rect x="105" y="650" width="160" height="150" rx="9" fill="#DCE8F2" fill-opacity="0.5" stroke="#2E5F8A" stroke-width="2"/>
+  <rect x="130" y="682" width="34" height="26" rx="6" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="178" y="696" width="32" height="24" rx="6" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <circle cx="222" cy="748" r="14" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="142" y="742" width="34" height="24" rx="6" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+
+  <rect x="105" y="570" width="160" height="90" rx="7" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <circle cx="185" cy="570" r="11" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="2"/>
+  <text x="185" y="622" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">PACK NAME</text>
+  <rect x="105" y="636" width="160" height="22" fill="#C9B37E" fill-opacity="0.45" stroke="#C9B37E" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <rect x="120" y="640" width="8" height="12" rx="2" fill="#FEFEFC" stroke="#16324F" stroke-width="1.5"/>
+  <rect x="242" y="640" width="8" height="12" rx="2" fill="#FEFEFC" stroke="#16324F" stroke-width="1.5"/>
+
+  <text x="30" y="562" font-size="11" font-weight="bold" fill="#16324F">Fold</text>
+  <line x1="56" y1="566" x2="100" y2="570" stroke="#7A94A8" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="30" y="598" font-size="11" font-weight="bold" fill="#16324F">Hook</text>
+  <text x="30" y="612" font-size="11" font-weight="bold" fill="#16324F">opening</text>
+  <line x1="70" y1="600" x2="170" y2="574" stroke="#7A94A8" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="30" y="644" font-size="11" font-weight="bold" fill="#16324F">Attachment</text>
+  <text x="30" y="658" font-size="11" font-weight="bold" fill="#16324F">area</text>
+  <line x1="66" y1="648" x2="102" y2="648" stroke="#7A94A8" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="332" y="686" text-anchor="end" font-size="11" font-weight="bold" fill="#16324F">Top edge of</text>
+  <text x="332" y="700" text-anchor="end" font-size="11" font-weight="bold" fill="#16324F">stickers</text>
+  <line x1="330" y1="690" x2="168" y2="684" stroke="#7A94A8" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="332" y="762" text-anchor="end" font-size="11" font-weight="bold" fill="#16324F">Loaded bag</text>
+  <line x1="330" y1="756" x2="268" y2="750" stroke="#7A94A8" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <text x="180" y="892" text-anchor="middle" font-size="11" fill="#5B7186">Hang it, lift it off, put it back</text>
+
+  <!-- Detail 1 -->
+  <rect x="16" y="932" width="328" height="300" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="964" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Detail — pack name clear</text>
+  <rect x="40" y="980" width="280" height="66" rx="6" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <text x="180" y="1022" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">PACK NAME</text>
+  <rect x="40" y="1046" width="280" height="28" fill="#C9B37E" fill-opacity="0.45" stroke="#C9B37E" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <rect x="60" y="1052" width="8" height="14" rx="2" fill="#FEFEFC" stroke="#16324F" stroke-width="1.5"/>
+  <rect x="294" y="1052" width="8" height="14" rx="2" fill="#FEFEFC" stroke="#16324F" stroke-width="1.5"/>
+  <rect x="40" y="1074" width="280" height="90" fill="#DCE8F2" fill-opacity="0.5" stroke="#2E5F8A" stroke-width="2"/>
+  <line x1="40" y1="1098" x2="320" y2="1098" stroke="#2E5F8A" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="316" y="1094" text-anchor="end" font-size="10" fill="#5B7186">top edge of stickers</text>
+  <rect x="90" y="1098" width="36" height="26" rx="6" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="160" y="1098" width="36" height="26" rx="6" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="180" y="1190" text-anchor="middle" font-size="11" fill="#5B7186">fasteners stay in the attachment band</text>
+  <text x="180" y="1216" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">Fastener in band — name readable</text>
+
+  <!-- Detail 2 -->
+  <rect x="16" y="1248" width="328" height="300" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="1280" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">Detail — pack name blocked</text>
+  <rect x="40" y="1296" width="280" height="66" rx="6" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <text x="180" y="1338" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">PACK NAME</text>
+  <rect x="172" y="1314" width="9" height="34" rx="2" fill="#FEFEFC" stroke="#16324F" stroke-width="1.5"/>
+  <rect x="40" y="1362" width="280" height="28" fill="#C9B37E" fill-opacity="0.45" stroke="#C9B37E" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <rect x="60" y="1368" width="8" height="14" rx="2" fill="#FEFEFC" stroke="#16324F" stroke-width="1.5"/>
+  <rect x="40" y="1390" width="280" height="90" fill="#DCE8F2" fill-opacity="0.5" stroke="#2E5F8A" stroke-width="2"/>
+  <line x1="40" y1="1414" x2="320" y2="1414" stroke="#2E5F8A" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="316" y="1410" text-anchor="end" font-size="10" fill="#5B7186">top edge of stickers</text>
+  <rect x="90" y="1414" width="36" height="26" rx="6" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="160" y="1414" width="36" height="26" rx="6" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="180" y="1506" text-anchor="middle" font-size="11" fill="#5B7186">a fastener through the name is rejected</text>
+  <text x="180" y="1532" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">Comparison only — not approved</text>
+
+  <text x="180" y="1580" text-anchor="middle" font-size="11" fill="#5B7186">Illustrative geometry — proof the fold, hole</text>
+  <text x="180" y="1598" text-anchor="middle" font-size="11" fill="#5B7186">and attachment on the actual filled bag</text>
+</svg>
