@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1250" viewBox="0 0 360 1250" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="A closed shelf-ready case and its opened tray show the tear path, example label position and retained information.">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="360" height="1250" fill="#FEFEFC"/>
+  <text x="180" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">The same loaded case,</text>
+  <text x="180" y="56" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">before and after opening</text>
+
+  <!-- Closed case -->
+  <rect x="16" y="80" width="328" height="470" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">CLOSED CASE</text>
+  <text x="180" y="132" text-anchor="middle" font-size="11" fill="#5B7186">transport state</text>
+
+  <path d="M 80 185 L 105 158 L 280 158 L 255 185 Z" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <rect x="80" y="185" width="175" height="190" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <path d="M 80 243 L 95 237 L 110 246 L 125 237 L 140 246 L 155 237 L 170 246 L 185 237 L 200 246 L 215 237 L 230 246 L 255 241" fill="none" stroke="#C9B37E" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <circle cx="80" cy="243" r="8" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <path d="M 225 236 L 241 241 L 225 247 Z" fill="#C9B37E"/>
+  <text x="96" y="230" font-size="10" fill="#16324F">tear start</text>
+  <text x="285" y="238" font-size="11" fill="#16324F">tear</text>
+  <text x="285" y="252" font-size="11" fill="#16324F">path</text>
+  <line x1="280" y1="245" x2="255" y2="243" stroke="#5B7186" stroke-width="1"/>
+  <text x="180" y="150" text-anchor="middle" font-size="11" fill="#16324F">upper panel &#8212; removed on opening</text>
+
+  <rect x="100" y="290" width="135" height="66" rx="6" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="167" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#16324F">EXAMPLE</text>
+  <text x="167" y="334" text-anchor="middle" font-size="11" font-weight="bold" fill="#16324F">LABEL ZONE</text>
+  <text x="278" y="312" font-size="11" fill="#16324F">label</text>
+  <text x="278" y="326" font-size="11" fill="#16324F">zone</text>
+  <line x1="272" y1="320" x2="238" y2="322" stroke="#5B7186" stroke-width="1"/>
+
+  <rect x="40" y="396" width="280" height="136" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="424" text-anchor="middle" font-size="12" font-weight="bold" fill="#16324F">Check before labeling:</text>
+  <text x="180" y="448" text-anchor="middle" font-size="11" fill="#5B7186">perforation &#183; tab &#183; seams</text>
+  <text x="180" y="466" text-anchor="middle" font-size="11" fill="#5B7186">&#183; hand access</text>
+  <text x="180" y="496" text-anchor="middle" font-size="11" fill="#5B7186">which panel is removed,</text>
+  <text x="180" y="514" text-anchor="middle" font-size="11" fill="#5B7186">which is retained</text>
+
+  <line x1="180" y1="550" x2="180" y2="586" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+  <text x="200" y="574" font-size="11" fill="#5B7186">opened by staff</text>
+
+  <!-- Open tray -->
+  <rect x="16" y="596" width="328" height="470" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="628" text-anchor="middle" font-size="16" font-weight="bold" fill="#16324F">OPEN SHELF TRAY</text>
+  <text x="180" y="648" text-anchor="middle" font-size="11" fill="#5B7186">shelf state after opening</text>
+
+  <path d="M 235 700 L 260 672 L 330 672 L 305 700 Z" fill="none" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="283" y="664" text-anchor="middle" font-size="10" fill="#5B7186">removed panel</text>
+
+  <rect x="72" y="700" width="26" height="80" rx="7" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="124" y="700" width="26" height="80" rx="7" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="176" y="700" width="26" height="80" rx="7" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="228" y="700" width="26" height="80" rx="7" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="163" y="688" text-anchor="middle" font-size="11" fill="#16324F">product fronts visible</text>
+
+  <path d="M 55 748 L 68 741 L 81 748 L 94 741 L 107 748 L 120 741 L 133 748 L 146 741 L 159 748 L 172 741 L 185 748 L 198 741 L 211 748 L 224 741 L 237 748 L 250 741 L 263 748 L 276 741 L 276 850 L 55 850 Z" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="310" y="742" font-size="10" fill="#16324F">torn</text>
+  <text x="310" y="754" font-size="10" fill="#16324F">edge</text>
+  <line x1="304" y1="748" x2="282" y2="746" stroke="#5B7186" stroke-width="1"/>
+
+  <rect x="72" y="782" width="128" height="56" rx="6" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="136" y="805" text-anchor="middle" font-size="10" font-weight="bold" fill="#16324F">LABEL RETAINED</text>
+  <text x="136" y="821" text-anchor="middle" font-size="9" fill="#5B7186">below tear path</text>
+
+  <rect x="40" y="876" width="280" height="168" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="904" text-anchor="middle" font-size="12" font-weight="bold" fill="#16324F">Check retained information:</text>
+  <text x="180" y="928" text-anchor="middle" font-size="11" fill="#5B7186">what must stay readable</text>
+  <text x="180" y="946" text-anchor="middle" font-size="11" fill="#5B7186">on the tray, and what is</text>
+  <text x="180" y="964" text-anchor="middle" font-size="11" fill="#5B7186">lost with the removed panel</text>
+  <text x="180" y="1000" text-anchor="middle" font-size="11" fill="#16324F">judge on a labeled, loaded</text>
+  <text x="180" y="1018" text-anchor="middle" font-size="11" fill="#16324F">sample opened as staff do</text>
+
+  <!-- Footnote -->
+  <rect x="16" y="1090" width="328" height="140" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="1118" text-anchor="middle" font-size="11" fill="#16324F">The label position shown is an example</text>
+  <text x="180" y="1134" text-anchor="middle" font-size="11" fill="#16324F">&#8212; approve it against the actual case,</text>
+  <text x="180" y="1150" text-anchor="middle" font-size="11" fill="#16324F">opening method and retailer.</text>
+  <text x="180" y="1180" text-anchor="middle" font-size="11" fill="#5B7186">One retailer&#8217;s guideline informed this;</text>
+  <text x="180" y="1196" text-anchor="middle" font-size="11" fill="#5B7186">it is not a universal US rule.</text>
+</svg>

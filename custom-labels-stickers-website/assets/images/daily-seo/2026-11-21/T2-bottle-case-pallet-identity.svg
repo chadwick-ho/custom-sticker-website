@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Bottle, case and pallet are shown as separate objects with item identity, case identity and a pallet SSCC, linked to a lot record.">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="1200" height="880" fill="#FEFEFC"/>
+  <text x="600" y="48" text-anchor="middle" font-size="28" font-weight="bold" fill="#16324F">Bottle, case and pallet are different objects</text>
+
+  <!-- Bottle panel -->
+  <rect x="40" y="100" width="330" height="410" rx="14" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="205" y="136" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">BOTTLE</text>
+  <text x="205" y="158" text-anchor="middle" font-size="12" fill="#5B7186">one sellable unit</text>
+  <rect x="183" y="180" width="44" height="16" rx="4" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <rect x="168" y="196" width="74" height="132" rx="14" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <rect x="176" y="232" width="58" height="42" rx="4" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="205" y="258" text-anchor="middle" font-size="12" fill="#16324F">item label</text>
+  <rect x="75" y="352" width="260" height="62" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="205" y="378" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">item GTIN</text>
+  <text x="205" y="399" text-anchor="middle" font-size="11" fill="#5B7186">identifies the item type</text>
+  <text x="205" y="448" text-anchor="middle" font-size="12" fill="#5B7186">does not identify</text>
+  <text x="205" y="466" text-anchor="middle" font-size="12" fill="#5B7186">this physical bottle</text>
+
+  <line x1="370" y1="300" x2="432" y2="300" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+  <text x="401" y="285" text-anchor="middle" font-size="11" fill="#5B7186">packed</text>
+  <text x="401" y="326" text-anchor="middle" font-size="11" fill="#5B7186">into</text>
+
+  <!-- Case panel -->
+  <rect x="435" y="100" width="330" height="410" rx="14" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="600" y="136" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">SHIPPING CASE</text>
+  <text x="600" y="158" text-anchor="middle" font-size="12" fill="#5B7186">a defined configuration of units</text>
+  <rect x="490" y="180" width="220" height="150" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <rect x="506" y="196" width="30" height="50" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="546" y="196" width="30" height="50" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="586" y="196" width="30" height="50" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="626" y="196" width="30" height="50" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="506" y="258" width="30" height="50" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="546" y="258" width="30" height="50" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="586" y="258" width="30" height="50" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="626" y="258" width="30" height="50" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="676" y="290" font-size="11" fill="#5B7186">8 units</text>
+  <rect x="470" y="352" width="260" height="62" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="600" y="378" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">case GTIN + lot</text>
+  <text x="600" y="399" text-anchor="middle" font-size="11" fill="#5B7186">identifies the configuration, not each case</text>
+  <text x="600" y="448" text-anchor="middle" font-size="12" fill="#5B7186">case label links identifier</text>
+  <text x="600" y="466" text-anchor="middle" font-size="12" fill="#5B7186">and lot to actual contents</text>
+
+  <line x1="765" y1="300" x2="827" y2="300" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+  <text x="796" y="285" text-anchor="middle" font-size="11" fill="#5B7186">stacked</text>
+  <text x="796" y="326" text-anchor="middle" font-size="11" fill="#5B7186">onto</text>
+
+  <!-- Pallet panel -->
+  <rect x="830" y="100" width="330" height="410" rx="14" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="995" y="136" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">PALLET</text>
+  <text x="995" y="158" text-anchor="middle" font-size="12" fill="#5B7186">a logistic unit, when one is built</text>
+  <rect x="875" y="185" width="110" height="62" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="993" y="185" width="110" height="62" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="875" y="255" width="110" height="62" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="993" y="255" width="110" height="62" rx="6" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="870" y="324" width="240" height="14" rx="3" fill="#C9B37E" stroke="#B9C6D4" stroke-width="1.5"/>
+  <rect x="885" y="338" width="20" height="14" fill="#C9B37E" stroke="#B9C6D4" stroke-width="1.5"/>
+  <rect x="965" y="338" width="20" height="14" fill="#C9B37E" stroke="#B9C6D4" stroke-width="1.5"/>
+  <rect x="1045" y="338" width="20" height="14" fill="#C9B37E" stroke="#B9C6D4" stroke-width="1.5"/>
+  <rect x="865" y="352" width="260" height="62" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="995" y="378" text-anchor="middle" font-size="15" font-weight="bold" fill="#16324F">SSCC when assigned</text>
+  <text x="995" y="399" text-anchor="middle" font-size="11" fill="#5B7186">identifies this logistic unit</text>
+  <text x="995" y="448" text-anchor="middle" font-size="12" fill="#5B7186">an SSCC is a pallet identifier,</text>
+  <text x="995" y="466" text-anchor="middle" font-size="12" fill="#5B7186">not a case GTIN</text>
+
+  <!-- Lot record -->
+  <rect x="300" y="560" width="600" height="120" rx="14" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <rect x="330" y="586" width="70" height="84" rx="6" fill="#FFFFFF" stroke="#C9B37E" stroke-width="2"/>
+  <line x1="344" y1="606" x2="386" y2="606" stroke="#B9C6D4" stroke-width="2"/>
+  <line x1="344" y1="622" x2="386" y2="622" stroke="#B9C6D4" stroke-width="2"/>
+  <line x1="344" y1="638" x2="386" y2="638" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="560" y="606" text-anchor="middle" font-size="17" font-weight="bold" fill="#16324F">LOT RECORD</text>
+  <text x="560" y="630" text-anchor="middle" font-size="13" fill="#16324F">production data linked to the actual contents</text>
+  <text x="560" y="650" text-anchor="middle" font-size="13" fill="#16324F">of the finished case</text>
+  <path d="M 720 560 L 660 512" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)" fill="none"/>
+  <text x="735" y="535" font-size="12" fill="#5B7186">lot record</text>
+  <text x="735" y="551" font-size="12" fill="#5B7186">&#8594; actual case</text>
+
+  <!-- Footnote -->
+  <rect x="40" y="725" width="1120" height="105" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="600" y="757" text-anchor="middle" font-size="13" fill="#16324F">Dashed boxes mark where approved data would go &#8212; placeholders only, no production code or scannable symbol.</text>
+  <text x="600" y="781" text-anchor="middle" font-size="13" fill="#5B7186">Data carriers and required fields depend on the trading partners and the actual configuration.</text>
+  <text x="600" y="805" text-anchor="middle" font-size="13" fill="#5B7186">Concept diagram only &#8212; not a GS1 assignment, label proof or receiving record.</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="A closed shelf-ready case and its opened tray show the tear path, example label position and retained information.">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="1200" height="880" fill="#FEFEFC"/>
+  <text x="600" y="48" text-anchor="middle" font-size="28" font-weight="bold" fill="#16324F">The same loaded case, before and after opening</text>
+
+  <!-- Left panel: closed case -->
+  <rect x="40" y="100" width="540" height="610" rx="14" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="310" y="138" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">CLOSED CASE</text>
+  <text x="310" y="160" text-anchor="middle" font-size="12" fill="#5B7186">transport state</text>
+
+  <!-- case top face -->
+  <path d="M 180 235 L 215 200 L 480 200 L 445 235 Z" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <!-- case front -->
+  <rect x="180" y="235" width="265" height="230" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <!-- perforation tear path -->
+  <path d="M 180 305 L 200 298 L 220 308 L 240 298 L 260 308 L 280 298 L 300 308 L 320 298 L 340 308 L 360 298 L 380 308 L 400 298 L 420 308 L 445 302" fill="none" stroke="#C9B37E" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <circle cx="180" cy="305" r="9" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <path d="M 390 296 L 408 302 L 390 309 Z" fill="#C9B37E"/>
+  <text x="90" y="296" font-size="12" fill="#16324F">tear</text>
+  <text x="90" y="312" font-size="12" fill="#16324F">start</text>
+  <line x1="120" y1="303" x2="168" y2="305" stroke="#5B7186" stroke-width="1.5"/>
+  <text x="500" y="288" font-size="12" fill="#16324F">tear path</text>
+  <text x="500" y="304" font-size="11" fill="#5B7186">(perforation)</text>
+  <line x1="496" y1="300" x2="452" y2="302" stroke="#5B7186" stroke-width="1.5"/>
+  <text x="330" y="185" text-anchor="middle" font-size="12" fill="#16324F">upper panel &#8212; removed on opening</text>
+  <line x1="330" y1="192" x2="330" y2="198" stroke="#5B7186" stroke-width="1.5"/>
+
+  <!-- example label zone on retained panel -->
+  <rect x="215" y="355" width="150" height="80" rx="6" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="290" y="388" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">EXAMPLE</text>
+  <text x="290" y="406" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">LABEL ZONE</text>
+  <text x="505" y="382" font-size="12" fill="#16324F">example</text>
+  <text x="505" y="398" font-size="12" fill="#16324F">label zone</text>
+  <line x1="500" y1="392" x2="368" y2="394" stroke="#5B7186" stroke-width="1.5"/>
+
+  <text x="310" y="520" text-anchor="middle" font-size="13" fill="#16324F">mark the path on the assembled,</text>
+  <text x="310" y="540" text-anchor="middle" font-size="13" fill="#16324F">loaded case &#8212; not from a flat dieline</text>
+  <rect x="90" y="580" width="440" height="96" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="310" y="612" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">Check before labeling:</text>
+  <text x="310" y="636" text-anchor="middle" font-size="12" fill="#5B7186">perforation &#183; opening tab &#183; seams &#183; hand access</text>
+  <text x="310" y="658" text-anchor="middle" font-size="12" fill="#5B7186">which panel is removed, which is retained</text>
+
+  <!-- transition arrow -->
+  <line x1="580" y1="390" x2="640" y2="390" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+  <text x="610" y="372" text-anchor="middle" font-size="11" fill="#5B7186">opened</text>
+  <text x="610" y="412" text-anchor="middle" font-size="11" fill="#5B7186">by staff</text>
+
+  <!-- Right panel: open shelf tray -->
+  <rect x="640" y="100" width="540" height="610" rx="14" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="910" y="138" text-anchor="middle" font-size="19" font-weight="bold" fill="#16324F">OPEN SHELF TRAY</text>
+  <text x="910" y="160" text-anchor="middle" font-size="12" fill="#5B7186">shelf state after opening</text>
+
+  <!-- removed panel -->
+  <path d="M 960 230 L 995 195 L 1135 195 L 1100 230 Z" fill="none" stroke="#B9C6D4" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="1048" y="178" text-anchor="middle" font-size="12" fill="#5B7186">removed panel</text>
+  <line x1="1048" y1="185" x2="1048" y2="192" stroke="#5B7186" stroke-width="1.5"/>
+
+  <!-- bottles inside tray -->
+  <rect x="715" y="265" width="34" height="105" rx="8" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="785" y="265" width="34" height="105" rx="8" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="855" y="265" width="34" height="105" rx="8" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="925" y="265" width="34" height="105" rx="8" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <!-- tray front with torn top edge -->
+  <path d="M 700 330 L 715 322 L 730 330 L 745 322 L 760 330 L 775 322 L 790 330 L 805 322 L 820 330 L 835 322 L 850 330 L 865 322 L 880 330 L 895 322 L 910 330 L 925 322 L 940 330 L 955 322 L 970 330 L 970 470 L 700 470 Z" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="1050" y="310" font-size="12" fill="#16324F">torn edge</text>
+  <line x1="1044" y1="316" x2="980" y2="326" stroke="#5B7186" stroke-width="1.5"/>
+
+  <text x="835" y="252" text-anchor="middle" font-size="12" fill="#16324F">product fronts visible</text>
+  <line x1="835" y1="258" x2="802" y2="263" stroke="#5B7186" stroke-width="1.5"/>
+
+  <!-- retained label -->
+  <rect x="725" y="375" width="140" height="72" rx="6" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="795" y="406" text-anchor="middle" font-size="12" font-weight="bold" fill="#16324F">LABEL RETAINED</text>
+  <text x="795" y="424" text-anchor="middle" font-size="11" fill="#5B7186">below tear path</text>
+  <text x="1020" y="392" font-size="12" fill="#16324F">retained</text>
+  <text x="1020" y="408" font-size="12" fill="#16324F">panel</text>
+  <line x1="1014" y1="398" x2="870" y2="405" stroke="#5B7186" stroke-width="1.5"/>
+
+  <rect x="690" y="510" width="440" height="110" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="910" y="542" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">Check retained information:</text>
+  <text x="910" y="566" text-anchor="middle" font-size="12" fill="#5B7186">what must stay readable on the tray,</text>
+  <text x="910" y="588" text-anchor="middle" font-size="12" fill="#5B7186">and what is lost with the removed panel</text>
+
+  <text x="910" y="664" text-anchor="middle" font-size="13" fill="#16324F">judge on a labeled, loaded sample</text>
+  <text x="910" y="684" text-anchor="middle" font-size="13" fill="#16324F">opened the way staff actually open it</text>
+
+  <!-- Footnote -->
+  <rect x="40" y="745" width="1120" height="100" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="600" y="777" text-anchor="middle" font-size="13" fill="#16324F">The illustrated label position is an example only &#8212; approve it against the actual case, opening method and retailer.</text>
+  <text x="600" y="801" text-anchor="middle" font-size="13" fill="#5B7186">One retailer&#8217;s packaging guideline informed this example; it is not a universal US rule.</text>
+  <text x="600" y="825" text-anchor="middle" font-size="13" fill="#5B7186">Concept diagram only &#8212; not a case dieline, retailer approval or test record.</text>
+</svg>

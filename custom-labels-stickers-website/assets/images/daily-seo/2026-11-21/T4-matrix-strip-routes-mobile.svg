@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1620" viewBox="0 0 360 1620" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Two label-roll routes compare matrix removal before overprinting with removal afterward at an agreed finishing station.">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#4A7196"/></marker>
+    <pattern id="hatch" width="9" height="9" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="9" height="9" fill="#F0E7C8"/>
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#C9B37E" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="360" height="1620" fill="#FEFEFC"/>
+  <text x="180" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">When does the waste</text>
+  <text x="180" y="56" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">matrix come off?</text>
+
+  <!-- Legend -->
+  <rect x="16" y="78" width="328" height="200" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="106" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">web cross-section</text>
+  <rect x="30" y="150" width="300" height="18" fill="#E8EDF2" stroke="#B9C6D4" stroke-width="1.5"/>
+  <rect x="30" y="126" width="30" height="24" fill="url(#hatch)" stroke="#C9B37E" stroke-width="1.5"/>
+  <rect x="60" y="126" width="70" height="24" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="130" y="126" width="40" height="24" fill="url(#hatch)" stroke="#C9B37E" stroke-width="1.5"/>
+  <rect x="170" y="126" width="70" height="24" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="240" y="126" width="90" height="24" fill="url(#hatch)" stroke="#C9B37E" stroke-width="1.5"/>
+  <text x="95" y="118" text-anchor="middle" font-size="11" fill="#16324F">label</text>
+  <text x="285" y="118" text-anchor="middle" font-size="11" fill="#16324F">waste matrix</text>
+  <text x="180" y="192" text-anchor="middle" font-size="11" fill="#16324F">liner band under all</text>
+  <text x="180" y="224" text-anchor="middle" font-size="10" fill="#5B7186">matrix = surrounding face material</text>
+  <text x="180" y="240" text-anchor="middle" font-size="10" fill="#5B7186">after kiss-cut</text>
+
+  <!-- Route A -->
+  <rect x="16" y="296" width="328" height="590" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="328" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">ROUTE A</text>
+  <text x="180" y="348" text-anchor="middle" font-size="11" fill="#5B7186">strip matrix before overprint</text>
+
+  <circle cx="180" cy="404" r="34" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <circle cx="180" cy="404" r="10" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="180" y="456" text-anchor="middle" font-size="11" fill="#5B7186">die-cut roll</text>
+
+  <line x1="180" y1="462" x2="180" y2="492" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+
+  <rect x="95" y="496" width="170" height="64" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <rect x="115" y="506" width="44" height="14" fill="url(#hatch)" stroke="#C9B37E" stroke-width="1"/>
+  <path d="M 161 513 L 194 503" stroke="#C9B37E" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="205" y="545" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">STRIP</text>
+  <text x="180" y="578" text-anchor="middle" font-size="10" fill="#5B7186">before overprint</text>
+
+  <line x1="180" y1="584" x2="180" y2="614" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+
+  <rect x="125" y="618" width="42" height="18" rx="3" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="193" y="618" width="42" height="18" rx="3" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <line x1="110" y1="644" x2="250" y2="644" stroke="#B9C6D4" stroke-width="8"/>
+  <text x="180" y="666" text-anchor="middle" font-size="10" fill="#5B7186">labels on liner only</text>
+
+  <line x1="180" y1="672" x2="180" y2="702" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+
+  <rect x="95" y="706" width="170" height="64" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="732" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">OVERPRINT</text>
+  <text x="180" y="752" text-anchor="middle" font-size="10" fill="#5B7186">full bleed possible</text>
+  <text x="180" y="788" text-anchor="middle" font-size="10" fill="#5B7186">past the edge can reach liner</text>
+
+  <line x1="180" y1="794" x2="180" y2="824" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+
+  <rect x="95" y="828" width="170" height="52" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="850" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">FINAL APPLICATOR</text>
+  <text x="180" y="868" text-anchor="middle" font-size="10" fill="#5B7186">intended machine</text>
+
+  <!-- Route B -->
+  <rect x="16" y="906" width="328" height="590" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="938" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">ROUTE B</text>
+  <text x="180" y="958" text-anchor="middle" font-size="11" fill="#5B7186">retain matrix through overprint</text>
+
+  <circle cx="180" cy="1014" r="34" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <circle cx="180" cy="1014" r="10" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="180" y="1066" text-anchor="middle" font-size="11" fill="#5B7186">die-cut roll</text>
+
+  <line x1="180" y1="1072" x2="180" y2="1102" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+
+  <rect x="95" y="1106" width="170" height="64" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <rect x="110" y="1118" width="44" height="14" fill="url(#hatch)" stroke="#C9B37E" stroke-width="1"/>
+  <rect x="156" y="1118" width="28" height="14" rx="2" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1"/>
+  <text x="205" y="1152" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">OVERPRINT</text>
+  <text x="180" y="1188" text-anchor="middle" font-size="10" fill="#5B7186">matrix still on the web</text>
+
+  <line x1="180" y1="1194" x2="180" y2="1224" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+
+  <rect x="70" y="1228" width="220" height="70" rx="10" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <text x="180" y="1256" text-anchor="middle" font-size="12" font-weight="bold" fill="#16324F">CONFIRM STRIPPING</text>
+  <text x="180" y="1274" text-anchor="middle" font-size="12" font-weight="bold" fill="#16324F">STATION + OWNER</text>
+  <text x="180" y="1316" text-anchor="middle" font-size="10" fill="#5B7186">a real station must exist first</text>
+
+  <line x1="180" y1="1322" x2="180" y2="1352" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+
+  <rect x="125" y="1356" width="42" height="18" rx="3" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="193" y="1356" width="42" height="18" rx="3" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <line x1="110" y1="1382" x2="250" y2="1382" stroke="#B9C6D4" stroke-width="8"/>
+  <text x="180" y="1404" text-anchor="middle" font-size="10" fill="#5B7186">matrix removed</text>
+
+  <line x1="180" y1="1410" x2="180" y2="1440" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+
+  <rect x="95" y="1444" width="170" height="52" rx="10" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="1466" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">FINAL APPLICATOR</text>
+  <text x="180" y="1484" text-anchor="middle" font-size="10" fill="#5B7186">intended machine</text>
+
+  <!-- Footnote -->
+  <rect x="16" y="1516" width="328" height="88" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="1542" text-anchor="middle" font-size="10" fill="#16324F">Supply of a retained-matrix roll and who</text>
+  <text x="180" y="1558" text-anchor="middle" font-size="10" fill="#16324F">strips it is a project question &#8212;</text>
+  <text x="180" y="1576" text-anchor="middle" font-size="10" fill="#5B7186">no finishing service is implied.</text>
+  <text x="180" y="1596" text-anchor="middle" font-size="10" fill="#5B7186">Concept diagram only.</text>
+</svg>

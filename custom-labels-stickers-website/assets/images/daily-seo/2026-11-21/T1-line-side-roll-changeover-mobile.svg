@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1120" viewBox="0 0 360 1120" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Old and new label rolls join at a line-side splicer before the sensor and applicator, with affected products held for review.">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#4A7196"/></marker>
+  </defs>
+  <rect width="360" height="1120" fill="#FEFEFC"/>
+  <text x="180" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">Line-side changeover:</text>
+  <text x="180" y="56" text-anchor="middle" font-size="18" font-weight="bold" fill="#16324F">joining two rolls at the machine</text>
+
+  <!-- Old roll -->
+  <circle cx="90" cy="140" r="42" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <circle cx="90" cy="140" r="12" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="90" y="200" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">OLD ROLL</text>
+  <text x="90" y="216" text-anchor="middle" font-size="11" fill="#5B7186">old roll tail</text>
+
+  <!-- New roll -->
+  <circle cx="270" cy="140" r="42" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="2"/>
+  <circle cx="270" cy="140" r="12" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="245" y="112" width="50" height="14" rx="3" fill="#FEFEFC" stroke="#2E5F8A" stroke-width="1"/>
+  <text x="270" y="123" text-anchor="middle" font-size="9" fill="#5B7186">leader</text>
+  <text x="270" y="200" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">NEW ROLL</text>
+  <text x="270" y="216" text-anchor="middle" font-size="11" fill="#5B7186">new roll leader</text>
+
+  <line x1="110" y1="182" x2="150" y2="248" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+  <line x1="250" y1="182" x2="210" y2="248" stroke="#4A7196" stroke-width="4" marker-end="url(#arr)"/>
+
+  <!-- Splice unit -->
+  <rect x="105" y="252" width="150" height="84" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="282" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">LINE-SIDE</text>
+  <text x="180" y="301" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">SPLICE</text>
+  <rect x="140" y="312" width="80" height="16" rx="4" fill="#F0E7C8" stroke="#C9B37E" stroke-width="1.5"/>
+  <text x="180" y="324" text-anchor="middle" font-size="10" fill="#16324F">join zone</text>
+
+  <!-- Joined web -->
+  <line x1="180" y1="336" x2="180" y2="392" stroke="#4A7196" stroke-width="4"/>
+  <rect x="188" y="344" width="40" height="15" rx="3" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="188" y="366" width="40" height="15" rx="3" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="238" y="356" font-size="11" fill="#5B7186">joined web</text>
+
+  <!-- Sensor -->
+  <line x1="180" y1="392" x2="180" y2="408" stroke="#4A7196" stroke-width="4"/>
+  <circle cx="180" cy="430" r="22" fill="#F4F7FA" stroke="#2E5F8A" stroke-width="2"/>
+  <circle cx="180" cy="430" r="6" fill="#2E5F8A"/>
+  <text x="180" y="476" text-anchor="middle" font-size="13" font-weight="bold" fill="#16324F">SENSOR</text>
+  <text x="180" y="492" text-anchor="middle" font-size="10" fill="#5B7186">response set by the line owner</text>
+
+  <line x1="180" y1="500" x2="180" y2="524" stroke="#4A7196" stroke-width="3" marker-end="url(#arr)"/>
+
+  <!-- Applicator -->
+  <rect x="105" y="530" width="150" height="76" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="560" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">APPLICATOR</text>
+  <text x="180" y="580" text-anchor="middle" font-size="11" fill="#5B7186">dispensing edge</text>
+  <line x1="140" y1="568" x2="225" y2="596" stroke="#4A7196" stroke-width="2.5"/>
+
+  <line x1="180" y1="606" x2="180" y2="634" stroke="#4A7196" stroke-width="3" marker-end="url(#arr)"/>
+
+  <!-- Conveyor and products -->
+  <line x1="40" y1="712" x2="320" y2="712" stroke="#B9C6D4" stroke-width="4"/>
+  <rect x="60" y="656" width="50" height="56" rx="8" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <rect x="67" y="670" width="36" height="16" rx="2" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <rect x="126" y="656" width="50" height="56" rx="8" fill="#FFFFFF" stroke="#C9B37E" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="133" y="670" width="36" height="16" rx="2" fill="#F0E7C8" stroke="#C9B37E" stroke-width="1.5"/>
+  <rect x="192" y="656" width="50" height="56" rx="8" fill="#FFFFFF" stroke="#C9B37E" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="199" y="670" width="36" height="16" rx="2" fill="#F0E7C8" stroke="#C9B37E" stroke-width="1.5"/>
+  <rect x="258" y="656" width="50" height="56" rx="8" fill="#FFFFFF" stroke="#B9C6D4" stroke-width="2"/>
+  <rect x="265" y="670" width="36" height="16" rx="2" fill="#DCE8F2" stroke="#2E5F8A" stroke-width="1.5"/>
+  <text x="180" y="734" text-anchor="middle" font-size="11" fill="#5B7186">products around the join</text>
+  <text x="180" y="750" text-anchor="middle" font-size="11" fill="#5B7186">= affected interval</text>
+
+  <!-- Hold box -->
+  <line x1="180" y1="758" x2="180" y2="788" stroke="#4A7196" stroke-width="3" marker-end="url(#arr)"/>
+  <rect x="30" y="794" width="300" height="96" rx="12" fill="#F0E7C8" stroke="#C9B37E" stroke-width="2"/>
+  <text x="180" y="822" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">IDENTIFY AND HOLD</text>
+  <text x="180" y="842" text-anchor="middle" font-size="14" font-weight="bold" fill="#16324F">AFFECTED PRODUCTS</text>
+  <text x="180" y="866" text-anchor="middle" font-size="11" fill="#5B7186">interval and disposition agreed</text>
+  <text x="180" y="881" text-anchor="middle" font-size="11" fill="#5B7186">with the line owner</text>
+
+  <!-- Footnote -->
+  <rect x="16" y="918" width="328" height="168" rx="12" fill="#F4F7FA" stroke="#B9C6D4" stroke-width="2"/>
+  <text x="180" y="948" text-anchor="middle" font-size="12" font-weight="bold" fill="#16324F">A different event:</text>
+  <text x="180" y="968" text-anchor="middle" font-size="11" fill="#16324F">a converter splice can sit inside</text>
+  <text x="180" y="984" text-anchor="middle" font-size="11" fill="#16324F">a delivered roll and is handled</text>
+  <text x="180" y="1000" text-anchor="middle" font-size="11" fill="#16324F">by the incoming-roll agreement.</text>
+  <text x="180" y="1032" text-anchor="middle" font-size="11" fill="#5B7186">Concept diagram only &#8212;</text>
+  <text x="180" y="1048" text-anchor="middle" font-size="11" fill="#5B7186">detection, rejection and hold</text>
+  <text x="180" y="1064" text-anchor="middle" font-size="11" fill="#5B7186">behavior are not assumed.</text>
+</svg>
