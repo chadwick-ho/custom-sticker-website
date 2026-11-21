@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1420" font-family="Arial,Helvetica,sans-serif">
+  <rect width="360" height="1420" fill="#FFFFFF"/>
+  <style>
+    .t{font:700 15px Arial;fill:#16324F}
+    .pt{font:700 13px Arial;fill:#16324F}
+    .lb{font:11px Arial;fill:#16324F}
+    .sm{font:10px Arial;fill:#4A6278}
+    .ft{font:11px Arial;fill:#35516B}
+    .acc{font:700 11px Arial;fill:#9A5B12}
+  </style>
+
+  <text class="t" x="14" y="30">Possible appearances after</text>
+  <text class="t" x="14" y="50">label removal — illustrative</text>
+  <text class="sm" x="14" y="70">Matched parts · appearance routes</text>
+  <text class="sm" x="14" y="84">follow-up · thickness exaggerated</text>
+
+  <!-- legend -->
+  <rect x="10" y="100" width="340" height="150" rx="8" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="24" y="124">Layers under the label</text>
+  <rect x="30" y="138" width="26" height="16" fill="#DCE8F2" stroke="#5B7186"/>
+  <text class="lb" x="64" y="151">Label facestock</text>
+  <rect x="180" y="138" width="26" height="16" fill="#8FA9BE" stroke="#5B7186"/>
+  <text class="lb" x="214" y="151">Adhesive</text>
+  <rect x="30" y="166" width="26" height="16" fill="#F0E7C8" stroke="#B07514"/>
+  <text class="lb" x="64" y="179">Cured coating</text>
+  <rect x="180" y="166" width="26" height="16" fill="#C9CED4" stroke="#5B7186"/>
+  <text class="lb" x="214" y="179">Metal</text>
+  <rect x="30" y="194" width="44" height="8" fill="#F0E7C8" stroke="#B07514"/>
+  <rect x="30" y="202" width="44" height="18" fill="#C9CED4" stroke="#5B7186"/>
+  <text class="lb" x="84" y="205">Unlabeled companion</text>
+  <text class="sm" x="84" y="219">same finish, no label</text>
+
+  <!-- panel A -->
+  <rect x="10" y="272" width="340" height="400" rx="8" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="24" y="296">A — Coating appears intact</text>
+  <rect x="40" y="510" width="280" height="60" fill="#C9CED4" stroke="#5B7186" stroke-width="1.4"/>
+  <rect x="40" y="486" width="280" height="24" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+  <polygon points="70,486 240,486 240,474 96,440" fill="#DCE8F2" stroke="#16324F" stroke-width="1.6"/>
+  <polygon points="96,440 240,474 240,486 96,452" fill="#8FA9BE" stroke="#5B7186" stroke-width="1.2"/>
+  <text class="lb" x="100" y="434">lifted label</text>
+  <circle cx="248" cy="486" r="4" fill="#C05621"/>
+  <text class="lb" x="60" y="330">separation at the</text>
+  <text class="lb" x="60" y="344">adhesive/coating line</text>
+  <line x1="120" y1="350" x2="240" y2="478" stroke="#4A6278" stroke-width="1"/>
+  <rect x="200" y="380" width="44" height="8" fill="#F0E7C8" stroke="#B07514"/>
+  <rect x="200" y="388" width="44" height="18" fill="#C9CED4" stroke="#5B7186"/>
+  <text class="sm" x="252" y="392">companion:</text>
+  <text class="sm" x="252" y="404">unchanged</text>
+  <text class="sm" x="40" y="600">coating band continuous across</text>
+  <text class="sm" x="40" y="614">the contact patch</text>
+
+  <!-- panel B -->
+  <rect x="10" y="694" width="340" height="420" rx="8" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="24" y="718">B — Possible coating transfer</text>
+  <rect x="40" y="950" width="280" height="60" fill="#C9CED4" stroke="#5B7186" stroke-width="1.4"/>
+  <rect x="40" y="926" width="120" height="24" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+  <rect x="220" y="926" width="100" height="24" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+  <rect x="160" y="926" width="60" height="24" fill="#C9CED4" stroke="#B07514" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <polygon points="70,926 230,926 230,914 96,880" fill="#DCE8F2" stroke="#16324F" stroke-width="1.6"/>
+  <polygon points="96,880 230,914 230,926 96,892" fill="#8FA9BE" stroke="#5B7186" stroke-width="1.2"/>
+  <polygon points="160,926 200,926 198,944 162,944" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+  <text class="lb" x="100" y="874">lifted label</text>
+  <text class="lb" x="60" y="790">possible coating</text>
+  <text class="lb" x="60" y="804">fragment on label</text>
+  <line x1="120" y1="810" x2="170" y2="920" stroke="#B07514" stroke-width="1"/>
+  <text class="lb" x="240" y="790">changed patch</text>
+  <text class="lb" x="240" y="804">on the tin</text>
+  <line x1="250" y1="810" x2="215" y2="920" stroke="#B07514" stroke-width="1"/>
+  <rect x="230" y="840" width="44" height="8" fill="#F0E7C8" stroke="#B07514"/>
+  <rect x="230" y="848" width="44" height="18" fill="#C9CED4" stroke="#5B7186"/>
+  <text class="sm" x="222" y="852" text-anchor="end">companion:</text>
+  <text class="sm" x="222" y="864" text-anchor="end">unchanged</text>
+  <text class="sm" x="40" y="1040">coating gap under the lift point —</text>
+  <text class="sm" x="40" y="1054">record, then route to coating owner</text>
+
+  <!-- inspect strip -->
+  <rect x="10" y="1136" width="340" height="54" rx="8" fill="#DCE8F2" stroke="#5B7186" stroke-width="1.2"/>
+  <text class="lb" x="24" y="1158">Inspect both surfaces: label underside,</text>
+  <text class="lb" x="24" y="1174">tin patch and companion — one record.</text>
+
+  <!-- footer -->
+  <text class="ft" x="14" y="1230">Appearance is a routing clue — the</text>
+  <text class="ft" x="14" y="1248">coating owner or qualified lab selects</text>
+  <text class="ft" x="14" y="1266">and interprets any adhesion test.</text>
+  <text class="ft" x="14" y="1292">No force, coating-thickness, exposure</text>
+  <text class="ft" x="14" y="1310">or performance values are shown;</text>
+  <text class="ft" x="14" y="1328">the two interfaces are examples.</text>
+</svg>

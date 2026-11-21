@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" font-family="Arial,Helvetica,sans-serif">
+  <defs><marker id="ah5" markerWidth="9" markerHeight="9" refX="6" refY="4.5" orient="auto">
+    <path d="M0,0 L8,4.5 L0,9 Z" fill="#2E5F8A"/></marker></defs>
+  <rect width="1200" height="880" fill="#FFFFFF"/>
+  <style>
+    .t{font:700 22px Arial;fill:#16324F}
+    .pt{font:700 16px Arial;fill:#16324F}
+    .lb{font:12px Arial;fill:#16324F}
+    .sm{font:11px Arial;fill:#4A6278}
+    .fld{font:13px Arial;fill:#16324F}
+    .ft{font:13px Arial;fill:#35516B}
+    .acc{font:700 13px Arial;fill:#9A5B12}
+    .mk{font:700 12px Arial;fill:#FFFFFF}
+  </style>
+
+  <text class="t" x="40" y="44">Placeholder proof map — signed declaration to returned PDF</text>
+  <text class="sm" x="40" y="68">Bracketed placeholders only · schematic positions, not usable labeling copy · % Daily Value column case shown</text>
+
+  <!-- LEFT: signed declaration -->
+  <rect x="30" y="90" width="550" height="610" rx="10" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="56" y="124">Signed declaration</text>
+  <rect x="70" y="140" width="460" height="520" fill="#FFFFFF" stroke="#5B7186" stroke-width="1.8"/>
+  <text class="sm" x="86" y="168">approved copy — placeholders</text>
+  <text class="sm" x="350" y="168">amount</text>
+  <text class="sm" x="440" y="168">% Daily Value</text>
+  <line x1="86" y1="178" x2="514" y2="178" stroke="#B9C6D4" stroke-width="1.2"/>
+
+  <circle cx="96" cy="216" r="11" fill="#2E5F8A"/><text class="mk" x="96" y="220" text-anchor="middle">1</text>
+  <rect x="114" y="196" width="400" height="40" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.4"/>
+  <text class="fld" x="126" y="222">[(b)(2) entry] — separate region</text>
+
+  <circle cx="96" cy="292" r="11" fill="#2E5F8A"/><text class="mk" x="96" y="296" text-anchor="middle">2</text>
+  <rect x="114" y="272" width="400" height="40" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.4"/>
+  <text class="fld" x="126" y="298">[Blend name]</text>
+  <text class="fld" x="330" y="298">[Total per serving]</text>
+  <text class="fld" x="480" y="298">†</text>
+
+  <circle cx="96" cy="376" r="11" fill="#2E5F8A"/><text class="mk" x="96" y="380" text-anchor="middle">3</text>
+  <rect x="146" y="340" width="368" height="36" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.4"/>
+  <text class="fld" x="158" y="364">[First member]</text>
+  <rect x="146" y="384" width="368" height="36" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.4"/>
+  <text class="fld" x="158" y="408">[Next member]</text>
+
+  <circle cx="96" cy="596" r="11" fill="#2E5F8A"/><text class="mk" x="96" y="600" text-anchor="middle">4</text>
+  <line x1="86" y1="576" x2="514" y2="576" stroke="#B9C6D4" stroke-width="1.2"/>
+  <text class="fld" x="126" y="600">† [Footnote text]</text>
+
+  <!-- annotations left -->
+  <text class="sm" x="86" y="462">1 separate entry, outside the blend</text>
+  <text class="sm" x="86" y="480">2 total on the same row, right of name</text>
+  <text class="sm" x="86" y="498">3 members indented, approved order</text>
+  <text class="sm" x="86" y="516">4 dagger under %DV column ↔ footer</text>
+
+  <!-- RIGHT: returned PDF -->
+  <rect x="620" y="90" width="550" height="610" rx="10" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="646" y="124">Returned PDF — cropped placeholder panel</text>
+  <rect x="660" y="140" width="460" height="520" fill="#FFFFFF" stroke="#5B7186" stroke-width="1.8"/>
+  <rect x="660" y="140" width="460" height="34" fill="#DCE8F2" stroke="#5B7186" stroke-width="1.4"/>
+  <text class="lb" x="674" y="162">placeholder Supplement Facts-style crop</text>
+  <text class="sm" x="985" y="192" text-anchor="middle">amount</text>
+  <text class="sm" x="1082" y="192" text-anchor="middle">%DV</text>
+
+  <circle cx="686" cy="216" r="11" fill="#2E5F8A"/><text class="mk" x="686" y="220" text-anchor="middle">1</text>
+  <rect x="704" y="196" width="400" height="40" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.4"/>
+  <text class="fld" x="716" y="222">[(b)(2) entry]</text>
+
+  <circle cx="686" cy="292" r="11" fill="#2E5F8A"/><text class="mk" x="686" y="296" text-anchor="middle">2</text>
+  <rect x="704" y="272" width="400" height="40" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.4"/>
+  <text class="fld" x="716" y="298">[Blend name]</text>
+  <text class="fld" x="920" y="298">[Total per serving]</text>
+  <text class="fld" x="1082" y="298" text-anchor="end">†</text>
+
+  <circle cx="686" cy="376" r="11" fill="#2E5F8A"/><text class="mk" x="686" y="380" text-anchor="middle">3</text>
+  <rect x="736" y="340" width="368" height="36" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.4"/>
+  <text class="fld" x="748" y="364">[First member]</text>
+  <rect x="736" y="384" width="368" height="36" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.4"/>
+  <text class="fld" x="748" y="408">[Next member]</text>
+
+  <circle cx="686" cy="596" r="11" fill="#2E5F8A"/><text class="mk" x="686" y="600" text-anchor="middle">4</text>
+  <line x1="676" y1="576" x2="1104" y2="576" stroke="#B9C6D4" stroke-width="1.2"/>
+  <text class="fld" x="716" y="600">† [Footnote text]</text>
+
+  <text class="sm" x="676" y="462">same numbered markers on both panels —</text>
+  <text class="sm" x="676" y="480">designer matches position, order and the</text>
+  <text class="sm" x="676" y="498">linked symbol; content comes only from</text>
+  <text class="sm" x="676" y="516">the signed copy</text>
+
+  <!-- footer -->
+  <text class="ft" x="40" y="752">The brand’s regulatory reviewer approves the declaration and layout; the designer matches positions, not content.</text>
+  <text class="ft" x="40" y="778">No usable formula, product name, quantities or a complete label is shown — placeholders only.</text>
+  <text class="acc" x="40" y="810">Release depends on the brand reviewer’s sign-off — not on the printer or the supplier.</text>
+</svg>

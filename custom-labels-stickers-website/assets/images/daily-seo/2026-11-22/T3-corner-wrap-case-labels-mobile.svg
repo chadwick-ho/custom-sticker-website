@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1480" font-family="Arial,Helvetica,sans-serif">
+  <defs>
+    <pattern id="hatchm" width="8" height="8" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#C8B98A" stroke-width="2"/>
+    </pattern>
+    <pattern id="crossm" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M0,0 L10,10 M10,0 L0,10" stroke="#B9C6D4" stroke-width="1.2"/>
+    </pattern>
+    <marker id="ah3m" markerWidth="8" markerHeight="8" refX="5.5" refY="4" orient="auto">
+      <path d="M0,0 L7,4 L0,8 Z" fill="#2E5F8A"/></marker>
+  </defs>
+  <rect width="360" height="1480" fill="#FFFFFF"/>
+  <style>
+    .t{font:700 15px Arial;fill:#16324F}
+    .pt{font:700 13px Arial;fill:#16324F}
+    .lb{font:11px Arial;fill:#16324F}
+    .sm{font:10px Arial;fill:#4A6278}
+    .ft{font:11px Arial;fill:#35516B}
+    .acc{font:700 11px Arial;fill:#9A5B12}
+  </style>
+
+  <text class="t" x="14" y="30">One label across a corner,</text>
+  <text class="t" x="14" y="50">or two flat labels</text>
+  <text class="sm" x="14" y="70">Illustrative layouts · placeholder symbol</text>
+  <text class="sm" x="14" y="84">blocks only · not a placement spec</text>
+
+  <!-- case overview -->
+  <rect x="10" y="100" width="340" height="250" rx="8" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="24" y="124">Packed case — working corner</text>
+  <polygon points="90,160 200,160 200,290 90,290" fill="#DCE8F2" stroke="#5B7186" stroke-width="1.8"/>
+  <polygon points="200,160 270,136 270,264 200,290" fill="#F0E7C8" stroke="#5B7186" stroke-width="1.8"/>
+  <polygon points="90,160 160,136 270,136 200,160" fill="#F4F8FB" stroke="#5B7186" stroke-width="1.8"/>
+  <text class="lb" x="145" y="230" text-anchor="middle">Face A</text>
+  <text class="lb" x="236" y="218" text-anchor="middle">Face B</text>
+  <line x1="200" y1="160" x2="200" y2="290" stroke="#B07514" stroke-width="2.6"/>
+  <text class="acc" x="205" y="312">working corner</text>
+  <line x1="40" y1="222" x2="82" y2="222" stroke="#2E5F8A" stroke-width="2" marker-end="url(#ah3m)"/>
+  <text class="sm" x="30" y="248">Receiver</text><text class="sm" x="30" y="262">view 1</text>
+  <line x1="330" y1="190" x2="276" y2="202" stroke="#2E5F8A" stroke-width="2" marker-end="url(#ah3m)"/>
+  <text class="sm" x="284" y="176">Receiver</text><text class="sm" x="296" y="190">view 2</text>
+
+  <!-- wrap map -->
+  <rect x="10" y="372" width="340" height="300" rx="8" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="24" y="396">One-piece wrap — flat map</text>
+  <rect x="24" y="416" width="150" height="170" fill="#DCE8F2" stroke="#5B7186" stroke-width="1.6"/>
+  <text class="sm" x="30" y="434">Face A</text>
+  <rect x="174" y="416" width="62" height="170" fill="url(#hatchm)" stroke="#B07514" stroke-width="1.6"/>
+  <line x1="194" y1="416" x2="194" y2="586" stroke="#B07514" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <line x1="216" y1="416" x2="216" y2="586" stroke="#B07514" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <rect x="236" y="416" width="110" height="170" fill="#F0E7C8" stroke="#5B7186" stroke-width="1.6"/>
+  <text class="sm" x="242" y="434">Face B</text>
+  <rect x="36" y="450" width="126" height="96" fill="url(#crossm)" stroke="#16324F" stroke-width="1.6"/>
+  <text class="lb" x="99" y="488" text-anchor="middle">Complete</text>
+  <text class="lb" x="99" y="504" text-anchor="middle">symbol area</text>
+  <text class="sm" x="99" y="522" text-anchor="middle">+ Quiet zone</text>
+  <rect x="246" y="450" width="92" height="96" fill="url(#crossm)" stroke="#16324F" stroke-width="1.6"/>
+  <text class="lb" x="292" y="488" text-anchor="middle">Complete</text>
+  <text class="lb" x="292" y="504" text-anchor="middle">symbol</text>
+  <text class="sm" x="292" y="522" text-anchor="middle">+ Quiet z.</text>
+  <text class="acc" x="205" y="608" text-anchor="middle">Fold band</text>
+  <text class="sm" x="205" y="626" text-anchor="middle">possible corner positions</text>
+  <text class="sm" x="205" y="644" text-anchor="middle">(dashed limits)</text>
+
+  <!-- two separate labels -->
+  <rect x="10" y="694" width="340" height="480" rx="8" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="24" y="718">Two separate labels — each</text>
+  <text class="pt" x="24" y="736">keeps a complete symbol area</text>
+  <rect x="24" y="756" width="312" height="180" fill="#DCE8F2" stroke="#5B7186" stroke-width="1.6"/>
+  <text class="sm" x="30" y="774">Face A</text>
+  <rect x="60" y="790" width="180" height="110" fill="url(#crossm)" stroke="#16324F" stroke-width="1.6"/>
+  <text class="lb" x="150" y="836" text-anchor="middle">Complete symbol</text>
+  <text class="lb" x="150" y="854" text-anchor="middle">area + Quiet zone</text>
+  <text class="lb" x="260" y="850">Label 1</text>
+  <rect x="24" y="960" width="312" height="180" fill="#F0E7C8" stroke="#5B7186" stroke-width="1.6"/>
+  <text class="sm" x="30" y="978">Face B</text>
+  <rect x="60" y="994" width="180" height="110" fill="url(#crossm)" stroke="#16324F" stroke-width="1.6"/>
+  <text class="lb" x="150" y="1040" text-anchor="middle">Complete symbol</text>
+  <text class="lb" x="150" y="1058" text-anchor="middle">area + Quiet zone</text>
+  <text class="lb" x="260" y="1054">Label 2</text>
+  <text class="sm" x="24" y="1160">two placements, one approved case record</text>
+
+  <!-- footer -->
+  <text class="ft" x="14" y="1212">Placeholder blocks only — no scannable</text>
+  <text class="ft" x="14" y="1230">pattern. Symbol areas and quiet zones</text>
+  <text class="ft" x="14" y="1248">stay outside the fold band. Confirm fold</text>
+  <text class="ft" x="14" y="1266">variation, edge clearance and permitted</text>
+  <text class="ft" x="14" y="1284">duplication for the actual case and</text>
+  <text class="ft" x="14" y="1302">receiver before ordering.</text>
+  <text class="acc" x="14" y="1332">The working corner, faces and required</text>
+  <text class="acc" x="14" y="1350">views follow the packed case and the</text>
+  <text class="acc" x="14" y="1368">receiver’s rules — not a universal rule.</text>
+</svg>
