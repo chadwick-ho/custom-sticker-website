@@ -91,16 +91,16 @@
   <path d="M152,728 C170,780 150,830 146,872" fill="none" stroke="#C05621" stroke-width="2" marker-end="url(#ahm)"/>
   <defs><marker id="ahm" markerWidth="8" markerHeight="8" refX="5.5" refY="4" orient="auto">
     <path d="M0,0 L7,4 L0,8 Z" fill="#C05621"/></marker></defs>
-  <text class="acc" x="290" y="806">Possible copy</text>
-  <text class="acc" x="290" y="820">move</text>
+  <text class="acc" x="290" y="806">Possible</text>
+  <text class="acc" x="290" y="820">copy move</text>
   <line x1="286" y1="812" x2="168" y2="826" stroke="#C05621" stroke-width="1"/>
 
-  <text class="lb" x="292" y="694">Shoulder:</text>
-  <text class="lb" x="292" y="708">compressed</text>
-  <line x1="288" y1="700" x2="252" y2="712" stroke="#8FA9BE" stroke-width="1"/>
-  <text class="lb" x="292" y="930">Wall: more</text>
-  <text class="lb" x="292" y="944">regular cells</text>
-  <line x1="288" y1="938" x2="282" y2="936" stroke="#8FA9BE" stroke-width="1"/>
+  <text class="lb" x="290" y="694">Shoulder:</text>
+  <text class="lb" x="290" y="708">compressed</text>
+  <line x1="286" y1="700" x2="252" y2="712" stroke="#8FA9BE" stroke-width="1"/>
+  <text class="lb" x="290" y="930">Wall: more</text>
+  <text class="lb" x="290" y="944">regular cells</text>
+  <line x1="286" y1="938" x2="282" y2="936" stroke="#8FA9BE" stroke-width="1"/>
 
   <!-- footer -->
   <text class="ft" x="14" y="1198">Matching rows 1–8 and columns A–E</text>
