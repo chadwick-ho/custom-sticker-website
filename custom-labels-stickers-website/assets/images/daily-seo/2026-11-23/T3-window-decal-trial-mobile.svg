@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1320" font-family="Arial,Helvetica,sans-serif">
+  <rect width="360" height="1320" fill="#FFFFFF"/>
+  <style>
+    .t{font:700 19px Arial;fill:#16324F}
+    .pt{font:700 14px Arial;fill:#16324F}
+    .lb{font:11px Arial;fill:#16324F}
+    .sm{font:10px Arial;fill:#4A6278}
+    .gn{font:700 11px Arial;fill:#16324F}
+    .acc{font:700 12px Arial;fill:#9A5B12}
+  </style>
+
+  <text class="t" x="20" y="34">Illustrative decal trial</text>
+  <text class="sm" x="20" y="54">Same glass, viewing side and steps for both</text>
+  <text class="sm" x="20" y="68">samples. No outcome implied.</text>
+
+  <!-- shared glass condition -->
+  <rect x="15" y="84" width="330" height="140" rx="8" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="180" y="110" text-anchor="middle">Same glass and side</text>
+  <rect x="80" y="122" width="110" height="88" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.4"/>
+  <line x1="90" y1="122" x2="90" y2="210" stroke="#C4D6E4" stroke-width="4"/>
+  <line x1="178" y1="122" x2="178" y2="210" stroke="#C4D6E4" stroke-width="4"/>
+  <rect x="110" y="146" width="50" height="44" fill="#DCE8F2" stroke="#9A5B12" stroke-width="1.3" stroke-dasharray="4 3"/>
+  <text class="sm" x="240" y="158" text-anchor="middle">viewing</text>
+  <text class="sm" x="240" y="172" text-anchor="middle">side</text>
+  <text class="sm" x="240" y="186" text-anchor="middle">fixed</text>
+
+  <!-- Static cling route -->
+  <rect x="15" y="244" width="330" height="440" rx="8" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="180" y="270" text-anchor="middle">Static cling</text>
+
+  <rect x="60" y="284" width="240" height="112" rx="8" fill="#FFFFFF" stroke="#B9C6D4"/>
+  <text class="gn" x="180" y="308" text-anchor="middle">1 · Install</text>
+  <rect x="96" y="320" width="80" height="60" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.2"/>
+  <rect x="118" y="334" width="36" height="32" fill="#DCE8F2" stroke="#9A5B12" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text class="sm" x="220" y="350" text-anchor="middle">approved</text>
+  <text class="sm" x="220" y="364" text-anchor="middle">method</text>
+
+  <line x1="180" y1="396" x2="180" y2="420" stroke="#5B7186" stroke-width="1.8"/>
+  <polygon points="175,418 180,428 185,418" fill="#5B7186"/>
+
+  <rect x="60" y="428" width="240" height="112" rx="8" fill="#FFFFFF" stroke="#B9C6D4"/>
+  <text class="gn" x="180" y="452" text-anchor="middle">2 · Cold, condensation, wipe</text>
+  <rect x="96" y="464" width="80" height="60" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.2"/>
+  <rect x="118" y="478" width="36" height="32" fill="#DCE8F2" stroke="#9A5B12" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <path d="M200,480 q4,7 0,14 q-4,7 0,14" fill="none" stroke="#2E5F8A" stroke-width="1.4"/>
+  <line x1="196" y1="518" x2="252" y2="518" stroke="#5B7186" stroke-width="1.6" stroke-dasharray="5 3"/>
+  <polygon points="250,513 260,518 250,523" fill="#5B7186"/>
+
+  <line x1="180" y1="540" x2="180" y2="564" stroke="#5B7186" stroke-width="1.8"/>
+  <polygon points="175,562 180,572 185,562" fill="#5B7186"/>
+
+  <rect x="60" y="572" width="240" height="96" rx="8" fill="#FFFFFF" stroke="#B9C6D4"/>
+  <text class="gn" x="180" y="596" text-anchor="middle">3 · Remove and inspect</text>
+  <rect x="96" y="606" width="80" height="50" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.2"/>
+  <path d="M118,612 L154,612 L154,636 L140,636 Q126,636 118,626 Z" fill="#DCE8F2" stroke="#9A5B12" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <circle cx="230" cy="628" r="12" fill="none" stroke="#5B7186" stroke-width="1.8"/>
+  <line x1="238" y1="636" x2="248" y2="646" stroke="#5B7186" stroke-width="2.2"/>
+
+  <!-- Removable adhesive route -->
+  <rect x="15" y="704" width="330" height="440" rx="8" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="180" y="730" text-anchor="middle">Removable adhesive</text>
+
+  <rect x="60" y="744" width="240" height="112" rx="8" fill="#FFFFFF" stroke="#B9C6D4"/>
+  <text class="gn" x="180" y="768" text-anchor="middle">1 · Install</text>
+  <rect x="96" y="780" width="80" height="60" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.2"/>
+  <rect x="118" y="794" width="36" height="32" fill="#DCE8F2" stroke="#9A5B12" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text class="sm" x="220" y="810" text-anchor="middle">approved</text>
+  <text class="sm" x="220" y="824" text-anchor="middle">method</text>
+
+  <line x1="180" y1="856" x2="180" y2="880" stroke="#5B7186" stroke-width="1.8"/>
+  <polygon points="175,878 180,888 185,878" fill="#5B7186"/>
+
+  <rect x="60" y="888" width="240" height="112" rx="8" fill="#FFFFFF" stroke="#B9C6D4"/>
+  <text class="gn" x="180" y="912" text-anchor="middle">2 · Cold, condensation, wipe</text>
+  <rect x="96" y="924" width="80" height="60" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.2"/>
+  <rect x="118" y="938" width="36" height="32" fill="#DCE8F2" stroke="#9A5B12" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <path d="M200,940 q4,7 0,14 q-4,7 0,14" fill="none" stroke="#2E5F8A" stroke-width="1.4"/>
+  <line x1="196" y1="978" x2="252" y2="978" stroke="#5B7186" stroke-width="1.6" stroke-dasharray="5 3"/>
+  <polygon points="250,973 260,978 250,983" fill="#5B7186"/>
+
+  <line x1="180" y1="1000" x2="180" y2="1024" stroke="#5B7186" stroke-width="1.8"/>
+  <polygon points="175,1022 180,1032 185,1022" fill="#5B7186"/>
+
+  <rect x="60" y="1032" width="240" height="96" rx="8" fill="#FFFFFF" stroke="#B9C6D4"/>
+  <text class="gn" x="180" y="1056" text-anchor="middle">3 · Remove and inspect</text>
+  <rect x="96" y="1066" width="80" height="50" fill="#E9F1F7" stroke="#5B7186" stroke-width="1.2"/>
+  <path d="M118,1072 L154,1072 L154,1096 L140,1096 Q126,1096 118,1086 Z" fill="#DCE8F2" stroke="#9A5B12" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <circle cx="230" cy="1088" r="12" fill="none" stroke="#5B7186" stroke-width="1.8"/>
+  <line x1="238" y1="1096" x2="248" y2="1106" stroke="#5B7186" stroke-width="2.2"/>
+
+  <!-- shared checkpoint + optional reuse -->
+  <circle cx="180" cy="1168" r="6" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+  <line x1="180" y1="1144" x2="180" y2="1162" stroke="#B07514" stroke-width="1.6"/>
+  <line x1="180" y1="684" x2="180" y2="704" stroke="#B07514" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <line x1="180" y1="1174" x2="180" y2="1198" stroke="#B07514" stroke-width="1.6"/>
+  <polygon points="175,1196 180,1206 185,1196" fill="#B07514"/>
+  <rect x="60" y="1210" width="240" height="38" rx="19" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+  <text class="acc" x="180" y="1234" text-anchor="middle">If reuse is planned</text>
+  <rect x="60" y="1258" width="240" height="44" rx="8" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="gn" x="180" y="1285" text-anchor="middle">Store and reapply</text>
+</svg>

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" font-family="Arial,Helvetica,sans-serif">
+  <rect width="1200" height="880" fill="#FFFFFF"/>
+  <style>
+    .t{font:700 22px Arial;fill:#16324F}
+    .pt{font:700 16px Arial;fill:#16324F}
+    .lb{font:12px Arial;fill:#16324F}
+    .sm{font:11px Arial;fill:#4A6278}
+    .gn{font:700 12px Arial;fill:#16324F}
+    .acc{font:700 13px Arial;fill:#9A5B12}
+    .wt{font:10px Arial;fill:#FFFFFF}
+  </style>
+
+  <text class="t" x="40" y="44">Illustrative rack trial</text>
+  <text class="sm" x="40" y="68">Same location string and symbol size on both stocks. Placeholder bars are not scannable. No distances, angles or read results shown.</text>
+
+  <!-- rack panel -->
+  <rect x="40" y="90" width="700" height="500" rx="10" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="70" y="120">Loaded rack — neighboring bays</text>
+
+  <!-- uprights and beams -->
+  <g stroke="#5B7186" stroke-width="3">
+    <line x1="140" y1="140" x2="140" y2="540"/>
+    <line x1="400" y1="140" x2="400" y2="540"/>
+    <line x1="660" y1="140" x2="660" y2="540"/>
+  </g>
+  <g fill="#8FA9BE" stroke="#5B7186" stroke-width="1.4">
+    <rect x="126" y="170" width="548" height="14"/>
+    <rect x="126" y="330" width="548" height="14"/>
+    <rect x="126" y="490" width="548" height="14"/>
+  </g>
+  <!-- pallet boxes -->
+  <g fill="#DCE8F2" stroke="#8FA9BE" stroke-width="1.3">
+    <rect x="160" y="130" width="90" height="40"/>
+    <rect x="270" y="136" width="90" height="34"/>
+    <rect x="430" y="132" width="100" height="38"/>
+    <rect x="160" y="270" width="90" height="60"/>
+    <rect x="270" y="286" width="80" height="44"/>
+    <rect x="430" y="266" width="90" height="64"/>
+    <rect x="540" y="290" width="80" height="40"/>
+    <rect x="160" y="430" width="100" height="60"/>
+    <rect x="280" y="446" width="80" height="44"/>
+    <rect x="430" y="440" width="90" height="50"/>
+    <rect x="540" y="452" width="80" height="38"/>
+  </g>
+  <!-- target and adjacent labels on the mid beam -->
+  <rect x="208" y="331" width="84" height="12" fill="#FFFFFF" stroke="#16324F" stroke-width="1.4"/>
+  <g stroke="#16324F" stroke-width="1.6">
+    <line x1="220" y1="334" x2="220" y2="340"/><line x1="228" y1="334" x2="228" y2="340"/>
+    <line x1="234" y1="334" x2="234" y2="340"/><line x1="244" y1="334" x2="244" y2="340"/>
+    <line x1="252" y1="334" x2="252" y2="340"/><line x1="258" y1="334" x2="258" y2="340"/>
+    <line x1="266" y1="334" x2="266" y2="340"/><line x1="276" y1="334" x2="276" y2="340"/>
+  </g>
+  <rect x="488" y="331" width="84" height="12" fill="#FFFFFF" stroke="#5B7186" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <g stroke="#5B7186" stroke-width="1.6">
+    <line x1="500" y1="334" x2="500" y2="340"/><line x1="508" y1="334" x2="508" y2="340"/>
+    <line x1="514" y1="334" x2="514" y2="340"/><line x1="524" y1="334" x2="524" y2="340"/>
+    <line x1="532" y1="334" x2="532" y2="340"/><line x1="538" y1="334" x2="538" y2="340"/>
+    <line x1="546" y1="334" x2="546" y2="340"/><line x1="556" y1="334" x2="556" y2="340"/>
+  </g>
+  <!-- scan positions and sight lines -->
+  <g stroke="#8FA9BE" stroke-width="1.4" fill="none">
+    <line x1="185" y1="700" x2="246" y2="350"/>
+    <line x1="330" y1="700" x2="254" y2="350"/>
+    <line x1="560" y1="700" x2="262" y2="350"/>
+  </g>
+  <!-- oblique view cone covering target and adjacent -->
+  <polygon points="700,712 252,344 570,344" fill="#F0E7C8" fill-opacity="0.3"/>
+  <g stroke="#B07514" stroke-width="1.4" fill="none" stroke-dasharray="6 4">
+    <line x1="700" y1="712" x2="252" y2="346"/>
+    <line x1="700" y1="712" x2="568" y2="346"/>
+  </g>
+
+  <text class="gn" x="300" y="364">Target</text>
+  <text class="gn" x="300" y="377">location</text>
+  <text class="gn" x="578" y="364">Adjacent</text>
+  <text class="gn" x="578" y="377">location</text>
+
+  <!-- floor line and position markers -->
+  <line x1="80" y1="726" x2="720" y2="726" stroke="#B9C6D4" stroke-width="2"/>
+  <g>
+    <circle cx="185" cy="712" r="10" fill="#DCE8F2" stroke="#5B7186" stroke-width="1.6"/>
+    <text class="lb" x="185" y="752" text-anchor="middle">Close</text>
+    <circle cx="330" cy="712" r="10" fill="#DCE8F2" stroke="#5B7186" stroke-width="1.6"/>
+    <text class="lb" x="330" y="752" text-anchor="middle">Usual approach</text>
+    <circle cx="560" cy="712" r="10" fill="#DCE8F2" stroke="#5B7186" stroke-width="1.6"/>
+    <text class="lb" x="560" y="752" text-anchor="middle">Far</text>
+    <circle cx="700" cy="712" r="10" fill="#F0E7C8" stroke="#B07514" stroke-width="1.6"/>
+    <text class="lb" x="700" y="752" text-anchor="middle">Oblique</text>
+    <text class="sm" x="700" y="768" text-anchor="middle">adjacent in view</text>
+  </g>
+
+  <!-- stock specimen cards -->
+  <rect x="780" y="90" width="380" height="240" rx="10" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="810" y="122">Standard stock</text>
+  <rect x="810" y="140" width="200" height="70" fill="#FFFFFF" stroke="#16324F" stroke-width="1.4"/>
+  <g stroke="#16324F" stroke-width="3">
+    <line x1="826" y1="152" x2="826" y2="196"/><line x1="840" y1="152" x2="840" y2="196"/>
+    <line x1="850" y1="152" x2="850" y2="196"/><line x1="866" y1="152" x2="866" y2="196"/>
+    <line x1="880" y1="152" x2="880" y2="196"/><line x1="890" y1="152" x2="890" y2="196"/>
+    <line x1="906" y1="152" x2="906" y2="196"/><line x1="920" y1="152" x2="920" y2="196"/>
+    <line x1="930" y1="152" x2="930" y2="196"/><line x1="946" y1="152" x2="946" y2="196"/>
+    <line x1="960" y1="152" x2="960" y2="196"/><line x1="970" y1="152" x2="970" y2="196"/>
+    <line x1="986" y1="152" x2="986" y2="196"/><line x1="998" y1="152" x2="998" y2="196"/>
+  </g>
+  <text class="sm" x="910" y="228" text-anchor="middle">placeholder bars</text>
+  <rect x="1030" y="140" width="110" height="70" rx="6" fill="#E9F1F7" stroke="#8FA9BE"/>
+  <text class="sm" x="1085" y="168" text-anchor="middle">Same data</text>
+  <text class="sm" x="1085" y="184" text-anchor="middle">and size</text>
+  <text class="sm" x="810" y="260">specimen mounted at the</text>
+  <text class="sm" x="810" y="276">target location</text>
+  <text class="sm" x="810" y="306">one stock at a time</text>
+
+  <rect x="780" y="350" width="380" height="240" rx="10" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="810" y="382">Retroreflective stock</text>
+  <rect x="810" y="400" width="200" height="70" fill="#FFFFFF" stroke="#16324F" stroke-width="1.4"/>
+  <g stroke="#16324F" stroke-width="3">
+    <line x1="826" y1="412" x2="826" y2="456"/><line x1="840" y1="412" x2="840" y2="456"/>
+    <line x1="850" y1="412" x2="850" y2="456"/><line x1="866" y1="412" x2="866" y2="456"/>
+    <line x1="880" y1="412" x2="880" y2="456"/><line x1="890" y1="412" x2="890" y2="456"/>
+    <line x1="906" y1="412" x2="906" y2="456"/><line x1="920" y1="412" x2="920" y2="456"/>
+    <line x1="930" y1="412" x2="930" y2="456"/><line x1="946" y1="412" x2="946" y2="456"/>
+    <line x1="960" y1="412" x2="960" y2="456"/><line x1="970" y1="412" x2="970" y2="456"/>
+    <line x1="986" y1="412" x2="986" y2="456"/><line x1="998" y1="412" x2="998" y2="456"/>
+  </g>
+  <text class="sm" x="910" y="488" text-anchor="middle">placeholder bars</text>
+  <rect x="1030" y="400" width="110" height="70" rx="6" fill="#E9F1F7" stroke="#8FA9BE"/>
+  <text class="sm" x="1085" y="428" text-anchor="middle">Same data</text>
+  <text class="sm" x="1085" y="444" text-anchor="middle">and size</text>
+  <text class="sm" x="810" y="520">same position, in turn —</text>
+  <text class="sm" x="810" y="536">not mounted together</text>
+  <text class="sm" x="810" y="566">one stock at a time</text>
+
+  <!-- read result log -->
+  <rect x="780" y="610" width="380" height="150" rx="10" fill="#F7FAFC" stroke="#B9C6D4"/>
+  <text class="pt" x="810" y="640">Per attempt — record one</text>
+  <rect x="810" y="656" width="104" height="34" rx="17" fill="#DCE8F2" stroke="#8FA9BE"/>
+  <text class="gn" x="862" y="677" text-anchor="middle">Correct</text>
+  <rect x="924" y="656" width="124" height="34" rx="17" fill="#DCE8F2" stroke="#8FA9BE"/>
+  <text class="gn" x="986" y="677" text-anchor="middle">Wrong value</text>
+  <rect x="1058" y="656" width="84" height="34" rx="17" fill="#DCE8F2" stroke="#8FA9BE"/>
+  <text class="gn" x="1100" y="677" text-anchor="middle">No read</text>
+  <text class="sm" x="810" y="722">check the returned ID against</text>
+  <text class="sm" x="810" y="738">the target location string</text>
+
+  <!-- bottom note -->
+  <text class="sm" x="40" y="816">Sight lines mark positions to test. Approved working positions and acceptance limits are set by site operations.</text>
+  <rect x="40" y="830" width="200" height="40" rx="20" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+  <text class="acc" x="140" y="855" text-anchor="middle">Mount one at a time</text>
+</svg>
