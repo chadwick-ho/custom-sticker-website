@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-label="A schematic mark shows a hatched cover, a revealed triangle during activation, and the same hatched cover after recovery. A reference and separate opening seal sit below.">
+ <defs>
+  <pattern id="cover" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="10" height="10" fill="#DCE8F2"/>
+   <line x1="0" y1="0" x2="0" y2="10" stroke="#16324F" stroke-width="1.8"/>
+  </pattern>
+  <pattern id="coverfade" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="10" height="10" fill="#EFF4F9"/>
+   <line x1="0" y1="0" x2="0" y2="10" stroke="#9AB0C2" stroke-width="1.4"/>
+  </pattern>
+  <marker id="arr3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+   <path d="M0 0 L10 5 L0 10 z" fill="#5B7186"/>
+  </marker>
+  <style>
+   .t{font:700 27px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 14px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .lbl{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .cov{fill:url(#cover);stroke:#16324F;stroke-width:2}
+   .covf{fill:url(#coverfade);stroke:#9AB0C2;stroke-width:2;stroke-dasharray:8 5}
+   .tri{fill:#F0E7C8;stroke:#B07514;stroke-width:2.4}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none}
+   .step{stroke:#5B7186;stroke-width:2;fill:none;marker-end:url(#arr3)}
+  </style>
+ </defs>
+
+ <rect width="1200" height="880" fill="#FFFFFF"/>
+ <text class="t" x="40" y="52">Illustrative inspection sequence</text>
+ <rect x="800" y="26" width="360" height="34" rx="17" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="980" y="48" text-anchor="middle">Concept — not an authentication result</text>
+
+ <!-- ============ State 1: Before activation ============ -->
+ <rect class="card" x="40" y="80" width="330" height="430" rx="10"/>
+ <text class="h" x="60" y="120">1 · Before activation</text>
+ <!-- generic label -->
+ <rect class="lbl" x="90" y="160" width="230" height="200" rx="12"/>
+ <text class="sb" x="205" y="190" text-anchor="middle">MARK AREA</text>
+ <!-- hatched cover shape hiding the mark -->
+ <rect class="cov" x="125" y="210" width="160" height="110" rx="8"/>
+ <text class="s" x="205" y="272" text-anchor="middle">cover print</text>
+ <path class="leader" d="M285 265 L 336 240"/>
+ <text class="sb" x="110" y="412">Expected starting appearance</text>
+ <text class="s" x="60" y="440">Same mark location and background</text>
+ <text class="s" x="60" y="462">as the approved reference.</text>
+ <!-- sequence arrow -->
+ <path class="step" d="M376 280 L 420 280"/>
+
+ <!-- ============ State 2: During activation ============ -->
+ <rect class="card" x="430" y="80" width="330" height="430" rx="10"/>
+ <text class="h" x="450" y="120">2 · During activation</text>
+ <rect class="lbl" x="480" y="160" width="230" height="200" rx="12"/>
+ <text class="sb" x="595" y="190" text-anchor="middle">MARK AREA</text>
+ <!-- revealed shape beneath -->
+ <path class="tri" d="M595 222 L 663 330 L 527 330 Z"/>
+ <text class="lb" x="595" y="306" text-anchor="middle">shape</text>
+ <!-- faded cover shown lifted to upper corner -->
+ <rect class="covf" x="640" y="206" width="70" height="46" rx="6" transform="rotate(-14 675 229)"/>
+ <text class="s" x="722" y="216">cover clears</text>
+ <path class="leader" d="M715 222 L 706 226"/>
+ <text class="sb" x="500" y="412">Revealed shape while activated</text>
+ <text class="s" x="450" y="440">Identified by shape and text,</text>
+ <text class="s" x="450" y="462">not by color alone.</text>
+ <path class="step" d="M766 280 L 810 280"/>
+
+ <!-- ============ State 3: After recovery ============ -->
+ <rect class="card" x="820" y="80" width="330" height="430" rx="10"/>
+ <text class="h" x="840" y="120">3 · After recovery</text>
+ <rect class="lbl" x="870" y="160" width="230" height="200" rx="12"/>
+ <text class="sb" x="985" y="190" text-anchor="middle">MARK AREA</text>
+ <rect class="cov" x="905" y="210" width="160" height="110" rx="8"/>
+ <text class="s" x="985" y="272" text-anchor="middle">cover print</text>
+ <text class="sb" x="890" y="412">Baseline appearance returns</text>
+ <text class="s" x="840" y="440">Visually the same as state 1 —</text>
+ <text class="s" x="840" y="462">record whether and when it returns.</text>
+
+ <!-- ============ shared conditions + reference ============ -->
+ <rect class="panel" x="40" y="540" width="700" height="140" rx="10"/>
+ <text class="h" x="62" y="574">Agreed light and room conditions</text>
+ <text class="s" x="62" y="604">One record line per state: room, light source,</text>
+ <text class="s" x="62" y="626">viewing angle and distance — agreed before the pack</text>
+ <text class="s" x="62" y="648">is checked. No temperatures or times are drawn;</text>
+ <text class="s" x="62" y="670">stimulus and observation windows come from the supplier.</text>
+
+ <rect class="panel" x="40" y="700" width="700" height="140" rx="10"/>
+ <text class="h" x="62" y="734">Reference sample</text>
+ <!-- mini reference label -->
+ <rect class="lbl" x="62" y="750" width="110" height="64" rx="8"/>
+ <rect class="cov" x="76" y="762" width="50" height="40" rx="5"/>
+ <path class="tri" d="M148 764 L 166 798 L 130 798 Z"/>
+ <text class="l" x="190" y="778">ID</text>
+ <line x1="218" y1="778" x2="356" y2="778" stroke="#5B7186" stroke-width="1.4"/>
+ <text class="s" x="190" y="806">Matched construction, kept on file</text>
+
+ <!-- ============ separate opening seal ============ -->
+ <rect class="panel" x="780" y="540" width="380" height="290" rx="10"/>
+ <text class="h" x="802" y="576">Separate opening seal</text>
+ <text class="s" x="802" y="604">Different job — its own evidence location.</text>
+ <!-- seal strip graphic, unchanged across the example -->
+ <rect class="lbl" x="830" y="630" width="280" height="56" rx="8"/>
+ <line x1="846" y1="658" x2="1094" y2="658" stroke="#16324F" stroke-width="2" stroke-dasharray="14 8"/>
+ <circle cx="970" cy="658" r="16" fill="#F0E7C8" stroke="#B07514" stroke-width="2"/>
+ <text class="sb" x="802" y="726">Drawn the same way in every state:</text>
+ <text class="s" x="802" y="752">a reversible mark that resets leaves no</text>
+ <text class="s" x="802" y="774">opening history — assign that evidence</text>
+ <text class="s" x="802" y="796">to the seal and opening path instead.</text>
+</svg>

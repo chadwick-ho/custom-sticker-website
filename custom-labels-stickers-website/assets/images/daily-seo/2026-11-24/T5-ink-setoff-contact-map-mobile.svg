@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1520" viewBox="0 0 360 1520" role="img" aria-label="A label roll, a closed labeled bottle and hypothetical nested empty packs show which surfaces touch during each packing route.">
+ <defs>
+  <pattern id="prt" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="8" height="8" fill="#F0E7C8"/>
+   <line x1="0" y1="0" x2="0" y2="8" stroke="#B07514" stroke-width="1.6"/>
+  </pattern>
+  <marker id="arr5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 19px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:14px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 14px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:12.5px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 12.5px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 12px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.3;fill:none;marker-end:url(#arr5)}
+   .wrap{fill:none;stroke:#16324F;stroke-width:2}
+   .core{fill:#DCE8F2;stroke:#16324F;stroke-width:2}
+   .prtf{fill:url(#prt);stroke:#B07514;stroke-width:1.6}
+   .touch{stroke:#B07514;stroke-width:3;fill:none}
+   .role{fill:#DCE8F2;stroke:#16324F;stroke-width:1.6}
+   .wall{stroke:#16324F;stroke-width:2;fill:none}
+   .dash{stroke:#5B7186;stroke-width:1.3;stroke-dasharray:6 5;fill:none}
+  </style>
+ </defs>
+
+ <rect width="360" height="1520" fill="#FFFFFF"/>
+ <text class="t" x="14" y="32">Illustrative</text>
+ <text class="t" x="14" y="56">contact map</text>
+ <rect x="196" y="16" width="150" height="44" rx="10" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+ <text class="tag" x="271" y="34" text-anchor="middle">Physical touch only —</text>
+ <text class="tag" x="271" y="50" text-anchor="middle">no transfer shown</text>
+
+ <!-- ============ Panel 1: roll ============ -->
+ <rect class="card" x="10" y="72" width="340" height="420" rx="8"/>
+ <text class="h" x="26" y="102">Roll — converting and storage</text>
+ <!-- roll cross-section -->
+ <circle class="wrap" cx="120" cy="206" r="76"/>
+ <circle class="wrap" cx="120" cy="206" r="58" stroke-dasharray="5 4"/>
+ <circle class="wrap" cx="120" cy="206" r="40"/>
+ <circle class="core" cx="120" cy="206" r="22"/>
+ <text class="lb" x="120" y="210" text-anchor="middle">Core</text>
+ <!-- printed face band on outer wrap -->
+ <circle cx="120" cy="206" r="67" fill="none" stroke="#B07514" stroke-width="10" opacity="0.55"/>
+ <!-- contact pair marks -->
+ <path class="touch" d="M178 160 l10 -10 M184 168 l10 -10"/>
+ <path class="leader" d="M190 152 L 240 128"/>
+ <text class="lb" x="244" y="124">Contact pair</text>
+ <path class="leader" d="M64 160 L 40 132"/>
+ <text class="lb" x="26" y="126">Printed face</text>
+ <path class="leader" d="M84 252 L 60 286"/>
+ <text class="lb" x="26" y="296">Back of</text>
+ <text class="lb" x="26" y="312">adjacent liner</text>
+ <text class="s" x="216" y="180">Each wrap keeps its</text>
+ <text class="s" x="216" y="198">own layer order:</text>
+ <text class="s" x="216" y="216">liner back · liner ·</text>
+ <text class="s" x="216" y="234">adhesive · face ·</text>
+ <text class="s" x="216" y="252">print.</text>
+ <text class="s" x="216" y="286">Confirm the real</text>
+ <text class="s" x="216" y="304">sequence on the roll.</text>
+ <!-- layer inset -->
+ <rect class="panel" x="26" y="330" width="308" height="56" rx="6"/>
+ <rect class="prtf" x="40" y="344" width="90" height="13"/>
+ <rect x="40" y="357" width="90" height="13" fill="#DCE8F2" stroke="#16324F" stroke-width="1.2"/>
+ <text class="s" x="140" y="355">printed face</text>
+ <text class="s" x="140" y="371">liner back</text>
+ <!-- role -->
+ <rect class="role" x="26" y="400" width="308" height="34" rx="6"/>
+ <text class="lb" x="180" y="422" text-anchor="middle">Converter confirms the roll</text>
+
+ <!-- ============ Panel 2: bottle ============ -->
+ <rect class="card" x="10" y="508" width="340" height="420" rx="8"/>
+ <text class="h" x="26" y="538">Filled and closed bottle</text>
+ <text class="s" x="26" y="558">Exterior label applied after fill and seal</text>
+ <!-- bottle -->
+ <path class="wall" d="M120 586 h28 v14 c20 10 30 22 30 42 v140 a8 8 0 0 1 -8 8 h-72 a8 8 0 0 1 -8 -8 v-140 c0 -20 10 -32 30 -42 v-14 z"/>
+ <rect x="118" y="574" width="32" height="12" fill="#FFFFFF" stroke="#16324F" stroke-width="2"/>
+ <rect class="prtf" x="94" y="632" width="108" height="56" rx="4"/>
+ <text class="sb" x="148" y="665" text-anchor="middle">Exterior label</text>
+ <path class="leader" d="M206 640 L 250 612"/>
+ <text class="lb" x="254" y="608">Printed face</text>
+ <text class="s" x="254" y="626">faces outward</text>
+ <path class="leader" d="M180 756 L 236 780"/>
+ <text class="lb" x="240" y="784">Bottle wall —</text>
+ <text class="s" x="240" y="802">closed, staged</text>
+ <text class="s" x="26" y="826">Check what the print touched in the roll,</text>
+ <text class="s" x="26" y="844">during dispensing and after application.</text>
+ <!-- role -->
+ <rect class="role" x="26" y="864" width="308" height="34" rx="6"/>
+ <text class="lb" x="180" y="886" text-anchor="middle">Packer confirms handling</text>
+
+ <!-- ============ Panel 3: nested parts ============ -->
+ <rect class="card" x="10" y="944" width="340" height="430" rx="8"/>
+ <text class="h" x="26" y="974">Nested empty parts</text>
+ <text class="s" x="26" y="994">Hypothetical — label applied before nesting</text>
+ <!-- outer part cross-section: U shape -->
+ <path class="wall" d="M120 1016 L120 1208 q0 14 14 14 h96 q14 0 14 -14 L244 1016"/>
+ <!-- inner part -->
+ <path class="wall" d="M138 1060 L138 1196 q0 10 10 10 h66 q10 0 10 -10 L224 1060"/>
+ <!-- labeled exterior of inner part touching outer wall? No: inner part's exterior label faces OUT -> touches OUTER part's inner wall on the left side -->
+ <rect class="prtf" x="124" y="1076" width="14" height="60" transform="rotate(4 131 1106)"/>
+ <path class="leader" d="M132 1100 L 76 1100"/>
+ <text class="lb" x="26" y="1092">Exterior label</text>
+ <text class="s" x="26" y="1110">(printed face)</text>
+ <!-- contact pair at the touch -->
+ <path class="touch" d="M122 1140 l8 -10 M128 1148 l8 -10"/>
+ <rect class="role" x="26" y="1160" width="96" height="30" rx="6"/>
+ <text class="lb" x="74" y="1180" text-anchor="middle">Contact pair</text>
+ <path class="leader" d="M122 1175 L 134 1152"/>
+ <!-- possible contents-contact surface: inner wall of outer part on right -->
+ <path class="leader" d="M242 1130 L 250 1136"/>
+ <text class="lb" x="252" y="1140">Possible</text>
+ <text class="lb" x="252" y="1158">contents-</text>
+ <text class="lb" x="252" y="1176">contact surface</text>
+ <text class="s" x="26" y="1256">If a rim or stop keeps faces apart in the real</text>
+ <text class="s" x="26" y="1274">stack, record the separation — not contact.</text>
+ <!-- role -->
+ <rect class="role" x="26" y="1292" width="308" height="34" rx="6"/>
+ <text class="lb" x="180" y="1314" text-anchor="middle">Packaging reviewer assesses use</text>
+
+ <!-- ============ footer ============ -->
+ <rect x="10" y="1390" width="340" height="118" rx="8" fill="#F7FAFC" stroke="#B9C6D4" stroke-width="1.4"/>
+ <text class="s" x="26" y="1414">Brackets mark physical touch between two</text>
+ <text class="s" x="26" y="1432">surfaces — they do not show substance</text>
+ <text class="s" x="26" y="1450">moving. A possible contents-contact surface</text>
+ <text class="s" x="26" y="1468">stays a question for the reviewer until the</text>
+ <text class="s" x="26" y="1486">actual assembly is checked.</text>
+</svg>

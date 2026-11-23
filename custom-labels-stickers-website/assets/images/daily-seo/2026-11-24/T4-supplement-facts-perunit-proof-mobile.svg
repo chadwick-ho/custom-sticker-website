@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1240" viewBox="0 0 360 1240" role="img" aria-label="Two abstract proof panels show a per-serving column alone and the same panel with an optional per-unit column to its right.">
+ <defs>
+  <style>
+   .t{font:700 19px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:14px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 14px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:12.5px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 12.5px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 12px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .wrap{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .head{fill:#DCE8F2;stroke:#16324F;stroke-width:1.6}
+   .unit{fill:#F0E7C8;stroke:#B07514;stroke-width:1.6}
+   .row{stroke:#B9C6D4;stroke-width:1.2}
+   .leader{stroke:#B07514;stroke-width:1.4;fill:none}
+  </style>
+ </defs>
+
+ <rect width="360" height="1240" fill="#FFFFFF"/>
+ <text class="t" x="14" y="32">Paper-proof</text>
+ <text class="t" x="14" y="56">concept</text>
+ <rect x="196" y="16" width="150" height="44" rx="10" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+ <text class="tag" x="271" y="34" text-anchor="middle">Blank cells —</text>
+ <text class="tag" x="271" y="50" text-anchor="middle">not a compliance template</text>
+
+ <!-- source callouts block -->
+ <rect class="card" x="10" y="72" width="340" height="120" rx="8"/>
+ <rect x="26" y="88" width="150" height="34" rx="17" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+ <text class="lb" x="101" y="110" text-anchor="middle">Approved directions</text>
+ <rect x="26" y="136" width="168" height="34" rx="17" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+ <text class="lb" x="110" y="158" text-anchor="middle">Approved column data</text>
+ <text class="s" x="206" y="106">→ baseline panel</text>
+ <text class="s" x="206" y="126">rows + serving basis</text>
+ <text class="s" x="206" y="154">→ per-unit column</text>
+ <text class="s" x="206" y="174">entries + heading</text>
+
+ <!-- Panel 1: baseline -->
+ <rect class="card" x="10" y="208" width="340" height="470" rx="8"/>
+ <text class="h" x="26" y="238">Per-serving baseline</text>
+ <rect class="wrap" x="26" y="252" width="308" height="400" rx="8"/>
+ <text class="sb" x="180" y="280" text-anchor="middle">WRAP — CONCEPT PANEL</text>
+ <text class="l" x="40" y="312">Serving declaration</text>
+ <line x1="40" y1="322" x2="320" y2="322" stroke="#16324F" stroke-width="2"/>
+ <!-- column header -->
+ <rect class="head" x="216" y="336" width="104" height="46"/>
+ <text class="lb" x="268" y="365" text-anchor="middle">Per serving</text>
+ <rect class="head" x="216" y="382" width="104" height="258" opacity="0.35"/>
+ <!-- rows -->
+ <line class="row" x1="40" y1="400" x2="320" y2="400"/>
+ <text class="l" x="48" y="432">A — name</text>
+ <text class="l" x="268" y="432" text-anchor="middle">—</text>
+ <line class="row" x1="40" y1="448" x2="320" y2="448"/>
+ <text class="l" x="48" y="480">B — name</text>
+ <text class="l" x="268" y="480" text-anchor="middle">—</text>
+ <line class="row" x1="40" y1="496" x2="320" y2="496"/>
+ <text class="l" x="48" y="528">C — name</text>
+ <text class="l" x="268" y="528" text-anchor="middle">—</text>
+ <line class="row" x1="40" y1="544" x2="320" y2="544"/>
+ <text class="l" x="48" y="576">D — name</text>
+ <text class="l" x="268" y="576" text-anchor="middle">—</text>
+ <line class="row" x1="40" y1="592" x2="320" y2="592"/>
+ <text class="l" x="48" y="624">E — name</text>
+ <text class="l" x="268" y="624" text-anchor="middle">—</text>
+ <line class="row" x1="40" y1="640" x2="320" y2="640"/>
+
+ <!-- Panel 2: with per-unit column -->
+ <rect class="card" x="10" y="694" width="340" height="470" rx="8"/>
+ <text class="h" x="26" y="724">With optional per-unit column</text>
+ <rect class="wrap" x="26" y="738" width="308" height="400" rx="8"/>
+ <text class="sb" x="180" y="766" text-anchor="middle">SAME WRAP — SAME ROWS</text>
+ <text class="l" x="40" y="798">Serving declaration</text>
+ <line x1="40" y1="808" x2="320" y2="808" stroke="#16324F" stroke-width="2"/>
+ <rect class="head" x="178" y="822" width="80" height="46"/>
+ <text class="lb" x="218" y="851" text-anchor="middle">Per serving</text>
+ <rect class="unit" x="258" y="822" width="62" height="46"/>
+ <text class="lb" x="289" y="851" text-anchor="middle">Per unit</text>
+ <rect class="head" x="178" y="868" width="80" height="258" opacity="0.35"/>
+ <rect class="unit" x="258" y="868" width="62" height="258" opacity="0.4"/>
+ <line class="row" x1="40" y1="886" x2="320" y2="886"/>
+ <text class="l" x="48" y="918">A — name</text>
+ <text class="l" x="218" y="918" text-anchor="middle">—</text>
+ <text class="l" x="289" y="918" text-anchor="middle">—</text>
+ <line class="row" x1="40" y1="934" x2="320" y2="934"/>
+ <text class="l" x="48" y="966">B — name</text>
+ <text class="l" x="218" y="966" text-anchor="middle">—</text>
+ <text class="l" x="289" y="966" text-anchor="middle">—</text>
+ <line class="row" x1="40" y1="982" x2="320" y2="982"/>
+ <text class="l" x="48" y="1014">C — name</text>
+ <text class="l" x="218" y="1014" text-anchor="middle">—</text>
+ <text class="l" x="289" y="1014" text-anchor="middle">—</text>
+ <line class="row" x1="40" y1="1030" x2="320" y2="1030"/>
+ <text class="l" x="48" y="1062">D — name</text>
+ <text class="l" x="218" y="1062" text-anchor="middle">—</text>
+ <text class="l" x="289" y="1062" text-anchor="middle">—</text>
+ <line class="row" x1="40" y1="1078" x2="320" y2="1078"/>
+ <text class="l" x="48" y="1110">E — name</text>
+ <text class="l" x="218" y="1110" text-anchor="middle">—</text>
+ <text class="l" x="289" y="1110" text-anchor="middle">—</text>
+
+ <!-- footer -->
+ <rect x="10" y="1178" width="340" height="52" rx="8" fill="#F7FAFC" stroke="#B9C6D4" stroke-width="1.4"/>
+ <text class="s" x="24" y="1200">Entries are blanks, not data; headings, values</text>
+ <text class="s" x="24" y="1218">and any per-day route follow approved SKU files.</text>
+</svg>

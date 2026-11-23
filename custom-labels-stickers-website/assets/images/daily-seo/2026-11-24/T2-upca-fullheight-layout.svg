@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-label="A non-scannable UPC-A layout sketch labels bar height, X-dimension, both quiet zones and the digits area, with two bottle placement options.">
+ <defs>
+  <pattern id="brk" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="10" height="10" fill="#DCE8F2"/>
+   <line x1="0" y1="0" x2="0" y2="10" stroke="#5B7186" stroke-width="1.4"/>
+  </pattern>
+  <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <marker id="arr2r" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M10 0 L0 5 L10 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 27px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 14px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .qz{fill:#F0E7C8;stroke:#B07514;stroke-width:1.4;stroke-dasharray:6 4}
+   .foot{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .bar{fill:#16324F}
+   .barh{fill:url(#brk);stroke:#16324F;stroke-width:1.4}
+   .dim{stroke:#16324F;stroke-width:1.6;fill:none;marker-start:url(#arr2r);marker-end:url(#arr2)}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr2)}
+   .dash{stroke:#5B7186;stroke-width:1.4;stroke-dasharray:7 5;fill:none}
+   .bottle{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .flag{fill:#F0E7C8;stroke:#B07514;stroke-width:1.6}
+  </style>
+ </defs>
+
+ <rect width="1200" height="880" fill="#FFFFFF"/>
+ <text class="t" x="40" y="52">Illustrative layout only</text>
+ <rect x="830" y="26" width="330" height="34" rx="17" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="995" y="48" text-anchor="middle">Non-scannable placeholder</text>
+
+ <!-- ============ footprint panel ============ -->
+ <rect class="card" x="40" y="80" width="1120" height="470" rx="10"/>
+ <text class="h" x="64" y="118">UPC-A footprint (concept)</text>
+ <text class="s" x="64" y="140">All parts of the symbol footprint — bars are broken shapes, not encoded data</text>
+
+ <!-- quiet zones -->
+ <rect class="qz" x="150" y="170" width="90" height="230"/>
+ <rect class="qz" x="960" y="170" width="90" height="230"/>
+ <!-- symbol box -->
+ <rect class="foot" x="240" y="170" width="720" height="230"/>
+ <!-- broken placeholder bars (non-decodable: varied widths, split segments, no guard pattern) -->
+ <g>
+  <rect class="bar" x="260" y="180" width="14" height="150"/>
+  <rect class="barh" x="282" y="180" width="22" height="150"/>
+  <rect class="bar" x="312" y="180" width="10" height="150"/>
+  <rect class="bar" x="330" y="180" width="26" height="66"/>
+  <rect class="bar" x="330" y="264" width="26" height="66"/>
+  <rect class="barh" x="364" y="180" width="16" height="150"/>
+  <rect class="bar" x="388" y="180" width="12" height="150"/>
+  <rect class="bar" x="408" y="180" width="20" height="150"/>
+  <rect class="bar" x="436" y="180" width="9" height="150"/>
+  <rect class="barh" x="452" y="180" width="24" height="150"/>
+  <rect class="bar" x="484" y="180" width="13" height="150"/>
+  <rect class="bar" x="505" y="180" width="30" height="66"/>
+  <rect class="bar" x="505" y="264" width="30" height="66"/>
+  <rect class="bar" x="543" y="180" width="11" height="150"/>
+  <rect class="barh" x="562" y="180" width="18" height="150"/>
+  <rect class="bar" x="588" y="180" width="15" height="150"/>
+  <rect class="bar" x="611" y="180" width="8" height="150"/>
+  <rect class="bar" x="627" y="180" width="22" height="66"/>
+  <rect class="bar" x="627" y="264" width="22" height="66"/>
+  <rect class="barh" x="657" y="180" width="19" height="150"/>
+  <rect class="bar" x="684" y="180" width="12" height="150"/>
+  <rect class="bar" x="704" y="180" width="27" height="150"/>
+  <rect class="bar" x="739" y="180" width="9" height="150"/>
+  <rect class="barh" x="756" y="180" width="21" height="150"/>
+  <rect class="bar" x="785" y="180" width="14" height="150"/>
+  <rect class="bar" x="807" y="180" width="24" height="66"/>
+  <rect class="bar" x="807" y="264" width="24" height="66"/>
+  <rect class="bar" x="839" y="180" width="10" height="150"/>
+  <rect class="barh" x="857" y="180" width="17" height="150"/>
+  <rect class="bar" x="882" y="180" width="13" height="150"/>
+  <rect class="bar" x="903" y="180" width="20" height="150"/>
+ </g>
+ <!-- human readable digits band -->
+ <rect class="dash" x="240" y="340" width="720" height="48"/>
+ <text class="s" x="600" y="369" text-anchor="middle">Human-readable digits</text>
+ <!-- bar height dimension: bar area only -->
+ <path class="dim" d="M215 180 L 215 330"/>
+ <text class="lb" x="180" y="255" transform="rotate(-90 180 255)" text-anchor="middle">Bar height</text>
+ <!-- quiet zone labels -->
+ <text class="sb" x="195" y="424" text-anchor="middle">Left quiet zone</text>
+ <text class="sb" x="1005" y="424" text-anchor="middle">Right quiet zone</text>
+ <path class="leader" d="M195 400 L 195 414"/>
+ <path class="leader" d="M1005 400 L 1005 414"/>
+ <!-- X-dimension module swatch -->
+ <rect class="panel" x="64" y="440" width="420" height="90" rx="8"/>
+ <rect class="bar" x="200" y="458" width="26" height="52"/>
+ <path class="dim" d="M200 522 L 226 522"/>
+ <text class="lb" x="246" y="490">X-dimension</text>
+ <text class="s" x="246" y="512">one module, symbolic width</text>
+ <text class="s" x="520" y="470">Bars, quiet zones and digits space keep the</text>
+ <text class="s" x="520" y="492">relationships of a complete symbol —</text>
+ <text class="s" x="520" y="514">no real dimensions shown.</text>
+
+ <!-- ============ bottle route 1 ============ -->
+ <rect class="card" x="40" y="580" width="545" height="270" rx="10"/>
+ <text class="h" x="60" y="616">Full footprint relocated</text>
+ <text class="s" x="60" y="638">Complete symbol moved to a workable panel</text>
+ <!-- bottle outline -->
+ <path class="bottle" d="M270 660 h40 v18 c30 14 44 30 44 60 v86 a10 10 0 0 1 -10 10 h-108 a10 10 0 0 1 -10 -10 v-86 c0 -30 14 -46 44 -60 v-18 z"/>
+ <rect class="bottle" x="268" y="646" width="44" height="14"/>
+ <rect class="dash" x="238" y="726" width="104" height="86"/>
+ <!-- complete mini footprint inside label: quiet margins + short broken bars full height -->
+ <rect class="qz" x="244" y="732" width="10" height="56"/>
+ <rect class="foot" x="254" y="732" width="72" height="56"/>
+ <rect class="qz" x="326" y="732" width="10" height="56"/>
+ <g>
+  <rect class="bar" x="258" y="736" width="5" height="38"/>
+  <rect class="barh" x="266" y="736" width="7" height="38"/>
+  <rect class="bar" x="276" y="736" width="4" height="38"/>
+  <rect class="bar" x="283" y="736" width="8" height="38"/>
+  <rect class="bar" x="294" y="736" width="4" height="38"/>
+  <rect class="barh" x="301" y="736" width="7" height="38"/>
+  <rect class="bar" x="311" y="736" width="5" height="38"/>
+  <rect class="bar" x="318" y="736" width="5" height="38"/>
+ </g>
+ <rect class="dash" x="254" y="776" width="72" height="12"/>
+ <text class="s" x="400" y="700">Whole symbol keeps its</text>
+ <text class="s" x="400" y="722">ordinary bar height and</text>
+ <text class="s" x="400" y="744">both quiet zones at the</text>
+ <text class="s" x="400" y="766">new position.</text>
+
+ <!-- ============ bottle route 2 ============ -->
+ <rect class="card" x="615" y="580" width="545" height="270" rx="10"/>
+ <text class="h" x="635" y="616">Shortened layout for review</text>
+ <text class="s" x="635" y="638">Cropped candidate — held until an exception basis exists</text>
+ <path class="bottle" d="M845 660 h40 v18 c30 14 44 30 44 60 v86 a10 10 0 0 1 -10 10 h-108 a10 10 0 0 1 -10 -10 v-86 c0 -30 14 -46 44 -60 v-18 z"/>
+ <rect class="bottle" x="843" y="646" width="44" height="14"/>
+ <rect class="dash" x="813" y="726" width="104" height="86"/>
+ <!-- shortened placeholder: bars cut to ~half height, flagged -->
+ <rect class="foot" x="829" y="732" width="72" height="30"/>
+ <g>
+  <rect class="bar" x="833" y="735" width="5" height="20"/>
+  <rect class="barh" x="841" y="735" width="7" height="20"/>
+  <rect class="bar" x="851" y="735" width="4" height="20"/>
+  <rect class="bar" x="858" y="735" width="8" height="20"/>
+  <rect class="bar" x="869" y="735" width="4" height="20"/>
+  <rect class="barh" x="876" y="735" width="7" height="20"/>
+  <rect class="bar" x="886" y="735" width="5" height="20"/>
+  <rect class="bar" x="893" y="735" width="5" height="20"/>
+ </g>
+ <rect class="dash" x="829" y="776" width="72" height="12"/>
+ <rect class="flag" x="806" y="800" width="118" height="30" rx="6"/>
+ <text class="tag" x="865" y="820" text-anchor="middle">For review only</text>
+ <text class="s" x="975" y="700">Shorter placeholder shown</text>
+ <text class="s" x="975" y="722">for exception review —</text>
+ <text class="s" x="975" y="744">no pass mark, no</text>
+ <text class="s" x="975" y="766">approval implied.</text>
+
+ <!-- ============ footer ============ -->
+ <text class="s" x="40" y="872">Placeholder bars are broken shapes: they encode no data, no numerals and no measuring scale or tolerance. Verify the real symbol on the actual sellable pack.</text>
+</svg>

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-label="Two abstract proof panels show a per-serving column alone and the same panel with an optional per-unit column to its right.">
+ <defs>
+  <marker id="arr4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#B07514"/>
+  </marker>
+  <style>
+   .t{font:700 27px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 14px Arial,Helvetica,sans-serif;fill:#B07514}
+   .cell{font:15px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .row{stroke:#B9C6D4;stroke-width:1.4}
+   .col{fill:#DCE8F2;stroke:#16324F;stroke-width:1.6}
+   .colnew{fill:#F0E7C8;stroke:#B07514;stroke-width:2}
+   .pill{fill:#F0E7C8;stroke:#B07514;stroke-width:1.6}
+   .leader{stroke:#B07514;stroke-width:1.6;fill:none;marker-end:url(#arr4)}
+  </style>
+ </defs>
+
+ <rect width="1200" height="880" fill="#FFFFFF"/>
+ <text class="t" x="40" y="52">Paper-proof concept</text>
+ <rect x="760" y="26" width="400" height="34" rx="17" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="960" y="48" text-anchor="middle">Blank cells — not a compliance template</text>
+
+ <!-- ============ approved-source callouts ============ -->
+ <rect class="pill" x="90" y="86" width="240" height="44" rx="22"/>
+ <text class="lb" x="210" y="114" text-anchor="middle">Approved directions</text>
+ <path class="leader" d="M200 130 L 148 266"/>
+
+ <rect class="pill" x="870" y="86" width="240" height="44" rx="22"/>
+ <text class="lb" x="990" y="114" text-anchor="middle">Approved column data</text>
+ <path class="leader" d="M1042 130 L 1042 288"/>
+
+ <!-- ============ Panel A: per-serving baseline ============ -->
+ <rect class="card" x="40" y="150" width="530" height="600" rx="10"/>
+ <text class="h" x="64" y="188">Per-serving baseline</text>
+ <!-- generic wrap outline -->
+ <rect class="panel" x="80" y="210" width="450" height="500" rx="14"/>
+ <text class="sb" x="305" y="240" text-anchor="middle">WRAP — CONCEPT PANEL</text>
+ <text class="l" x="105" y="272">Serving declaration</text>
+ <line x1="105" y1="280" x2="505" y2="280" stroke="#16324F" stroke-width="2"/>
+ <!-- rows -->
+ <g>
+  <line class="row" x1="105" y1="330" x2="505" y2="330"/>
+  <line class="row" x1="105" y1="390" x2="505" y2="390"/>
+  <line class="row" x1="105" y1="450" x2="505" y2="450"/>
+  <line class="row" x1="105" y1="510" x2="505" y2="510"/>
+  <line class="row" x1="105" y1="570" x2="505" y2="570"/>
+  <line class="row" x1="105" y1="630" x2="505" y2="630"/>
+ </g>
+ <!-- ingredient letter cells -->
+  <text class="cell" x="115" y="382">A — name</text>
+ <text class="cell" x="115" y="442">B — name</text>
+ <text class="cell" x="115" y="502">C — name</text>
+ <text class="cell" x="115" y="562">D — name</text>
+ <text class="cell" x="115" y="622">E — name</text>
+ <text class="cell" x="115" y="682">F — name</text>
+ <!-- per-serving column -->
+ <rect class="col" x="380" y="292" width="125" height="400"/>
+ <text class="lb" x="442" y="318" text-anchor="middle">Per serving</text>
+ <line x1="380" y1="330" x2="505" y2="330" stroke="#16324F" stroke-width="1.6"/>
+ <text class="cell" x="442" y="382" text-anchor="middle">—</text>
+ <text class="cell" x="442" y="442" text-anchor="middle">—</text>
+ <text class="cell" x="442" y="502" text-anchor="middle">—</text>
+ <text class="cell" x="442" y="562" text-anchor="middle">—</text>
+ <text class="cell" x="442" y="622" text-anchor="middle">—</text>
+ <text class="cell" x="442" y="682" text-anchor="middle">—</text>
+
+ <!-- ============ Panel B: with optional per-unit column ============ -->
+ <rect class="card" x="630" y="150" width="530" height="600" rx="10"/>
+ <text class="h" x="654" y="188">With optional per-unit column</text>
+ <rect class="panel" x="670" y="210" width="450" height="500" rx="14"/>
+ <text class="sb" x="895" y="240" text-anchor="middle">SAME WRAP — SAME ROWS</text>
+ <text class="l" x="695" y="272">Serving declaration</text>
+ <line x1="695" y1="280" x2="1095" y2="280" stroke="#16324F" stroke-width="2"/>
+ <g>
+  <line class="row" x1="695" y1="330" x2="1095" y2="330"/>
+  <line class="row" x1="695" y1="390" x2="1095" y2="390"/>
+  <line class="row" x1="695" y1="450" x2="1095" y2="450"/>
+  <line class="row" x1="695" y1="510" x2="1095" y2="510"/>
+  <line class="row" x1="695" y1="570" x2="1095" y2="570"/>
+  <line class="row" x1="695" y1="630" x2="1095" y2="630"/>
+ </g>
+ <text class="cell" x="705" y="382">A — name</text>
+ <text class="cell" x="705" y="442">B — name</text>
+ <text class="cell" x="705" y="502">C — name</text>
+ <text class="cell" x="705" y="562">D — name</text>
+ <text class="cell" x="705" y="622">E — name</text>
+ <text class="cell" x="705" y="682">F — name</text>
+ <!-- per-serving column (kept) -->
+ <rect class="col" x="880" y="292" width="105" height="400"/>
+ <text class="lb" x="932" y="318" text-anchor="middle">Per serving</text>
+ <line x1="880" y1="330" x2="985" y2="330" stroke="#16324F" stroke-width="1.6"/>
+ <text class="cell" x="932" y="382" text-anchor="middle">—</text>
+ <text class="cell" x="932" y="442" text-anchor="middle">—</text>
+ <text class="cell" x="932" y="502" text-anchor="middle">—</text>
+ <text class="cell" x="932" y="562" text-anchor="middle">—</text>
+ <text class="cell" x="932" y="622" text-anchor="middle">—</text>
+ <text class="cell" x="932" y="682" text-anchor="middle">—</text>
+ <!-- optional per-unit column to the right -->
+ <rect class="colnew" x="990" y="292" width="105" height="400"/>
+ <text class="lb" x="1042" y="318" text-anchor="middle">Per unit</text>
+ <line x1="990" y1="330" x2="1095" y2="330" stroke="#B07514" stroke-width="1.6"/>
+ <text class="cell" x="1042" y="382" text-anchor="middle">—</text>
+ <text class="cell" x="1042" y="442" text-anchor="middle">—</text>
+ <text class="cell" x="1042" y="502" text-anchor="middle">—</text>
+ <text class="cell" x="1042" y="562" text-anchor="middle">—</text>
+ <text class="cell" x="1042" y="622" text-anchor="middle">—</text>
+ <text class="cell" x="1042" y="682" text-anchor="middle">—</text>
+ <!-- link from approved column data to new column is the long amber leader above -->
+
+ <!-- ============ footer ============ -->
+ <rect x="40" y="780" width="1120" height="70" rx="8" fill="#F7FAFC" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="s" x="60" y="808">Concept panels at the same scale — each row keeps one meaning across versions. Entries are blanks, not data;</text>
+ <text class="s" x="60" y="832">headings, values and any per-day route follow the approved SKU files and the reviewer's signoff.</text>
+</svg>

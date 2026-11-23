@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1480" viewBox="0 0 360 1480" role="img" aria-label="A schematic mark shows a hatched cover, a revealed triangle during activation, and the same hatched cover after recovery. A reference and separate opening seal sit below.">
+ <defs>
+  <pattern id="cov" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="8" height="8" fill="#DCE8F2"/>
+   <line x1="0" y1="0" x2="0" y2="8" stroke="#5B7186" stroke-width="1.4"/>
+  </pattern>
+  <marker id="arr3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 19px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:14px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 14px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:12.5px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 12.5px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 12px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.3;fill:none;marker-end:url(#arr3)}
+   .mark{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .cover{fill:url(#cov);stroke:#16324F;stroke-width:1.6}
+   .shape{fill:#F0E7C8;stroke:#B07514;stroke-width:2.4}
+   .blank{stroke:#5B7186;stroke-width:1.3}
+   .flow{stroke:#16324F;stroke-width:2;fill:none;marker-end:url(#arr3)}
+  </style>
+ </defs>
+
+ <rect width="360" height="1480" fill="#FFFFFF"/>
+ <text class="t" x="14" y="28">Illustrative</text>
+ <text class="t" x="14" y="50">inspection</text>
+ <text class="t" x="14" y="72">sequence</text>
+ <rect x="190" y="18" width="156" height="46" rx="10" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+ <text class="tag" x="268" y="36" text-anchor="middle">Concept — not an</text>
+ <text class="tag" x="268" y="52" text-anchor="middle">authentication result</text>
+
+ <!-- State 1 -->
+ <rect class="card" x="10" y="80" width="340" height="300" rx="8"/>
+ <text class="h" x="26" y="110">1 · Before activation</text>
+ <rect class="mark" x="60" y="128" width="240" height="160" rx="8"/>
+ <text class="sb" x="180" y="150" text-anchor="middle">MARK AREA</text>
+ <rect class="cover" x="90" y="162" width="180" height="100" rx="6"/>
+ <text class="s" x="180" y="216" text-anchor="middle">cover print</text>
+ <text class="sb" x="180" y="312" text-anchor="middle">Expected starting appearance</text>
+ <text class="s" x="26" y="340">Same mark location and background as</text>
+ <text class="s" x="26" y="358">the approved reference.</text>
+
+ <path class="flow" d="M180 388 L 180 414"/>
+
+ <!-- State 2 -->
+ <rect class="card" x="10" y="420" width="340" height="300" rx="8"/>
+ <text class="h" x="26" y="450">2 · During activation</text>
+ <rect class="mark" x="60" y="468" width="240" height="160" rx="8"/>
+ <text class="sb" x="180" y="490" text-anchor="middle">MARK AREA</text>
+ <path class="shape" d="M180 502 L 236 604 L 124 604 Z"/>
+ <text class="lb" x="180" y="580" text-anchor="middle">shape</text>
+ <rect class="cover" x="252" y="496" width="40" height="26" rx="4" transform="rotate(18 272 509)" opacity="0.85"/>
+ <path class="leader" d="M272 524 L 272 536"/>
+ <text class="s" x="236" y="554">cover clears</text>
+ <text class="sb" x="180" y="652" text-anchor="middle">Revealed shape while activated</text>
+ <text class="s" x="26" y="680">Identified by shape and text,</text>
+ <text class="s" x="26" y="698">not by color alone.</text>
+
+ <path class="flow" d="M180 728 L 180 754"/>
+
+ <!-- State 3 -->
+ <rect class="card" x="10" y="760" width="340" height="300" rx="8"/>
+ <text class="h" x="26" y="790">3 · After recovery</text>
+ <rect class="mark" x="60" y="808" width="240" height="160" rx="8"/>
+ <text class="sb" x="180" y="830" text-anchor="middle">MARK AREA</text>
+ <rect class="cover" x="90" y="842" width="180" height="100" rx="6"/>
+ <text class="s" x="180" y="896" text-anchor="middle">cover print</text>
+ <text class="sb" x="180" y="992" text-anchor="middle">Baseline appearance returns</text>
+ <text class="s" x="26" y="1020">Visually the same as state 1 — record</text>
+ <text class="s" x="26" y="1038">whether and when it returns.</text>
+
+ <!-- conditions -->
+ <rect class="card" x="10" y="1076" width="340" height="150" rx="8"/>
+ <text class="h" x="26" y="1106">Agreed light and room conditions</text>
+ <text class="s" x="26" y="1132">One record line per state: room, light</text>
+ <text class="s" x="26" y="1150">source, viewing angle and distance —</text>
+ <text class="s" x="26" y="1168">agreed before the pack is checked.</text>
+ <text class="s" x="26" y="1190">No temperatures or times are drawn;</text>
+ <text class="s" x="26" y="1208">stimulus and windows come from the supplier.</text>
+
+ <!-- reference + seal side note row -->
+ <rect class="card" x="10" y="1240" width="340" height="96" rx="8"/>
+ <text class="h" x="26" y="1268">Reference sample</text>
+ <rect class="mark" x="26" y="1278" width="52" height="44" rx="4"/>
+ <rect class="cover" x="32" y="1286" width="20" height="18" rx="2"/>
+ <path class="shape" d="M64 1304 L 74 1288 L 60 1288 Z" transform="translate(-2 -2)"/>
+ <text class="l" x="96" y="1298">ID</text>
+ <line class="blank" x1="120" y1="1298" x2="200" y2="1298"/>
+ <text class="s" x="96" y="1320">Matched construction, kept on file</text>
+
+ <!-- opening seal -->
+ <rect class="card" x="10" y="1350" width="340" height="118" rx="8"/>
+ <text class="h" x="26" y="1378">Separate opening seal</text>
+ <text class="s" x="26" y="1398">Different job — its own evidence location.</text>
+ <rect class="mark" x="26" y="1410" width="150" height="40" rx="6"/>
+ <line x1="38" y1="1430" x2="96" y2="1430" stroke="#16324F" stroke-width="2" stroke-dasharray="8 6"/>
+ <circle cx="120" cy="1430" r="12" fill="#F0E7C8" stroke="#B07514" stroke-width="2"/>
+ <line x1="144" y1="1430" x2="166" y2="1430" stroke="#16324F" stroke-width="2" stroke-dasharray="8 6"/>
+ <text class="sb" x="192" y="1422">Drawn the same way</text>
+ <text class="sb" x="192" y="1440">in every state</text>
+</svg>

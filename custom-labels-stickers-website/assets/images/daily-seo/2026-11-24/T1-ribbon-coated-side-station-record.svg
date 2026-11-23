@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-label="Two ribbon roll sketches show ink facing toward or away from the core. A station record pairs ribbon fit with an overprint proof.">
+ <defs>
+  <pattern id="inkHatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="9" height="9" fill="#F0E7C8"/>
+   <line x1="0" y1="0" x2="0" y2="9" stroke="#B07514" stroke-width="2"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 27px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 14px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .wrap{fill:none;stroke:#16324F;stroke-width:2}
+   .core{fill:#DCE8F2;stroke:#16324F;stroke-width:2}
+   .inkring{fill:none;stroke:#B07514;stroke-width:10}
+   .inkringh{fill:none;stroke:url(#inkHatch);stroke-width:10}
+   .blank{stroke:#5B7186;stroke-width:1.4}
+  </style>
+ </defs>
+
+ <rect width="1200" height="880" fill="#FFFFFF"/>
+ <text class="t" x="40" y="52">Illustrative ribbon and label records</text>
+ <rect x="830" y="26" width="330" height="34" rx="17" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="995" y="48" text-anchor="middle">Concept — station-specific records</text>
+
+ <!-- ============ Left card: Coated side in ============ -->
+ <rect class="card" x="40" y="80" width="320" height="700" rx="10"/>
+ <text class="h" x="60" y="118">Coated side in</text>
+ <text class="s" x="60" y="142">Ink layer faces the core</text>
+ <!-- roll cross-section -->
+ <circle class="wrap" cx="200" cy="300" r="110"/>
+ <circle class="wrap" cx="200" cy="300" r="85"/>
+ <circle class="wrap" cx="200" cy="300" r="58"/>
+ <circle class="core" cx="200" cy="300" r="32"/>
+ <text class="lb" x="200" y="305" text-anchor="middle">Core</text>
+ <!-- ink coating on inner face: band between core and first wrap -->
+ <circle class="inkring" cx="200" cy="300" r="45" stroke-opacity="0.45"/>
+ <circle class="inkringh" cx="200" cy="300" r="45"/>
+ <!-- leader: ink coating -->
+ <path class="leader" d="M232 268 L 300 208"/>
+ <text class="lb" x="345" y="200" text-anchor="end">Ink coating</text>
+ <!-- enlarged edge inset -->
+ <rect class="panel" x="60" y="470" width="280" height="200" rx="8"/>
+ <text class="sb" x="76" y="498">Edge detail — side nearest the core</text>
+ <rect x="80" y="518" width="160" height="22" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <rect x="80" y="540" width="160" height="20" fill="url(#inkHatch)" stroke="#B07514" stroke-width="1.4"/>
+ <rect x="80" y="560" width="160" height="20" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <text class="s" x="248" y="534">Film wrap</text>
+ <text class="s" x="248" y="554">Ink coating</text>
+ <text class="s" x="248" y="574">Film wrap</text>
+ <path class="leader" d="M160 430 L 160 462"/>
+ <path d="M160 580 L 160 610" stroke="#16324F" stroke-width="1.4"/>
+ <text class="sb" x="80" y="630">Core side below</text>
+ <text class="s" x="80" y="650">Coating sits on the wrap face</text>
+ <text class="s" x="80" y="668">nearest the core.</text>
+ <text class="s" x="60" y="740">Identify the coated side with this</text>
+ <text class="s" x="60" y="762">station's own equipment instructions.</text>
+
+ <!-- ============ Middle card: Coated side out ============ -->
+ <rect class="card" x="380" y="80" width="320" height="700" rx="10"/>
+ <text class="h" x="400" y="118">Coated side out</text>
+ <text class="s" x="400" y="142">Ink layer faces away from the core</text>
+ <circle class="wrap" cx="540" cy="300" r="110"/>
+ <circle class="wrap" cx="540" cy="300" r="85"/>
+ <circle class="wrap" cx="540" cy="300" r="58"/>
+ <circle class="core" cx="540" cy="300" r="32"/>
+ <text class="lb" x="540" y="305" text-anchor="middle">Core</text>
+ <!-- ink coating on outer face: band just inside the outer edge -->
+ <circle class="inkring" cx="540" cy="300" r="103" stroke-opacity="0.45"/>
+ <circle class="inkringh" cx="540" cy="300" r="103"/>
+ <path class="leader" d="M613 373 L 645 425"/>
+ <text class="lb" x="560" y="448">Ink coating</text>
+ <!-- enlarged edge inset -->
+ <rect class="panel" x="400" y="470" width="280" height="200" rx="8"/>
+ <text class="sb" x="416" y="498">Edge detail — side nearest the core</text>
+ <rect x="420" y="518" width="160" height="22" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <rect x="420" y="540" width="160" height="20" fill="url(#inkHatch)" stroke="#B07514" stroke-width="1.4"/>
+ <rect x="420" y="560" width="160" height="20" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <text class="s" x="588" y="534">Film wrap</text>
+ <text class="s" x="588" y="554">Ink coating</text>
+ <text class="s" x="588" y="574">Film wrap</text>
+ <path class="leader" d="M500 430 L 500 462"/>
+ <path d="M500 580 L 500 610" stroke="#16324F" stroke-width="1.4"/>
+ <text class="sb" x="420" y="630">Core side below</text>
+ <text class="s" x="420" y="650">Coating sits on the wrap face</text>
+ <text class="s" x="420" y="668">farthest from the core.</text>
+ <text class="s" x="400" y="740">Same tape or manual check — record</text>
+ <text class="s" x="400" y="762">the result against that roll.</text>
+
+ <!-- ============ Right module: Station record ============ -->
+ <rect class="card" x="720" y="80" width="440" height="700" rx="10"/>
+ <text class="h" x="744" y="118">Station record</text>
+ <text class="s" x="744" y="142">One record per station — two separate signoffs</text>
+
+ <!-- signoff 1 -->
+ <rect class="panel" x="744" y="160" width="392" height="176" rx="8"/>
+ <text class="h" x="762" y="192">Signoff 1 · Ribbon fit</text>
+ <text class="l" x="762" y="222">Printer configuration and ribbon part</text>
+ <line class="blank" x1="762" y1="242" x2="1118" y2="242"/>
+ <line class="blank" x1="762" y1="266" x2="1050" y2="266"/>
+ <text class="sb" x="762" y="302">Release condition: proposed ribbon accepted only</text>
+ <text class="sb" x="762" y="322">for this station's installed configuration.</text>
+
+ <!-- signoff 2 -->
+ <rect class="panel" x="744" y="356" width="392" height="300" rx="8"/>
+ <text class="h" x="762" y="388">Signoff 2 · Overprint proof</text>
+ <text class="l" x="762" y="418">Label unwind and print surface</text>
+ <!-- label swatch: unrolled label strip, separate from ribbon rolls -->
+ <rect x="780" y="434" width="300" height="72" fill="#DCE8F2" stroke="#16324F" stroke-width="2"/>
+ <rect x="846" y="446" width="160" height="48" fill="#F7FAFC" stroke="#B07514" stroke-width="2" stroke-dasharray="7 5"/>
+ <text class="sb" x="926" y="475" text-anchor="middle">Print field</text>
+ <path class="leader" d="M790 470 L 836 470"/>
+ <text class="s" x="762" y="528">Unwind drawing ref.</text>
+ <line class="blank" x1="916" y1="528" x2="1118" y2="528"/>
+ <text class="l" x="762" y="568">Sample ID</text>
+ <line class="blank" x1="860" y1="568" x2="1118" y2="568"/>
+ <text class="sb" x="762" y="608">Release condition: applied print proof accepted</text>
+ <text class="sb" x="762" y="628">only on this station's label and ribbon lot.</text>
+
+ <!-- station note -->
+ <text class="s" x="744" y="692">A ribbon that fits still needs the station's own</text>
+ <text class="s" x="744" y="714">overprint proof before that station is released.</text>
+ <text class="s" x="744" y="744">Ribbon and label roll are drawn as separate items</text>
+ <text class="s" x="744" y="766">with separate cores, drawings and records.</text>
+
+ <!-- ============ bottom note ============ -->
+ <rect x="40" y="800" width="1120" height="56" rx="8" fill="#F7FAFC" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="s" x="60" y="824">Illustrative records, not test results or part numbers. Match each roll's coated side to the installed printer,</text>
+ <text class="s" x="60" y="846">then qualify the actual label overprint at that station before release.</text>
+</svg>
