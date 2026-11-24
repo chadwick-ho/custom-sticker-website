@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1500" viewBox="0 0 360 1500" role="img" aria-label="Two pack cutaways show a water-contact indicator near a seam and a relative-humidity card exposed to the monitored headspace. Three control conditions are listed below.">
+ <defs>
+  <pattern id="airHatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="10" height="10" fill="#F7FAFC"/>
+   <line x1="0" y1="0" x2="0" y2="10" stroke="#B9C6D4" stroke-width="1.2"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 22px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 17px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 13px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .blank{stroke:#5B7186;stroke-width:1.4}
+   .pack{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .seam{fill:#DCE8F2;stroke:#16324F;stroke-width:1.6}
+   .fill{fill:#DCE8F2;stroke:#16324F;stroke-width:1.6}
+   .spot{fill:#F0E7C8;stroke:#B07514;stroke-width:2}
+  </style>
+ </defs>
+
+ <rect width="360" height="1500" fill="#FFFFFF"/>
+ <text class="t" x="20" y="40">Illustrative mock packs</text>
+ <rect x="20" y="56" width="250" height="30" rx="15" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="145" y="76" text-anchor="middle">Concept — placements, no readings</text>
+
+ <!-- Card 1: water contact -->
+ <rect class="card" x="20" y="104" width="320" height="470" rx="10"/>
+ <text class="h" x="38" y="138">Liquid contact at this spot</text>
+ <text class="s" x="38" y="160">Mock pack, cutaway section</text>
+
+ <rect class="pack" x="100" y="176" width="160" height="290" rx="6"/>
+ <rect class="seam" x="100" y="176" width="160" height="22" rx="6"/>
+ <line x1="100" y1="198" x2="260" y2="198" stroke="#16324F" stroke-width="1.6"/>
+ <rect x="102" y="198" width="156" height="170" fill="url(#airHatch)"/>
+ <rect class="fill" x="102" y="368" width="156" height="96"/>
+ <text class="s" x="180" y="420" text-anchor="middle">Pack contents</text>
+
+ <rect class="spot" x="120" y="208" width="26" height="26" rx="4"/>
+ <path d="M133 215 c-7 9 -7 15 0 15 s7 -6 0 -15 z" fill="#FFFFFF" stroke="#16324F" stroke-width="1.6"/>
+ <path class="leader" d="M146 221 L 270 236"/>
+ <text class="lb" x="274" y="232">Sensing</text>
+ <text class="lb" x="274" y="250">spot</text>
+ <path class="leader" d="M220 187 L 300 160"/>
+ <text class="lb" x="304" y="158">Seam</text>
+
+ <text class="s" x="38" y="500">A spot near a seam answers a</text>
+ <text class="s" x="38" y="520">different question than a spot</text>
+ <text class="s" x="38" y="540">beside an inner tray.</text>
+
+ <!-- Card 2: humidity card -->
+ <rect class="card" x="20" y="590" width="320" height="470" rx="10"/>
+ <text class="h" x="38" y="624">Relative humidity at the card</text>
+ <text class="s" x="38" y="646">Same mock pack, cutaway section</text>
+
+ <rect class="pack" x="100" y="662" width="160" height="290" rx="6"/>
+ <rect class="seam" x="100" y="662" width="160" height="22" rx="6"/>
+ <line x1="100" y1="684" x2="260" y2="684" stroke="#16324F" stroke-width="1.6"/>
+ <rect x="102" y="684" width="156" height="170" fill="url(#airHatch)"/>
+ <rect class="fill" x="102" y="854" width="156" height="96"/>
+ <text class="s" x="180" y="906" text-anchor="middle">Pack contents</text>
+
+ <rect x="118" y="700" width="44" height="104" rx="4" fill="#FFFFFF" stroke="#16324F" stroke-width="2"/>
+ <rect class="spot" x="126" y="710" width="28" height="20" rx="3"/>
+ <rect class="spot" x="126" y="740" width="28" height="20" rx="3"/>
+ <rect class="spot" x="126" y="770" width="28" height="20" rx="3"/>
+ <path class="leader" d="M162 750 L 266 716"/>
+ <text class="lb" x="270" y="712">Indicator</text>
+ <text class="lb" x="270" y="730">card</text>
+ <text class="lb" x="176" y="800">Monitored</text>
+ <text class="lb" x="176" y="818">headspace</text>
+
+ <text class="s" x="38" y="986">Keep the card open to the</text>
+ <text class="s" x="38" y="1006">headspace — not under a liner</text>
+ <text class="s" x="38" y="1026">or against a desiccant sachet.</text>
+
+ <!-- Controls, stacked -->
+ <text class="h" x="20" y="1096">Three separate controls</text>
+ <text class="s" x="20" y="1118">Response fields left unfilled</text>
+ <rect class="panel" x="20" y="1132" width="320" height="76" rx="8"/>
+ <text class="lb" x="38" y="1160">1 · Dry control</text>
+ <text class="s" x="38" y="1188">Observed:</text>
+ <line class="blank" x1="112" y1="1188" x2="322" y2="1188"/>
+ <rect class="panel" x="20" y="1220" width="320" height="76" rx="8"/>
+ <text class="lb" x="38" y="1248">2 · Elevated RH, no condensation</text>
+ <text class="s" x="38" y="1276">Observed:</text>
+ <line class="blank" x1="112" y1="1276" x2="322" y2="1276"/>
+ <rect class="panel" x="20" y="1308" width="320" height="76" rx="8"/>
+ <text class="lb" x="38" y="1336">3 · Local liquid contact</text>
+ <text class="s" x="38" y="1364">Observed:</text>
+ <line class="blank" x1="112" y1="1364" x2="322" y2="1364"/>
+
+ <!-- bottom note -->
+ <rect x="20" y="1398" width="320" height="88" rx="8" fill="#F7FAFC" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="s" x="36" y="1422">Illustrative placements, not readings.</text>
+ <text class="s" x="36" y="1444">A color change alone cannot show the</text>
+ <text class="s" x="36" y="1466">water source, timing, or the state of</text>
+ <text class="s" x="36" y="1482">the rest of the shipment.</text>
+</svg>

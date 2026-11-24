@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1560" viewBox="0 0 360 1560" role="img" aria-label="A fictional copy comparison shows approved root wording and leaf printed for the same unnamed botanical. The mismatch is marked for review.">
+ <defs>
+  <style>
+   .t{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 17px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .ph{font:italic 15px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .s{font:13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 12px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .diff{fill:#FDF6E3;stroke:#B07514;stroke-width:2}
+   .blank{stroke:#5B7186;stroke-width:1.4}
+  </style>
+ </defs>
+
+ <rect width="360" height="1560" fill="#FFFFFF"/>
+ <text class="t" x="20" y="38">Illustrative copy check</text>
+ <rect x="20" y="54" width="260" height="30" rx="15" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="150" y="74" text-anchor="middle">Concept — fictional entry, not a label</text>
+
+ <!-- Approved copy card -->
+ <rect class="card" x="20" y="102" width="320" height="270" rx="10"/>
+ <text class="h" x="38" y="134">Approved copy</text>
+ <text class="s" x="38" y="156">Copy owner record — one line</text>
+ <rect class="panel" x="36" y="170" width="288" height="128" rx="8"/>
+ <text class="sb" x="52" y="196">Label line (placeholder):</text>
+ <text class="ph" x="52" y="222">[Botanical name]</text>
+ <line class="blank" x1="52" y1="232" x2="200" y2="232"/>
+ <text class="lb" x="52" y="264">Approved part: root</text>
+ <text class="s" x="52" y="286">Locked to approved revision</text>
+ <text class="s" x="38" y="330">Fictional wording — no real</text>
+ <text class="s" x="38" y="350">ingredient shown.</text>
+
+ <!-- mismatch marker -->
+ <circle cx="180" cy="400" r="24" fill="#FDF6E3" stroke="#B07514" stroke-width="2.5"/>
+ <text x="180" y="410" text-anchor="middle" style="font:700 28px Arial,Helvetica,sans-serif;fill:#B07514">≠</text>
+ <text class="tag" x="214" y="407">word differs</text>
+
+ <!-- Print proof card -->
+ <rect class="card" x="20" y="440" width="320" height="280" rx="10"/>
+ <text class="h" x="38" y="472">Print proof</text>
+ <text class="s" x="38" y="494">Partial crop — for comparison</text>
+ <rect class="panel" x="36" y="508" width="288" height="140" rx="8"/>
+ <text class="sb" x="52" y="534">Label line (placeholder):</text>
+ <text class="ph" x="52" y="560">[Botanical name]</text>
+ <line class="blank" x1="52" y1="570" x2="200" y2="570"/>
+ <rect class="diff" x="48" y="584" width="176" height="30" rx="6"/>
+ <text class="lb" x="60" y="604">Printed part: leaf</text>
+ <text class="s" x="52" y="636">Comparison size, not final size</text>
+ <text class="s" x="38" y="680">A crop checks this line only — not</text>
+ <text class="s" x="38" y="700">a printable or compliant panel.</text>
+
+ <!-- routing -->
+ <rect x="20" y="740" width="320" height="110" rx="10" fill="#FDF6E3" stroke="#B07514" stroke-width="2"/>
+ <text class="h" x="38" y="772">Mismatch: hold for</text>
+ <text class="h" x="38" y="794">copy review</text>
+ <text class="s" x="38" y="820">Route back to the copy owner.</text>
+ <rect class="panel" x="20" y="866" width="320" height="110" rx="10"/>
+ <text class="h" x="38" y="894">Check binomial decision</text>
+ <text class="h" x="38" y="916">and panel</text>
+ <text class="s" x="38" y="942">Binomial decision:</text>
+ <line class="blank" x1="170" y1="942" x2="322" y2="942"/>
+ <text class="s" x="38" y="964">Approved panel / line:</text>
+ <line class="blank" x1="188" y1="964" x2="322" y2="964"/>
+
+ <!-- compare rows -->
+ <text class="h" x="20" y="1014">What the review records</text>
+ <rect class="panel" x="20" y="1028" width="320" height="100" rx="8"/>
+ <text class="lb" x="38" y="1056">Expected line</text>
+ <text class="s" x="38" y="1080">Name · part · binomial or reviewer</text>
+ <text class="s" x="38" y="1100">decision · location</text>
+ <rect class="panel" x="20" y="1140" width="320" height="100" rx="8"/>
+ <text class="lb" x="38" y="1168">Full-size print proof</text>
+ <text class="s" x="38" y="1192">Same SKU and dieline revision,</text>
+ <text class="s" x="38" y="1212">applied to the container</text>
+ <rect class="panel" x="20" y="1252" width="320" height="100" rx="8"/>
+ <text class="lb" x="38" y="1280">Result per line</text>
+ <text class="s" x="38" y="1304">matched / mismatched /</text>
+ <text class="s" x="38" y="1324">awaiting review</text>
+
+ <!-- bottom note -->
+ <rect x="20" y="1370" width="320" height="170" rx="8" fill="#F7FAFC" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="s" x="36" y="1396">Illustrative mismatch only — no real</text>
+ <text class="s" x="36" y="1418">herb, binomial or finished panel is</text>
+ <text class="s" x="36" y="1440">shown and no exemption is decided.</text>
+ <text class="s" x="36" y="1462">A matching proof is not regulatory</text>
+ <text class="s" x="36" y="1484">approval; no agency mark appears</text>
+ <text class="s" x="36" y="1506">on this record.</text>
+</svg>

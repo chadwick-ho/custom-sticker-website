@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1440" viewBox="0 0 360 1440" role="img" aria-label="Blank slide sketches compare the ID area and rack clearance for laminate-free and self-laminating labels, using the same dummy ID in both.">
+ <defs>
+  <pattern id="kcHatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="8" height="8" fill="#FFFFFF"/>
+   <line x1="0" y1="0" x2="0" y2="8" stroke="#5B7186" stroke-width="1.2"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 17px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 12px Arial,Helvetica,sans-serif;fill:#B07514}
+   .id{font:700 16px 'Courier New',monospace;fill:#16324F}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .blank{stroke:#5B7186;stroke-width:1.4}
+   .glass{fill:#DCE8F2;stroke:#16324F;stroke-width:2}
+   .labl{fill:#FFFFFF;stroke:#16324F;stroke-width:1.6}
+   .ovl{fill:none;stroke:#B07514;stroke-width:2;stroke-dasharray:7 5}
+  </style>
+ </defs>
+
+ <rect width="360" height="1440" fill="#FFFFFF"/>
+ <text class="t" x="20" y="38">Illustrative blank slides</text>
+ <rect x="20" y="54" width="270" height="30" rx="15" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="155" y="74" text-anchor="middle">Concept — fit check, no solvent test</text>
+
+ <!-- Laminate-free card -->
+ <rect class="card" x="20" y="102" width="320" height="430" rx="10"/>
+ <text class="h" x="38" y="134">Laminate-free</text>
+ <text class="s" x="38" y="156">Plan view — not to scale</text>
+
+ <rect class="glass" x="40" y="172" width="280" height="76" rx="8"/>
+ <rect class="labl" x="50" y="182" width="110" height="56" rx="4"/>
+ <text class="id" x="105" y="216" text-anchor="middle">DEMO-42</text>
+ <rect x="280" y="172" width="40" height="76" fill="url(#kcHatch)" stroke="#16324F" stroke-width="1.6"/>
+ <path class="leader" d="M160 196 L 216 168"/>
+ <text class="lb" x="220" y="164">ID area</text>
+ <path class="leader" d="M300 248 L 300 270"/>
+ <text class="lb" x="296" y="292" text-anchor="end">Rack keep-clear</text>
+
+ <rect class="panel" x="36" y="310" width="288" height="160" rx="8"/>
+ <text class="sb" x="52" y="336">Section at label / rack interface</text>
+ <rect x="70" y="392" width="220" height="14" fill="#DCE8F2" stroke="#16324F" stroke-width="1.6"/>
+ <rect x="96" y="380" width="80" height="12" fill="#FFFFFF" stroke="#16324F" stroke-width="1.6"/>
+ <path class="leader" d="M176 386 L 236 362"/>
+ <text class="lb" x="240" y="360">Label edge</text>
+ <rect x="262" y="372" width="12" height="44" fill="url(#kcHatch)" stroke="#5B7186" stroke-width="1.4"/>
+ <text class="s" x="246" y="436">rack wall</text>
+ <text class="s" x="52" y="446">Record drag, contact or lift</text>
+ <text class="s" x="52" y="464">on insertion and removal.</text>
+
+ <!-- Self-laminating card -->
+ <rect class="card" x="20" y="548" width="320" height="430" rx="10"/>
+ <text class="h" x="38" y="580">Self-laminating</text>
+ <text class="s" x="38" y="602">Plan view — not to scale</text>
+
+ <rect class="glass" x="40" y="618" width="280" height="76" rx="8"/>
+ <rect class="labl" x="50" y="628" width="110" height="56" rx="4"/>
+ <rect class="ovl" x="50" y="628" width="146" height="56" rx="4"/>
+ <text class="id" x="105" y="662" text-anchor="middle">DEMO-42</text>
+ <rect x="280" y="618" width="40" height="76" fill="url(#kcHatch)" stroke="#16324F" stroke-width="1.6"/>
+ <path class="leader" d="M196 646 L 246 614"/>
+ <text class="lb" x="250" y="612">Overlay</text>
+ <text class="lb" x="250" y="630">edge</text>
+ <path class="leader" d="M300 694 L 300 716"/>
+ <text class="lb" x="296" y="738" text-anchor="end">Rack keep-clear</text>
+
+ <rect class="panel" x="36" y="756" width="288" height="160" rx="8"/>
+ <text class="sb" x="52" y="782">Section at label / rack interface</text>
+ <rect x="70" y="838" width="220" height="14" fill="#DCE8F2" stroke="#16324F" stroke-width="1.6"/>
+ <rect x="96" y="826" width="80" height="12" fill="#FFFFFF" stroke="#16324F" stroke-width="1.6"/>
+ <rect x="96" y="814" width="110" height="12" fill="#FDF6E3" stroke="#B07514" stroke-width="1.6"/>
+ <path class="leader" d="M206 820 L 252 792"/>
+ <text class="lb" x="256" y="790">Overlay</text>
+ <text class="lb" x="256" y="808">edge</text>
+ <rect x="262" y="818" width="12" height="44" fill="url(#kcHatch)" stroke="#5B7186" stroke-width="1.4"/>
+ <text class="s" x="246" y="882">rack wall</text>
+ <text class="s" x="52" y="892">Overlay must cover the whole ID</text>
+ <text class="s" x="52" y="910">and still clear the keep-clear zone.</text>
+
+ <!-- handoff record -->
+ <text class="h" x="20" y="1014">Compare the same ID at handoff</text>
+ <rect class="panel" x="20" y="1028" width="320" height="150" rx="8"/>
+ <text class="lb" x="38" y="1056">Expected ID:</text>
+ <text class="id" x="150" y="1058">DEMO-42</text>
+ <text class="lb" x="38" y="1090">Read at handoff:</text>
+ <line class="blank" x1="172" y1="1090" x2="322" y2="1090"/>
+ <text class="lb" x="38" y="1122">Scanner returns:</text>
+ <line class="blank" x1="180" y1="1122" x2="322" y2="1122"/>
+ <text class="s" x="38" y="1152">One fictional ID — no patient or</text>
+ <text class="s" x="38" y="1170">lab identifiers.</text>
+
+ <!-- bottom note -->
+ <rect x="20" y="1196" width="320" height="224" rx="8" fill="#F7FAFC" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="s" x="36" y="1222">Illustrative fit check, not a tested</text>
+ <text class="s" x="36" y="1244">result — no solvent step, clinical</text>
+ <text class="s" x="36" y="1266">claim or resistance rating is</text>
+ <text class="s" x="36" y="1288">shown. A label that stays attached</text>
+ <text class="s" x="36" y="1310">but loses readable characters, or</text>
+ <text class="s" x="36" y="1332">fouls the rack, stays on hold.</text>
+</svg>

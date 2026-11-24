@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1600" viewBox="0 0 360 1600" role="img" aria-label="Foil pouch sketches compare a non-metal offset and a specialty on-metal tag while preserving separate printed barcode quiet zones and showing two case orientations.">
+ <defs>
+  <pattern id="foilHatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="9" height="9" fill="#F0E7C8"/>
+   <line x1="0" y1="0" x2="0" y2="9" stroke="#B07514" stroke-width="1.6"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 17px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 12px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .pouch{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .seam{fill:#DCE8F2;stroke:#16324F;stroke-width:1.6}
+   .fillp{fill:#DCE8F2;stroke:#16324F;stroke-width:1.2}
+   .tagbox{fill:#FDF6E3;stroke:#B07514;stroke-width:2}
+   .qz{fill:none;stroke:#16324F;stroke-width:2;stroke-dasharray:8 5}
+  </style>
+ </defs>
+
+ <rect width="360" height="1600" fill="#FFFFFF"/>
+ <text class="t" x="20" y="36">Illustrative only:</text>
+ <text class="t" x="20" y="62">confirm partner rules</text>
+ <rect x="20" y="78" width="280" height="30" rx="15" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="160" y="98" text-anchor="middle">Concept — placements, not approvals</text>
+
+ <!-- Card A -->
+ <rect class="card" x="20" y="126" width="320" height="480" rx="10"/>
+ <text class="h" x="38" y="158">Permitted offset candidate</text>
+ <text class="s" x="38" y="180">Filled pouch — front + wall section</text>
+
+ <rect class="pouch" x="40" y="196" width="170" height="250" rx="8"/>
+ <rect class="seam" x="40" y="196" width="170" height="22" rx="8"/>
+ <line x1="40" y1="218" x2="210" y2="218" stroke="#16324F" stroke-width="1.6"/>
+ <rect class="fillp" x="42" y="360" width="166" height="84"/>
+ <text class="s" x="125" y="408" text-anchor="middle">fill level</text>
+ <rect class="qz" x="62" y="292" width="104" height="52"/>
+ <text class="sb" x="114" y="312" text-anchor="middle">Barcode</text>
+ <text class="sb" x="114" y="330" text-anchor="middle">quiet zone</text>
+ <rect class="tagbox" x="140" y="230" width="42" height="42" rx="4"/>
+ <path class="leader" d="M182 252 L 230 264"/>
+ <text class="lb" x="234" y="268">Tag</text>
+ <text class="lb" x="125" y="212" text-anchor="middle">Seam</text>
+
+ <rect class="panel" x="222" y="286" width="102" height="160" rx="8"/>
+ <text class="sb" x="232" y="310">Wall</text>
+ <rect x="240" y="322" width="14" height="104" fill="#FFFFFF" stroke="#16324F" stroke-width="1.4"/>
+ <rect x="254" y="322" width="14" height="104" fill="url(#foilHatch)" stroke="#B07514" stroke-width="1.4"/>
+ <rect x="268" y="322" width="14" height="104" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <text class="s" x="288" y="340">film</text>
+ <text class="s" x="288" y="376">foil</text>
+ <text class="s" x="288" y="412">inner</text>
+
+ <text class="s" x="38" y="480">Tag sits in a partner-permitted</text>
+ <text class="s" x="38" y="500">non-metal region, offset from</text>
+ <text class="s" x="38" y="520">the foil after filling. Quiet zone</text>
+ <text class="s" x="38" y="540">kept clear of tag and folds.</text>
+
+ <!-- Card B -->
+ <rect class="card" x="20" y="626" width="320" height="480" rx="10"/>
+ <text class="h" x="38" y="658">Specialty on-metal candidate</text>
+ <text class="s" x="38" y="680">Only if the program allows it</text>
+
+ <rect class="pouch" x="40" y="696" width="170" height="250" rx="8"/>
+ <rect class="seam" x="40" y="696" width="170" height="22" rx="8"/>
+ <line x1="40" y1="718" x2="210" y2="718" stroke="#16324F" stroke-width="1.6"/>
+ <rect class="fillp" x="42" y="860" width="166" height="84"/>
+ <text class="s" x="125" y="908" text-anchor="middle">fill level</text>
+ <rect class="qz" x="62" y="792" width="104" height="52"/>
+ <text class="sb" x="114" y="812" text-anchor="middle">Barcode</text>
+ <text class="sb" x="114" y="830" text-anchor="middle">quiet zone</text>
+ <rect class="tagbox" x="112" y="730" width="42" height="42" rx="4" stroke-dasharray="6 4"/>
+ <path class="leader" d="M154 752 L 216 764"/>
+ <text class="lb" x="220" y="768">Tag</text>
+ <text class="lb" x="125" y="712" text-anchor="middle">Seam</text>
+
+ <rect class="panel" x="222" y="786" width="102" height="160" rx="8"/>
+ <text class="sb" x="232" y="810">Wall</text>
+ <rect x="240" y="822" width="14" height="104" fill="#FFFFFF" stroke="#16324F" stroke-width="1.4"/>
+ <rect x="254" y="822" width="14" height="104" fill="url(#foilHatch)" stroke="#B07514" stroke-width="1.4"/>
+ <rect x="268" y="822" width="14" height="104" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <text class="s" x="288" y="840">film</text>
+ <text class="s" x="288" y="876">foil</text>
+ <text class="s" x="288" y="912">inner</text>
+
+ <text class="s" x="38" y="980">Construction and placement come</text>
+ <text class="s" x="38" y="1000">from the RFID provider — subject</text>
+ <text class="s" x="38" y="1020">to partner approval.</text>
+
+ <!-- case orientations -->
+ <text class="h" x="20" y="1140">Check actual case orientations</text>
+ <rect class="panel" x="20" y="1154" width="320" height="130" rx="8"/>
+ <rect x="40" y="1170" width="140" height="96" fill="#FFFFFF" stroke="#16324F" stroke-width="2"/>
+ <rect x="54" y="1182" width="28" height="72" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <rect x="96" y="1182" width="28" height="72" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <rect x="138" y="1182" width="28" height="72" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <text class="lb" x="196" y="1200">View A</text>
+ <text class="s" x="196" y="1222">units upright,</text>
+ <text class="s" x="196" y="1242">side by side</text>
+ <rect class="panel" x="20" y="1298" width="320" height="130" rx="8"/>
+ <rect x="40" y="1314" width="140" height="96" fill="#FFFFFF" stroke="#16324F" stroke-width="2"/>
+ <rect x="54" y="1326" width="112" height="18" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <rect x="54" y="1350" width="112" height="18" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <rect x="54" y="1374" width="112" height="18" fill="#DCE8F2" stroke="#16324F" stroke-width="1.4"/>
+ <text class="lb" x="196" y="1340">View B</text>
+ <text class="s" x="196" y="1362">units flat,</text>
+ <text class="s" x="196" y="1382">face to face</text>
+
+ <!-- bottom note -->
+ <rect x="20" y="1446" width="320" height="140" rx="8" fill="#F7FAFC" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="s" x="36" y="1472">Illustrative placement options, not</text>
+ <text class="s" x="36" y="1494">approvals or read results — no</text>
+ <text class="s" x="36" y="1516">offset dimension, read range or</text>
+ <text class="s" x="36" y="1538">barcode pattern is shown. Inspect</text>
+ <text class="s" x="36" y="1560">the optical code independently.</text>
+</svg>

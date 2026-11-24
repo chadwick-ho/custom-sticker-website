@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-label="Two illustrative report cards highlight different aperture settings and list the light, geometry, and proof presentation fields that must be checked before comparing grades.">
+ <defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 27px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 14px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .diff{fill:#FDF6E3;stroke:#B07514;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .blank{stroke:#5B7186;stroke-width:1.4}
+   .aper{fill:none;stroke:#B07514;stroke-width:2.2;stroke-dasharray:6 4}
+  </style>
+ </defs>
+
+ <rect width="1200" height="880" fill="#FFFFFF"/>
+ <text class="t" x="40" y="52">Illustrative report comparison</text>
+ <rect x="860" y="26" width="300" height="34" rx="17" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="1010" y="48" text-anchor="middle">Concept — records, not grades</text>
+
+ <!-- ============ Application requirement card ============ -->
+ <rect class="card" x="40" y="80" width="1120" height="150" rx="10"/>
+ <text class="h" x="66" y="114">Application requirement</text>
+ <text class="s" x="66" y="136">Record the reading point's specification before reading either score</text>
+ <text class="lb" x="66" y="168">Spec / version:</text>
+ <line class="blank" x1="206" y1="168" x2="380" y2="168"/>
+ <text class="lb" x="410" y="168">Symbology:</text>
+ <line class="blank" x1="512" y1="168" x2="660" y2="168"/>
+ <text class="lb" x="690" y="168">X-dimension:</text>
+ <line class="blank" x1="806" y1="168" x2="960" y2="168"/>
+ <text class="lb" x="990" y="168">Min. grade:</text>
+ <line class="blank" x1="1092" y1="168" x2="1140" y2="168"/>
+ <text class="lb" x="66" y="204">Required aperture:</text>
+ <line class="blank" x1="224" y1="204" x2="380" y2="204"/>
+ <text class="lb" x="410" y="204">Light:</text>
+ <line class="blank" x1="472" y1="204" x2="660" y2="204"/>
+ <text class="lb" x="690" y="204">Geometry / angle:</text>
+ <line class="blank" x1="846" y1="204" x2="1140" y2="204"/>
+
+ <!-- ============ Proof A card ============ -->
+ <rect class="card" x="40" y="252" width="540" height="360" rx="10"/>
+ <text class="h" x="66" y="288">Proof A</text>
+ <text class="s" x="66" y="310">Supplier report — illustrative fields</text>
+
+ <rect class="diff" x="60" y="326" width="500" height="66" rx="8"/>
+ <text class="lb" x="80" y="352">Aperture: setting A</text>
+ <circle class="aper" cx="500" cy="359" r="12"/>
+ <text class="s" x="80" y="378">placeholder — record the actual value</text>
+
+ <text class="lb" x="66" y="428">Light:</text>
+ <line class="blank" x1="128" y1="428" x2="560" y2="428"/>
+ <text class="lb" x="66" y="472">Geometry:</text>
+ <line class="blank" x1="164" y1="472" x2="560" y2="472"/>
+ <text class="lb" x="66" y="516">Calibration:</text>
+ <line class="blank" x1="170" y1="516" x2="560" y2="516"/>
+
+ <rect class="panel" x="60" y="536" width="500" height="56" rx="8"/>
+ <text class="lb" x="80" y="560">Proof presentation:</text>
+ <text class="l" x="252" y="560">Flat drawdown</text>
+ <rect x="80" y="568" width="180" height="18" rx="9" fill="#F0E7C8" stroke="#B07514" stroke-width="1.2"/>
+ <text class="tag" x="170" y="581" text-anchor="middle" font-size="12">for review — not shown equal</text>
+
+ <!-- ============ Proof B card ============ -->
+ <rect class="card" x="620" y="252" width="540" height="360" rx="10"/>
+ <text class="h" x="646" y="288">Proof B</text>
+ <text class="s" x="646" y="310">Supplier report — illustrative fields</text>
+
+ <rect class="diff" x="640" y="326" width="500" height="66" rx="8"/>
+ <text class="lb" x="660" y="352">Aperture: setting B</text>
+ <circle class="aper" cx="1100" cy="359" r="20"/>
+ <text class="s" x="660" y="378">placeholder — record the actual value</text>
+
+ <text class="lb" x="646" y="428">Light:</text>
+ <line class="blank" x1="708" y1="428" x2="1140" y2="428"/>
+ <text class="lb" x="646" y="472">Geometry:</text>
+ <line class="blank" x1="744" y1="472" x2="1140" y2="472"/>
+ <text class="lb" x="646" y="516">Calibration:</text>
+ <line class="blank" x1="750" y1="516" x2="1140" y2="516"/>
+
+ <rect class="panel" x="640" y="536" width="500" height="56" rx="8"/>
+ <text class="lb" x="660" y="560">Proof presentation:</text>
+ <text class="l" x="832" y="560">Applied on pack</text>
+ <rect x="660" y="568" width="180" height="18" rx="9" fill="#F0E7C8" stroke="#B07514" stroke-width="1.2"/>
+ <text class="tag" x="750" y="581" text-anchor="middle" font-size="12">for review — not shown equal</text>
+
+ <!-- ============ Routing band ============ -->
+ <rect class="panel" x="40" y="634" width="420" height="110" rx="10"/>
+ <text class="h" x="66" y="672">Apertures differ</text>
+ <text class="s" x="66" y="698">The two reports are not on a</text>
+ <text class="s" x="66" y="720">common basis as reported.</text>
+ <path class="leader" d="M470 689 L 540 689"/>
+ <rect x="560" y="634" width="600" height="110" rx="10" fill="#FDF6E3" stroke="#B07514" stroke-width="2"/>
+ <text class="h" x="586" y="672">Different aperture: remeasure</text>
+ <text class="s" x="586" y="698">Ask for both specimens measured under the required method</text>
+ <text class="s" x="586" y="720">settings and equivalent presentation — then compare.</text>
+
+ <!-- ============ bottom note ============ -->
+ <rect x="40" y="768" width="1120" height="88" rx="8" fill="#F7FAFC" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="s" x="60" y="794">Illustrative records, not actual grades. No score, threshold, certificate or valid symbol is shown;</text>
+ <text class="s" x="60" y="816">a scannable mark and a matching symbology do not make two reports comparable. Matching</text>
+ <text class="s" x="60" y="838">settings improve comparability — they do not make an unrepresentative sample suitable for release.</text>
+</svg>

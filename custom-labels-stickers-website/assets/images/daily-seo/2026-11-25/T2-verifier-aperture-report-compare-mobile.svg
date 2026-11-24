@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1560" viewBox="0 0 360 1560" role="img" aria-label="Two illustrative report cards highlight different aperture settings and list the light, geometry, and proof presentation fields that must be checked before comparing grades.">
+ <defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 17px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 12px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .diff{fill:#FDF6E3;stroke:#B07514;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .blank{stroke:#5B7186;stroke-width:1.4}
+   .aper{fill:none;stroke:#B07514;stroke-width:2.2;stroke-dasharray:6 4}
+  </style>
+ </defs>
+
+ <rect width="360" height="1560" fill="#FFFFFF"/>
+ <text class="t" x="20" y="36">Illustrative report</text>
+ <text class="t" x="20" y="62">comparison</text>
+ <rect x="20" y="78" width="240" height="30" rx="15" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="140" y="98" text-anchor="middle">Concept — records, not grades</text>
+
+ <!-- Application requirement card -->
+ <rect class="card" x="20" y="126" width="320" height="200" rx="10"/>
+ <text class="h" x="38" y="156">Application requirement</text>
+ <text class="s" x="38" y="178">Record before reading either score</text>
+ <text class="lb" x="38" y="208">Spec / version:</text>
+ <line class="blank" x1="156" y1="208" x2="322" y2="208"/>
+ <text class="lb" x="38" y="236">Symbology:</text>
+ <line class="blank" x1="134" y1="236" x2="322" y2="236"/>
+ <text class="lb" x="38" y="264">X-dimension:</text>
+ <line class="blank" x1="150" y1="264" x2="322" y2="264"/>
+ <text class="lb" x="38" y="292">Min. grade:</text>
+ <line class="blank" x1="132" y1="292" x2="322" y2="292"/>
+ <text class="lb" x="38" y="316">Aperture / light / geometry:</text>
+
+ <!-- Proof A card -->
+ <rect class="card" x="20" y="346" width="320" height="330" rx="10"/>
+ <text class="h" x="38" y="376">Proof A</text>
+ <text class="s" x="38" y="398">Supplier report — illustrative fields</text>
+ <rect class="diff" x="36" y="412" width="288" height="72" rx="8"/>
+ <text class="lb" x="52" y="440">Aperture: setting A</text>
+ <circle class="aper" cx="292" cy="448" r="12"/>
+ <text class="s" x="52" y="470">placeholder — record actual value</text>
+ <text class="lb" x="38" y="514">Light:</text>
+ <line class="blank" x1="92" y1="514" x2="322" y2="514"/>
+ <text class="lb" x="38" y="546">Geometry:</text>
+ <line class="blank" x1="124" y1="546" x2="322" y2="546"/>
+ <text class="lb" x="38" y="578">Calibration:</text>
+ <line class="blank" x1="132" y1="578" x2="322" y2="578"/>
+ <rect class="panel" x="36" y="590" width="288" height="76" rx="8"/>
+ <text class="lb" x="52" y="612">Proof presentation:</text>
+ <text class="l" x="52" y="632">Flat drawdown</text>
+ <rect x="52" y="640" width="182" height="22" rx="11" fill="#F0E7C8" stroke="#B07514" stroke-width="1.2"/>
+ <text class="tag" x="143" y="655" text-anchor="middle">for review — not shown equal</text>
+
+ <!-- Proof B card -->
+ <rect class="card" x="20" y="696" width="320" height="330" rx="10"/>
+ <text class="h" x="38" y="726">Proof B</text>
+ <text class="s" x="38" y="748">Supplier report — illustrative fields</text>
+ <rect class="diff" x="36" y="762" width="288" height="72" rx="8"/>
+ <text class="lb" x="52" y="790">Aperture: setting B</text>
+ <circle class="aper" cx="292" cy="798" r="20"/>
+ <text class="s" x="52" y="820">placeholder — record actual value</text>
+ <text class="lb" x="38" y="864">Light:</text>
+ <line class="blank" x1="92" y1="864" x2="322" y2="864"/>
+ <text class="lb" x="38" y="896">Geometry:</text>
+ <line class="blank" x1="124" y1="896" x2="322" y2="896"/>
+ <text class="lb" x="38" y="928">Calibration:</text>
+ <line class="blank" x1="132" y1="928" x2="322" y2="928"/>
+ <rect class="panel" x="36" y="940" width="288" height="76" rx="8"/>
+ <text class="lb" x="52" y="962">Proof presentation:</text>
+ <text class="l" x="52" y="982">Applied on pack</text>
+ <rect x="52" y="990" width="182" height="22" rx="11" fill="#F0E7C8" stroke="#B07514" stroke-width="1.2"/>
+ <text class="tag" x="143" y="1005" text-anchor="middle">for review — not shown equal</text>
+
+ <!-- Routing, full text repeated -->
+ <rect class="panel" x="20" y="1046" width="320" height="92" rx="10"/>
+ <text class="h" x="38" y="1076">Apertures differ</text>
+ <text class="s" x="38" y="1100">The two reports are not on a</text>
+ <text class="s" x="38" y="1120">common basis as reported.</text>
+ <rect x="20" y="1152" width="320" height="140" rx="10" fill="#FDF6E3" stroke="#B07514" stroke-width="2"/>
+ <text class="h" x="38" y="1184">Different aperture: remeasure</text>
+ <text class="s" x="38" y="1210">Ask for both specimens measured</text>
+ <text class="s" x="38" y="1230">under the required method settings</text>
+ <text class="s" x="38" y="1250">and equivalent presentation —</text>
+ <text class="s" x="38" y="1270">then compare.</text>
+
+ <!-- bottom note -->
+ <rect x="20" y="1310" width="320" height="230" rx="8" fill="#F7FAFC" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="s" x="36" y="1336">Illustrative records, not actual</text>
+ <text class="s" x="36" y="1358">grades. No score, threshold,</text>
+ <text class="s" x="36" y="1380">certificate or valid symbol is</text>
+ <text class="s" x="36" y="1402">shown; a scannable mark and a</text>
+ <text class="s" x="36" y="1424">matching symbology do not make</text>
+ <text class="s" x="36" y="1446">two reports comparable. Matching</text>
+ <text class="s" x="36" y="1468">settings improve comparability —</text>
+ <text class="s" x="36" y="1490">they do not make an unrepre-</text>
+ <text class="s" x="36" y="1512">sentative sample fit for release.</text>
+</svg>
