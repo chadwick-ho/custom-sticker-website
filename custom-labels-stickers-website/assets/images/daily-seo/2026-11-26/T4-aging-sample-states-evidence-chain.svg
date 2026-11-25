@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-label="Three sample states, unused roll, applied label, and applied label under use stress, flow into four blank evidence fields: report scope, model support, real-time evidence and the limited claim.">
+ <defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 27px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 14px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .flow{stroke:#16324F;stroke-width:2;fill:none;marker-end:url(#arr)}
+   .blank{stroke:#5B7186;stroke-width:1.5;stroke-dasharray:7 5;fill:none}
+   .callout{fill:#FFFFFF;stroke:#B07514;stroke-width:1.8;stroke-dasharray:7 5}
+   .mat{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .lbl{fill:#DCE8F2;stroke:#16324F;stroke-width:1.6}
+   .stress{fill:none;stroke:#B07514;stroke-width:2}
+  </style>
+ </defs>
+
+ <rect width="1200" height="880" fill="#FFFFFF"/>
+ <text class="t" x="40" y="52">Which sample did the report measure?</text>
+ <rect x="800" y="26" width="360" height="34" rx="17" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="980" y="48" text-anchor="middle">Concept — fields left blank</text>
+
+ <!-- ============ Sample state 1: unused roll ============ -->
+ <rect class="card" x="40" y="80" width="360" height="300" rx="10"/>
+ <text class="h" x="62" y="118">1 · Unused roll</text>
+ <text class="s" x="62" y="141">Stock stored, not yet applied</text>
+
+ <circle class="mat" cx="140" cy="240" r="62"/>
+ <circle cx="140" cy="240" r="30" fill="none" stroke="#16324F" stroke-width="1.6"/>
+ <circle cx="140" cy="240" r="12" fill="none" stroke="#16324F" stroke-width="1.4"/>
+ <path class="mat" d="M140 302 L 340 302 L 340 322 L 148 322 Z"/>
+ <text class="s" x="240" y="316" text-anchor="middle">web tail</text>
+ <text class="s" x="140" y="240" text-anchor="middle">roll</text>
+
+ <text class="sb" x="62" y="356">Question: still convertible / applicable?</text>
+
+ <!-- ============ Sample state 2: applied label ============ -->
+ <rect class="card" x="420" y="80" width="360" height="300" rx="10"/>
+ <text class="h" x="442" y="118">2 · Applied label</text>
+ <text class="s" x="442" y="141">Specified construction on the tested substrate</text>
+
+ <rect class="mat" x="462" y="240" width="270" height="42" rx="4"/>
+ <text class="s" x="597" y="266" text-anchor="middle">tested substrate</text>
+ <rect class="lbl" x="507" y="212" width="180" height="26" rx="4"/>
+ <text class="s" x="597" y="230" text-anchor="middle">applied label</text>
+ <line class="leader" x1="597" y1="212" x2="597" y2="192"/>
+ <text class="s" x="597" y="186" text-anchor="middle">adhesion + legibility</text>
+
+ <text class="sb" x="442" y="356">Question: attached and readable after aging?</text>
+
+ <!-- ============ Sample state 3: applied + use stress ============ -->
+ <rect class="card" x="800" y="80" width="360" height="300" rx="10"/>
+ <text class="h" x="822" y="118">3 · Applied + use stress</text>
+ <text class="s" x="822" y="141">Defined system after the stated exposure</text>
+
+ <rect class="mat" x="842" y="240" width="270" height="42" rx="4"/>
+ <text class="s" x="977" y="266" text-anchor="middle">tested substrate</text>
+ <rect class="lbl" x="887" y="212" width="180" height="26" rx="4"/>
+ <text class="s" x="977" y="230" text-anchor="middle">applied label</text>
+ <!-- stress marks -->
+ <path class="stress" d="M860 180 q14 -18 28 0 q14 18 28 0"/>
+ <path class="stress" d="M1000 176 c-8 -14 8 -22 4 -34 c14 8 18 22 8 32 c-4 4 -10 4 -12 2 z"/>
+ <path class="stress" d="M1080 186 l22 -20 m0 0 l-9 2 m9 -2 l-2 9"/>
+ <text class="s" x="977" y="322" text-anchor="middle">service stresses defined per project</text>
+
+ <text class="sb" x="822" y="356">Question: meets endpoints after exposure?</text>
+
+ <!-- arrows down -->
+ <path class="flow" d="M220 388 L220 428"/>
+ <path class="flow" d="M600 388 L600 428"/>
+ <path class="flow" d="M980 388 L980 428"/>
+
+ <!-- ============ Evidence fields ============ -->
+ <rect class="panel" x="40" y="436" width="270" height="210" rx="10"/>
+ <text class="lb" x="60" y="470">Report scope</text>
+ <text class="s" x="60" y="494">Sample, lot, substrate,</text>
+ <text class="s" x="60" y="512">conditions, endpoints:</text>
+ <line class="blank" x1="60" y1="540" x2="290" y2="540"/>
+ <line class="blank" x1="60" y1="570" x2="290" y2="570"/>
+ <line class="blank" x1="60" y1="600" x2="290" y2="600"/>
+
+ <rect class="panel" x="330" y="436" width="270" height="210" rx="10"/>
+ <text class="lb" x="350" y="470">Model support</text>
+ <text class="s" x="350" y="494">Model, assumptions and</text>
+ <text class="s" x="350" y="512">applicable range stated:</text>
+ <line class="blank" x1="350" y1="540" x2="580" y2="540"/>
+ <line class="blank" x1="350" y1="570" x2="580" y2="570"/>
+ <line class="blank" x1="350" y1="600" x2="580" y2="600"/>
+
+ <rect class="panel" x="620" y="436" width="270" height="210" rx="10"/>
+ <text class="lb" x="640" y="470">Real-time evidence</text>
+ <text class="s" x="640" y="494">Corroborating data at</text>
+ <text class="s" x="640" y="512">intended use conditions:</text>
+ <line class="blank" x1="640" y1="540" x2="870" y2="540"/>
+ <line class="blank" x1="640" y1="570" x2="870" y2="570"/>
+ <line class="blank" x1="640" y1="600" x2="870" y2="600"/>
+
+ <rect class="panel" x="910" y="436" width="270" height="210" rx="10"/>
+ <text class="lb" x="930" y="470">Limited claim</text>
+ <text class="s" x="930" y="494">Wording limited to the</text>
+ <text class="s" x="930" y="512">measured endpoint:</text>
+ <line class="blank" x1="930" y1="540" x2="1160" y2="540"/>
+ <line class="blank" x1="930" y1="570" x2="1160" y2="570"/>
+ <line class="blank" x1="930" y1="600" x2="1160" y2="600"/>
+
+ <!-- ============ Bottom notes ============ -->
+ <rect class="callout" x="40" y="690" width="555" height="110" rx="8"/>
+ <text class="lb" x="60" y="722">One endpoint is not the others</text>
+ <text class="s" x="60" y="746">A result for adhesion does not establish legibility,</text>
+ <text class="s" x="60" y="766">code readability or edge lift — each is measured.</text>
+
+ <rect class="callout" x="615" y="690" width="545" height="110" rx="8"/>
+ <text class="lb" x="635" y="722">No universal factor</text>
+ <text class="s" x="635" y="746">Extrapolation needs model support for the relevant</text>
+ <text class="s" x="635" y="766">mechanism; unrepresented durations stay open.</text>
+
+ <text class="s" x="40" y="852">Illustrative planning diagram — no lifetime, acceleration factor or test outcome is stated or implied.</text>
+</svg>
