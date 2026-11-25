@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1640" viewBox="0 0 360 1640" role="img" aria-label="A phone tapping a marked NFC spot on a package and a camera scanning a QR zone both route to a destination owner and a printed fallback instruction.">
+ <defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="9" height="9" fill="#F7FAFC"/>
+   <line x1="0" y1="0" x2="0" y2="9" stroke="#B9C6D4" stroke-width="1.1"/>
+  </pattern>
+  <style>
+   .t{font:700 21px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 18px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 13px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .flow{stroke:#16324F;stroke-width:2;fill:none;marker-end:url(#arr)}
+   .blank{stroke:#5B7186;stroke-width:1.4;stroke-dasharray:6 4;fill:none}
+   .pack{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .seam{fill:#DCE8F2;stroke:#16324F;stroke-width:1.5}
+   .mark{fill:none;stroke:#B07514;stroke-width:1.8;stroke-dasharray:7 5}
+   .phone{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .screen{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:1.3}
+   .wave{fill:none;stroke:#16324F;stroke-width:1.6}
+   .vf{fill:none;stroke:#B07514;stroke-width:2}
+   .qr{fill:#16324F}
+   .qzone{fill:#FFFFFF;stroke:#B07514;stroke-width:1.7;stroke-dasharray:6 4}
+  </style>
+ </defs>
+
+ <rect width="360" height="1640" fill="#FFFFFF"/>
+ <text class="t" x="24" y="40">Two handoffs, one destination</text>
+ <rect x="24" y="58" width="240" height="30" rx="15" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+ <text class="tag" x="144" y="78" text-anchor="middle">Concept — no functional codes</text>
+
+ <!-- NFC card -->
+ <rect class="card" x="24" y="104" width="312" height="430" rx="10"/>
+ <text class="h" x="42" y="136">NFC tap</text>
+ <text class="s" x="42" y="158">Phone meets a marked spot; test</text>
+ <text class="s" x="42" y="174">the tag in its final position</text>
+
+ <rect class="pack" x="60" y="196" width="140" height="190" rx="8"/>
+ <rect class="seam" x="60" y="196" width="140" height="18" rx="8"/>
+ <rect x="62" y="216" width="136" height="86" fill="url(#hatch)"/>
+ <text class="s" x="130" y="262" text-anchor="middle">package</text>
+ <circle class="mark" cx="130" cy="342" r="30"/>
+ <circle cx="130" cy="342" r="5" fill="#B07514"/>
+ <line class="leader" x1="160" y1="342" x2="188" y2="320"/>
+ <text class="s" x="68" y="312">tap mark</text>
+
+ <rect class="phone" x="226" y="212" width="92" height="170" rx="12"/>
+ <rect class="screen" x="235" y="226" width="74" height="108" rx="5"/>
+ <line x1="262" y1="220" x2="280" y2="220" stroke="#16324F" stroke-width="1.3"/>
+ <circle cx="272" cy="362" r="7" fill="none" stroke="#16324F" stroke-width="1.3"/>
+ <text class="s" x="272" y="285" text-anchor="middle">phone</text>
+
+ <path class="wave" d="M208 300 a52 52 0 0 1 16 -36"/>
+ <path class="wave" d="M200 314 a34 34 0 0 1 10 -24"/>
+ <text class="s" transform="rotate(-90 213 295)" x="213" y="295" text-anchor="middle">close range</text>
+
+ <text class="sb" x="42" y="418">Tap position marked:</text>
+ <line class="blank" x1="190" y1="411" x2="318" y2="411"/>
+ <text class="sb" x="42" y="448">Tag + encoding owner:</text>
+ <line class="blank" x1="190" y1="441" x2="318" y2="441"/>
+ <text class="sb" x="42" y="478">Fallback if tap fails:</text>
+ <line class="blank" x1="190" y1="471" x2="318" y2="471"/>
+
+ <path class="flow" d="M180 542 L180 566"/>
+
+ <!-- QR card -->
+ <rect class="card" x="24" y="574" width="312" height="440" rx="10"/>
+ <text class="h" x="42" y="606">QR scan</text>
+ <text class="s" x="42" y="628">Camera reads a printed zone; protect</text>
+ <text class="s" x="42" y="644">size, contrast and clear space</text>
+
+ <rect class="pack" x="42" y="666" width="140" height="200" rx="8"/>
+ <rect class="seam" x="42" y="666" width="140" height="18" rx="8"/>
+ <rect x="44" y="686" width="136" height="80" fill="url(#hatch)"/>
+ <text class="s" x="112" y="728" text-anchor="middle">package</text>
+ <rect class="qzone" x="60" y="780" width="104" height="78" rx="5"/>
+ <rect class="qr" x="70" y="790" width="13" height="13"/>
+ <rect x="73" y="793" width="7" height="7" fill="#FFFFFF"/>
+ <rect class="qr" x="141" y="790" width="13" height="13"/>
+ <rect x="144" y="793" width="7" height="7" fill="#FFFFFF"/>
+ <rect class="qr" x="70" y="835" width="13" height="13"/>
+ <rect x="73" y="838" width="7" height="7" fill="#FFFFFF"/>
+ <rect class="qr" x="98" y="806" width="7" height="7"/>
+ <rect class="qr" x="114" y="822" width="7" height="7"/>
+ <rect class="qr" x="128" y="806" width="5" height="5"/>
+ <rect class="qr" x="106" y="838" width="7" height="7"/>
+ <rect class="qr" x="128" y="840" width="5" height="5"/>
+ <rect class="qr" x="94" y="826" width="5" height="5"/>
+ <text class="s" x="112" y="876" text-anchor="middle">placeholder,</text>
+ <text class="s" x="112" y="892" text-anchor="middle">not functional</text>
+
+ <rect class="phone" x="226" y="682" width="92" height="170" rx="12"/>
+ <rect class="screen" x="235" y="696" width="74" height="108" rx="5"/>
+ <line x1="262" y1="690" x2="280" y2="690" stroke="#16324F" stroke-width="1.3"/>
+ <circle cx="272" cy="832" r="7" fill="none" stroke="#16324F" stroke-width="1.3"/>
+ <text class="s" x="272" y="752" text-anchor="middle">camera</text>
+ <line x1="226" y1="740" x2="164" y2="790" stroke="#16324F" stroke-width="1.3" stroke-dasharray="4 4"/>
+ <line x1="226" y1="800" x2="164" y2="830" stroke="#16324F" stroke-width="1.3" stroke-dasharray="4 4"/>
+ <path class="vf" d="M54 790 L54 776 L64 776"/>
+ <path class="vf" d="M170 790 L170 776 L160 776"/>
+ <path class="vf" d="M54 848 L54 862 L64 862"/>
+ <path class="vf" d="M170 848 L170 862 L160 862"/>
+
+ <text class="sb" x="42" y="928">Quiet zone + size:</text>
+ <line class="blank" x1="190" y1="921" x2="318" y2="921"/>
+ <text class="sb" x="42" y="958">Scan instruction:</text>
+ <line class="blank" x1="190" y1="951" x2="318" y2="951"/>
+ <text class="sb" x="42" y="988">Fallback if scan fails:</text>
+ <line class="blank" x1="190" y1="981" x2="318" y2="981"/>
+
+ <path class="flow" d="M180 1022 L180 1046"/>
+
+ <!-- destination + fallback -->
+ <rect class="card" x="24" y="1054" width="312" height="330" rx="10"/>
+ <text class="h" x="42" y="1086">Both routes land on</text>
+ <text class="h" x="42" y="1108">the same plan</text>
+
+ <rect class="panel" x="42" y="1128" width="276" height="110" rx="8"/>
+ <text class="lb" x="58" y="1156">Destination owner</text>
+ <text class="s" x="58" y="1178">Domain, redirects and</text>
+ <text class="s" x="58" y="1196">content controlled by:</text>
+ <line class="blank" x1="58" y1="1218" x2="302" y2="1218"/>
+
+ <rect class="panel" x="42" y="1254" width="276" height="110" rx="8"/>
+ <text class="lb" x="58" y="1282">Fallback instruction</text>
+ <text class="s" x="58" y="1304">Printed alternative when the</text>
+ <text class="s" x="58" y="1322">tap or scan cannot complete:</text>
+ <line class="blank" x1="58" y1="1344" x2="302" y2="1344"/>
+
+ <text class="s" x="24" y="1418">A tap or scan opens a page —</text>
+ <text class="s" x="24" y="1438">neither authenticates the product.</text>
+ <text class="s" x="24" y="1470">Tag and code owners are assigned</text>
+ <text class="s" x="24" y="1490">per project.</text>
+
+ <text class="s" x="24" y="1540">Illustrative planning diagram —</text>
+ <text class="s" x="24" y="1560">symbols are placeholders; no read</text>
+ <text class="s" x="24" y="1580">range or compatibility is implied.</text>
+</svg>

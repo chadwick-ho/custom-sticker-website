@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1980" viewBox="0 0 360 1980" role="img" aria-label="Four steps of a resealable pouch closure trial: open the flap, access the product, check the contaminated contact surface, and reclose, each with blank observation fields.">
+ <defs>
+  <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="9" height="9" fill="#F7FAFC"/>
+   <line x1="0" y1="0" x2="0" y2="9" stroke="#B9C6D4" stroke-width="1.1"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 21px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 18px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 13px Arial,Helvetica,sans-serif;fill:#B07514}
+   .num{font:700 15px Arial,Helvetica,sans-serif;fill:#FFFFFF}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .flow{stroke:#16324F;stroke-width:2;fill:none;marker-end:url(#arr)}
+   .blank{stroke:#5B7186;stroke-width:1.4;stroke-dasharray:6 4;fill:none}
+   .callout{fill:#FFFFFF;stroke:#B07514;stroke-width:1.8;stroke-dasharray:7 5}
+   .pack{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .flap{fill:#DCE8F2;stroke:#16324F;stroke-width:1.7}
+   .flapopen{fill:#DCE8F2;stroke:#B07514;stroke-width:1.8}
+   .speck{fill:#B07514}
+  </style>
+ </defs>
+
+ <rect width="360" height="1980" fill="#FFFFFF"/>
+ <text class="t" x="24" y="40">One closure cycle —</text>
+ <text class="t" x="24" y="66">record what you see</text>
+ <rect x="24" y="82" width="280" height="30" rx="15" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+ <text class="tag" x="164" y="102" text-anchor="middle">Concept — observations left blank</text>
+
+ <!-- Step 1 -->
+ <rect class="card" x="24" y="130" width="312" height="390" rx="10"/>
+ <circle cx="50" cy="162" r="13" fill="#16324F"/><text class="num" x="50" y="168" text-anchor="middle">1</text>
+ <text class="h" x="70" y="168">Open the flap</text>
+ <text class="s" x="42" y="194">Find and lift the tab as a user would</text>
+
+ <rect class="pack" x="90" y="265" width="120" height="120" rx="8"/>
+ <rect x="92" y="320" width="116" height="63" fill="url(#hatch)"/>
+ <text class="s" x="150" y="357" text-anchor="middle">Contents</text>
+ <rect x="92" y="265" width="116" height="14" fill="#FFFFFF" stroke="#16324F" stroke-width="1.4"/>
+ <text class="s" x="150" y="276" text-anchor="middle">opening</text>
+ <polygon class="flapopen" points="98,260 202,260 186,222 82,222"/>
+ <path class="leader" d="M150 218 C 145 206, 170 202, 188 210"/>
+ <text class="s" x="216" y="318">tab +</text>
+ <text class="s" x="216" y="334">adhesive</text>
+ <text class="s" x="216" y="350">edge</text>
+
+ <text class="sb" x="42" y="450">Record:</text>
+ <line class="blank" x1="42" y1="472" x2="318" y2="472"/>
+ <line class="blank" x1="42" y1="496" x2="318" y2="496"/>
+
+ <path class="flow" d="M180 528 L180 552"/>
+
+ <!-- Step 2 -->
+ <rect class="card" x="24" y="560" width="312" height="390" rx="10"/>
+ <circle cx="50" cy="592" r="13" fill="#16324F"/><text class="num" x="50" y="598" text-anchor="middle">2</text>
+ <text class="h" x="70" y="598">Access the product</text>
+ <text class="s" x="42" y="624">Reach through the opening between cycles</text>
+
+ <rect class="pack" x="90" y="695" width="120" height="120" rx="8"/>
+ <rect x="92" y="750" width="116" height="63" fill="url(#hatch)"/>
+ <text class="s" x="150" y="787" text-anchor="middle">Contents</text>
+ <rect x="92" y="695" width="116" height="14" fill="#FFFFFF" stroke="#16324F" stroke-width="1.4"/>
+ <text class="s" x="150" y="706" text-anchor="middle">opening</text>
+ <polygon class="flapopen" points="98,690 202,690 186,652 82,652"/>
+ <rect x="136" y="738" width="30" height="20" rx="4" fill="#FFFFFF" stroke="#16324F" stroke-width="1.4"/>
+ <path class="leader" d="M152 736 L 195 668"/>
+ <circle cx="197" cy="664" r="3.5" fill="#16324F"/>
+ <text class="s" x="216" y="726">orientation +</text>
+ <text class="s" x="216" y="742">handling as</text>
+ <text class="s" x="216" y="758">in real use</text>
+
+ <text class="sb" x="42" y="880">Record:</text>
+ <line class="blank" x1="42" y1="902" x2="318" y2="902"/>
+ <line class="blank" x1="42" y1="926" x2="318" y2="926"/>
+
+ <path class="flow" d="M180 958 L180 982"/>
+
+ <!-- Step 3 -->
+ <rect class="card" x="24" y="990" width="312" height="400" rx="10"/>
+ <circle cx="50" cy="1022" r="13" fill="#16324F"/><text class="num" x="50" y="1028" text-anchor="middle">3</text>
+ <text class="h" x="70" y="1028">Check the surface</text>
+ <text class="s" x="42" y="1054">Contact area, close view — before reclosing</text>
+
+ <text class="sb" x="42" y="1082">Closure contact surface</text>
+ <rect class="flapopen" x="42" y="1092" width="276" height="46" rx="6"/>
+ <circle class="speck" cx="66" cy="1108" r="3"/><circle class="speck" cx="92" cy="1124" r="2.4"/>
+ <circle class="speck" cx="126" cy="1106" r="2.6"/><circle class="speck" cx="150" cy="1126" r="3"/>
+ <circle class="speck" cx="186" cy="1110" r="2.4"/><circle class="speck" cx="216" cy="1122" r="2.8"/>
+ <circle class="speck" cx="252" cy="1108" r="2.2"/><circle class="speck" cx="286" cy="1120" r="2.6"/>
+ <circle class="speck" cx="112" cy="1130" r="2"/><circle class="speck" cx="238" cy="1132" r="2"/>
+ <text class="s" x="42" y="1158">powder / moisture / oil as defined</text>
+ <text class="s" x="42" y="1174">for this project</text>
+
+ <text class="sb" x="42" y="1204">Clean control</text>
+ <rect class="flap" x="42" y="1214" width="276" height="46" rx="6"/>
+ <text class="s" x="42" y="1282">compare against a defined clean sample</text>
+
+ <text class="sb" x="42" y="1320">Record:</text>
+ <line class="blank" x1="42" y1="1342" x2="318" y2="1342"/>
+ <line class="blank" x1="42" y1="1366" x2="318" y2="1366"/>
+
+ <path class="flow" d="M180 1398 L180 1422"/>
+
+ <!-- Step 4 -->
+ <rect class="card" x="24" y="1430" width="312" height="390" rx="10"/>
+ <circle cx="50" cy="1462" r="13" fill="#16324F"/><text class="num" x="50" y="1468" text-anchor="middle">4</text>
+ <text class="h" x="70" y="1468">Reclose</text>
+ <text class="s" x="42" y="1494">Apply the intended hand pressure</text>
+
+ <rect class="pack" x="90" y="1545" width="120" height="140" rx="8"/>
+ <rect x="92" y="1610" width="116" height="73" fill="url(#hatch)"/>
+ <text class="s" x="150" y="1652" text-anchor="middle">Contents</text>
+ <rect class="flap" x="92" y="1528" width="116" height="34" rx="5"/>
+ <text class="s" x="150" y="1549" text-anchor="middle">closure flap</text>
+ <path class="leader" d="M110 1506 L110 1524"/>
+ <path class="leader" d="M150 1504 L150 1524"/>
+ <path class="leader" d="M190 1506 L190 1524"/>
+ <path d="M208 1544 l5 -4 l-5 -4 l5 -4" fill="none" stroke="#B07514" stroke-width="1.6"/>
+ <text class="s" x="216" y="1592">alignment,</text>
+ <text class="s" x="216" y="1608">wrinkles, tab</text>
+ <text class="s" x="216" y="1624">condition</text>
+
+ <text class="sb" x="42" y="1750">Record:</text>
+ <line class="blank" x1="42" y1="1772" x2="318" y2="1772"/>
+ <line class="blank" x1="42" y1="1796" x2="318" y2="1796"/>
+
+ <!-- notes -->
+ <rect class="callout" x="24" y="1840" width="312" height="80" rx="8"/>
+ <text class="lb" x="40" y="1864">Set the cycle before testing</text>
+ <text class="s" x="40" y="1886">Cycles, contamination and limits are</text>
+ <text class="s" x="40" y="1902">project choices — not universal.</text>
+
+ <text class="s" x="24" y="1948">A neat reclose is not a barrier result.</text>
+ <text class="s" x="24" y="1968">Illustrative planning diagram.</text>
+</svg>

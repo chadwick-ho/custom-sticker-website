@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-label="A package links its face stock, adhesive, ink and coatings cards to an evidence matrix with blank fields for the finished assembly, composting route, conditions and facility acceptance.">
+ <defs>
+  <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+   <rect width="10" height="10" fill="#F7FAFC"/>
+   <line x1="0" y1="0" x2="0" y2="10" stroke="#B9C6D4" stroke-width="1.2"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 27px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 20px Arial,Helvetica,sans-serif;fill:#16324F}
+   .l{font:16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 16px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 14px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 14px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .flow{stroke:#16324F;stroke-width:2;fill:none;marker-end:url(#arr)}
+   .blank{stroke:#5B7186;stroke-width:1.5;stroke-dasharray:7 5;fill:none}
+   .callout{fill:#FFFFFF;stroke:#B07514;stroke-width:1.8;stroke-dasharray:7 5}
+   .pack{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .seam{fill:#DCE8F2;stroke:#16324F;stroke-width:1.6}
+   .fill{fill:#DCE8F2;stroke:#16324F;stroke-width:1.6}
+   .spot{fill:#F0E7C8;stroke:#B07514;stroke-width:2}
+  </style>
+ </defs>
+
+ <rect width="1200" height="880" fill="#FFFFFF"/>
+ <text class="t" x="40" y="52">Check the whole package, not one component</text>
+ <rect x="800" y="26" width="360" height="34" rx="17" fill="#F0E7C8" stroke="#B07514" stroke-width="1.5"/>
+ <text class="tag" x="980" y="48" text-anchor="middle">Concept — blank fields filled per project</text>
+
+ <!-- ============ Left: the package at disposal ============ -->
+ <rect class="card" x="40" y="80" width="380" height="560" rx="10"/>
+ <text class="h" x="62" y="118">The finished package</text>
+ <text class="s" x="62" y="141">Label layers ride with the pack at disposal</text>
+
+ <!-- pouch -->
+ <rect class="pack" x="100" y="170" width="150" height="330" rx="10"/>
+ <rect class="seam" x="100" y="170" width="150" height="24" rx="10"/>
+ <line x1="100" y1="194" x2="250" y2="194" stroke="#16324F" stroke-width="1.6"/>
+ <rect x="102" y="196" width="146" height="180" fill="url(#hatch)"/>
+ <rect class="fill" x="102" y="376" width="146" height="122"/>
+ <text class="s" x="175" y="443" text-anchor="middle">Contents</text>
+
+ <!-- layer leaders on right edge of pouch -->
+ <line x1="250" y1="215" x2="280" y2="215" stroke="#16324F" stroke-width="1.4"/>
+ <line x1="250" y1="275" x2="280" y2="275" stroke="#16324F" stroke-width="1.4"/>
+ <line x1="250" y1="335" x2="280" y2="335" stroke="#16324F" stroke-width="1.4"/>
+ <text class="s" x="286" y="210">Ink +</text>
+ <text class="s" x="286" y="228">coatings</text>
+ <text class="s" x="286" y="270">Face</text>
+ <text class="s" x="286" y="288">stock</text>
+ <text class="s" x="286" y="330">Adhesive</text>
+ <text class="s" x="286" y="348">at pack</text>
+
+ <text class="s" x="62" y="540">Same artwork, same construction</text>
+ <text class="s" x="62" y="560">as the production drawing —</text>
+ <text class="s" x="62" y="580">not a material sample.</text>
+ <text class="sb" x="62" y="612">Question: does the label stay</text>
+ <text class="sb" x="62" y="630">attached at disposal?</text>
+
+ <!-- arrows pack to component cards -->
+ <path class="flow" d="M420 230 L455 150"/>
+ <path class="flow" d="M420 330 L455 300"/>
+ <path class="flow" d="M420 430 L455 450"/>
+ <path class="flow" d="M420 530 L455 600"/>
+
+ <!-- ============ Middle: component cards ============ -->
+ <rect class="panel" x="460" y="100" width="250" height="110" rx="8"/>
+ <text class="lb" x="478" y="132">Face stock</text>
+ <text class="s" x="478" y="156">Document on file:</text>
+ <line class="blank" x1="478" y1="182" x2="692" y2="182"/>
+
+ <rect class="panel" x="460" y="250" width="250" height="110" rx="8"/>
+ <text class="lb" x="478" y="282">Adhesive</text>
+ <text class="s" x="478" y="306">Document on file:</text>
+ <line class="blank" x1="478" y1="332" x2="692" y2="332"/>
+
+ <rect class="panel" x="460" y="400" width="250" height="110" rx="8"/>
+ <text class="lb" x="478" y="432">Ink</text>
+ <text class="s" x="478" y="456">Document on file:</text>
+ <line class="blank" x1="478" y1="482" x2="692" y2="482"/>
+
+ <rect class="panel" x="460" y="550" width="250" height="110" rx="8"/>
+ <text class="lb" x="478" y="582">Coatings / finishes</text>
+ <text class="s" x="478" y="606">Document on file:</text>
+ <line class="blank" x1="478" y1="632" x2="692" y2="632"/>
+
+ <!-- arrows cards to matrix -->
+ <path class="flow" d="M710 155 L748 155"/>
+ <path class="flow" d="M710 305 L748 305"/>
+ <path class="flow" d="M710 455 L748 455"/>
+ <path class="flow" d="M710 605 L748 605"/>
+
+ <!-- ============ Right: evidence matrix ============ -->
+ <rect class="card" x="755" y="80" width="405" height="584" rx="10"/>
+ <text class="h" x="777" y="118">Evidence matrix</text>
+ <text class="s" x="777" y="141">Scope, route and acceptance — blank until recorded</text>
+
+ <!-- matrix rows -->
+ <line x1="777" y1="168" x2="1138" y2="168" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="lb" x="777" y="196">What is claimed?</text>
+ <text class="s" x="777" y="218">Exact wording + where it appears:</text>
+ <line class="blank" x1="777" y1="240" x2="1138" y2="240"/>
+
+ <line x1="777" y1="262" x2="1138" y2="262" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="lb" x="777" y="290">Finished assembly</text>
+ <text class="s" x="777" y="312">Does evidence cover the printed,</text>
+ <text class="s" x="777" y="332">applied combination?</text>
+ <line class="blank" x1="777" y1="354" x2="1138" y2="354"/>
+
+ <line x1="777" y1="376" x2="1138" y2="376" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="lb" x="777" y="404">Composting route</text>
+ <text class="s" x="777" y="426">Home or industrial — which route</text>
+ <text class="s" x="777" y="446">does the claim describe?</text>
+ <line class="blank" x1="777" y1="468" x2="1138" y2="468"/>
+
+ <line x1="777" y1="490" x2="1138" y2="490" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="lb" x="777" y="518">Conditions</text>
+ <text class="s" x="777" y="540">Test scope, environment and limits:</text>
+ <line class="blank" x1="777" y1="562" x2="1138" y2="562"/>
+
+ <line x1="777" y1="584" x2="1138" y2="584" stroke="#B9C6D4" stroke-width="1.5"/>
+ <text class="lb" x="777" y="612">Facility acceptance</text>
+ <text class="s" x="777" y="634">Destination market, per project:</text>
+ <line class="blank" x1="777" y1="652" x2="1138" y2="652"/>
+
+ <!-- ============ Bottom notes ============ -->
+ <rect class="callout" x="40" y="690" width="555" height="110" rx="8"/>
+ <text class="lb" x="60" y="722">Record, don&#8217;t assume</text>
+ <text class="s" x="60" y="746">A document for one layer does not establish</text>
+ <text class="s" x="60" y="766">the printed, applied assembly.</text>
+
+ <rect class="callout" x="615" y="690" width="545" height="110" rx="8"/>
+ <text class="lb" x="635" y="722">Route is local</text>
+ <text class="s" x="635" y="746">Home and industrial composting differ; facility</text>
+ <text class="s" x="635" y="766">acceptance is checked in each destination market.</text>
+
+ <text class="s" x="40" y="852">Illustrative planning diagram — it is not a test result, certification or approval of any material or package.</text>
+</svg>

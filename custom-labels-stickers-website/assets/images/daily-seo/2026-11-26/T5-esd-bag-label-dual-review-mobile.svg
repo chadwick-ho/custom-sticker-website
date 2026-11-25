@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1590" viewBox="0 0 360 1590" role="img" aria-label="A protective bag with a proposed label position is reviewed in two separate cards: a security review and an electrical packaging review, each with unfilled decision fields.">
+ <defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+   <path d="M0 0 L10 5 L0 10 z" fill="#16324F"/>
+  </marker>
+  <style>
+   .t{font:700 21px Arial,Helvetica,sans-serif;fill:#16324F}
+   .h{font:700 18px Arial,Helvetica,sans-serif;fill:#16324F}
+   .lb{font:700 15px Arial,Helvetica,sans-serif;fill:#16324F}
+   .s{font:13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .sb{font:700 13px Arial,Helvetica,sans-serif;fill:#5B7186}
+   .tag{font:700 13px Arial,Helvetica,sans-serif;fill:#B07514}
+   .card{fill:#F7FAFC;stroke:#B9C6D4;stroke-width:2}
+   .panel{fill:#FFFFFF;stroke:#B9C6D4;stroke-width:2}
+   .leader{stroke:#16324F;stroke-width:1.4;fill:none;marker-end:url(#arr)}
+   .flow{stroke:#16324F;stroke-width:2;fill:none;marker-end:url(#arr)}
+   .blank{stroke:#5B7186;stroke-width:1.4;stroke-dasharray:6 4;fill:none}
+   .callout{fill:#FFFFFF;stroke:#B07514;stroke-width:1.8;stroke-dasharray:7 5}
+   .bag{fill:#FFFFFF;stroke:#16324F;stroke-width:2}
+   .closure{fill:#DCE8F2;stroke:#16324F;stroke-width:1.5}
+   .draft{fill:#F0E7C8;stroke:#B07514;stroke-width:1.8;stroke-dasharray:7 5}
+   .req{fill:#FFFFFF;stroke:#5B7186;stroke-width:1.3}
+  </style>
+ </defs>
+
+ <rect width="360" height="1590" fill="#FFFFFF"/>
+ <text class="t" x="24" y="40">One placement,</text>
+ <text class="t" x="24" y="66">two separate reviews</text>
+ <rect x="24" y="82" width="230" height="30" rx="15" fill="#F0E7C8" stroke="#B07514" stroke-width="1.4"/>
+ <text class="tag" x="139" y="102" text-anchor="middle">Concept — decisions unfilled</text>
+
+ <!-- bag card -->
+ <rect class="card" x="24" y="128" width="312" height="470" rx="10"/>
+ <text class="h" x="42" y="160">Label on a protective bag</text>
+ <text class="s" x="42" y="182">Draft position — approved or</text>
+ <text class="s" x="42" y="200">moved per review</text>
+
+ <rect class="bag" x="70" y="222" width="170" height="290" rx="9"/>
+ <rect class="closure" x="70" y="222" width="170" height="26" rx="9"/>
+ <line x1="70" y1="248" x2="240" y2="248" stroke="#16324F" stroke-width="1.5"/>
+ <line x1="80" y1="235" x2="230" y2="235" stroke="#16324F" stroke-width="1.2" stroke-dasharray="4 4"/>
+ <text class="s" x="155" y="268" text-anchor="middle">closure</text>
+
+ <rect class="req" x="86" y="286" width="138" height="46" rx="4"/>
+ <text class="s" x="155" y="306" text-anchor="middle">required markings</text>
+ <text class="s" x="155" y="322" text-anchor="middle">kept clear</text>
+
+ <rect class="draft" x="100" y="356" width="110" height="70" rx="5"/>
+ <text class="sb" x="155" y="384" text-anchor="middle">proposed</text>
+ <text class="sb" x="155" y="402" text-anchor="middle">label</text>
+
+ <text class="s" x="155" y="460" text-anchor="middle">opening route noted</text>
+ <line class="leader" x1="155" y1="468" x2="155" y2="498"/>
+
+ <text class="s" x="42" y="540">Who opens the bag, and where</text>
+ <text class="s" x="42" y="558">(inside or outside the EPA)?</text>
+ <text class="sb" x="42" y="584">face · adhesive · inks · coatings · size</text>
+
+ <path class="flow" d="M180 606 L180 630"/>
+
+ <!-- security review -->
+ <rect class="card" x="24" y="638" width="312" height="330" rx="10"/>
+ <text class="h" x="42" y="670">Security review</text>
+ <text class="sb" x="42" y="692">owner: ____</text>
+ <text class="s" x="42" y="712">What the visible feature must do</text>
+
+ <line x1="42" y1="726" x2="318" y2="726" stroke="#B9C6D4" stroke-width="1.4"/>
+ <text class="lb" x="42" y="752">Feature job</text>
+ <line class="blank" x1="192" y1="745" x2="318" y2="745"/>
+ <text class="lb" x="42" y="786">Placement</text>
+ <line class="blank" x1="192" y1="779" x2="318" y2="779"/>
+ <text class="lb" x="42" y="820">Opening route</text>
+ <line class="blank" x1="192" y1="813" x2="318" y2="813"/>
+ <text class="lb" x="42" y="854">Observable change</text>
+ <line class="blank" x1="192" y1="847" x2="318" y2="847"/>
+ <text class="lb" x="42" y="888">Possible bypass</text>
+ <line class="blank" x1="192" y1="881" x2="318" y2="881"/>
+
+ <text class="s" x="42" y="924">Record intended job, placement and</text>
+ <text class="s" x="42" y="942">what a handler would actually see.</text>
+
+ <path class="flow" d="M180 976 L180 1000"/>
+
+ <!-- electrical review -->
+ <rect class="card" x="24" y="1008" width="312" height="330" rx="10"/>
+ <text class="h" x="42" y="1040">Electrical packaging review</text>
+ <text class="sb" x="42" y="1062">ESD owner: ____</text>
+ <text class="s" x="42" y="1082">Does the modified assembly qualify?</text>
+
+ <line x1="42" y1="1096" x2="318" y2="1096" stroke="#B9C6D4" stroke-width="1.4"/>
+ <text class="lb" x="42" y="1122">Approved configuration</text>
+ <line class="blank" x1="42" y1="1144" x2="318" y2="1144"/>
+ <text class="lb" x="42" y="1174">Methods + limits</text>
+ <line class="blank" x1="42" y1="1196" x2="318" y2="1196"/>
+ <text class="lb" x="42" y="1226">Results</text>
+ <line class="blank" x1="42" y1="1248" x2="318" y2="1248"/>
+ <text class="lb" x="42" y="1278">Disposition</text>
+ <line class="blank" x1="42" y1="1300" x2="318" y2="1300"/>
+
+ <!-- note -->
+ <rect class="callout" x="24" y="1362" width="312" height="120" rx="8"/>
+ <text class="lb" x="40" y="1388">Two records, not one</text>
+ <text class="s" x="40" y="1410">A security graphic does not establish</text>
+ <text class="s" x="40" y="1428">electrical protection; an electrical</text>
+ <text class="s" x="40" y="1446">result does not prove a tamper claim.</text>
+ <text class="s" x="40" y="1470">Each owner approves separately.</text>
+
+ <text class="s" x="24" y="1530">Illustrative planning diagram —</text>
+ <text class="s" x="24" y="1550">appearance is not shielding; no</text>
+ <text class="s" x="24" y="1570">certification or test result implied.</text>
+</svg>
